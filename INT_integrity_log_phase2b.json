@@ -1,0 +1,42 @@
+[
+  {
+    "check": "G0_boss_names",
+    "severity": "INFO",
+    "detail": "31 distinct boss names carry a checkpoint"
+  },
+  {
+    "check": "G1_graph",
+    "severity": "INFO",
+    "detail": "526 maps, 506 edges from connections and warps"
+  },
+  {
+    "check": "G2_anchors",
+    "severity": "INFO",
+    "detail": "12 maps anchored by a boss battle"
+  },
+  {
+    "check": "G3_propagated",
+    "severity": "INFO",
+    "detail": "255 maps have a derived checkpoint (within 4 hops of an anchor)"
+  },
+  {
+    "check": "G4_item_coverage",
+    "severity": "INFO",
+    "detail": "760 world rows received a derived earliest_gate, 368 remain UNK"
+  },
+  {
+    "check": "G5_gate_distribution",
+    "severity": "INFO",
+    "detail": "cp1=232, cp3=30, cp6=287, cp8=34, cp9=91, cp12=51, cp16=8, cp17=27"
+  },
+  {
+    "check": "G6_tm_gates",
+    "severity": "INFO",
+    "detail": "124 TM/HM placements now carry a gate"
+  },
+  {
+    "check": "G7_lower_bound_warning",
+    "severity": "FINDING",
+    "detail": "Derived gates model topological reach, not HM or badge locks, so they are a LOWER BOUND: an item may be gated LATER than stated, never earlier. Tagged Inferred; must be stated wherever a ceiling uses them."
+  }
+]
