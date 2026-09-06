@@ -1,0 +1,42 @@
+[
+  {
+    "check": "H1_graph",
+    "severity": "INFO",
+    "detail": "440 nodes; 28 maps HM-locked (Counter({'DIVE': 14, 'SURF': 11, 'FLASH': 3}))"
+  },
+  {
+    "check": "H2_hm_placements",
+    "severity": "INFO",
+    "detail": "8 HM placements across 8 maps: ['CUT', 'DIVE', 'FLASH', 'FLY', 'ROCK', 'STRENGTH', 'SURF', 'WATERFALL']"
+  },
+  {
+    "check": "H4_fixpoint",
+    "severity": "INFO",
+    "detail": "399 of 440 maps reachable in 19 waves; HMs acquired: ['CUT', 'DIVE', 'FLASH', 'FLY', 'ROCK', 'STRENGTH', 'SURF', 'WATERFALL']"
+  },
+  {
+    "check": "H5_unreachable",
+    "severity": "INFO",
+    "detail": "41 maps never reached (secret bases, multiplayer, unused); sample ['navelrockdown09', 'navelrockdown08', 'navelrockdown10', 'birthislandharbor', 'birthislandexterior']"
+  },
+  {
+    "check": "H6_wave_anchors",
+    "severity": "INFO",
+    "detail": "7 waves anchored to checkpoints: w5->cp10, w6->cp6, w7->cp1, w9->cp3, w12->cp16, w15->cp16, w17->cp17"
+  },
+  {
+    "check": "H7_coverage",
+    "severity": "INFO",
+    "detail": "1100 world rows gated, 28 UNK"
+  },
+  {
+    "check": "H8_distribution",
+    "severity": "INFO",
+    "detail": "cp1=266, cp3=392, cp6=133, cp10=290, cp16=19"
+  },
+  {
+    "check": "H9_limits",
+    "severity": "FINDING",
+    "detail": "Models HM locks (Surf/Dive/Flash) but NOT badge locks or story flags; building-internal warps are free movement. Still Inferred."
+  }
+]

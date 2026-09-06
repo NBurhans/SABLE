@@ -1,0 +1,27 @@
+[
+  {
+    "check": "K1_anchors",
+    "severity": "INFO",
+    "detail": "19 maps set a checkpoint flag; all 19 flags located in source (Measured)"
+  },
+  {
+    "check": "K2_regions",
+    "severity": "INFO",
+    "detail": "16 region sections anchored: RUSTBORO_CITY=cp1, DEWFORD_TOWN=cp3, SLATEPORT_CITY=cp4, ROUTE_110=cp5, MAUVILLE_CITY=cp6, MT_CHIMNEY=cp7, LAVARIDGE_TOWN=cp8, PETALBURG_CITY=cp10, ROUTE_119=cp11, FORTREE_CITY=cp12, LILYCOVE_CITY=cp13, AQUA_HIDEOUT=cp14, MOSSDEEP_CITY=cp15, SEAFLOOR_CAVERN=cp16, SOOTOPOLIS_CITY=cp17, VICTORY_ROAD=cp18"
+  },
+  {
+    "check": "K3_coverage",
+    "severity": "INFO",
+    "detail": "167 rows gated Measured (map sets the flag itself), 333 Inferred (same region section as an anchor), 628 UNK"
+  },
+  {
+    "check": "K4_distribution",
+    "severity": "INFO",
+    "detail": "cp1=37, cp2=4, cp3=2, cp4=51, cp5=40, cp6=34, cp7=2, cp8=41, cp9=41, cp10=42, cp11=17, cp12=39, cp13=82, cp14=4, cp15=21, cp16=1, cp17=27, cp18=15"
+  },
+  {
+    "check": "K5_limits",
+    "severity": "FINDING",
+    "detail": "Region-section inheritance takes the EARLIEST anchor in that section, so it remains a lower bound for multi-stage areas. Maps in sections with no anchor stay UNK rather than being guessed."
+  }
+]

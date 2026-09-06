@@ -1,0 +1,55 @@
+{
+  "species_in_layer": 1179,
+  "species_skipped": 0,
+  "species_not_in_calc": 191,
+  "species_with_changed_stats": 210,
+  "moves_in_layer": 937,
+  "moves_skipped": 0,
+  "moves_not_in_calc": 103,
+  "sample_new_species": [
+    "Venusaur-Gmax",
+    "Charizard-Gmax",
+    "Blastoise-Gmax",
+    "Butterfree-Mega",
+    "Pikachu-Gmax",
+    "Nidoran♀",
+    "Nidoran♂",
+    "Meowth-Gmax"
+  ],
+  "sample_new_moves": [
+    "Aqua Fang",
+    "Dark Hole",
+    "Light Of Ruin",
+    "Draco Barrage",
+    "Dire Claw",
+    "Psyshield Bash",
+    "Power Shift",
+    "Stone Axe"
+  ],
+  "species_with_changed_types": 47,
+  "moves_with_changed_bp_or_type": 112,
+  "sample_changed_stats": [
+    "Butterfree",
+    "Raticate",
+    "Raticate-Alola",
+    "Fearow",
+    "Arbok",
+    "Pikachu"
+  ],
+  "sample_changed_types": [
+    "Arbok",
+    "Raichu",
+    "Bellossom",
+    "Venomoth",
+    "Golduck",
+    "Ponyta-Galar"
+  ],
+  "sample_changed_moves": [
+    "Guillotine",
+    "Cut",
+    "Fury Attack",
+    "Horn Drill",
+    "Sonic Boom",
+    "Low Kick"
+  ]
+}

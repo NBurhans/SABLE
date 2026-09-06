@@ -1,0 +1,238 @@
+{
+  "log": [
+    {
+      "check": "B1_items_available",
+      "severity": "INFO",
+      "detail": "27 distinct items gated at or before cp1"
+    },
+    {
+      "check": "B0_availability_gate",
+      "severity": "INFO",
+      "detail": "647 wild species excluded: no encounter map carries a known gate"
+    },
+    {
+      "check": "B2_candidate_pool",
+      "severity": "INFO",
+      "detail": "72 species-forms obtainable (wild or starter) before availability gating"
+    },
+    {
+      "check": "B3_tracks",
+      "severity": "INFO",
+      "detail": "{'special': 15, 'support': 13, 'physical': 22, 'mixed': 3}"
+    },
+    {
+      "check": "B4_species_with_builds",
+      "severity": "INFO",
+      "detail": "40 species-forms produced at least one track"
+    },
+    {
+      "check": "B5_species_no_track",
+      "severity": "INFO",
+      "detail": "32 produced none (recorded with reason)"
+    },
+    {
+      "check": "B6_total_builds",
+      "severity": "INFO",
+      "detail": "10872 builds enumerated at cp1"
+    },
+    {
+      "check": "B7_support_track",
+      "severity": "INFO",
+      "detail": "13 support-track builds; sample ['Bulbasaur', 'Dratini', 'Chikorita', 'Mareep', 'Hoppip', 'Gible', 'Snover', 'Lillipup']"
+    }
+  ],
+  "no_track": [
+    {
+      "species": "SPECIES_SQUIRTLE",
+      "tracks": [],
+      "reason": "no attacking track (bestP 50, bestS 60, max stat 50)",
+      "levelup_available": 6
+    },
+    {
+      "species": "SPECIES_PICHU",
+      "tracks": [],
+      "reason": "no attacking track (bestP 0, bestS 40, max stat 40)",
+      "levelup_available": 6
+    },
+    {
+      "species": "SPECIES_IGGLYBUFF",
+      "tracks": [],
+      "reason": "no attacking track (bestP 40, bestS 0, max stat 40)",
+      "levelup_available": 6
+    },
+    {
+      "species": "SPECIES_GEODUDE",
+      "tracks": [],
+      "reason": "no attacking track (bestP 50, bestS 0, max stat 80)",
+      "levelup_available": 7
+    },
+    {
+      "species": "SPECIES_KOFFING",
+      "tracks": [],
+      "reason": "no attacking track (bestP 60, bestS 50, max stat 65)",
+      "levelup_available": 5
+    },
+    {
+      "species": "SPECIES_CYNDAQUIL",
+      "tracks": [],
+      "reason": "no attacking track (bestP 60, bestS 40, max stat 60)",
+      "levelup_available": 6
+    },
+    {
+      "species": "SPECIES_SWINUB",
+      "tracks": [],
+      "reason": "no attacking track (bestP 40, bestS 40, max stat 50)",
+      "levelup_available": 7
+    },
+    {
+      "species": "SPECIES_ZIGZAGOON_GALAR",
+      "tracks": [],
+      "reason": "no attacking track (bestP 70, bestS 55, max stat 30)",
+      "levelup_available": 6
+    },
+    {
+      "species": "SPECIES_WHISMUR",
+      "tracks": [],
+      "reason": "no attacking track (bestP 40, bestS 40, max stat 51)",
+      "levelup_available": 5
+    },
+    {
+      "species": "SPECIES_DUSKULL",
+      "tracks": [],
+      "reason": "no attacking track (bestP 30, bestS 1, max stat 40)",
+      "levelup_available": 5
+    },
+    {
+      "species": "SPECIES_SPHEAL",
+      "tracks": [],
+      "reason": "no attacking track (bestP 30, bestS 40, max stat 55)",
+      "levelup_available": 8
+    },
+    {
+      "species": "SPECIES_TURTWIG",
+      "tracks": [],
+      "reason": "no attacking track (bestP 55, bestS 0, max stat 68)",
+      "levelup_available": 4
+    },
+    {
+      "species": "SPECIES_CHIMCHAR",
+      "tracks": [],
+      "reason": "no attacking track (bestP 60, bestS 40, max stat 58)",
+      "levelup_available": 5
+    },
+    {
+      "species": "SPECIES_PIPLUP",
+      "tracks": [],
+      "reason": "no attacking track (bestP 60, bestS 40, max stat 61)",
+      "levelup_available": 6
+    },
+    {
+      "species": "SPECIES_TIMBURR",
+      "tracks": [],
+      "reason": "no attacking track (bestP 40, bestS 0, max stat 80)",
+      "levelup_available": 5
+    },
+    {
+      "species": "SPECIES_TYMPOLE",
+      "tracks": [],
+      "reason": "no attacking track (bestP 0, bestS 60, max stat 50)",
+      "levelup_available": 4
+    },
+    {
+      "species": "SPECIES_GOTHITA",
+      "tracks": [],
+      "reason": "no attacking track (bestP 40, bestS 50, max stat 55)",
+      "levelup_available": 6
+    },
+    {
+      "species": "SPECIES_KLINK",
+      "tracks": [],
+      "reason": "no attacking track (bestP 0, bestS 40, max stat 55)",
+      "levelup_available": 2
+    },
+    {
+      "species": "SPECIES_LITWICK",
+      "tracks": [],
+      "reason": "no attacking track (bestP 30, bestS 40, max stat 65)",
+      "levelup_available": 6
+    },
+    {
+      "species": "SPECIES_PAWNIARD",
+      "tracks": [],
+      "reason": "no attacking track (bestP 40, bestS 0, max stat 85)",
+      "levelup_available": 4
+    },
+    {
+      "species": "SPECIES_FLETCHLING",
+      "tracks": [],
+      "reason": "no attacking track (bestP 40, bestS 0, max stat 50)",
+      "levelup_available": 5
+    },
+    {
+      "species": "SPECIES_HONEDGE",
+      "tracks": [],
+      "reason": "no attacking track (bestP 40, bestS 0, max stat 80)",
+      "levelup_available": 5
+    },
+    {
+      "species": "SPECIES_ROWLET",
+      "tracks": [],
+      "reason": "no attacking track (bestP 60, bestS 0, max stat 55)",
+      "levelup_available": 7
+    },
+    {
+      "species": "SPECIES_LITTEN",
+      "tracks": [],
+      "reason": "no attacking track (bestP 65, bestS 40, max stat 65)",
+      "levelup_available": 7
+    },
+    {
+      "species": "SPECIES_POPPLIO",
+      "tracks": [],
+      "reason": "no attacking track (bestP 40, bestS 40, max stat 66)",
+      "levelup_available": 6
+    },
+    {
+      "species": "SPECIES_GRUBBIN",
+      "tracks": [],
+      "reason": "no attacking track (bestP 60, bestS 40, max stat 62)",
+      "levelup_available": 4
+    },
+    {
+      "species": "SPECIES_GROOKEY",
+      "tracks": [],
+      "reason": "no attacking track (bestP 55, bestS 0, max stat 65)",
+      "levelup_available": 6
+    },
+    {
+      "species": "SPECIES_ROOKIDEE",
+      "tracks": [],
+      "reason": "no attacking track (bestP 35, bestS 0, max stat 47)",
+      "levelup_available": 5
+    },
+    {
+      "species": "SPECIES_BLIPBUG",
+      "tracks": [],
+      "reason": "no attacking track (bestP 0, bestS 50, max stat 25)",
+      "levelup_available": 1
+    },
+    {
+      "species": "SPECIES_ROLYCOLY",
+      "tracks": [],
+      "reason": "no attacking track (bestP 50, bestS 70, max stat 40)",
+      "levelup_available": 6
+    },
+    {
+      "species": "SPECIES_SMOLIV",
+      "tracks": [],
+      "reason": "no attacking track (bestP 55, bestS 25, max stat 58)",
+      "levelup_available": 6
+    },
+    {
+      "species": "SPECIES_NACLI",
+      "tracks": [],
+      "reason": "no attacking track (bestP 50, bestS 0, max stat 55)",
+      "levelup_available": 5
+    }
+  ]
+}

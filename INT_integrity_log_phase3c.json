@@ -1,0 +1,37 @@
+[
+  {
+    "check": "C1_assignment_methods",
+    "severity": "INFO",
+    "detail": "{'exact': 76, 'player_relative': 24, 'bounded': 14}"
+  },
+  {
+    "check": "C2_checkpoints_with_rosters",
+    "severity": "INFO",
+    "detail": "17/19 checkpoints have at least one boss roster"
+  },
+  {
+    "check": "C3_checkpoints_without_rosters",
+    "severity": "INFO",
+    "detail": "orders [2, 4] have no boss of their own and inherit the next boss ahead"
+  },
+  {
+    "check": "C4_bosses_per_checkpoint",
+    "severity": "INFO",
+    "detail": "cp1(cap15)=11, cp2(cap20)=0, cp3(cap25)=5, cp4(cap30)=0, cp5(cap32)=1, cp6(cap34)=5, cp7(cap44)=5, cp8(cap47)=5, cp9(cap56)=2, cp10(cap59)=6, cp11(cap64)=9, cp12(cap68)=6, cp13(cap71)=1, cp14(cap74)=1, cp15(cap76)=2, cp16(cap80)=7, cp17(cap82)=6, cp18(cap84)=9, cp19(cap85)=9"
+  },
+  {
+    "check": "C7_dynamic_level_bosses",
+    "severity": "FINDING",
+    "detail": "24 boss-tier trainers scale to the player's highest level (stored as offsets 0/-1/-2/-3), so they have NO fixed checkpoint and must be scored relative to the party; sample ['Rival Dollamike', 'Rival Danni', 'Rival Masta Janes', 'Rival Master Poucine', 'Rival Oblivion Wing', 'Rival Burak']"
+  },
+  {
+    "check": "C5_postgame_overflow",
+    "severity": "INFO",
+    "detail": "0 bosses exceed the level-85 cap and sit outside the ladder; sample []"
+  },
+  {
+    "check": "C6_leader_ladder",
+    "severity": "INFO",
+    "detail": "Leader Roxanne=cp1/lv15; Leader Brawly=cp3/lv25; Leader Wattson=cp6/lv34; Leader Flannery=cp8/lv47; Leader Norman=cp10/lv59; Leader Winona=cp12/lv68; Leader Tate=cp15/lv76; Leader Liza=cp15/lv76; Leader Juan=cp17/lv82"
+  }
+]
