@@ -1,0 +1,62 @@
+[
+  {
+    "check": "W1_item_metadata",
+    "severity": "INFO",
+    "detail": "1043 ITEM_ definitions parsed from items.h (43 alias defines resolved)"
+  },
+  {
+    "check": "W3_ground_items",
+    "severity": "INFO",
+    "detail": "170 item-ball placements across maps"
+  },
+  {
+    "check": "W4_hidden_items",
+    "severity": "INFO",
+    "detail": "112 hidden-item placements across maps"
+  },
+  {
+    "check": "W5b_script_files",
+    "severity": "INFO",
+    "detail": "537 script files scanned (per-map plus shared data/scripts)"
+  },
+  {
+    "check": "W6_mart_entries",
+    "severity": "INFO",
+    "detail": "307 mart stock entries"
+  },
+  {
+    "check": "W7_script_gifts",
+    "severity": "INFO",
+    "detail": "539 script-granted item events"
+  },
+  {
+    "check": "W8b_unknown_total",
+    "severity": "INFO",
+    "detail": "0 distinct unresolved ITEM_ constants"
+  },
+  {
+    "check": "W9_items_never_placed",
+    "severity": "INFO",
+    "detail": "537 of 1043 defined items have no placement (expected: unobtainables, debug and event items)"
+  },
+  {
+    "check": "W10_rows_by_type",
+    "severity": "INFO",
+    "detail": "{'item': 821, 'mart_stock': 307}"
+  },
+  {
+    "check": "W10b_rows_by_method",
+    "severity": "INFO",
+    "detail": "{'ground': 170, 'hidden': 112, 'script_gift': 539, 'purchase': 307}"
+  },
+  {
+    "check": "W11_earliest_gate_unk",
+    "severity": "INFO",
+    "detail": "1128 rows have earliest_gate=UNK \u2014 blocked on the Phase 3 checkpoint graph"
+  },
+  {
+    "check": "W12_tm_placements",
+    "severity": "INFO",
+    "detail": "170 TM/HM placements covering 145 distinct TMs/HMs"
+  }
+]

@@ -1,0 +1,939 @@
+move_const	move_name	type	category	power	accuracy	pp	priority	effect	target	flags	description	source_file	source_line	confidence
+MOVE_NONE	-	TYPE_NORMAL	PHYSICAL	0	0	0	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	115	Measured
+MOVE_POUND	Pound	TYPE_NORMAL	PHYSICAL	40	100	35	0	EFFECT_HIT	SELECTED	makesContact	Pounds the foe with  forelegs or tail.	src/data/moves_info.h	133	Measured
+MOVE_KARATE_CHOP	Karate Chop	TYPE_FIGHTING	PHYSICAL	50	100	25	0	EFFECT_HIT	SELECTED	makesContact,criticalHitStage:1	A chopping attack with a  high critical-hit ratio.	src/data/moves_info.h	156	Measured
+MOVE_DOUBLE_SLAP	Double Slap	TYPE_NORMAL	PHYSICAL	15	100	10	0	EFFECT_MULTI_HIT	SELECTED	makesContact	Repeatedly slaps the foe  2 to 5 times.	src/data/moves_info.h	179	Measured
+MOVE_COMET_PUNCH	Comet Punch	TYPE_NORMAL	PHYSICAL	18	85	15	0	EFFECT_MULTI_HIT	SELECTED	makesContact,punchingMove	Repeatedly punches the foe  2 to 5 times.	src/data/moves_info.h	201	Measured
+MOVE_MEGA_PUNCH	Mega Punch	TYPE_NORMAL	PHYSICAL	80	85	20	0	EFFECT_HIT	SELECTED	makesContact,punchingMove	A strong punch thrown with  incredible power.	src/data/moves_info.h	224	Measured
+MOVE_PAY_DAY	Pay Day	TYPE_NORMAL	PHYSICAL	40	100	20	0	EFFECT_HIT	SELECTED	NONE	Throws coins at the foe.  Money is recovered after.	src/data/moves_info.h	247	Measured
+MOVE_FIRE_PUNCH	Fire Punch	TYPE_FIRE	PHYSICAL	75	100	15	0	EFFECT_HIT	SELECTED	makesContact,punchingMove	A fiery punch that may burn  the foe.	src/data/moves_info.h	271	Measured
+MOVE_ICE_PUNCH	Ice Punch	TYPE_ICE	PHYSICAL	75	100	15	0	EFFECT_HIT	SELECTED	makesContact,punchingMove	An icy punch that may  leave the foe with frostbite.	src/data/moves_info.h	298	Measured
+MOVE_THUNDER_PUNCH	Thunder Punch	TYPE_ELECTRIC	PHYSICAL	75	100	15	0	EFFECT_HIT	SELECTED	makesContact,punchingMove	An electrified punch that  may paralyze the foe.	src/data/moves_info.h	329	Measured
+MOVE_SCRATCH	Scratch	TYPE_NORMAL	PHYSICAL	40	100	35	0	EFFECT_HIT	SELECTED	makesContact	Scratches the foe with  sharp claws.	src/data/moves_info.h	356	Measured
+MOVE_VISE_GRIP	Vise Grip	TYPE_NORMAL	PHYSICAL	55	100	30	0	EFFECT_HIT	SELECTED	makesContact	Grips the foe with large and  powerful pincers.	src/data/moves_info.h	378	Measured
+MOVE_GUILLOTINE	Guillotine	TYPE_NORMAL	PHYSICAL	1	30	5	0	EFFECT_OHKO	SELECTED	makesContact	A powerful pincer attack  that may cause fainting.	src/data/moves_info.h	400	Measured
+MOVE_RAZOR_WIND	Razor Wind	TYPE_NORMAL	SPECIAL	80	100	10	0	EFFECT_TWO_TURNS_ATTACK	BOTH	criticalHitStage:1	A 2-turn move that strikes  the foe on the 2nd turn.	src/data/moves_info.h	422	Measured
+MOVE_SWORDS_DANCE	Swords Dance	TYPE_NORMAL	STATUS	0	0	20	0	EFFECT_ATTACK_UP_2	USER	danceMove	A fighting dance that  sharply raises Attack.	src/data/moves_info.h	448	Measured
+MOVE_CUT	Cut	TYPE_STEEL	PHYSICAL	75	100	25	0	EFFECT_HIT	SELECTED	makesContact,slicingMove	Cuts the foe with sharp  scythes, claws, etc.	src/data/moves_info.h	472	Measured
+MOVE_GUST	Gust	TYPE_FLYING	SPECIAL	40	100	35	0	EFFECT_HIT	SELECTED	windMove	Strikes the foe with a gust  of wind whipped up by wings.	src/data/moves_info.h	495	Measured
+MOVE_WING_ATTACK	Wing Attack	TYPE_FLYING	PHYSICAL	60	100	35	0	EFFECT_HIT	SELECTED	makesContact	Strikes the foe with wings  spread wide.	src/data/moves_info.h	519	Measured
+MOVE_WHIRLWIND	Whirlwind	TYPE_NORMAL	STATUS	0	0	20	-6	EFFECT_ROAR	SELECTED	windMove,ignoresSubstitute	Blows away the foe with  wind and ends the battle.	src/data/moves_info.h	541	Measured
+MOVE_FLY	Fly	TYPE_FLYING	PHYSICAL	90	100	15	0	EFFECT_SEMI_INVULNERABLE	SELECTED	makesContact,gravityBanned	Flies up on the first turn,  then strikes the next turn.	src/data/moves_info.h	569	Measured
+MOVE_BIND	Bind	TYPE_NORMAL	PHYSICAL	15	85	20	0	EFFECT_HIT	SELECTED	makesContact	Binds and squeezes the foe  for   turns.	src/data/moves_info.h	596	Measured
+MOVE_SLAM	Slam	TYPE_NORMAL	PHYSICAL	80	100	20	0	EFFECT_HIT	SELECTED	makesContact	Slams the foe with a long  tail, vine, etc.	src/data/moves_info.h	622	Measured
+MOVE_VINE_WHIP	Vine Whip	TYPE_GRASS	PHYSICAL	45	100	25	0	EFFECT_HIT	SELECTED	makesContact	Strikes the foe with  slender, whiplike vines.	src/data/moves_info.h	645	Measured
+MOVE_STOMP	Stomp	TYPE_NORMAL	PHYSICAL	65	100	20	0	EFFECT_HIT	SELECTED	makesContact,kickingMove	Stomps the enemy with a big  foot. May cause flinching.	src/data/moves_info.h	667	Measured
+MOVE_DOUBLE_KICK	Double Kick	TYPE_FIGHTING	PHYSICAL	30	100	30	0	EFFECT_HIT	SELECTED	makesContact,kickingMove,strikeCount:2	A double-kicking attack  that strikes the foe twice.	src/data/moves_info.h	696	Measured
+MOVE_MEGA_KICK	Mega Kick	TYPE_NORMAL	PHYSICAL	120	75	5	0	EFFECT_HIT	SELECTED	makesContact,kickingMove	An extremely powerful kick  with intense force.	src/data/moves_info.h	720	Measured
+MOVE_JUMP_KICK	Jump Kick	TYPE_FIGHTING	PHYSICAL	100	95	10	0	EFFECT_RECOIL_IF_MISS	SELECTED	makesContact,kickingMove,gravityBanned	A strong jumping kick. May  miss and hurt the kicker.	src/data/moves_info.h	743	Measured
+MOVE_ROLLING_KICK	Rolling Kick	TYPE_FIGHTING	PHYSICAL	60	85	15	0	EFFECT_HIT	SELECTED	makesContact,kickingMove	A kick delivered from a  rapid spin. May flinch.	src/data/moves_info.h	767	Measured
+MOVE_SAND_ATTACK	Sand Attack	TYPE_GROUND	STATUS	0	100	15	0	EFFECT_ATTACK_DOWN	SELECTED	NONE	Reduces the foe's attack  by hurling sand in its face.	src/data/moves_info.h	795	Measured
+MOVE_HEADBUTT	Headbutt	TYPE_NORMAL	PHYSICAL	70	100	15	0	EFFECT_HIT	SELECTED	makesContact	A ramming attack that may  cause flinching.	src/data/moves_info.h	818	Measured
+MOVE_HORN_ATTACK	Horn Attack	TYPE_NORMAL	PHYSICAL	65	100	25	0	EFFECT_HIT	SELECTED	makesContact	Jabs the foe with sharp  horns.	src/data/moves_info.h	844	Measured
+MOVE_FURY_ATTACK	Fury Attack	TYPE_NORMAL	PHYSICAL	20	100	20	0	EFFECT_MULTI_HIT	SELECTED	makesContact	Jabs the foe 2 to 5 times  with sharp horns, etc.	src/data/moves_info.h	866	Measured
+MOVE_HORN_DRILL	Horn Drill	TYPE_NORMAL	PHYSICAL	1	30	5	0	EFFECT_OHKO	SELECTED	makesContact	A one-hit KO attack that  uses a horn like a drill.	src/data/moves_info.h	888	Measured
+MOVE_TACKLE	Tackle	TYPE_NORMAL	PHYSICAL	40	100	35	0	EFFECT_HIT	SELECTED	makesContact	Charges the foe with a full-  body tackle.	src/data/moves_info.h	910	Measured
+MOVE_BODY_SLAM	Body Slam	TYPE_NORMAL	PHYSICAL	85	100	15	0	EFFECT_HIT	SELECTED	makesContact	A full-body slam that may  cause paralysis.	src/data/moves_info.h	932	Measured
+MOVE_WRAP	Wrap	TYPE_NORMAL	PHYSICAL	15	90	20	0	EFFECT_HIT	SELECTED	makesContact	Wraps and squeezes the foe   times with vines, etc.	src/data/moves_info.h	960	Measured
+MOVE_TAKE_DOWN	Take Down	TYPE_NORMAL	PHYSICAL	90	100	20	0	EFFECT_HIT	SELECTED	makesContact,recoil:25	A reckless charge attack  that also hurts the user.	src/data/moves_info.h	985	Measured
+MOVE_THRASH	Thrash	TYPE_NORMAL	PHYSICAL	120	100	10	0	EFFECT_HIT	RANDOM	makesContact	A rampage of 2 to 3 turns  that confuses the user.	src/data/moves_info.h	1008	Measured
+MOVE_DOUBLE_EDGE	Double-Edge	TYPE_NORMAL	PHYSICAL	120	100	15	0	EFFECT_HIT	SELECTED	makesContact,recoil:33	A life-risking tackle that  also hurts the user.	src/data/moves_info.h	1035	Measured
+MOVE_TAIL_WHIP	Tail Whip	TYPE_NORMAL	STATUS	0	100	30	0	EFFECT_DEFENSE_DOWN	BOTH	NONE	Wags the tail to lower the  foe's Defense.	src/data/moves_info.h	1058	Measured
+MOVE_POISON_STING	Poison Sting	TYPE_POISON	PHYSICAL	15	100	35	0	EFFECT_HIT	SELECTED	NONE	A toxic attack with barbs,  etc., that may poison.	src/data/moves_info.h	1081	Measured
+MOVE_TWINEEDLE	Twineedle	TYPE_BUG	PHYSICAL	25	100	20	0	EFFECT_HIT	SELECTED	strikeCount:2	Stingers on the forelegs  jab the foe twice.	src/data/moves_info.h	1106	Measured
+MOVE_PIN_MISSILE	Pin Missile	TYPE_BUG	PHYSICAL	25	100	20	0	EFFECT_MULTI_HIT	SELECTED	NONE	Sharp pins are fired to  strike 2 to 5 times.	src/data/moves_info.h	1133	Measured
+MOVE_LEER	Leer	TYPE_NORMAL	STATUS	0	100	30	0	EFFECT_DEFENSE_DOWN	BOTH	NONE	Frightens the foe with a  leer to lower Defense.	src/data/moves_info.h	1154	Measured
+MOVE_BITE	Bite	TYPE_DARK	PHYSICAL	60	100	25	0	EFFECT_HIT	SELECTED	makesContact,bitingMove	Bites with vicious fangs.  May cause flinching.	src/data/moves_info.h	1177	Measured
+MOVE_GROWL	Growl	TYPE_NORMAL	STATUS	0	100	40	0	EFFECT_ATTACK_DOWN	BOTH	soundMove	Growls cutely to reduce the  foe's Attack.	src/data/moves_info.h	1204	Measured
+MOVE_ROAR	Roar	TYPE_NORMAL	STATUS	0	0	20	-6	EFFECT_ROAR	SELECTED	soundMove	Makes the foe flee to end  the battle.	src/data/moves_info.h	1229	Measured
+MOVE_SING	Sing	TYPE_NORMAL	STATUS	0	55	15	0	EFFECT_SLEEP	SELECTED	soundMove	A soothing song lulls the  foe into a deep slumber.	src/data/moves_info.h	1257	Measured
+MOVE_SUPERSONIC	Supersonic	TYPE_NORMAL	STATUS	0	55	20	0	EFFECT_CONFUSE	SELECTED	soundMove	Emits bizarre sound waves  that may confuse the foe.	src/data/moves_info.h	1282	Measured
+MOVE_SONIC_BOOM	Sonic Boom	TYPE_NORMAL	SPECIAL	1	90	20	0	EFFECT_FIXED_DAMAGE_ARG	SELECTED	NONE	Launches shock waves that  always inflict 20 HP damage.	src/data/moves_info.h	1307	Measured
+MOVE_DISABLE	Disable	TYPE_NORMAL	STATUS	0	100	20	0	EFFECT_DISABLE	SELECTED	ignoresSubstitute	Psychically disables one of  the foe's moves.	src/data/moves_info.h	1329	Measured
+MOVE_ACID	Acid	TYPE_POISON	SPECIAL	40	100	30	0	EFFECT_HIT	BOTH	NONE	Sprays a hide-melting acid.  May lower Sp. Def.	src/data/moves_info.h	1353	Measured
+MOVE_EMBER	Ember	TYPE_FIRE	SPECIAL	40	100	25	0	EFFECT_HIT	SELECTED	NONE	A weak fire attack that may  inflict a burn.	src/data/moves_info.h	1382	Measured
+MOVE_FLAMETHROWER	Flamethrower	TYPE_FIRE	SPECIAL	90	100	15	0	EFFECT_HIT	SELECTED	NONE	A powerful fire attack that  may inflict a burn.	src/data/moves_info.h	1407	Measured
+MOVE_MIST	Mist	TYPE_ICE	STATUS	0	0	30	0	EFFECT_MIST	USER	ignoresProtect	Creates a mist that stops  reduction of abilities.	src/data/moves_info.h	1432	Measured
+MOVE_WATER_GUN	Water Gun	TYPE_WATER	SPECIAL	40	100	25	0	EFFECT_HIT	SELECTED	NONE	Squirts water to attack  the foe.	src/data/moves_info.h	1457	Measured
+MOVE_HYDRO_PUMP	Hydro Pump	TYPE_WATER	SPECIAL	110	80	5	0	EFFECT_HIT	SELECTED	NONE	Blasts water at high power  to strike the foe.	src/data/moves_info.h	1478	Measured
+MOVE_SURF	Surf	TYPE_WATER	SPECIAL	90	100	15	0	EFFECT_HIT	B_UPDATED_MOVE_DATA >= GEN_4 ? FOES_AND_ALLY : BOTH	NONE	Creates a huge wave, then  crashes it down on the foe.	src/data/moves_info.h	1499	Measured
+MOVE_ICE_BEAM	Ice Beam	TYPE_ICE	SPECIAL	90	100	10	0	EFFECT_HIT	SELECTED	NONE	Blasts the foe with an icy  beam. May cause frostbite.	src/data/moves_info.h	1522	Measured
+MOVE_BLIZZARD	Blizzard	TYPE_ICE	SPECIAL	110	70	5	0	B_BLIZZARD_HAIL >= GEN_4 ? EFFECT_BLIZZARD : EFFECT_HIT	BOTH	windMove	Hits the foe with an icy  storm. May cause frostbite.	src/data/moves_info.h	1553	Measured
+MOVE_PSYBEAM	Psybeam	TYPE_PSYCHIC	SPECIAL	65	100	20	0	EFFECT_HIT	SELECTED	NONE	Fires a peculiar ray that  may confuse the foe.	src/data/moves_info.h	1583	Measured
+MOVE_BUBBLE_BEAM	Bubble Beam	TYPE_WATER	SPECIAL	65	100	20	0	EFFECT_HIT	SELECTED	NONE	Forcefully sprays bubbles  that may lower Speed.	src/data/moves_info.h	1608	Measured
+MOVE_AURORA_BEAM	Aurora Beam	TYPE_ICE	SPECIAL	65	100	20	0	EFFECT_HIT	SELECTED	NONE	Fires a rainbow-colored  beam that may lower Attack.	src/data/moves_info.h	1633	Measured
+MOVE_HYPER_BEAM	Hyper Beam	TYPE_NORMAL	SPECIAL	150	100	5	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	1658	Measured
+MOVE_PECK	Peck	TYPE_FLYING	PHYSICAL	35	100	35	0	EFFECT_HIT	SELECTED	makesContact	Attacks the foe with a  jabbing beak, etc.	src/data/moves_info.h	1682	Measured
+MOVE_DRILL_PECK	Drill Peck	TYPE_FLYING	PHYSICAL	80	100	20	0	EFFECT_HIT	SELECTED	makesContact	A corkscrewing attack with  the beak acting as a drill.	src/data/moves_info.h	1704	Measured
+MOVE_SUBMISSION	Submission	TYPE_FIGHTING	PHYSICAL	80	100	20	0	EFFECT_HIT	SELECTED	makesContact,recoil:25	A reckless body slam that  also hurts the user.	src/data/moves_info.h	1726	Measured
+MOVE_LOW_KICK	Low Kick	TYPE_FIGHTING	PHYSICAL	1	100	20	0	EFFECT_LOW_KICK	SELECTED	makesContact,kickingMove	A kick that inflicts more  damage on heavier foes.	src/data/moves_info.h	1749	Measured
+MOVE_COUNTER	Counter	TYPE_FIGHTING	PHYSICAL	1	100	20	-5	EFFECT_COUNTER	DEPENDS	makesContact	Retaliates any physical hit  with double the power.	src/data/moves_info.h	1772	Measured
+MOVE_SEISMIC_TOSS	Seismic Toss	TYPE_FIGHTING	PHYSICAL	1	100	20	0	EFFECT_LEVEL_DAMAGE	SELECTED	makesContact	Inflicts damage identical  to the user's level.	src/data/moves_info.h	1799	Measured
+MOVE_STRENGTH	Strength	TYPE_NORMAL	PHYSICAL	80	100	15	0	EFFECT_HIT	SELECTED	makesContact	Builds enormous power,  then slams the foe.	src/data/moves_info.h	1822	Measured
+MOVE_ABSORB	Absorb	TYPE_GRASS	SPECIAL	25	100	25	0	EFFECT_ABSORB	SELECTED	NONE	An attack that absorbs  half the damage inflicted.	src/data/moves_info.h	1844	Measured
+MOVE_MEGA_DRAIN	Mega Drain	TYPE_GRASS	SPECIAL	60	100	15	0	EFFECT_ABSORB	SELECTED	NONE	NONE	src/data/moves_info.h	1868	Measured
+MOVE_LEECH_SEED	Leech Seed	TYPE_GRASS	STATUS	0	90	10	0	EFFECT_LEECH_SEED	SELECTED	NONE	Plants a seed on the foe to  steal HP on every turn.	src/data/moves_info.h	1891	Measured
+MOVE_GROWTH	Growth	TYPE_NORMAL	STATUS	0	0	20	0	B_GROWTH_STAT_RAISE >= GEN_5 ? EFFECT_GROWTH : EFFECT_SPECIAL_ATTACK_UP	USER	ignoresProtect	Forces the body to grow,  raising Attack and Sp. Atk.	src/data/moves_info.h	1914	Measured
+MOVE_RAZOR_LEAF	Razor Leaf	TYPE_GRASS	PHYSICAL	55	100	25	0	EFFECT_HIT	BOTH	slicingMove,criticalHitStage:1	Cuts the enemy with leaves.  High critical-hit ratio.	src/data/moves_info.h	1944	Measured
+MOVE_SOLAR_BEAM	Solar Beam	TYPE_GRASS	SPECIAL	120	100	10	0	EFFECT_SOLAR_BEAM	SELECTED	NONE	Absorbs light in one turn,  then attacks next turn.	src/data/moves_info.h	1967	Measured
+MOVE_POISON_POWDER	Poison Powder	TYPE_POISON	STATUS	0	75	35	0	EFFECT_POISON	SELECTED	powderMove	Scatters a powder that  may poison the foe.	src/data/moves_info.h	1991	Measured
+MOVE_STUN_SPORE	Stun Spore	TYPE_GRASS	STATUS	0	75	30	0	EFFECT_PARALYZE	SELECTED	powderMove	Scatters a powder that may  paralyze the foe.	src/data/moves_info.h	2015	Measured
+MOVE_SLEEP_POWDER	Sleep Powder	TYPE_GRASS	STATUS	0	75	15	0	EFFECT_SLEEP	SELECTED	powderMove	Scatters a powder that may  cause the foe to sleep.	src/data/moves_info.h	2039	Measured
+MOVE_PETAL_DANCE	Petal Dance	TYPE_GRASS	SPECIAL	120	100	10	0	EFFECT_HIT	RANDOM	makesContact,danceMove	A rampage of 2 to 3 turns  that confuses the user.	src/data/moves_info.h	2063	Measured
+MOVE_STRING_SHOT	String Shot	TYPE_BUG	STATUS	0	95	40	0	B_UPDATED_MOVE_DATA >= GEN_6 ? EFFECT_SPEED_DOWN_2 : EFFECT_SPEED_DOWN	BOTH	NONE	Binds the foe with string  to reduce its Speed.	src/data/moves_info.h	2091	Measured
+MOVE_DRAGON_RAGE	Dragon Rage	TYPE_DRAGON	SPECIAL	1	100	10	0	EFFECT_FIXED_DAMAGE_ARG	SELECTED	NONE	Launches shock waves that  always inflict 40 HP damage.	src/data/moves_info.h	2114	Measured
+MOVE_FIRE_SPIN	Fire Spin	TYPE_FIRE	SPECIAL	35	85	15	0	EFFECT_HIT	SELECTED	NONE	Traps the foe in a ring of  fire for   turns.	src/data/moves_info.h	2137	Measured
+MOVE_THUNDER_SHOCK	Thunder Shock	TYPE_ELECTRIC	SPECIAL	40	100	30	0	EFFECT_HIT	SELECTED	NONE	An electrical attack that  may paralyze the foe.	src/data/moves_info.h	2162	Measured
+MOVE_THUNDERBOLT	Thunderbolt	TYPE_ELECTRIC	SPECIAL	90	100	15	0	EFFECT_HIT	SELECTED	NONE	A strong electrical attack  that may paralyze the foe.	src/data/moves_info.h	2187	Measured
+MOVE_THUNDER_WAVE	Thunder Wave	TYPE_ELECTRIC	STATUS	0	90	20	0	EFFECT_PARALYZE	SELECTED	NONE	A weak jolt of electricity  that paralyzes the foe.	src/data/moves_info.h	2212	Measured
+MOVE_THUNDER	Thunder	TYPE_ELECTRIC	SPECIAL	110	70	10	0	EFFECT_THUNDER	SELECTED	NONE	A lightning attack that may  cause paralysis.	src/data/moves_info.h	2235	Measured
+MOVE_ROCK_THROW	Rock Throw	TYPE_ROCK	PHYSICAL	50	100	15	0	EFFECT_HIT	SELECTED	NONE	Throws small rocks to  strike the foe.	src/data/moves_info.h	2261	Measured
+MOVE_EARTHQUAKE	Earthquake	TYPE_GROUND	PHYSICAL	100	100	10	0	EFFECT_EARTHQUAKE	FOES_AND_ALLY	NONE	A powerful quake, but has  no effect on flying foes.	src/data/moves_info.h	2282	Measured
+MOVE_FISSURE	Fissure	TYPE_GROUND	PHYSICAL	1	30	5	0	EFFECT_OHKO	SELECTED	NONE	A one-hit KO move that  drops the foe in a fissure.	src/data/moves_info.h	2306	Measured
+MOVE_DIG	Dig	TYPE_GROUND	PHYSICAL	80	100	10	0	EFFECT_SEMI_INVULNERABLE	SELECTED	makesContact	Digs underground the first  turn and strikes next turn.	src/data/moves_info.h	2329	Measured
+MOVE_TOXIC	Toxic	TYPE_POISON	STATUS	0	90	10	0	EFFECT_TOXIC	SELECTED	NONE	Poisons the foe with an  intensifying toxin.	src/data/moves_info.h	2356	Measured
+MOVE_CONFUSION	Confusion	TYPE_PSYCHIC	SPECIAL	50	100	25	0	EFFECT_HIT	SELECTED	NONE	A psychic attack that may  cause confusion.	src/data/moves_info.h	2379	Measured
+MOVE_PSYCHIC	Psychic	TYPE_PSYCHIC	SPECIAL	90	100	10	0	EFFECT_HIT	SELECTED	NONE	A powerful psychic attack  that may lower Sp. Def.	src/data/moves_info.h	2404	Measured
+MOVE_HYPNOSIS	Hypnosis	TYPE_PSYCHIC	STATUS	0	60	20	0	EFFECT_SLEEP	SELECTED	NONE	A hypnotizing move that  may induce sleep.	src/data/moves_info.h	2429	Measured
+MOVE_MEDITATE	Meditate	TYPE_PSYCHIC	STATUS	0	0	40	0	EFFECT_ATTACK_UP	USER	ignoresProtect	Meditates in a peaceful  fashion to raise Attack.	src/data/moves_info.h	2452	Measured
+MOVE_AGILITY	Agility	TYPE_PSYCHIC	STATUS	0	0	30	0	EFFECT_SPEED_UP_2	USER	ignoresProtect	Relaxes the body to sharply  boost Speed.	src/data/moves_info.h	2477	Measured
+MOVE_QUICK_ATTACK	Quick Attack	TYPE_NORMAL	PHYSICAL	40	100	30	1	EFFECT_HIT	SELECTED	makesContact	An extremely fast attack  that always strikes first.	src/data/moves_info.h	2502	Measured
+MOVE_RAGE	Rage	TYPE_NORMAL	PHYSICAL	20	100	20	0	EFFECT_RAGE	SELECTED	makesContact	Raises the user's Attack  every time it is hit.	src/data/moves_info.h	2524	Measured
+MOVE_TELEPORT	Teleport	TYPE_PSYCHIC	STATUS	0	0	20	-6	EFFECT_TELEPORT	USER	ignoresProtect	A psychic move for fleeing  from battle instantly.	src/data/moves_info.h	2546	Measured
+MOVE_NIGHT_SHADE	Night Shade	TYPE_GHOST	SPECIAL	1	100	15	0	EFFECT_LEVEL_DAMAGE	SELECTED	NONE	Inflicts damage identical  to the user's level.	src/data/moves_info.h	2570	Measured
+MOVE_MIMIC	Mimic	TYPE_NORMAL	STATUS	0	0	10	0	EFFECT_MIMIC	SELECTED	ignoresSubstitute	Copies a move used by the  foe during one battle.	src/data/moves_info.h	2591	Measured
+MOVE_SCREECH	Screech	TYPE_NORMAL	STATUS	0	85	40	0	EFFECT_DEFENSE_DOWN_2	SELECTED	soundMove	Emits a screech to sharply  reduce the foe's Defense.	src/data/moves_info.h	2621	Measured
+MOVE_DOUBLE_TEAM	Double Team	TYPE_NORMAL	STATUS	0	0	15	0	EFFECT_EVASION_UP	USER	ignoresProtect	Creates illusory copies to  raise evasiveness.	src/data/moves_info.h	2646	Measured
+MOVE_RECOVER	Recover	TYPE_NORMAL	STATUS	0	0	5	0	EFFECT_RESTORE_HP	USER	ignoresProtect,healingMove	Recovers up to half the  user's maximum HP.	src/data/moves_info.h	2671	Measured
+MOVE_HARDEN	Harden	TYPE_NORMAL	STATUS	0	0	30	0	EFFECT_DEFENSE_UP	USER	ignoresProtect	Stiffens the body's   muscles to raise Defense.	src/data/moves_info.h	2697	Measured
+MOVE_MINIMIZE	Minimize	TYPE_NORMAL	STATUS	0	0	10	0	EFFECT_MINIMIZE	USER	ignoresProtect	Minimizes the user's size  to raise evasiveness.	src/data/moves_info.h	2722	Measured
+MOVE_SMOKESCREEN	Smokescreen	TYPE_NORMAL	STATUS	0	100	20	0	EFFECT_ACCURACY_DOWN	SELECTED	NONE	Lowers the foe's accuracy  using smoke, ink, etc.	src/data/moves_info.h	2747	Measured
+MOVE_CONFUSE_RAY	Confuse Ray	TYPE_GHOST	STATUS	0	100	10	0	EFFECT_CONFUSE	SELECTED	NONE	A sinister ray that  confuses the foe.	src/data/moves_info.h	2770	Measured
+MOVE_WITHDRAW	Withdraw	TYPE_WATER	STATUS	0	0	40	0	EFFECT_DEFENSE_UP	USER	ignoresProtect	Withdraws the body into its  hard shell to raise Defense.	src/data/moves_info.h	2793	Measured
+MOVE_DEFENSE_CURL	Defense Curl	TYPE_NORMAL	STATUS	0	0	40	0	EFFECT_DEFENSE_CURL	USER	ignoresProtect	Curls up to conceal weak  spots and raise Defense.	src/data/moves_info.h	2818	Measured
+MOVE_BARRIER	Barrier	TYPE_PSYCHIC	STATUS	0	0	20	0	EFFECT_DEFENSE_UP_2	USER	ignoresProtect	Creates a barrier that  sharply raises Defense.	src/data/moves_info.h	2843	Measured
+MOVE_LIGHT_SCREEN	Light Screen	TYPE_PSYCHIC	STATUS	0	0	30	0	EFFECT_LIGHT_SCREEN	USER	ignoresProtect	Creates a wall of light that  lowers Sp. Atk damage.	src/data/moves_info.h	2868	Measured
+MOVE_HAZE	Haze	TYPE_ICE	STATUS	0	0	30	0	EFFECT_HAZE	ALL_BATTLERS	ignoresProtect,ignoresSubstitute	Creates a black haze that  eliminates all stat changes.	src/data/moves_info.h	2893	Measured
+MOVE_REFLECT	Reflect	TYPE_PSYCHIC	STATUS	0	0	20	0	EFFECT_REFLECT	USER	ignoresProtect	Creates a wall of light that  weakens physical attacks.	src/data/moves_info.h	2918	Measured
+MOVE_FOCUS_ENERGY	Focus Energy	TYPE_NORMAL	STATUS	0	0	30	0	EFFECT_FOCUS_ENERGY	USER	ignoresProtect	Focuses power to raise the  critical-hit ratio.	src/data/moves_info.h	2943	Measured
+MOVE_BIDE	Bide	TYPE_NORMAL	PHYSICAL	1	0	10	1	EFFECT_BIDE	USER	makesContact	Endures attack for 2  turns to retaliate double.	src/data/moves_info.h	2969	Measured
+MOVE_METRONOME	Metronome	TYPE_NORMAL	STATUS	0	0	10	0	EFFECT_METRONOME	DEPENDS	ignoresProtect	Waggles a finger to use any  Pokémon move at random.	src/data/moves_info.h	2994	Measured
+MOVE_MIRROR_MOVE	Mirror Move	TYPE_FLYING	STATUS	0	0	20	0	EFFECT_MIRROR_MOVE	DEPENDS	NONE	Counters the foe's attack  with the same move.	src/data/moves_info.h	3024	Measured
+MOVE_SELF_DESTRUCT	Self-Destruct	TYPE_NORMAL	PHYSICAL	100	100	5	0	EFFECT_EXPLOSION	FOES_AND_ALLY	NONE	Inflicts severe damage but  makes the user faint.	src/data/moves_info.h	3053	Measured
+MOVE_EGG_BOMB	Egg Bomb	TYPE_NORMAL	PHYSICAL	100	75	10	0	EFFECT_HIT	SELECTED	ballisticMove	An egg is forcibly hurled at  the foe.	src/data/moves_info.h	3075	Measured
+MOVE_LICK	Lick	TYPE_GHOST	PHYSICAL	30	100	30	0	EFFECT_HIT	SELECTED	makesContact	Licks with a long tongue to  injure. May also paralyze.	src/data/moves_info.h	3097	Measured
+MOVE_SMOG	Smog	TYPE_POISON	SPECIAL	30	70	20	0	EFFECT_HIT	SELECTED	NONE	An exhaust-gas attack  that may also poison.	src/data/moves_info.h	3123	Measured
+MOVE_SLUDGE	Sludge	TYPE_POISON	SPECIAL	65	100	20	0	EFFECT_HIT	SELECTED	NONE	Sludge is hurled to inflict  damage. May also poison.	src/data/moves_info.h	3148	Measured
+MOVE_BONE_CLUB	Bone Club	TYPE_GROUND	PHYSICAL	65	85	20	0	EFFECT_HIT	SELECTED	NONE	Clubs the foe with a bone.  May cause flinching.	src/data/moves_info.h	3173	Measured
+MOVE_FIRE_BLAST	Fire Blast	TYPE_FIRE	SPECIAL	110	85	5	0	EFFECT_HIT	SELECTED	NONE	Incinerates everything it  strikes. May cause a burn.	src/data/moves_info.h	3199	Measured
+MOVE_WATERFALL	Waterfall	TYPE_WATER	PHYSICAL	80	100	15	0	EFFECT_HIT	SELECTED	makesContact	Charges the foe with speed  to climb waterfalls.	src/data/moves_info.h	3224	Measured
+MOVE_CLAMP	Clamp	TYPE_WATER	PHYSICAL	35	85	15	0	EFFECT_HIT	SELECTED	makesContact	Traps and squeezes the  foe for   turns.	src/data/moves_info.h	3252	Measured
+MOVE_SWIFT	Swift	TYPE_NORMAL	SPECIAL	60	0	20	0	EFFECT_HIT	BOTH	NONE	Sprays star-shaped rays  that never miss.	src/data/moves_info.h	3278	Measured
+MOVE_SKULL_BASH	Skull Bash	TYPE_NORMAL	PHYSICAL	130	100	10	0	EFFECT_TWO_TURNS_ATTACK	SELECTED	makesContact	Tucks in the head, then  attacks on the next turn.	src/data/moves_info.h	3299	Measured
+MOVE_SPIKE_CANNON	Spike Cannon	TYPE_NORMAL	PHYSICAL	20	100	15	0	EFFECT_MULTI_HIT	SELECTED	ballisticMove	Launches sharp spikes that  strike 2 to 5 times.	src/data/moves_info.h	3329	Measured
+MOVE_CONSTRICT	Constrict	TYPE_NORMAL	PHYSICAL	10	100	35	0	EFFECT_HIT	SELECTED	makesContact	Constricts to inflict pain.  May lower Speed.	src/data/moves_info.h	3351	Measured
+MOVE_AMNESIA	Amnesia	TYPE_PSYCHIC	STATUS	0	0	20	0	EFFECT_SPECIAL_DEFENSE_UP_2	USER	ignoresProtect	Forgets about something  and sharply raises Sp. Def.	src/data/moves_info.h	3377	Measured
+MOVE_KINESIS	Kinesis	TYPE_PSYCHIC	STATUS	0	80	15	0	EFFECT_ACCURACY_DOWN	SELECTED	NONE	Distracts the foe.  May lower accuracy.	src/data/moves_info.h	3402	Measured
+MOVE_SOFT_BOILED	Soft-Boiled	TYPE_NORMAL	STATUS	0	100	5	0	EFFECT_SOFTBOILED	USER	ignoresProtect,healingMove	Recovers up to half the  user's maximum HP.	src/data/moves_info.h	3425	Measured
+MOVE_HIGH_JUMP_KICK	High Jump Kick	TYPE_FIGHTING	PHYSICAL	130	90	10	0	EFFECT_RECOIL_IF_MISS	SELECTED	makesContact,kickingMove,gravityBanned	A jumping knee kick. If it  misses, the user is hurt.	src/data/moves_info.h	3451	Measured
+MOVE_GLARE	Glare	TYPE_NORMAL	STATUS	0	100	30	0	EFFECT_PARALYZE	SELECTED	NONE	Intimidates and frightens  the foe into paralysis.	src/data/moves_info.h	3481	Measured
+MOVE_DREAM_EATER	Dream Eater	TYPE_PSYCHIC	SPECIAL	100	100	15	0	EFFECT_DREAM_EATER	SELECTED	NONE	Takes one half the damage  inflicted on a sleeping foe.	src/data/moves_info.h	3504	Measured
+MOVE_POISON_GAS	Poison Gas	TYPE_POISON	STATUS	0	90	40	0	EFFECT_POISON	B_UPDATED_MOVE_DATA >= GEN_5 ? BOTH : SELECTED	NONE	Envelops the foe in a  gas that may poison.	src/data/moves_info.h	3526	Measured
+MOVE_BARRAGE	Barrage	TYPE_NORMAL	PHYSICAL	15	85	20	0	EFFECT_MULTI_HIT	SELECTED	ballisticMove	Hurls round objects at the  foe 2 to 5 times.	src/data/moves_info.h	3549	Measured
+MOVE_LEECH_LIFE	Leech Life	TYPE_BUG	PHYSICAL	80	100	15	0	EFFECT_ABSORB	SELECTED	makesContact	An attack that steals half  the damage inflicted.	src/data/moves_info.h	3571	Measured
+MOVE_LOVELY_KISS	Lovely Kiss	TYPE_NORMAL	STATUS	0	85	10	0	EFFECT_SLEEP	SELECTED	NONE	Demands a kiss with a scary  face that induces sleep.	src/data/moves_info.h	3596	Measured
+MOVE_SKY_ATTACK	Sky Attack	TYPE_FLYING	PHYSICAL	140	90	5	0	EFFECT_TWO_TURNS_ATTACK	SELECTED	NONE	Searches out weak spots,  then strikes the next turn.	src/data/moves_info.h	3619	Measured
+MOVE_TRANSFORM	Transform	TYPE_NORMAL	STATUS	0	0	10	0	EFFECT_TRANSFORM	SELECTED	ignoresProtect	Alters the user's cells to  become a copy of the foe.	src/data/moves_info.h	3650	Measured
+MOVE_BUBBLE	Bubble	TYPE_WATER	SPECIAL	40	100	30	0	EFFECT_HIT	BOTH	NONE	An attack using bubbles.  May lower the foe's Speed.	src/data/moves_info.h	3680	Measured
+MOVE_DIZZY_PUNCH	Dizzy Punch	TYPE_NORMAL	PHYSICAL	70	100	10	0	EFFECT_HIT	SELECTED	makesContact,punchingMove	A rhythmic punch that may  confuse the foe.	src/data/moves_info.h	3705	Measured
+MOVE_SPORE	Spore	TYPE_GRASS	STATUS	0	100	15	0	EFFECT_SLEEP	SELECTED	powderMove	Scatters a cloud of spores  that always induce sleep.	src/data/moves_info.h	3732	Measured
+MOVE_FLASH	Flash	TYPE_ELECTRIC	SPECIAL	60	100	20	0	EFFECT_HIT	SELECTED	NONE	Looses a blast of light  that may cut attack.	src/data/moves_info.h	3756	Measured
+MOVE_PSYWAVE	Psywave	TYPE_PSYCHIC	SPECIAL	1	100	15	0	EFFECT_PSYWAVE	SELECTED	NONE	Attacks with a psychic  wave of varying intensity.	src/data/moves_info.h	3782	Measured
+MOVE_SPLASH	Splash	TYPE_NORMAL	STATUS	0	0	40	0	EFFECT_DO_NOTHING	USER	ignoresProtect,gravityBanned	It's just a splash...  Has no effect whatsoever.	src/data/moves_info.h	3803	Measured
+MOVE_ACID_ARMOR	Acid Armor	TYPE_POISON	STATUS	0	0	20	0	EFFECT_DEFENSE_UP_2	USER	ignoresProtect	Liquifies the user's body  to sharply raise Defense.	src/data/moves_info.h	3828	Measured
+MOVE_CRABHAMMER	Crabhammer	TYPE_WATER	PHYSICAL	100	90	10	0	EFFECT_HIT	SELECTED	makesContact,criticalHitStage:1	Hammers with a pincer. Has a  high critical-hit ratio.	src/data/moves_info.h	3853	Measured
+MOVE_EXPLOSION	Explosion	TYPE_NORMAL	PHYSICAL	150	100	5	0	EFFECT_EXPLOSION	FOES_AND_ALLY	NONE	Inflicts severe damage but  makes the user faint.	src/data/moves_info.h	3876	Measured
+MOVE_FURY_SWIPES	Fury Swipes	TYPE_NORMAL	PHYSICAL	18	100	15	0	EFFECT_MULTI_HIT	SELECTED	makesContact	Rakes the foe with sharp  claws, etc., 2 to 5 times.	src/data/moves_info.h	3898	Measured
+MOVE_BONEMERANG	Bonemerang	TYPE_GROUND	PHYSICAL	50	100	10	0	EFFECT_HIT	SELECTED	strikeCount:2	Throws a bone boomerang  that strikes twice.	src/data/moves_info.h	3920	Measured
+MOVE_REST	Rest	TYPE_PSYCHIC	STATUS	0	0	5	0	EFFECT_REST	USER	ignoresProtect,healingMove	The user sleeps for 2 turns,  restoring HP and status.	src/data/moves_info.h	3943	Measured
+MOVE_ROCK_SLIDE	Rock Slide	TYPE_ROCK	PHYSICAL	75	100	10	0	EFFECT_HIT	BOTH	NONE	Large boulders are hurled.  May cause flinching.	src/data/moves_info.h	3969	Measured
+MOVE_HYPER_FANG	Hyper Fang	TYPE_NORMAL	PHYSICAL	80	100	15	0	EFFECT_HIT	SELECTED	makesContact,bitingMove	Attacks with sharp fangs.  May cause flinching.	src/data/moves_info.h	3994	Measured
+MOVE_SHARPEN	Sharpen	TYPE_NORMAL	STATUS	0	0	30	0	EFFECT_ATTACK_UP	USER	ignoresProtect	Reduces the polygon count  and raises Attack.	src/data/moves_info.h	4021	Measured
+MOVE_CONVERSION	Conversion	TYPE_NORMAL	STATUS	0	0	30	0	EFFECT_CONVERSION	USER	ignoresProtect	Changes the user's type  into a known move's type.	src/data/moves_info.h	4046	Measured
+MOVE_TRI_ATTACK	Tri Attack	TYPE_NORMAL	SPECIAL	90	100	10	0	EFFECT_HIT	SELECTED	NONE	Fires three types of beams  at the same time.	src/data/moves_info.h	4071	Measured
+MOVE_SUPER_FANG	Super Fang	TYPE_NORMAL	PHYSICAL	1	90	10	0	EFFECT_SUPER_FANG	SELECTED	makesContact	Attacks with sharp fangs  and cuts half the foe's HP.	src/data/moves_info.h	4096	Measured
+MOVE_SLASH	Slash	TYPE_NORMAL	PHYSICAL	70	100	20	0	EFFECT_HIT	SELECTED	makesContact,slicingMove,criticalHitStage:1	Slashes with claws, etc. Has  a high critical-hit ratio.	src/data/moves_info.h	4119	Measured
+MOVE_SUBSTITUTE	Substitute	TYPE_NORMAL	STATUS	0	0	5	0	EFFECT_SUBSTITUTE	USER	ignoresProtect	Creates a decoy using 1/4  of the user's maximum HP.	src/data/moves_info.h	4143	Measured
+MOVE_STRUGGLE	Struggle	TYPE_NORMAL	PHYSICAL	50	0	1	0	EFFECT_RECOIL_HP_25	SELECTED	makesContact,recoil:25	Used only if all PP are gone.  Also hurts the user a little.	src/data/moves_info.h	4169	Measured
+MOVE_SKETCH	Sketch	TYPE_NORMAL	STATUS	0	0	1	0	EFFECT_SKETCH	SELECTED	ignoresProtect,ignoresSubstitute	Copies the foe's last move  permanently.	src/data/moves_info.h	4207	Measured
+MOVE_TRIPLE_KICK	Triple Kick	TYPE_FIGHTING	PHYSICAL	20	90	10	0	EFFECT_TRIPLE_KICK	SELECTED	makesContact,kickingMove,strikeCount:3	Kicks the foe 3 times in a  row with rising intensity.	src/data/moves_info.h	4240	Measured
+MOVE_THIEF	Thief	TYPE_DARK	PHYSICAL	60	100	25	0	EFFECT_HIT	SELECTED	makesContact	While attacking, it may  steal the foe's held item.	src/data/moves_info.h	4264	Measured
+MOVE_SPIDER_WEB	Spider Web	TYPE_BUG	STATUS	0	0	10	0	EFFECT_MEAN_LOOK	SELECTED	NONE	Ensnares the foe to stop it  from fleeing or switching.	src/data/moves_info.h	4294	Measured
+MOVE_MIND_READER	Mind Reader	TYPE_NORMAL	STATUS	0	0	5	0	EFFECT_LOCK_ON	SELECTED	NONE	Senses the foe's action to  ensure the next move's hit.	src/data/moves_info.h	4318	Measured
+MOVE_NIGHTMARE	Nightmare	TYPE_GHOST	STATUS	0	100	15	0	EFFECT_NIGHTMARE	SELECTED	NONE	Inflicts 1/4 damage on a  sleeping foe every turn.	src/data/moves_info.h	4340	Measured
+MOVE_FLAME_WHEEL	Flame Wheel	TYPE_FIRE	PHYSICAL	60	100	25	0	EFFECT_HIT	SELECTED	makesContact,thawsUser	A fiery charge attack that  may inflict a burn.	src/data/moves_info.h	4363	Measured
+MOVE_SNORE	Snore	TYPE_NORMAL	SPECIAL	50	100	15	0	EFFECT_SNORE	SELECTED	soundMove	A loud attack that can be  used only while asleep.	src/data/moves_info.h	4390	Measured
+MOVE_CURSE	Curse	B_UPDATED_MOVE_TYPES >= GEN_5 ? TYPE_GHOST : TYPE_MYSTERY	STATUS	0	0	10	0	EFFECT_CURSE	SELECTED	ignoresProtect,ignoresSubstitute	A move that functions  differently for GHOSTS.	src/data/moves_info.h	4418	Measured
+MOVE_FLAIL	Flail	TYPE_NORMAL	PHYSICAL	1	100	15	0	EFFECT_FLAIL	SELECTED	makesContact	Inflicts more damage when  the user's HP is down.	src/data/moves_info.h	4443	Measured
+MOVE_CONVERSION_2	Conversion 2	TYPE_NORMAL	STATUS	0	0	30	0	EFFECT_CONVERSION_2	B_UPDATED_MOVE_DATA >= GEN_5 ? SELECTED : USER	ignoresSubstitute	Makes the user resistant  to the last attack's type.	src/data/moves_info.h	4465	Measured
+MOVE_AEROBLAST	Aeroblast	TYPE_FLYING	SPECIAL	100	100	5	0	EFFECT_HIT	SELECTED	windMove,criticalHitStage:1	Launches a vacuumed blast.  High critical-hit ratio.	src/data/moves_info.h	4490	Measured
+MOVE_COTTON_SPORE	Cotton Spore	TYPE_GRASS	STATUS	0	100	40	0	EFFECT_SPEED_DOWN_2	B_UPDATED_MOVE_DATA >= GEN_6 ? BOTH : SELECTED	powderMove	Spores cling to the foe,  sharply reducing Speed.	src/data/moves_info.h	4513	Measured
+MOVE_REVERSAL	Reversal	TYPE_FIGHTING	PHYSICAL	1	100	15	0	EFFECT_FLAIL	SELECTED	makesContact	Inflicts more damage when  the user's HP is down.	src/data/moves_info.h	4537	Measured
+MOVE_SPITE	Spite	TYPE_GHOST	STATUS	0	100	10	0	EFFECT_SPITE	SELECTED	ignoresSubstitute	Spitefully cuts the PP  of the foe's last move.	src/data/moves_info.h	4559	Measured
+MOVE_POWDER_SNOW	Powder Snow	TYPE_ICE	SPECIAL	40	100	25	0	EFFECT_HIT	BOTH	NONE	Blasts the foe with a snowy  gust. May cause frostbite.	src/data/moves_info.h	4583	Measured
+MOVE_PROTECT	Protect	TYPE_NORMAL	STATUS	0	0	10	4	EFFECT_PROTECT	USER	NONE	Evades attack, but may fail  if used in succession.	src/data/moves_info.h	4612	Measured
+MOVE_MACH_PUNCH	Mach Punch	TYPE_FIGHTING	PHYSICAL	40	100	30	1	EFFECT_HIT	SELECTED	makesContact,punchingMove	A punch is thrown at wicked  speed to strike first.	src/data/moves_info.h	4637	Measured
+MOVE_SCARY_FACE	Scary Face	TYPE_NORMAL	STATUS	0	100	10	0	EFFECT_SPEED_DOWN_2	SELECTED	NONE	Frightens with a scary face  to sharply reduce Speed.	src/data/moves_info.h	4660	Measured
+MOVE_FEINT_ATTACK	Feint Attack	TYPE_DARK	PHYSICAL	60	0	20	0	EFFECT_HIT	SELECTED	NONE	Draws the foe close, then  strikes without fail.	src/data/moves_info.h	4683	Measured
+MOVE_SWEET_KISS	Sweet Kiss	B_UPDATED_MOVE_TYPES >= GEN_6 ? TYPE_FAIRY : TYPE_NORMAL	STATUS	0	75	10	0	EFFECT_CONFUSE	SELECTED	NONE	Demands a kiss with a cute  look. May cause confusion.	src/data/moves_info.h	4705	Measured
+MOVE_BELLY_DRUM	Belly Drum	TYPE_NORMAL	STATUS	0	0	10	0	EFFECT_BELLY_DRUM	USER	ignoresProtect	Maximizes Attack while  sacrificing HP.	src/data/moves_info.h	4728	Measured
+MOVE_SLUDGE_BOMB	Sludge Bomb	TYPE_POISON	SPECIAL	90	100	10	0	EFFECT_HIT	SELECTED	ballisticMove	Sludge is hurled to inflict  damage. May also poison.	src/data/moves_info.h	4753	Measured
+MOVE_MUD_SLAP	Mud-Slap	TYPE_GROUND	SPECIAL	40	100	10	0	EFFECT_HIT	SELECTED	NONE	Hurls mud in the foe's face  to reduce its accuracy.	src/data/moves_info.h	4779	Measured
+MOVE_OCTAZOOKA	Octazooka	TYPE_WATER	SPECIAL	65	100	10	0	EFFECT_HIT	SELECTED	ballisticMove	Fires a lump of ink to  damage and cut accuracy.	src/data/moves_info.h	4800	Measured
+MOVE_SPIKES	Spikes	TYPE_GROUND	STATUS	0	0	20	0	EFFECT_SPIKES	OPPONENTS_FIELD	ignoresProtect	Sets spikes that hurt a   foe switching in.	src/data/moves_info.h	4822	Measured
+MOVE_ZAP_CANNON	Zap Cannon	TYPE_ELECTRIC	SPECIAL	120	50	5	0	EFFECT_HIT	SELECTED	ballisticMove	Powerful and sure to cause  paralysis, but inaccurate.	src/data/moves_info.h	4849	Measured
+MOVE_FORESIGHT	Foresight	TYPE_NORMAL	STATUS	0	0	40	0	EFFECT_FORESIGHT	SELECTED	ignoresSubstitute	Negates the foe's efforts  to heighten evasiveness.	src/data/moves_info.h	4875	Measured
+MOVE_DESTINY_BOND	Destiny Bond	TYPE_GHOST	STATUS	0	0	5	0	EFFECT_DESTINY_BOND	USER	ignoresProtect,ignoresSubstitute	If the user faints, the foe  is also made to faint.	src/data/moves_info.h	4899	Measured
+MOVE_PERISH_SONG	Perish Song	TYPE_NORMAL	STATUS	0	0	5	0	EFFECT_PERISH_SONG	ALL_BATTLERS	ignoresProtect,soundMove	Any Pokémon hearing this  song faints in 3 turns.	src/data/moves_info.h	4927	Measured
+MOVE_ICY_WIND	Icy Wind	TYPE_ICE	SPECIAL	55	100	15	0	EFFECT_HIT	BOTH	windMove	A chilling attack that  lowers the foe's Speed.	src/data/moves_info.h	4953	Measured
+MOVE_DETECT	Detect	TYPE_FIGHTING	STATUS	0	0	5	4	EFFECT_PROTECT	USER	ignoresProtect	Evades attack, but may fail  if used in succession.	src/data/moves_info.h	4979	Measured
+MOVE_BONE_RUSH	Bone Rush	TYPE_GROUND	PHYSICAL	25	100	10	0	EFFECT_MULTI_HIT	SELECTED	NONE	Strikes the foe with a bone  in hand 2 to 5 times.	src/data/moves_info.h	5006	Measured
+MOVE_LOCK_ON	Lock-On	TYPE_NORMAL	STATUS	0	0	5	0	EFFECT_LOCK_ON	SELECTED	NONE	Locks on to the foe to  ensure the next move hits.	src/data/moves_info.h	5028	Measured
+MOVE_OUTRAGE	Outrage	TYPE_DRAGON	PHYSICAL	120	100	10	0	EFFECT_HIT	RANDOM	makesContact	A rampage of 2 to 3 turns  that confuses the user.	src/data/moves_info.h	5050	Measured
+MOVE_SANDSTORM	Sandstorm	TYPE_ROCK	STATUS	0	0	10	0	EFFECT_SANDSTORM	ALL_BATTLERS	ignoresProtect,windMove	Causes a sandstorm that  rages for several turns.	src/data/moves_info.h	5077	Measured
+MOVE_GIGA_DRAIN	Giga Drain	TYPE_GRASS	SPECIAL	75	100	10	0	EFFECT_ABSORB	SELECTED	NONE	An attack that steals half  the damage inflicted.	src/data/moves_info.h	5102	Measured
+MOVE_ENDURE	Endure	TYPE_NORMAL	STATUS	0	0	10	4	EFFECT_ENDURE	USER	ignoresProtect	Endures any attack for  1 turn, leaving at least 1HP.	src/data/moves_info.h	5126	Measured
+MOVE_CHARM	Charm	B_UPDATED_MOVE_TYPES >= GEN_6 ? TYPE_FAIRY : TYPE_NORMAL	STATUS	0	100	5	0	EFFECT_ATTACK_DOWN_2	SELECTED	NONE	Charms the foe and sharply  reduces its Attack.	src/data/moves_info.h	5153	Measured
+MOVE_ROLLOUT	Rollout	TYPE_ROCK	PHYSICAL	30	90	20	0	EFFECT_ROLLOUT	SELECTED	makesContact	An attack lasting 5 turns  with rising intensity.	src/data/moves_info.h	5176	Measured
+MOVE_FALSE_SWIPE	False Swipe	TYPE_NORMAL	PHYSICAL	40	100	40	0	EFFECT_FALSE_SWIPE	SELECTED	makesContact,slicingMove	NONE	src/data/moves_info.h	5200	Measured
+MOVE_SWAGGER	Swagger	TYPE_NORMAL	STATUS	0	90	15	0	EFFECT_SWAGGER	SELECTED	NONE	Confuses the foe, but also  sharply raises Attack.	src/data/moves_info.h	5221	Measured
+MOVE_MILK_DRINK	Milk Drink	TYPE_NORMAL	STATUS	0	0	5	0	EFFECT_SOFTBOILED	USER	ignoresProtect,healingMove	Recovers up to half the  user's maximum HP.	src/data/moves_info.h	5244	Measured
+MOVE_SPARK	Spark	TYPE_ELECTRIC	PHYSICAL	65	100	20	0	EFFECT_HIT	SELECTED	makesContact	An electrified tackle that  may paralyze the foe.	src/data/moves_info.h	5270	Measured
+MOVE_FURY_CUTTER	Fury Cutter	TYPE_BUG	PHYSICAL	40	95	20	0	EFFECT_FURY_CUTTER	SELECTED	makesContact,slicingMove	An attack that intensifies  on each successive hit.	src/data/moves_info.h	5296	Measured
+MOVE_STEEL_WING	Steel Wing	TYPE_STEEL	PHYSICAL	70	100	25	0	EFFECT_HIT	SELECTED	makesContact	Strikes the foe with hard  wings spread wide.	src/data/moves_info.h	5319	Measured
+MOVE_MEAN_LOOK	Mean Look	TYPE_NORMAL	STATUS	0	0	5	0	EFFECT_MEAN_LOOK	SELECTED	NONE	Fixes the foe with a mean  look that prevents escape.	src/data/moves_info.h	5346	Measured
+MOVE_ATTRACT	Attract	TYPE_NORMAL	STATUS	0	100	15	0	EFFECT_ATTRACT	SELECTED	ignoresSubstitute	Makes the opposite gender  less likely to attack.	src/data/moves_info.h	5370	Measured
+MOVE_SLEEP_TALK	Sleep Talk	TYPE_NORMAL	STATUS	0	0	10	0	EFFECT_SLEEP_TALK	DEPENDS	ignoresProtect	Uses an available move  randomly while asleep.	src/data/moves_info.h	5394	Measured
+MOVE_HEAL_BELL	Heal Bell	TYPE_NORMAL	STATUS	0	0	5	0	EFFECT_HEAL_BELL	USER	ignoresProtect,ignoresSubstitute	Chimes soothingly to heal  all status abnormalities.	src/data/moves_info.h	5425	Measured
+MOVE_RETURN	Return	TYPE_NORMAL	PHYSICAL	1	100	20	0	EFFECT_RETURN	SELECTED	makesContact	An attack that increases  in power with friendship.	src/data/moves_info.h	5452	Measured
+MOVE_PRESENT	Present	TYPE_NORMAL	PHYSICAL	1	90	15	0	EFFECT_PRESENT	SELECTED	NONE	A gift in the form of a  bomb. May restore HP.	src/data/moves_info.h	5474	Measured
+MOVE_FRUSTRATION	Frustration	TYPE_NORMAL	PHYSICAL	1	100	20	0	EFFECT_FRUSTRATION	SELECTED	makesContact	An attack that is stronger  if the Trainer is disliked.	src/data/moves_info.h	5496	Measured
+MOVE_SAFEGUARD	Safeguard	TYPE_NORMAL	STATUS	0	0	25	0	EFFECT_SAFEGUARD	USER	ignoresProtect	A mystical force prevents  all status problems.	src/data/moves_info.h	5518	Measured
+MOVE_PAIN_SPLIT	Pain Split	TYPE_NORMAL	STATUS	0	0	20	0	EFFECT_PAIN_SPLIT	SELECTED	NONE	Adds the user and foe's HP,  then shares them equally.	src/data/moves_info.h	5543	Measured
+MOVE_SACRED_FIRE	Sacred Fire	TYPE_FIRE	PHYSICAL	100	95	5	0	EFFECT_HIT	SELECTED	thawsUser	A mystical fire attack that  may inflict a burn.	src/data/moves_info.h	5565	Measured
+MOVE_MAGNITUDE	Magnitude	TYPE_GROUND	PHYSICAL	1	100	30	0	EFFECT_MAGNITUDE	FOES_AND_ALLY	NONE	A ground-shaking attack  of random intensity.	src/data/moves_info.h	5591	Measured
+MOVE_DYNAMIC_PUNCH	Dynamic Punch	TYPE_FIGHTING	PHYSICAL	100	50	5	0	EFFECT_HIT	SELECTED	makesContact,punchingMove	Powerful and sure to cause  confusion, but inaccurate.	src/data/moves_info.h	5614	Measured
+MOVE_MEGAHORN	Megahorn	TYPE_BUG	PHYSICAL	120	85	10	0	EFFECT_HIT	SELECTED	makesContact	A brutal ramming attack  using out-thrust horns.	src/data/moves_info.h	5641	Measured
+MOVE_DRAGON_BREATH	Dragon Breath	TYPE_DRAGON	SPECIAL	60	100	20	0	EFFECT_HIT	SELECTED	NONE	Strikes the foe with an  incredible blast of breath.	src/data/moves_info.h	5663	Measured
+MOVE_BATON_PASS	Baton Pass	TYPE_NORMAL	STATUS	0	0	40	0	EFFECT_BATON_PASS	USER	ignoresProtect	Switches out the user while  keeping effects in play.	src/data/moves_info.h	5689	Measured
+MOVE_ENCORE	Encore	TYPE_NORMAL	STATUS	0	100	5	0	EFFECT_ENCORE	SELECTED	ignoresSubstitute	Makes the foe repeat its  last move over 2 to 6 turns.	src/data/moves_info.h	5713	Measured
+MOVE_PURSUIT	Pursuit	TYPE_DARK	PHYSICAL	40	100	20	0	EFFECT_PURSUIT	SELECTED	makesContact	Inflicts bad damage if used  on a foe switching out.	src/data/moves_info.h	5738	Measured
+MOVE_RAPID_SPIN	Rapid Spin	TYPE_NORMAL	PHYSICAL	50	100	40	0	EFFECT_HIT	SELECTED	makesContact	Spins the body at high  speed to strike the foe.	src/data/moves_info.h	5761	Measured
+MOVE_SWEET_SCENT	Sweet Scent	TYPE_NORMAL	STATUS	0	100	20	0	B_UPDATED_MOVE_DATA >= GEN_6 ? EFFECT_EVASION_DOWN_2 : EFFECT_EVASION_DOWN	BOTH	NONE	Allures the foe to reduce  evasiveness.	src/data/moves_info.h	5795	Measured
+MOVE_IRON_TAIL	Iron Tail	TYPE_STEEL	PHYSICAL	100	75	15	0	EFFECT_HIT	SELECTED	makesContact	Attacks with a rock-hard  tail. May lower Defense.	src/data/moves_info.h	5818	Measured
+MOVE_METAL_CLAW	Metal Claw	TYPE_STEEL	PHYSICAL	50	100	35	0	EFFECT_HIT	SELECTED	makesContact	A claw attack that may  raise the user's Attack.	src/data/moves_info.h	5844	Measured
+MOVE_VITAL_THROW	Vital Throw	TYPE_FIGHTING	PHYSICAL	70	0	10	-1	EFFECT_HIT	SELECTED	makesContact	Makes the user's move last,  but it never misses.	src/data/moves_info.h	5871	Measured
+MOVE_MORNING_SUN	Morning Sun	TYPE_NORMAL	STATUS	0	0	5	0	EFFECT_MORNING_SUN	USER	ignoresProtect,healingMove	Restores HP. The amount  varies with the weather.	src/data/moves_info.h	5893	Measured
+MOVE_SYNTHESIS	Synthesis	TYPE_GRASS	STATUS	0	0	5	0	EFFECT_SYNTHESIS	USER	ignoresProtect,healingMove	Restores HP. The amount  varies with the weather.	src/data/moves_info.h	5919	Measured
+MOVE_MOONLIGHT	Moonlight	B_UPDATED_MOVE_TYPES >= GEN_6 ? TYPE_FAIRY : TYPE_NORMAL	STATUS	0	0	5	0	EFFECT_MOONLIGHT	USER	ignoresProtect,healingMove	Restores HP. The amount  varies with the weather.	src/data/moves_info.h	5945	Measured
+MOVE_HIDDEN_POWER	Hidden Power	TYPE_NORMAL	SPECIAL	60	100	15	0	EFFECT_HIDDEN_POWER	SELECTED	NONE	The effectiveness varies  with the user.	src/data/moves_info.h	5971	Measured
+MOVE_CROSS_CHOP	Cross Chop	TYPE_FIGHTING	PHYSICAL	100	80	5	0	EFFECT_HIT	SELECTED	makesContact,criticalHitStage:1	A double-chopping attack.  High critical-hit ratio.	src/data/moves_info.h	5992	Measured
+MOVE_TWISTER	Twister	TYPE_DRAGON	SPECIAL	40	100	20	0	EFFECT_HIT	BOTH	windMove	Whips up a vicious twister  to tear at the foe.	src/data/moves_info.h	6015	Measured
+MOVE_RAIN_DANCE	Rain Dance	TYPE_WATER	STATUS	0	0	5	0	EFFECT_RAIN_DANCE	ALL_BATTLERS	ignoresProtect	Boosts the power of Water-  type moves for 5 turns.	src/data/moves_info.h	6042	Measured
+MOVE_SUNNY_DAY	Sunny Day	TYPE_FIRE	STATUS	0	0	5	0	EFFECT_SUNNY_DAY	ALL_BATTLERS	ignoresProtect	Boosts the power of Fire-  type moves for 5 turns.	src/data/moves_info.h	6066	Measured
+MOVE_CRUNCH	Crunch	TYPE_DARK	PHYSICAL	80	100	15	0	EFFECT_HIT	SELECTED	makesContact,bitingMove	Crunches with sharp fangs.  May lower Defense.	src/data/moves_info.h	6090	Measured
+MOVE_MIRROR_COAT	Mirror Coat	TYPE_PSYCHIC	SPECIAL	1	100	20	-5	EFFECT_MIRROR_COAT	DEPENDS	NONE	Counters the foe's special  attack at double the power.	src/data/moves_info.h	6125	Measured
+MOVE_PSYCH_UP	Psych Up	TYPE_NORMAL	STATUS	0	0	10	0	EFFECT_PSYCH_UP	SELECTED	ignoresProtect,ignoresSubstitute	Copies the foe's effect(s)  and gives to the user.	src/data/moves_info.h	6150	Measured
+MOVE_EXTREME_SPEED	Extreme Speed	TYPE_NORMAL	PHYSICAL	80	100	5	2	EFFECT_HIT	SELECTED	makesContact	An extremely fast and  powerful attack.	src/data/moves_info.h	6176	Measured
+MOVE_ANCIENT_POWER	Ancient Power	TYPE_ROCK	SPECIAL	60	100	5	0	EFFECT_HIT	SELECTED	NONE	An attack that may raise  all stats.	src/data/moves_info.h	6198	Measured
+MOVE_SHADOW_BALL	Shadow Ball	TYPE_GHOST	SPECIAL	80	100	15	0	EFFECT_HIT	SELECTED	ballisticMove	Hurls a black blob that may  lower the foe's Sp. Def.	src/data/moves_info.h	6225	Measured
+MOVE_FUTURE_SIGHT	Future Sight	TYPE_PSYCHIC	SPECIAL	120	100	10	0	EFFECT_FUTURE_SIGHT	SELECTED	ignoresProtect	Heightens inner power to  strike 2 turns later.	src/data/moves_info.h	6251	Measured
+MOVE_ROCK_SMASH	Rock Smash	TYPE_FIGHTING	PHYSICAL	60	100	15	0	EFFECT_HIT	SELECTED	makesContact	A rock-crushing attack  that may lower Defense.	src/data/moves_info.h	6274	Measured
+MOVE_WHIRLPOOL	Whirlpool	TYPE_WATER	SPECIAL	35	85	15	0	EFFECT_HIT	SELECTED	NONE	Traps and hurts the foe in  a whirlpool for   turns.	src/data/moves_info.h	6300	Measured
+MOVE_BEAT_UP	Beat Up	TYPE_DARK	PHYSICAL	25	100	10	0	EFFECT_MULTI_HIT	SELECTED	NONE	User attacks, bullying  the target 2 to 5 times.	src/data/moves_info.h	6325	Measured
+MOVE_FAKE_OUT	Fake Out	TYPE_NORMAL	PHYSICAL	40	100	5	3	EFFECT_FIRST_TURN_ONLY	SELECTED	NONE	A 1st-turn, 1st-strike move  that causes flinching.	src/data/moves_info.h	6346	Measured
+MOVE_UPROAR	Uproar	TYPE_NORMAL	SPECIAL	90	100	10	0	EFFECT_UPROAR	RANDOM	soundMove	Causes an uproar for 2 to 5  Causes an uproar for 3  turns and prevents sleep.	src/data/moves_info.h	6372	Measured
+MOVE_STOCKPILE	Stockpile	TYPE_NORMAL	STATUS	0	0	20	0	EFFECT_STOCKPILE	USER	ignoresProtect	Charges up power for up to  3 turns.	src/data/moves_info.h	6405	Measured
+MOVE_SPIT_UP	Spit Up	TYPE_NORMAL	SPECIAL	1	100	10	0	EFFECT_SPIT_UP	SELECTED	NONE	Releases stockpiled power  (the more the better).	src/data/moves_info.h	6430	Measured
+MOVE_SWALLOW	Swallow	TYPE_NORMAL	STATUS	0	0	10	0	EFFECT_SWALLOW	USER	ignoresProtect,healingMove	Absorbs stockpiled power  and restores HP.	src/data/moves_info.h	6452	Measured
+MOVE_HEAT_WAVE	Heat Wave	TYPE_FIRE	SPECIAL	95	90	10	0	EFFECT_HIT	BOTH	windMove	Exhales a hot breath on the  foe. May inflict a burn.	src/data/moves_info.h	6478	Measured
+MOVE_HAIL	Hail	TYPE_ICE	STATUS	0	0	10	0	EFFECT_HAIL	ALL_BATTLERS	ignoresProtect	Summons a hailstorm that  strikes every turn.	src/data/moves_info.h	6504	Measured
+MOVE_TORMENT	Torment	TYPE_DARK	STATUS	0	100	15	0	EFFECT_TORMENT	SELECTED	NONE	Torments the foe and stops  successive use of a move.	src/data/moves_info.h	6528	Measured
+MOVE_FLATTER	Flatter	TYPE_DARK	STATUS	0	100	15	0	EFFECT_FLATTER	SELECTED	NONE	Confuses the foe, but  raises its Sp. Atk.	src/data/moves_info.h	6551	Measured
+MOVE_WILL_O_WISP	Will-O-Wisp	TYPE_FIRE	STATUS	0	85	15	0	EFFECT_WILL_O_WISP	SELECTED	NONE	Inflicts a burn on the foe  with intense fire.	src/data/moves_info.h	6574	Measured
+MOVE_MEMENTO	Memento	TYPE_DARK	STATUS	0	100	10	0	EFFECT_MEMENTO	SELECTED	NONE	The user faints and lowers  the foe's abilities.	src/data/moves_info.h	6597	Measured
+MOVE_FACADE	Facade	TYPE_NORMAL	PHYSICAL	70	100	20	0	EFFECT_FACADE	SELECTED	makesContact	Boosts Attack when burned,  paralyzed, or poisoned.	src/data/moves_info.h	6619	Measured
+MOVE_FOCUS_PUNCH	Focus Punch	TYPE_FIGHTING	PHYSICAL	150	100	20	-3	EFFECT_FOCUS_PUNCH	SELECTED	makesContact,punchingMove	A powerful loyalty attack.  The user flinches if hit.	src/data/moves_info.h	6641	Measured
+MOVE_SMELLING_SALTS	Smelling Salts	TYPE_NORMAL	PHYSICAL	70	100	10	0	EFFECT_DOUBLE_POWER_ON_ARG_STATUS	SELECTED	makesContact	Powerful against paralyzed  foes, but also heals them.	src/data/moves_info.h	6671	Measured
+MOVE_FOLLOW_ME	Follow Me	TYPE_NORMAL	STATUS	0	100	20	2	EFFECT_FOLLOW_ME	USER	ignoresProtect	Draws attention to make  foes attack only the user.	src/data/moves_info.h	6697	Measured
+MOVE_NATURE_POWER	Nature Power	TYPE_NORMAL	STATUS	1	0	20	0	EFFECT_NATURE_POWER	DEPENDS	NONE	The type of attack varies  depending on the location.	src/data/moves_info.h	6724	Measured
+MOVE_CHARGE	Charge	TYPE_ELECTRIC	STATUS	0	100	20	0	EFFECT_CHARGE	USER	ignoresProtect	Charges power to boost the  electric move used next.	src/data/moves_info.h	6752	Measured
+MOVE_TAUNT	Taunt	TYPE_DARK	STATUS	0	100	20	0	EFFECT_TAUNT	SELECTED	ignoresSubstitute	Taunts the foe into only  using attack moves.	src/data/moves_info.h	6777	Measured
+MOVE_HELPING_HAND	Helping Hand	TYPE_NORMAL	STATUS	0	100	20	5	EFFECT_HELPING_HAND	B_UPDATED_MOVE_DATA >= GEN_4 ? ALLY : USER	ignoresProtect,ignoresSubstitute	Boosts the power of the  recipient's moves.	src/data/moves_info.h	6801	Measured
+MOVE_TRICK	Trick	TYPE_PSYCHIC	STATUS	0	100	10	0	EFFECT_TRICK	SELECTED	NONE	Tricks the foe into trading  held items.	src/data/moves_info.h	6829	Measured
+MOVE_ROLE_PLAY	Role Play	TYPE_PSYCHIC	STATUS	0	0	10	0	EFFECT_ROLE_PLAY	SELECTED	ignoresProtect,ignoresSubstitute	Mimics the target and  copies its special ability.	src/data/moves_info.h	6854	Measured
+MOVE_WISH	Wish	TYPE_NORMAL	STATUS	0	0	10	0	EFFECT_WISH	USER	ignoresProtect,healingMove	A wish that restores HP.  It takes time to work.	src/data/moves_info.h	6879	Measured
+MOVE_ASSIST	Assist	TYPE_NORMAL	STATUS	0	100	20	0	EFFECT_ASSIST	DEPENDS	ignoresProtect	Attacks randomly with one  of the partner's moves.	src/data/moves_info.h	6905	Measured
+MOVE_INGRAIN	Ingrain	TYPE_GRASS	STATUS	0	100	20	0	EFFECT_INGRAIN	USER	ignoresProtect	Lays roots that restore HP.  The user can't switch out.	src/data/moves_info.h	6935	Measured
+MOVE_SUPERPOWER	Superpower	TYPE_FIGHTING	PHYSICAL	120	100	5	0	EFFECT_HIT	SELECTED	makesContact	A strong attack but lowers  Attack and Defense.	src/data/moves_info.h	6961	Measured
+MOVE_MAGIC_COAT	Magic Coat	TYPE_PSYCHIC	STATUS	0	100	15	4	EFFECT_MAGIC_COAT	DEPENDS	ignoresProtect	Reflects special effects  back to the attacker.	src/data/moves_info.h	6987	Measured
+MOVE_RECYCLE	Recycle	TYPE_NORMAL	STATUS	0	100	10	0	EFFECT_RECYCLE	USER	ignoresProtect	Recycles a used item for  one more use.	src/data/moves_info.h	7011	Measured
+MOVE_REVENGE	Revenge	TYPE_FIGHTING	PHYSICAL	60	100	10	-4	EFFECT_REVENGE	SELECTED	makesContact	NONE	src/data/moves_info.h	7036	Measured
+MOVE_BRICK_BREAK	Brick Break	TYPE_FIGHTING	PHYSICAL	75	100	15	0	EFFECT_BRICK_BREAK	SELECTED	makesContact	Destroys barriers such as  REFLECT and causes damage.	src/data/moves_info.h	7056	Measured
+MOVE_YAWN	Yawn	TYPE_NORMAL	STATUS	0	0	10	0	EFFECT_YAWN	SELECTED	NONE	Lulls the foe into yawning,  then sleeping next turn.	src/data/moves_info.h	7078	Measured
+MOVE_KNOCK_OFF	Knock Off	TYPE_DARK	PHYSICAL	65	100	20	0	EFFECT_KNOCK_OFF	SELECTED	makesContact	Knocks down the foe's held  item to prevent its use.	src/data/moves_info.h	7101	Measured
+MOVE_ENDEAVOR	Endeavor	TYPE_NORMAL	PHYSICAL	1	100	5	0	EFFECT_ENDEAVOR	SELECTED	makesContact	Gains power if the user's HP  is lower than the foe's HP.	src/data/moves_info.h	7126	Measured
+MOVE_ERUPTION	Eruption	TYPE_FIRE	SPECIAL	150	100	5	0	EFFECT_POWER_BASED_ON_USER_HP	BOTH	NONE	The higher the user's HP,  the more damage caused.	src/data/moves_info.h	7149	Measured
+MOVE_SKILL_SWAP	Skill Swap	TYPE_PSYCHIC	STATUS	0	0	10	0	EFFECT_SKILL_SWAP	SELECTED	ignoresSubstitute	The user swaps special  abilities with the target.	src/data/moves_info.h	7170	Measured
+MOVE_IMPRISON	Imprison	TYPE_PSYCHIC	STATUS	0	100	10	0	EFFECT_IMPRISON	USER	ignoresProtect,ignoresSubstitute	Prevents foes from using  moves known by the user.	src/data/moves_info.h	7193	Measured
+MOVE_REFRESH	Refresh	TYPE_NORMAL	STATUS	0	100	20	0	EFFECT_REFRESH	USER	ignoresProtect	Heals poisoning, paralysis,  or a burn.	src/data/moves_info.h	7220	Measured
+MOVE_GRUDGE	Grudge	TYPE_GHOST	STATUS	0	100	5	0	EFFECT_GRUDGE	USER	ignoresProtect,ignoresSubstitute	If the user faints, deletes  all PP of foe's last move.	src/data/moves_info.h	7245	Measured
+MOVE_SNATCH	Snatch	TYPE_DARK	STATUS	0	100	10	4	EFFECT_SNATCH	DEPENDS	ignoresSubstitute	Steals the effects of the  move the target uses next.	src/data/moves_info.h	7270	Measured
+MOVE_SECRET_POWER	Secret Power	TYPE_NORMAL	PHYSICAL	70	100	20	0	EFFECT_HIT	SELECTED	NONE	An attack with effects  that vary by location.	src/data/moves_info.h	7297	Measured
+MOVE_DIVE	Dive	TYPE_WATER	PHYSICAL	80	100	10	0	EFFECT_SEMI_INVULNERABLE	SELECTED	makesContact	Dives underwater the first  turn and strikes next turn.	src/data/moves_info.h	7322	Measured
+MOVE_ARM_THRUST	Arm Thrust	TYPE_FIGHTING	PHYSICAL	25	100	20	0	EFFECT_MULTI_HIT	SELECTED	makesContact	Straight-arm punches that  strike the foe 2 to 5 times.	src/data/moves_info.h	7349	Measured
+MOVE_CAMOUFLAGE	Camouflage	TYPE_NORMAL	STATUS	0	100	20	0	EFFECT_CAMOUFLAGE	USER	ignoresProtect	Alters the Pokémon's type  depending on the location.	src/data/moves_info.h	7371	Measured
+MOVE_TAIL_GLOW	Tail Glow	TYPE_BUG	STATUS	0	0	20	0	B_UPDATED_MOVE_DATA >= GEN_5 ? EFFECT_SPECIAL_ATTACK_UP_3 : EFFECT_SPECIAL_ATTACK_UP_2	USER	ignoresProtect	Flashes a light that sharply  raises Sp. Atk.	src/data/moves_info.h	7396	Measured
+MOVE_LUSTER_PURGE	Luster Purge	TYPE_PSYCHIC	SPECIAL	85	100	10	0	EFFECT_HIT	SELECTED	NONE	Attacks with a burst of  light. May lower Sp. Def.	src/data/moves_info.h	7421	Measured
+MOVE_MIST_BALL	Mist Ball	TYPE_PSYCHIC	SPECIAL	85	100	10	0	EFFECT_HIT	SELECTED	ballisticMove	Attacks with a flurry of  down. May lower Sp. Atk.	src/data/moves_info.h	7446	Measured
+MOVE_FEATHER_DANCE	Feather Dance	TYPE_FLYING	STATUS	0	100	5	0	EFFECT_ATTACK_DOWN_2	SELECTED	danceMove	Envelops the foe with down  to sharply reduce Attack.	src/data/moves_info.h	7472	Measured
+MOVE_TEETER_DANCE	Teeter Dance	TYPE_NORMAL	STATUS	0	100	20	0	EFFECT_CONFUSE	FOES_AND_ALLY	danceMove	Confuses all Pokémon on  the scene.	src/data/moves_info.h	7496	Measured
+MOVE_BLAZE_KICK	Blaze Kick	TYPE_FIRE	PHYSICAL	85	100	10	0	EFFECT_HIT	SELECTED	makesContact,kickingMove,criticalHitStage:1	A kick with a high critical-  hit ratio. May cause a burn.	src/data/moves_info.h	7520	Measured
+MOVE_MUD_SPORT	Mud Sport	TYPE_GROUND	STATUS	0	100	15	0	EFFECT_MUD_SPORT	ALL_BATTLERS	ignoresProtect	Covers the user in mud to  raise electrical resistance.	src/data/moves_info.h	7548	Measured
+MOVE_ICE_BALL	Ice Ball	TYPE_ICE	PHYSICAL	30	90	20	0	EFFECT_ROLLOUT	SELECTED	makesContact,ballisticMove	A 5-turn attack that gains  power on successive hits.	src/data/moves_info.h	7573	Measured
+MOVE_NEEDLE_ARM	Needle Arm	TYPE_GRASS	PHYSICAL	95	100	15	0	EFFECT_HIT	SELECTED	makesContact	Attacks with thorny arms.  May cause flinching.	src/data/moves_info.h	7598	Measured
+MOVE_SLACK_OFF	Slack Off	TYPE_NORMAL	STATUS	0	100	5	0	EFFECT_RESTORE_HP	USER	ignoresProtect,healingMove	Slacks off and restores  half the maximum HP.	src/data/moves_info.h	7625	Measured
+MOVE_HYPER_VOICE	Hyper Voice	TYPE_NORMAL	SPECIAL	90	100	10	0	EFFECT_HIT	BOTH	soundMove	A loud attack that uses  sound waves to injure.	src/data/moves_info.h	7651	Measured
+MOVE_POISON_FANG	Poison Fang	TYPE_POISON	PHYSICAL	75	100	15	0	EFFECT_HIT	SELECTED	makesContact,bitingMove	A sharp-fanged attack.  May Toxic the foe.	src/data/moves_info.h	7674	Measured
+MOVE_CRUSH_CLAW	Crush Claw	TYPE_NORMAL	PHYSICAL	75	100	10	0	EFFECT_HIT	SELECTED	makesContact	Tears at the foe with sharp  claws. May lower Defense.	src/data/moves_info.h	7701	Measured
+MOVE_BLAST_BURN	Blast Burn	TYPE_FIRE	SPECIAL	160	100	5	0	EFFECT_HIT	SELECTED	NONE	Powerful, but leaves the  user immobile the next turn.	src/data/moves_info.h	7727	Measured
+MOVE_HYDRO_CANNON	Hydro Cannon	TYPE_WATER	SPECIAL	160	100	5	0	EFFECT_HIT	SELECTED	NONE	Powerful, but leaves the  user immobile the next turn.	src/data/moves_info.h	7752	Measured
+MOVE_METEOR_MASH	Meteor Mash	TYPE_STEEL	PHYSICAL	90	90	10	0	EFFECT_HIT	SELECTED	makesContact,punchingMove	Fires a meteor-like punch.  May raise Attack.	src/data/moves_info.h	7777	Measured
+MOVE_ASTONISH	Astonish	TYPE_GHOST	PHYSICAL	30	100	15	0	EFFECT_HIT	SELECTED	makesContact	An attack that may shock  the foe into flinching.	src/data/moves_info.h	7805	Measured
+MOVE_WEATHER_BALL	Weather Ball	TYPE_NORMAL	SPECIAL	50	100	10	0	EFFECT_WEATHER_BALL	SELECTED	ballisticMove	The move's type and power  change with the weather.	src/data/moves_info.h	7832	Measured
+MOVE_AROMATHERAPY	Aromatherapy	TYPE_GRASS	STATUS	0	0	5	0	EFFECT_HEAL_BELL	USER	ignoresProtect	Heals all status problems  with a soothing scent.	src/data/moves_info.h	7855	Measured
+MOVE_FAKE_TEARS	Fake Tears	TYPE_DARK	STATUS	0	100	20	0	EFFECT_SPECIAL_DEFENSE_DOWN_2	SELECTED	NONE	Feigns crying to sharply  lower the foe's Sp. Def.	src/data/moves_info.h	7880	Measured
+MOVE_AIR_CUTTER	Air Cutter	TYPE_FLYING	SPECIAL	60	100	25	0	EFFECT_HIT	BOTH	slicingMove,windMove,criticalHitStage:1	Hacks with razorlike wind.  High critical-hit ratio.	src/data/moves_info.h	7903	Measured
+MOVE_OVERHEAT	Overheat	TYPE_FIRE	SPECIAL	130	100	5	0	EFFECT_HIT	SELECTED	NONE	Allows a full-power attack,  but sharply lowers Sp. Atk.	src/data/moves_info.h	7927	Measured
+MOVE_ODOR_SLEUTH	Odor Sleuth	TYPE_NORMAL	STATUS	0	0	40	0	EFFECT_FORESIGHT	SELECTED	ignoresSubstitute	Negates the foe's efforts  to heighten evasiveness.	src/data/moves_info.h	7953	Measured
+MOVE_ROCK_TOMB	Rock Tomb	TYPE_ROCK	PHYSICAL	60	100	15	0	EFFECT_HIT	SELECTED	NONE	Stops the foe from moving  with rocks and cuts Speed.	src/data/moves_info.h	7977	Measured
+MOVE_SILVER_WIND	Silver Wind	TYPE_BUG	SPECIAL	60	100	5	0	EFFECT_HIT	SELECTED	NONE	A powdery attack that may  raise abilities.	src/data/moves_info.h	8002	Measured
+MOVE_METAL_SOUND	Metal Sound	TYPE_STEEL	STATUS	0	85	40	0	EFFECT_SPECIAL_DEFENSE_DOWN_2	SELECTED	soundMove	Emits a horrible screech  that sharply lowers Sp. Def.	src/data/moves_info.h	8029	Measured
+MOVE_GRASS_WHISTLE	Grass Whistle	TYPE_GRASS	STATUS	0	55	15	0	EFFECT_SLEEP	SELECTED	soundMove	Lulls the foe into sleep  with a pleasant melody.	src/data/moves_info.h	8054	Measured
+MOVE_TICKLE	Tickle	TYPE_NORMAL	STATUS	0	100	20	0	EFFECT_TICKLE	SELECTED	NONE	Makes the foe laugh to  lower Attack and Defense.	src/data/moves_info.h	8079	Measured
+MOVE_COSMIC_POWER	Cosmic Power	TYPE_PSYCHIC	STATUS	0	0	20	0	EFFECT_COSMIC_POWER	USER	ignoresProtect	Raises Defense and Sp. Def  with a mystic power.	src/data/moves_info.h	8102	Measured
+MOVE_WATER_SPOUT	Water Spout	TYPE_WATER	SPECIAL	150	100	5	0	EFFECT_POWER_BASED_ON_USER_HP	BOTH	NONE	Inflicts more damage if the  user's HP is high.	src/data/moves_info.h	8127	Measured
+MOVE_SIGNAL_BEAM	Signal Beam	TYPE_BUG	SPECIAL	75	100	15	0	EFFECT_HIT	SELECTED	NONE	A strange beam attack that  may confuse the foe.	src/data/moves_info.h	8148	Measured
+MOVE_SHADOW_PUNCH	Shadow Punch	TYPE_GHOST	PHYSICAL	80	0	20	0	EFFECT_HIT	SELECTED	makesContact,punchingMove	An unavoidable punch that  is thrown from shadows.	src/data/moves_info.h	8173	Measured
+MOVE_EXTRASENSORY	Extrasensory	TYPE_PSYCHIC	SPECIAL	80	100	20	0	EFFECT_HIT	SELECTED	NONE	Attacks with a peculiar  power. May cause flinching.	src/data/moves_info.h	8196	Measured
+MOVE_SKY_UPPERCUT	Sky Uppercut	TYPE_FIGHTING	PHYSICAL	85	100	15	0	EFFECT_HIT	SELECTED	makesContact,punchingMove	An uppercut thrown as if  leaping into the sky.	src/data/moves_info.h	8222	Measured
+MOVE_SAND_TOMB	Sand Tomb	TYPE_GROUND	PHYSICAL	35	85	15	0	EFFECT_HIT	SELECTED	NONE	Traps and hurts the foe in  quicksand for   turns.	src/data/moves_info.h	8246	Measured
+MOVE_SHEER_COLD	Sheer Cold	TYPE_ICE	SPECIAL	1	30	5	0	EFFECT_OHKO	SELECTED	NONE	A chilling attack that  causes fainting if it hits.	src/data/moves_info.h	8270	Measured
+MOVE_MUDDY_WATER	Muddy Water	TYPE_WATER	SPECIAL	95	85	10	0	EFFECT_HIT	BOTH	NONE	Attacks with muddy water.  May lower accuracy.	src/data/moves_info.h	8291	Measured
+MOVE_BULLET_SEED	Bullet Seed	TYPE_GRASS	PHYSICAL	25	100	30	0	EFFECT_MULTI_HIT	SELECTED	ballisticMove	Shoots 2 to 5 seeds in a row  to strike the foe.	src/data/moves_info.h	8317	Measured
+MOVE_AERIAL_ACE	Aerial Ace	TYPE_FLYING	PHYSICAL	60	0	20	0	EFFECT_HIT	SELECTED	makesContact,slicingMove	An extremely speedy and  unavoidable attack.	src/data/moves_info.h	8339	Measured
+MOVE_ICICLE_SPEAR	Icicle Spear	TYPE_ICE	PHYSICAL	25	100	30	0	EFFECT_MULTI_HIT	SELECTED	NONE	Attacks the foe by firing  2 to 5 icicles in a row.	src/data/moves_info.h	8362	Measured
+MOVE_IRON_DEFENSE	Iron Defense	TYPE_STEEL	STATUS	0	0	15	0	EFFECT_DEFENSE_UP_2	USER	ignoresProtect	Hardens the body's surface  to sharply raise Defense.	src/data/moves_info.h	8383	Measured
+MOVE_BLOCK	Block	TYPE_NORMAL	STATUS	0	0	5	0	EFFECT_MEAN_LOOK	SELECTED	NONE	Blocks the foe's way to  prevent escape.	src/data/moves_info.h	8408	Measured
+MOVE_HOWL	Howl	TYPE_NORMAL	STATUS	0	0	40	0	B_UPDATED_MOVE_DATA >= GEN_8 ? EFFECT_ATTACK_UP_USER_ALLY : EFFECT_ATTACK_UP	USER, // Targeting is handled through the script	ignoresProtect	Howls to raise the spirit  and boosts Attack.	src/data/moves_info.h	8432	Measured
+MOVE_DRAGON_CLAW	Dragon Claw	TYPE_DRAGON	PHYSICAL	80	100	15	0	EFFECT_HIT	SELECTED	makesContact	Slashes the foe with sharp  claws.	src/data/moves_info.h	8458	Measured
+MOVE_FRENZY_PLANT	Frenzy Plant	TYPE_GRASS	SPECIAL	160	100	5	0	EFFECT_HIT	SELECTED	NONE	Powerful, but leaves the  user immobile the next turn.	src/data/moves_info.h	8480	Measured
+MOVE_BULK_UP	Bulk Up	TYPE_FIGHTING	STATUS	0	0	20	0	EFFECT_BULK_UP	USER	ignoresProtect	Bulks up the body to boost  both Attack and Defense.	src/data/moves_info.h	8506	Measured
+MOVE_BOUNCE	Bounce	TYPE_FLYING	PHYSICAL	85	85	5	0	EFFECT_SEMI_INVULNERABLE	SELECTED	makesContact,gravityBanned	Bounces up, then down the  next turn. May paralyze.	src/data/moves_info.h	8531	Measured
+MOVE_MUD_SHOT	Mud Shot	TYPE_GROUND	SPECIAL	55	100	15	0	EFFECT_HIT	SELECTED	NONE	Hurls mud at the foe and  reduces Speed.	src/data/moves_info.h	8562	Measured
+MOVE_POISON_TAIL	Poison Tail	TYPE_POISON	PHYSICAL	60	100	25	0	EFFECT_HIT	SELECTED	makesContact,criticalHitStage:1	Has a high critical-hit  ratio. May also poison.	src/data/moves_info.h	8587	Measured
+MOVE_COVET	Covet	TYPE_FAIRY	PHYSICAL	60	100	25	0	EFFECT_HIT	SELECTED	NONE	Cutely begs to obtain an  item held by the foe.	src/data/moves_info.h	8614	Measured
+MOVE_VOLT_TACKLE	Volt Tackle	TYPE_ELECTRIC	PHYSICAL	120	100	15	0	EFFECT_HIT	SELECTED	makesContact,recoil:33	A life-risking tackle that  slightly hurts the user.	src/data/moves_info.h	8643	Measured
+MOVE_MAGICAL_LEAF	Magical Leaf	TYPE_GRASS	SPECIAL	60	0	20	0	EFFECT_HIT	SELECTED	NONE	Attacks with a strange leaf  that cannot be evaded.	src/data/moves_info.h	8672	Measured
+MOVE_WATER_SPORT	Water Sport	TYPE_WATER	STATUS	0	100	15	0	EFFECT_WATER_SPORT	ALL_BATTLERS	ignoresProtect	The user becomes soaked to  raise resistance to fire.	src/data/moves_info.h	8693	Measured
+MOVE_CALM_MIND	Calm Mind	TYPE_PSYCHIC	STATUS	0	0	20	0	EFFECT_CALM_MIND	USER	ignoresProtect	Raises Sp. Atk and Sp. Def  by focusing the mind.	src/data/moves_info.h	8718	Measured
+MOVE_LEAF_BLADE	Leaf Blade	TYPE_GRASS	PHYSICAL	90	100	15	0	EFFECT_HIT	SELECTED	makesContact,slicingMove,criticalHitStage:1	Slashes with a sharp leaf.  High critical-hit ratio.	src/data/moves_info.h	8743	Measured
+MOVE_DRAGON_DANCE	Dragon Dance	TYPE_DRAGON	STATUS	0	0	20	0	EFFECT_DRAGON_DANCE	USER	ignoresProtect,danceMove	A mystical dance that ups  Attack and Speed.	src/data/moves_info.h	8767	Measured
+MOVE_ROCK_BLAST	Rock Blast	TYPE_ROCK	PHYSICAL	25	100	10	0	EFFECT_MULTI_HIT	SELECTED	NONE	Hurls boulders at the foe  2 to 5 times in a row.	src/data/moves_info.h	8793	Measured
+MOVE_SHOCK_WAVE	Shock Wave	TYPE_ELECTRIC	SPECIAL	60	0	20	0	EFFECT_HIT	SELECTED	NONE	A fast and unavoidable  electric attack.	src/data/moves_info.h	8815	Measured
+MOVE_WATER_PULSE	Water Pulse	TYPE_WATER	SPECIAL	60	100	20	0	EFFECT_HIT	SELECTED	pulseMove	Attacks with ultrasonic  waves. May confuse the foe.	src/data/moves_info.h	8836	Measured
+MOVE_DOOM_DESIRE	Doom Desire	TYPE_STEEL	SPECIAL	140	100	5	0	EFFECT_FUTURE_SIGHT	SELECTED	ignoresProtect	Summons strong sunlight to  attack 2 turns later.	src/data/moves_info.h	8862	Measured
+MOVE_PSYCHO_BOOST	Psycho Boost	TYPE_PSYCHIC	SPECIAL	140	100	5	0	EFFECT_HIT	SELECTED	NONE	Allows a full-power attack,  but sharply lowers Sp. Atk.	src/data/moves_info.h	8885	Measured
+MOVE_ROOST	Roost	TYPE_FLYING	STATUS	0	0	5	0	EFFECT_ROOST	USER	ignoresProtect,healingMove	Restores the user's HP by  half of its max HP.	src/data/moves_info.h	8910	Measured
+MOVE_GRAVITY	Gravity	TYPE_PSYCHIC	STATUS	0	0	5	0	EFFECT_GRAVITY	ALL_BATTLERS	ignoresProtect	Gravity is intensified  negating levitation.	src/data/moves_info.h	8936	Measured
+MOVE_MIRACLE_EYE	Miracle Eye	TYPE_PSYCHIC	STATUS	0	0	40	0	EFFECT_MIRACLE_EYE	SELECTED	ignoresSubstitute	Negate evasiveness and  Dark-type's immunities.	src/data/moves_info.h	8961	Measured
+MOVE_WAKE_UP_SLAP	Wake-Up Slap	TYPE_FIGHTING	PHYSICAL	70	100	10	0	EFFECT_DOUBLE_POWER_ON_ARG_STATUS	SELECTED	makesContact	Powerful against sleeping  foes, but also heals them.	src/data/moves_info.h	8985	Measured
+MOVE_HAMMER_ARM	Hammer Arm	TYPE_FIGHTING	PHYSICAL	100	100	10	0	EFFECT_HIT	SELECTED	makesContact,punchingMove	A swinging fist attack  that also lowers Speed.	src/data/moves_info.h	9011	Measured
+MOVE_GYRO_BALL	Gyro Ball	TYPE_STEEL	PHYSICAL	1	100	5	0	EFFECT_GYRO_BALL	SELECTED	makesContact,ballisticMove	A high-speed spin that does  more damage to faster foes.	src/data/moves_info.h	9038	Measured
+MOVE_HEALING_WISH	Healing Wish	TYPE_PSYCHIC	STATUS	0	0	10	0	EFFECT_HEALING_WISH	USER	ignoresProtect,healingMove	NONE	src/data/moves_info.h	9061	Measured
+MOVE_BRINE	Brine	TYPE_WATER	SPECIAL	65	100	10	0	EFFECT_BRINE	SELECTED	NONE	Does double damage to foes  with half HP.	src/data/moves_info.h	9084	Measured
+MOVE_NATURAL_GIFT	Natural Gift	TYPE_NORMAL	PHYSICAL	1	100	15	0	EFFECT_NATURAL_GIFT	SELECTED	NONE	The effectiveness varies  with the held Berry.	src/data/moves_info.h	9105	Measured
+MOVE_FEINT	Feint	TYPE_NORMAL	PHYSICAL	30	100	10	2	EFFECT_HIT	SELECTED	ignoresProtect	NONE	src/data/moves_info.h	9126	Measured
+MOVE_PLUCK	Pluck	TYPE_FLYING	PHYSICAL	60	100	20	0	EFFECT_HIT	SELECTED	makesContact	NONE	src/data/moves_info.h	9153	Measured
+MOVE_TAILWIND	Tailwind	TYPE_FLYING	STATUS	0	0	15	0	EFFECT_TAILWIND	USER	ignoresProtect,windMove	Whips up a turbulent breeze  that raises Speed.	src/data/moves_info.h	9176	Measured
+MOVE_ACUPRESSURE	Acupressure	TYPE_NORMAL	STATUS	0	0	30	0	EFFECT_ACUPRESSURE	USER | ALLY	ignoresProtect	The user sharply raises  one of its stats.	src/data/moves_info.h	9202	Measured
+MOVE_METAL_BURST	Metal Burst	TYPE_STEEL	PHYSICAL	1	100	10	0	EFFECT_METAL_BURST	DEPENDS	NONE	Retaliates any hit with  greater power.	src/data/moves_info.h	9227	Measured
+MOVE_U_TURN	U-turn	TYPE_BUG	PHYSICAL	70	100	20	0	EFFECT_HIT_ESCAPE	SELECTED	makesContact	NONE	src/data/moves_info.h	9249	Measured
+MOVE_CLOSE_COMBAT	Close Combat	TYPE_FIGHTING	PHYSICAL	120	100	5	0	EFFECT_HIT	SELECTED	makesContact	NONE	src/data/moves_info.h	9269	Measured
+MOVE_PAYBACK	Payback	TYPE_DARK	PHYSICAL	50	100	10	0	EFFECT_PAYBACK	SELECTED	makesContact	An attack that gains power  if the user moves last.	src/data/moves_info.h	9293	Measured
+MOVE_ASSURANCE	Assurance	TYPE_DARK	PHYSICAL	60	100	10	0	EFFECT_ASSURANCE	SELECTED	makesContact	An attack that gains power  if the foe has been hurt.	src/data/moves_info.h	9315	Measured
+MOVE_EMBARGO	Embargo	TYPE_DARK	STATUS	0	100	15	0	EFFECT_EMBARGO	SELECTED	NONE	Prevents the foe from  using any items.	src/data/moves_info.h	9337	Measured
+MOVE_FLING	Fling	TYPE_DARK	PHYSICAL	1	100	10	0	EFFECT_FLING	SELECTED	NONE	The effectiveness varies  with the held item.	src/data/moves_info.h	9360	Measured
+MOVE_PSYCHO_SHIFT	Psycho Shift	TYPE_PSYCHIC	STATUS	0	100	10	0	EFFECT_PSYCHO_SHIFT	SELECTED	NONE	Transfers status problems  to the foe.	src/data/moves_info.h	9382	Measured
+MOVE_TRUMP_CARD	Trump Card	TYPE_NORMAL	SPECIAL	1	0	5	0	EFFECT_TRUMP_CARD	SELECTED	makesContact	The less PP the move has  the more damage it does.	src/data/moves_info.h	9404	Measured
+MOVE_HEAL_BLOCK	Heal Block	TYPE_PSYCHIC	STATUS	0	100	15	0	EFFECT_HEAL_BLOCK	BOTH	NONE	Prevents the foe from  recovering any HP.	src/data/moves_info.h	9426	Measured
+MOVE_WRING_OUT	Wring Out	TYPE_NORMAL	SPECIAL	120	100	5	0	EFFECT_POWER_BASED_ON_TARGET_HP	SELECTED	makesContact	NONE	src/data/moves_info.h	9449	Measured
+MOVE_POWER_TRICK	Power Trick	TYPE_PSYCHIC	STATUS	0	0	10	0	EFFECT_POWER_TRICK	USER	ignoresProtect	The user swaps its Attack  and Defense stats.	src/data/moves_info.h	9469	Measured
+MOVE_GASTRO_ACID	Gastro Acid	TYPE_POISON	STATUS	0	100	10	0	EFFECT_GASTRO_ACID	SELECTED	NONE	Stomach acid suppresses  the foe's ability.	src/data/moves_info.h	9494	Measured
+MOVE_LUCKY_CHANT	Lucky Chant	TYPE_NORMAL	STATUS	0	0	30	0	EFFECT_LUCKY_CHANT	USER	ignoresProtect	Prevents the foe from  landing critical hits.	src/data/moves_info.h	9517	Measured
+MOVE_ME_FIRST	Me First	TYPE_NORMAL	STATUS	0	0	20	0	EFFECT_ME_FIRST	SELECTED	ignoresSubstitute	Executes the foe's attack  with greater power.	src/data/moves_info.h	9542	Measured
+MOVE_COPYCAT	Copycat	TYPE_NORMAL	STATUS	0	0	20	0	EFFECT_COPYCAT	DEPENDS	ignoresProtect	The user mimics the last  move used by a foe.	src/data/moves_info.h	9574	Measured
+MOVE_POWER_SWAP	Power Swap	TYPE_PSYCHIC	STATUS	0	0	10	0	EFFECT_POWER_SWAP	SELECTED	ignoresSubstitute	Swaps changes to Attack  and Sp. Atk with the foe.	src/data/moves_info.h	9605	Measured
+MOVE_GUARD_SWAP	Guard Swap	TYPE_PSYCHIC	STATUS	0	0	10	0	EFFECT_GUARD_SWAP	SELECTED	ignoresSubstitute	Swaps changes to Defense  and Sp. Def with the foe.	src/data/moves_info.h	9628	Measured
+MOVE_PUNISHMENT	Punishment	TYPE_DARK	PHYSICAL	60	100	5	0	EFFECT_PUNISHMENT	SELECTED	makesContact	Does more damage if the  foe has powered up.	src/data/moves_info.h	9651	Measured
+MOVE_LAST_RESORT	Last Resort	TYPE_NORMAL	PHYSICAL	140	100	5	0	EFFECT_LAST_RESORT	SELECTED	makesContact	Can only be used if every  other move has been used.	src/data/moves_info.h	9673	Measured
+MOVE_WORRY_SEED	Worry Seed	TYPE_GRASS	STATUS	0	100	10	0	EFFECT_WORRY_SEED	SELECTED	NONE	Plants a seed on the foe  giving it Insomnia.	src/data/moves_info.h	9695	Measured
+MOVE_SUCKER_PUNCH	Sucker Punch	TYPE_DARK	PHYSICAL	70	100	5	1	EFFECT_SUCKER_PUNCH	SELECTED	makesContact	NONE	src/data/moves_info.h	9718	Measured
+MOVE_TOXIC_SPIKES	Toxic Spikes	TYPE_POISON	STATUS	0	0	20	0	EFFECT_TOXIC_SPIKES	OPPONENTS_FIELD	ignoresProtect	Sets spikes that poison a  foe switching in.	src/data/moves_info.h	9738	Measured
+MOVE_HEART_SWAP	Heart Swap	TYPE_PSYCHIC	STATUS	0	0	10	0	EFFECT_HEART_SWAP	SELECTED	ignoresSubstitute	Swaps any stat changes  with the foe.	src/data/moves_info.h	9765	Measured
+MOVE_AQUA_RING	Aqua Ring	TYPE_WATER	STATUS	0	0	20	0	EFFECT_AQUA_RING	USER	ignoresProtect	Forms a veil of water  that restores HP.	src/data/moves_info.h	9788	Measured
+MOVE_MAGNET_RISE	Magnet Rise	TYPE_ELECTRIC	STATUS	0	0	10	0	EFFECT_MAGNET_RISE	USER	ignoresProtect,gravityBanned	The user levitates with  electromagnetism.	src/data/moves_info.h	9813	Measured
+MOVE_FLARE_BLITZ	Flare Blitz	TYPE_FIRE	PHYSICAL	120	100	15	0	EFFECT_HIT	SELECTED	makesContact,thawsUser,recoil:33	A charge that may burn the  foe. Also hurts the user.	src/data/moves_info.h	9839	Measured
+MOVE_FORCE_PALM	Force Palm	TYPE_FIGHTING	PHYSICAL	60	100	10	0	EFFECT_HIT	SELECTED	makesContact	A shock wave attack that  may paralyze the foe.	src/data/moves_info.h	9867	Measured
+MOVE_AURA_SPHERE	Aura Sphere	TYPE_FIGHTING	SPECIAL	80	0	20	0	EFFECT_HIT	SELECTED	ballisticMove,pulseMove	Attacks with an aura blast  that cannot be evaded.	src/data/moves_info.h	9893	Measured
+MOVE_ROCK_POLISH	Rock Polish	TYPE_ROCK	STATUS	0	0	20	0	EFFECT_SPEED_UP_2	USER	ignoresProtect	Polishes the body to  sharply raise Speed.	src/data/moves_info.h	9916	Measured
+MOVE_POISON_JAB	Poison Jab	TYPE_POISON	PHYSICAL	80	100	20	0	EFFECT_HIT	SELECTED	makesContact	A stabbing attack that  may poison the foe.	src/data/moves_info.h	9941	Measured
+MOVE_DARK_PULSE	Dark Pulse	TYPE_DARK	SPECIAL	80	100	15	0	EFFECT_HIT	SELECTED	pulseMove	Attacks with a horrible  aura. May cause flinching.	src/data/moves_info.h	9967	Measured
+MOVE_NIGHT_SLASH	Night Slash	TYPE_DARK	PHYSICAL	70	100	15	0	EFFECT_HIT	SELECTED	makesContact,slicingMove,criticalHitStage:1	Hits as soon as possible.  High critical-hit ratio.	src/data/moves_info.h	9993	Measured
+MOVE_AQUA_TAIL	Aqua Tail	TYPE_WATER	PHYSICAL	90	100	10	0	EFFECT_HIT	SELECTED	makesContact	The user swings its tail  like a wave to attack.	src/data/moves_info.h	10017	Measured
+MOVE_SEED_BOMB	Seed Bomb	TYPE_GRASS	PHYSICAL	80	100	15	0	EFFECT_HIT	SELECTED	ballisticMove	A barrage of hard seeds  is fired at the foe.	src/data/moves_info.h	10039	Measured
+MOVE_AIR_SLASH	Air Slash	TYPE_FLYING	SPECIAL	75	100	15	0	EFFECT_HIT	SELECTED	slicingMove	Attacks with a blade of  air. May cause flinching.	src/data/moves_info.h	10061	Measured
+MOVE_X_SCISSOR	X-Scissor	TYPE_BUG	PHYSICAL	80	100	15	0	EFFECT_HIT	SELECTED	makesContact,slicingMove	Slashes the foe with crossed  scythes, claws, etc.	src/data/moves_info.h	10087	Measured
+MOVE_BUG_BUZZ	Bug Buzz	TYPE_BUG	SPECIAL	90	100	10	0	EFFECT_HIT	SELECTED	soundMove	A damaging sound wave that  may lower Sp. Def.	src/data/moves_info.h	10110	Measured
+MOVE_DRAGON_PULSE	Dragon Pulse	TYPE_DRAGON	SPECIAL	85	100	10	0	EFFECT_HIT	SELECTED	pulseMove	Generates a shock wave to  damage the foe.	src/data/moves_info.h	10137	Measured
+MOVE_DRAGON_RUSH	Dragon Rush	TYPE_DRAGON	PHYSICAL	100	75	10	0	EFFECT_HIT	SELECTED	makesContact	Tackles the foe with menace.  May cause flinching.	src/data/moves_info.h	10159	Measured
+MOVE_POWER_GEM	Power Gem	TYPE_ROCK	SPECIAL	80	100	20	0	EFFECT_HIT	SELECTED	NONE	Attacks with rays of light  that sparkle like diamonds.	src/data/moves_info.h	10186	Measured
+MOVE_DRAIN_PUNCH	Drain Punch	TYPE_FIGHTING	PHYSICAL	75	100	10	0	EFFECT_ABSORB	SELECTED	makesContact,punchingMove	NONE	src/data/moves_info.h	10207	Measured
+MOVE_VACUUM_WAVE	Vacuum Wave	TYPE_FIGHTING	SPECIAL	40	100	30	1	EFFECT_HIT	SELECTED	NONE	Whirls its fists to send  a wave that strikes first.	src/data/moves_info.h	10230	Measured
+MOVE_FOCUS_BLAST	Focus Blast	TYPE_FIGHTING	SPECIAL	120	70	5	0	EFFECT_HIT	SELECTED	ballisticMove	Attacks at full power.  May lower Sp. Def.	src/data/moves_info.h	10251	Measured
+MOVE_ENERGY_BALL	Energy Ball	TYPE_GRASS	SPECIAL	90	100	10	0	EFFECT_HIT	SELECTED	ballisticMove	Draws power from nature to  attack. May lower Sp. Def.	src/data/moves_info.h	10277	Measured
+MOVE_BRAVE_BIRD	Brave Bird	TYPE_FLYING	PHYSICAL	120	100	15	0	EFFECT_HIT	SELECTED	makesContact,recoil:33	A low altitude charge that  also hurts the user.	src/data/moves_info.h	10303	Measured
+MOVE_EARTH_POWER	Earth Power	TYPE_GROUND	SPECIAL	90	100	10	0	EFFECT_HIT	SELECTED	NONE	Makes the ground erupt with  power. May lower Sp. Def.	src/data/moves_info.h	10326	Measured
+MOVE_SWITCHEROO	Switcheroo	TYPE_DARK	STATUS	0	100	10	0	EFFECT_TRICK	SELECTED	NONE	Swaps items with the foe  faster than the eye can see.	src/data/moves_info.h	10352	Measured
+MOVE_GIGA_IMPACT	Giga Impact	TYPE_NORMAL	PHYSICAL	150	100	5	0	EFFECT_HIT	SELECTED	makesContact	NONE	src/data/moves_info.h	10377	Measured
+MOVE_NASTY_PLOT	Nasty Plot	TYPE_DARK	STATUS	0	0	20	0	EFFECT_SPECIAL_ATTACK_UP_2	USER	ignoresProtect	Thinks bad thoughts to  sharply boost Sp. Atk.	src/data/moves_info.h	10401	Measured
+MOVE_BULLET_PUNCH	Bullet Punch	TYPE_STEEL	PHYSICAL	40	100	30	1	EFFECT_HIT	SELECTED	makesContact,punchingMove	Punches as fast as a bul-  let. It always hits first.	src/data/moves_info.h	10426	Measured
+MOVE_AVALANCHE	Avalanche	TYPE_ICE	PHYSICAL	60	100	10	-4	EFFECT_REVENGE	SELECTED	makesContact	NONE	src/data/moves_info.h	10449	Measured
+MOVE_ICE_SHARD	Ice Shard	TYPE_ICE	PHYSICAL	40	100	30	1	EFFECT_HIT	SELECTED	NONE	Hurls a chunk of ice that  always strike first.	src/data/moves_info.h	10469	Measured
+MOVE_SHADOW_CLAW	Shadow Claw	TYPE_GHOST	PHYSICAL	80	100	15	0	EFFECT_HIT	SELECTED	makesContact,slicingMove,criticalHitStage:1	Strikes with a shadow claw.  High critical-hit ratio.	src/data/moves_info.h	10490	Measured
+MOVE_THUNDER_FANG	Thunder Fang	TYPE_ELECTRIC	PHYSICAL	65	100	15	0	EFFECT_HIT	SELECTED	makesContact,bitingMove	May cause flinching or  leave the foe paralyzed.	src/data/moves_info.h	10514	Measured
+MOVE_ICE_FANG	Ice Fang	TYPE_ICE	PHYSICAL	65	100	15	0	EFFECT_HIT	SELECTED	makesContact,bitingMove	May cause flinching or  leave the foe with frostbite.	src/data/moves_info.h	10545	Measured
+MOVE_FIRE_FANG	Fire Fang	TYPE_FIRE	PHYSICAL	65	100	15	0	EFFECT_HIT	SELECTED	makesContact,bitingMove	May cause flinching or  leave the foe with a burn.	src/data/moves_info.h	10580	Measured
+MOVE_AQUA_FANG	Aqua Fang	TYPE_WATER	PHYSICAL	80	100	10	0	EFFECT_HIT	SELECTED	makesContact,bitingMove	The user bites the  foe with aquatic force.	src/data/moves_info.h	10611	Measured
+MOVE_SHADOW_SNEAK	Shadow Sneak	TYPE_GHOST	PHYSICAL	40	100	30	1	EFFECT_HIT	SELECTED	makesContact	Extends the user's shadow  to strike first.	src/data/moves_info.h	10634	Measured
+MOVE_MUD_BOMB	Mud Bomb	TYPE_GROUND	SPECIAL	65	100	10	0	EFFECT_HIT	SELECTED	ballisticMove	Throws a blob of mud to  damage and cut accuracy.	src/data/moves_info.h	10656	Measured
+MOVE_PSYCHO_CUT	Psycho Cut	TYPE_PSYCHIC	PHYSICAL	70	100	20	0	EFFECT_HIT	SELECTED	slicingMove,criticalHitStage:1	Tears with psychic blades.  High critical-hit ratio.	src/data/moves_info.h	10678	Measured
+MOVE_ZEN_HEADBUTT	Zen Headbutt	TYPE_PSYCHIC	PHYSICAL	80	100	15	0	EFFECT_HIT	SELECTED	makesContact	Hits with a strong head-  butt. May cause flinching.	src/data/moves_info.h	10701	Measured
+MOVE_MIRROR_SHOT	Mirror Shot	TYPE_STEEL	SPECIAL	65	100	10	0	EFFECT_HIT	SELECTED	NONE	Emits a flash of energy to  damage and cut accuracy.	src/data/moves_info.h	10727	Measured
+MOVE_FLASH_CANNON	Flash Cannon	TYPE_STEEL	SPECIAL	80	100	10	0	EFFECT_HIT	SELECTED	ballisticMove	Releases a blast of light  that may lower Sp. Def.	src/data/moves_info.h	10752	Measured
+MOVE_ROCK_CLIMB	Rock Climb	TYPE_NORMAL	PHYSICAL	90	85	20	0	EFFECT_HIT	SELECTED	makesContact	A charging attack that may  confuse the foe.	src/data/moves_info.h	10778	Measured
+MOVE_DEFOG	Defog	TYPE_FLYING	STATUS	0	0	15	0	EFFECT_DEFOG	SELECTED	ignoresSubstitute	Removes obstacles and  lowers evasion.	src/data/moves_info.h	10804	Measured
+MOVE_TRICK_ROOM	Trick Room	TYPE_PSYCHIC	STATUS	0	0	5	-7	EFFECT_TRICK_ROOM	ALL_BATTLERS	ignoresProtect	Slower Pokémon get to move  first for 5 turns.	src/data/moves_info.h	10828	Measured
+MOVE_DRACO_METEOR	Draco Meteor	TYPE_DRAGON	SPECIAL	130	100	5	0	EFFECT_HIT	SELECTED	NONE	Casts comets onto the foe.  Harshly lowers the Sp. Atk.	src/data/moves_info.h	10851	Measured
+MOVE_DISCHARGE	Discharge	TYPE_ELECTRIC	SPECIAL	80	100	15	0	EFFECT_HIT	FOES_AND_ALLY	NONE	Zaps the foes with electri-  city. May paralyze them.	src/data/moves_info.h	10876	Measured
+MOVE_LAVA_PLUME	Lava Plume	TYPE_FIRE	SPECIAL	80	100	15	0	EFFECT_HIT	FOES_AND_ALLY	NONE	NONE	src/data/moves_info.h	10901	Measured
+MOVE_LEAF_STORM	Leaf Storm	TYPE_GRASS	SPECIAL	130	100	5	0	EFFECT_HIT	SELECTED	NONE	Whips up a storm of leaves.  Harshly lowers the Sp. Atk.	src/data/moves_info.h	10924	Measured
+MOVE_POWER_WHIP	Power Whip	TYPE_GRASS	PHYSICAL	120	90	10	0	EFFECT_HIT	SELECTED	makesContact	Violently lashes the foe  with vines or tentacles.	src/data/moves_info.h	10949	Measured
+MOVE_ROCK_WRECKER	Rock Wrecker	TYPE_ROCK	PHYSICAL	150	100	5	0	EFFECT_HIT	SELECTED	ballisticMove	NONE	src/data/moves_info.h	10971	Measured
+MOVE_CROSS_POISON	Cross Poison	TYPE_POISON	PHYSICAL	70	100	20	0	EFFECT_HIT	SELECTED	makesContact,slicingMove,criticalHitStage:1	A slash that may poison a  foe and do critical damage.	src/data/moves_info.h	10995	Measured
+MOVE_GUNK_SHOT	Gunk Shot	TYPE_POISON	PHYSICAL	120	80	5	0	EFFECT_HIT	SELECTED	NONE	Shoots filthy garbage at  the foe. May also poison.	src/data/moves_info.h	11023	Measured
+MOVE_IRON_HEAD	Iron Head	TYPE_STEEL	PHYSICAL	80	100	15	0	EFFECT_HIT	SELECTED	makesContact	Slams the foe with a hard  head. May cause flinching.	src/data/moves_info.h	11048	Measured
+MOVE_MAGNET_BOMB	Magnet Bomb	TYPE_STEEL	PHYSICAL	60	0	20	0	EFFECT_HIT	SELECTED	ballisticMove	Launches a magnet that  strikes without fail.	src/data/moves_info.h	11074	Measured
+MOVE_STONE_EDGE	Stone Edge	TYPE_ROCK	PHYSICAL	100	90	5	0	EFFECT_HIT	SELECTED	criticalHitStage:1	Stabs the foe with stones.  High critical-hit ratio.	src/data/moves_info.h	11096	Measured
+MOVE_CAPTIVATE	Captivate	TYPE_NORMAL	STATUS	0	100	20	0	EFFECT_CAPTIVATE	BOTH	NONE	Makes the opposite gender  sharply reduce its Sp. Atk.	src/data/moves_info.h	11118	Measured
+MOVE_STEALTH_ROCK	Stealth Rock	TYPE_ROCK	STATUS	0	0	20	0	EFFECT_STEALTH_ROCK	OPPONENTS_FIELD	ignoresProtect	Sets floating stones that  hurt a foe switching in.	src/data/moves_info.h	11141	Measured
+MOVE_GRASS_KNOT	Grass Knot	TYPE_GRASS	SPECIAL	1	100	20	0	EFFECT_LOW_KICK	SELECTED	makesContact	A snare attack that does  more damage to heavier foes.	src/data/moves_info.h	11167	Measured
+MOVE_CHATTER	Chatter	TYPE_FLYING	SPECIAL	80	100	20	0	EFFECT_HIT	SELECTED	soundMove	Attacks with a sound wave  that causes confusion.	src/data/moves_info.h	11190	Measured
+MOVE_JUDGMENT	Judgment	TYPE_NORMAL	SPECIAL	100	100	10	0	EFFECT_CHANGE_TYPE_ON_ITEM	SELECTED	NONE	The type varies with the  kind of Plate held.	src/data/moves_info.h	11230	Measured
+MOVE_BUG_BITE	Bug Bite	TYPE_BUG	PHYSICAL	60	100	20	0	EFFECT_HIT	SELECTED	makesContact	NONE	src/data/moves_info.h	11252	Measured
+MOVE_CHARGE_BEAM	Charge Beam	TYPE_ELECTRIC	SPECIAL	50	100	10	0	EFFECT_HIT	SELECTED	NONE	Fires a beam of electricity.  May raise Sp. Atk.	src/data/moves_info.h	11275	Measured
+MOVE_WOOD_HAMMER	Wood Hammer	TYPE_GRASS	PHYSICAL	120	100	15	0	EFFECT_HIT	SELECTED	makesContact,recoil:33	Slams the body into a foe.  The user gets hurt too.	src/data/moves_info.h	11301	Measured
+MOVE_AQUA_JET	Aqua Jet	TYPE_WATER	PHYSICAL	40	100	20	1	EFFECT_HIT	SELECTED	makesContact	Strikes first by dashing  at the foe at a high speed.	src/data/moves_info.h	11324	Measured
+MOVE_ATTACK_ORDER	Attack Order	TYPE_BUG	PHYSICAL	120	100	15	0	EFFECT_HIT	SELECTED	criticalHitStage:1	Underlings pummel the foe.  High critical-hit ratio.	src/data/moves_info.h	11346	Measured
+MOVE_DEFEND_ORDER	Defend Order	TYPE_BUG	STATUS	0	0	10	0	EFFECT_COSMIC_POWER	USER	ignoresProtect	Raises Defense and Sp. Def  with a living shield.	src/data/moves_info.h	11368	Measured
+MOVE_HEAL_ORDER	Heal Order	TYPE_BUG	STATUS	0	0	10	0	EFFECT_RESTORE_HP	USER	ignoresProtect,healingMove	The user's underlings show  up to heal half its max HP.	src/data/moves_info.h	11393	Measured
+MOVE_HEAD_SMASH	Head Smash	TYPE_ROCK	PHYSICAL	150	85	5	0	EFFECT_HIT	SELECTED	makesContact,recoil:50	A life-risking headbutt that  seriously hurts the user.	src/data/moves_info.h	11419	Measured
+MOVE_DOUBLE_HIT	Double Hit	TYPE_NORMAL	PHYSICAL	35	100	10	0	EFFECT_HIT	SELECTED	makesContact,strikeCount:2	Slams the foe with a tail  etc. Strikes twice.	src/data/moves_info.h	11442	Measured
+MOVE_ROAR_OF_TIME	Roar of Time	TYPE_DRAGON	SPECIAL	80	100	10	-6	EFFECT_HIT_SWITCH_TARGET	SELECTED	NONE	NONE	src/data/moves_info.h	11465	Measured
+MOVE_SPACIAL_REND	Spacial Rend	TYPE_DRAGON	SPECIAL	100	100	5	0	EFFECT_HIT	SELECTED	criticalHitStage:1	Tears the foe, and space.  High critical-hit ratio.	src/data/moves_info.h	11484	Measured
+MOVE_LUNAR_DANCE	Lunar Dance	TYPE_PSYCHIC	STATUS	0	0	10	0	EFFECT_HEALING_WISH	USER	ignoresProtect,danceMove,healingMove	NONE	src/data/moves_info.h	11506	Measured
+MOVE_CRUSH_GRIP	Crush Grip	TYPE_NORMAL	PHYSICAL	120	100	5	0	EFFECT_POWER_BASED_ON_TARGET_HP	SELECTED	makesContact	NONE	src/data/moves_info.h	11530	Measured
+MOVE_MAGMA_STORM	Magma Storm	TYPE_FIRE	SPECIAL	100	75	5	0	EFFECT_HIT	SELECTED	NONE	Traps the foe in a vortex  of fire for   turns.	src/data/moves_info.h	11550	Measured
+MOVE_DARK_VOID	Dark Void	TYPE_DARK	STATUS	0	80	10	0	EFFECT_DARK_VOID	BOTH	NONE	Drags the foe into total  darkness, inducing Sleep.	src/data/moves_info.h	11574	Measured
+MOVE_DARK_HOLE	Dark Hole	TYPE_DARK	SPECIAL	100	100	5	0	EFFECT_HIT	SELECTED	NONE	Sends the foe to the  abyss. May induce sleep.	src/data/moves_info.h	11598	Measured
+MOVE_SEED_FLARE	Seed Flare	TYPE_GRASS	SPECIAL	120	85	5	0	EFFECT_HIT	SELECTED	NONE	Generates a shock wave that  sharply reduces Sp. Def.	src/data/moves_info.h	11624	Measured
+MOVE_OMINOUS_WIND	Ominous Wind	TYPE_GHOST	SPECIAL	60	100	5	0	EFFECT_HIT	SELECTED	NONE	A repulsive attack that may  raise all stats.	src/data/moves_info.h	11649	Measured
+MOVE_SHADOW_FORCE	Shadow Force	TYPE_GHOST	PHYSICAL	120	100	5	0	EFFECT_SEMI_INVULNERABLE	SELECTED	makesContact,ignoresProtect	NONE	src/data/moves_info.h	11676	Measured
+MOVE_HONE_CLAWS	Hone Claws	TYPE_DARK	STATUS	0	0	15	0	EFFECT_ATTACK_ACCURACY_UP	USER	ignoresProtect	Sharpens its claws to raise  Attack and Accuracy.	src/data/moves_info.h	11705	Measured
+MOVE_WIDE_GUARD	Wide Guard	TYPE_ROCK	STATUS	0	0	10	3	EFFECT_PROTECT	USER	ignoresProtect	Evades wide-ranging attacks  for one turn.	src/data/moves_info.h	11730	Measured
+MOVE_GUARD_SPLIT	Guard Split	TYPE_PSYCHIC	STATUS	0	0	10	0	EFFECT_GUARD_SPLIT	SELECTED	NONE	Averages changes to Defense  and Sp. Def with the foe.	src/data/moves_info.h	11757	Measured
+MOVE_POWER_SPLIT	Power Split	TYPE_PSYCHIC	STATUS	0	0	10	0	EFFECT_POWER_SPLIT	SELECTED	NONE	Averages changes to Attack  and Sp. Atk with the foe.	src/data/moves_info.h	11780	Measured
+MOVE_WONDER_ROOM	Wonder Room	TYPE_PSYCHIC	STATUS	0	0	10	0	EFFECT_WONDER_ROOM	ALL_BATTLERS	ignoresProtect	Defense and Sp. Def stats  are swapped for 5 turns.	src/data/moves_info.h	11803	Measured
+MOVE_PSYSHOCK	Psyshock	TYPE_PSYCHIC	SPECIAL	80	100	10	0	EFFECT_PSYSHOCK	SELECTED	NONE	NONE	src/data/moves_info.h	11826	Measured
+MOVE_VENOSHOCK	Venoshock	TYPE_POISON	SPECIAL	65	100	10	0	EFFECT_DOUBLE_POWER_ON_ARG_STATUS	SELECTED	NONE	Does double damage if the  foe is poisoned.	src/data/moves_info.h	11845	Measured
+MOVE_AUTOTOMIZE	Autotomize	TYPE_STEEL	STATUS	0	0	15	0	EFFECT_AUTOTOMIZE	USER	ignoresProtect	Sheds additional weight to  sharply boost Speed.	src/data/moves_info.h	11867	Measured
+MOVE_RAGE_POWDER	Rage Powder	TYPE_BUG	STATUS	0	0	20	2	EFFECT_FOLLOW_ME	USER	ignoresProtect,powderMove	Scatters powder to make  foes attack only the user.	src/data/moves_info.h	11892	Measured
+MOVE_TELEKINESIS	Telekinesis	TYPE_PSYCHIC	STATUS	0	0	15	0	EFFECT_TELEKINESIS	SELECTED	gravityBanned	Makes the foe float. It is  easier to hit for 3 turns.	src/data/moves_info.h	11920	Measured
+MOVE_MAGIC_ROOM	Magic Room	TYPE_PSYCHIC	STATUS	0	0	10	0	EFFECT_MAGIC_ROOM	ALL_BATTLERS	ignoresProtect	Hold items lose their  effects for 5 turns.	src/data/moves_info.h	11944	Measured
+MOVE_SMACK_DOWN	Smack Down	TYPE_ROCK	PHYSICAL	50	100	15	0	EFFECT_HIT	SELECTED	NONE	Throws a rock to knock the  foe down to the ground.	src/data/moves_info.h	11967	Measured
+MOVE_STORM_THROW	Storm Throw	TYPE_FIGHTING	PHYSICAL	60	100	10	0	EFFECT_HIT	SELECTED	makesContact,alwaysCriticalHit	NONE	src/data/moves_info.h	11993	Measured
+MOVE_FLAME_BURST	Flame Burst	TYPE_FIRE	SPECIAL	70	100	15	0	EFFECT_HIT	SELECTED	NONE	A bursting flame that does  damage to all foes.	src/data/moves_info.h	12014	Measured
+MOVE_SLUDGE_WAVE	Sludge Wave	TYPE_POISON	SPECIAL	95	100	10	0	EFFECT_HIT	FOES_AND_ALLY	NONE	Swamps the foe with a wave  of sludge. May also poison.	src/data/moves_info.h	12039	Measured
+MOVE_QUIVER_DANCE	Quiver Dance	TYPE_BUG	STATUS	0	0	20	0	EFFECT_QUIVER_DANCE	USER	ignoresProtect,danceMove	Dances to raise Sp. Atk  Sp. Def and Speed.	src/data/moves_info.h	12064	Measured
+MOVE_HEAVY_SLAM	Heavy Slam	TYPE_STEEL	PHYSICAL	1	100	10	0	EFFECT_HEAT_CRASH	SELECTED	makesContact	NONE	src/data/moves_info.h	12090	Measured
+MOVE_SYNCHRONOISE	Synchronoise	TYPE_PSYCHIC	SPECIAL	120	100	10	0	EFFECT_SYNCHRONOISE	FOES_AND_ALLY	NONE	An odd shock wave that only  damages same-type foes.	src/data/moves_info.h	12112	Measured
+MOVE_ELECTRO_BALL	Electro Ball	TYPE_ELECTRIC	SPECIAL	1	100	10	0	EFFECT_ELECTRO_BALL	SELECTED	ballisticMove	Hurls an orb that does more  damage to slower foes.	src/data/moves_info.h	12133	Measured
+MOVE_SOAK	Soak	TYPE_WATER	STATUS	0	100	20	0	EFFECT_SOAK	SELECTED	NONE	Sprays water at the foe  making it Water-type.	src/data/moves_info.h	12155	Measured
+MOVE_FLAME_CHARGE	Flame Charge	TYPE_FIRE	PHYSICAL	50	100	20	0	EFFECT_HIT	SELECTED	makesContact	Attacks in a cloak of  flames. Raises Speed.	src/data/moves_info.h	12178	Measured
+MOVE_COIL	Coil	TYPE_POISON	STATUS	0	0	20	0	EFFECT_COIL	USER	ignoresProtect	Coils up to raise Attack,  Defense and Accuracy.	src/data/moves_info.h	12205	Measured
+MOVE_LOW_SWEEP	Low Sweep	TYPE_FIGHTING	PHYSICAL	60	100	20	0	EFFECT_HIT	SELECTED	makesContact,kickingMove	Attacks the foe's legs  lowering its Speed.	src/data/moves_info.h	12230	Measured
+MOVE_ACID_SPRAY	Acid Spray	TYPE_POISON	SPECIAL	40	100	20	0	EFFECT_HIT	SELECTED	ballisticMove	Sprays a hide-melting acid.  Sharply reduces Sp. Def.	src/data/moves_info.h	12257	Measured
+MOVE_FOUL_PLAY	Foul Play	TYPE_DARK	PHYSICAL	95	100	15	0	EFFECT_FOUL_PLAY	SELECTED	makesContact	The higher the foe's Attack  the more damage caused.	src/data/moves_info.h	12283	Measured
+MOVE_SIMPLE_BEAM	Simple Beam	TYPE_NORMAL	STATUS	0	100	15	0	EFFECT_SIMPLE_BEAM	SELECTED	NONE	A beam that changes the  foe's ability to Simple.	src/data/moves_info.h	12305	Measured
+MOVE_ENTRAINMENT	Entrainment	TYPE_NORMAL	STATUS	0	100	15	0	EFFECT_ENTRAINMENT	SELECTED	NONE	Makes the foe mimic the  user, gaining its ability.	src/data/moves_info.h	12328	Measured
+MOVE_AFTER_YOU	After You	TYPE_NORMAL	STATUS	0	0	15	0	EFFECT_AFTER_YOU	SELECTED	ignoresProtect,ignoresSubstitute	Helps out the foe, letting  it move next.	src/data/moves_info.h	12351	Measured
+MOVE_ROUND	Round	TYPE_NORMAL	SPECIAL	60	100	15	0	EFFECT_ROUND	SELECTED	soundMove	A song that inflicts damage.  Others can join in too.	src/data/moves_info.h	12377	Measured
+MOVE_ECHOED_VOICE	Echoed Voice	TYPE_NORMAL	SPECIAL	40	100	15	0	EFFECT_ECHOED_VOICE	SELECTED	soundMove	Does more damage every turn  it is used.	src/data/moves_info.h	12403	Measured
+MOVE_CHIP_AWAY	Chip Away	TYPE_NORMAL	PHYSICAL	70	100	20	0	EFFECT_HIT	SELECTED	makesContact	NONE	src/data/moves_info.h	12426	Measured
+MOVE_CLEAR_SMOG	Clear Smog	TYPE_POISON	SPECIAL	50	0	15	0	EFFECT_HIT	SELECTED	NONE	Attacks with white haze that  eliminates all stat changes.	src/data/moves_info.h	12447	Measured
+MOVE_STORED_POWER	Stored Power	TYPE_PSYCHIC	SPECIAL	20	100	10	0	EFFECT_STORED_POWER	SELECTED	NONE	The higher the user's stats  the more damage caused.	src/data/moves_info.h	12471	Measured
+MOVE_QUICK_GUARD	Quick Guard	TYPE_FIGHTING	STATUS	0	0	15	3	EFFECT_PROTECT	USER	ignoresProtect	Evades priority attacks  for one turn.	src/data/moves_info.h	12492	Measured
+MOVE_ALLY_SWITCH	Ally Switch	TYPE_PSYCHIC	STATUS	0	0	15	2	EFFECT_ALLY_SWITCH	USER	ignoresProtect	The user switches places  with its partner.	src/data/moves_info.h	12519	Measured
+MOVE_SCALD	Scald	TYPE_WATER	SPECIAL	80	100	15	0	EFFECT_HIT	SELECTED	thawsUser	Shoots boiling water at the  foe. May inflict a burn.	src/data/moves_info.h	12543	Measured
+MOVE_SHELL_SMASH	Shell Smash	TYPE_NORMAL	STATUS	0	0	15	0	EFFECT_SHELL_SMASH	USER	ignoresProtect	Raises offensive stats, but  lowers defensive stats.	src/data/moves_info.h	12569	Measured
+MOVE_HEAL_PULSE	Heal Pulse	TYPE_PSYCHIC	STATUS	0	0	10	0	EFFECT_HEAL_PULSE	SELECTED	pulseMove,healingMove	Recovers up to half the  target's maximum HP.	src/data/moves_info.h	12594	Measured
+MOVE_HEX	Hex	TYPE_GHOST	SPECIAL	65	100	10	0	EFFECT_DOUBLE_POWER_ON_ARG_STATUS	SELECTED	NONE	Does double damage if the  foe has a status problem.	src/data/moves_info.h	12620	Measured
+MOVE_SKY_DROP	Sky Drop	TYPE_FLYING	PHYSICAL	60	100	10	0	EFFECT_SKY_DROP	SELECTED	makesContact,gravityBanned	Takes the foe into the sky  then drops it the next turn.	src/data/moves_info.h	12643	Measured
+MOVE_SHIFT_GEAR	Shift Gear	TYPE_STEEL	STATUS	0	0	10	0	EFFECT_SHIFT_GEAR	USER	ignoresProtect	Rotates its gears to raise  Attack and Speed.	src/data/moves_info.h	12670	Measured
+MOVE_CIRCLE_THROW	Circle Throw	TYPE_FIGHTING	PHYSICAL	60	100	10	-6	EFFECT_HIT_SWITCH_TARGET	SELECTED	makesContact	NONE	src/data/moves_info.h	12695	Measured
+MOVE_INCINERATE	Incinerate	TYPE_FIRE	SPECIAL	60	100	15	0	EFFECT_HIT	BOTH	NONE	Burns up Berries and Gems  preventing their use.	src/data/moves_info.h	12717	Measured
+MOVE_QUASH	Quash	TYPE_DARK	STATUS	0	100	15	0	EFFECT_QUASH	SELECTED	NONE	Suppresses the foe, making  it move last.	src/data/moves_info.h	12741	Measured
+MOVE_ACROBATICS	Acrobatics	TYPE_FLYING	PHYSICAL	55	100	15	0	EFFECT_ACROBATICS	SELECTED	makesContact	Does double damage if the  user has no item.	src/data/moves_info.h	12764	Measured
+MOVE_REFLECT_TYPE	Reflect Type	TYPE_NORMAL	STATUS	0	0	15	0	EFFECT_REFLECT_TYPE	SELECTED	ignoresSubstitute	The user reflects the foe's  type, copying it.	src/data/moves_info.h	12786	Measured
+MOVE_RETALIATE	Retaliate	TYPE_NORMAL	PHYSICAL	70	100	5	0	EFFECT_RETALIATE	SELECTED	makesContact	An attack that does more  damage if an ally fainted.	src/data/moves_info.h	12810	Measured
+MOVE_FINAL_GAMBIT	Final Gambit	TYPE_FIGHTING	SPECIAL	1	100	5	0	EFFECT_FINAL_GAMBIT	SELECTED	NONE	The user faints to damage  the foe equal to its HP.	src/data/moves_info.h	12832	Measured
+MOVE_BESTOW	Bestow	TYPE_NORMAL	STATUS	0	0	15	0	EFFECT_BESTOW	SELECTED	ignoresSubstitute	The user gives its held  item to the foe.	src/data/moves_info.h	12855	Measured
+MOVE_INFERNO	Inferno	TYPE_FIRE	SPECIAL	120	50	5	0	EFFECT_HIT	SELECTED	NONE	Powerful and sure to inflict  a burn, but inaccurate.	src/data/moves_info.h	12882	Measured
+MOVE_WATER_PLEDGE	Water Pledge	TYPE_WATER	SPECIAL	80	100	10	0	EFFECT_PLEDGE	SELECTED	NONE	Attacks with a column of  water. May make a rainbow.	src/data/moves_info.h	12907	Measured
+MOVE_FIRE_PLEDGE	Fire Pledge	TYPE_FIRE	SPECIAL	80	100	10	0	EFFECT_PLEDGE	SELECTED	NONE	Attacks with a column of  fire. May burn the grass.	src/data/moves_info.h	12929	Measured
+MOVE_GRASS_PLEDGE	Grass Pledge	TYPE_GRASS	SPECIAL	80	100	10	0	EFFECT_PLEDGE	SELECTED	NONE	Attacks with a column of  grass. May create a swamp.	src/data/moves_info.h	12951	Measured
+MOVE_VOLT_SWITCH	Volt Switch	TYPE_ELECTRIC	SPECIAL	70	100	20	0	EFFECT_HIT_ESCAPE	SELECTED	NONE	NONE	src/data/moves_info.h	12973	Measured
+MOVE_STRUGGLE_BUG	Struggle Bug	TYPE_BUG	SPECIAL	50	100	20	0	EFFECT_HIT	BOTH	NONE	Resisting, the user attacks  the foe. Lowers Sp. Atk.	src/data/moves_info.h	12992	Measured
+MOVE_BULLDOZE	Bulldoze	TYPE_GROUND	PHYSICAL	60	100	20	0	EFFECT_EARTHQUAKE	FOES_AND_ALLY	NONE	Stomps down on the ground.  Lowers Speed.	src/data/moves_info.h	13017	Measured
+MOVE_FROST_BREATH	Frost Breath	TYPE_ICE	SPECIAL	60	100	10	0	EFFECT_HIT	SELECTED	alwaysCriticalHit	NONE	src/data/moves_info.h	13043	Measured
+MOVE_DRAGON_TAIL	Dragon Tail	TYPE_DRAGON	PHYSICAL	60	100	10	-6	EFFECT_HIT_SWITCH_TARGET	SELECTED	makesContact	NONE	src/data/moves_info.h	13063	Measured
+MOVE_WORK_UP	Work Up	TYPE_NORMAL	STATUS	0	0	30	0	EFFECT_ATTACK_SPATK_UP	USER	ignoresProtect	The user is roused.  Ups Attack and Sp. Atk.	src/data/moves_info.h	13085	Measured
+MOVE_ELECTROWEB	Electroweb	TYPE_ELECTRIC	SPECIAL	55	100	15	0	EFFECT_HIT	BOTH	NONE	Snares the foe with an  electric net. Lowers Speed.	src/data/moves_info.h	13110	Measured
+MOVE_WILD_CHARGE	Wild Charge	TYPE_ELECTRIC	PHYSICAL	90	100	15	0	EFFECT_HIT	SELECTED	makesContact,recoil:25	An electrical tackle that  also hurts the user.	src/data/moves_info.h	13135	Measured
+MOVE_DRILL_RUN	Drill Run	TYPE_GROUND	PHYSICAL	80	100	10	0	EFFECT_HIT	SELECTED	makesContact,criticalHitStage:1	Spins its body like a drill.  High critical-hit ratio.	src/data/moves_info.h	13158	Measured
+MOVE_DUAL_CHOP	Dual Chop	TYPE_DRAGON	PHYSICAL	40	100	15	0	EFFECT_HIT	SELECTED	makesContact,strikeCount:2	Attacks with brutal hits  that strike twice.	src/data/moves_info.h	13181	Measured
+MOVE_HEART_STAMP	Heart Stamp	TYPE_PSYCHIC	PHYSICAL	60	100	25	0	EFFECT_HIT	SELECTED	makesContact	A sudden blow after a cute  act. May cause flinching.	src/data/moves_info.h	13204	Measured
+MOVE_HORN_LEECH	Horn Leech	TYPE_GRASS	PHYSICAL	75	100	10	0	EFFECT_ABSORB	SELECTED	makesContact	NONE	src/data/moves_info.h	13230	Measured
+MOVE_SACRED_SWORD	Sacred Sword	TYPE_FIGHTING	PHYSICAL	90	100	15	0	EFFECT_HIT	SELECTED	makesContact,slicingMove	NONE	src/data/moves_info.h	13252	Measured
+MOVE_RAZOR_SHELL	Razor Shell	TYPE_WATER	PHYSICAL	75	100	10	0	EFFECT_HIT	SELECTED	makesContact,slicingMove,criticalHitStage:1	Tears at the foe with sharp  shells.	src/data/moves_info.h	13274	Measured
+MOVE_HEAT_CRASH	Heat Crash	TYPE_FIRE	PHYSICAL	1	100	10	0	EFFECT_HEAT_CRASH	SELECTED	makesContact	NONE	src/data/moves_info.h	13298	Measured
+MOVE_LEAF_TORNADO	Leaf Tornado	TYPE_GRASS	SPECIAL	65	100	10	0	EFFECT_HIT	SELECTED	windMove	Circles the foe with leaves  to damage and cut accuracy.	src/data/moves_info.h	13319	Measured
+MOVE_STEAMROLLER	Steamroller	TYPE_BUG	PHYSICAL	65	100	20	0	EFFECT_HIT	SELECTED	makesContact	Crushes the foe with its  body. May cause flinching.	src/data/moves_info.h	13341	Measured
+MOVE_COTTON_GUARD	Cotton Guard	TYPE_GRASS	STATUS	0	0	10	0	EFFECT_DEFENSE_UP_3	USER	ignoresProtect	Wraps its body in cotton.  Drastically raises Defense.	src/data/moves_info.h	13368	Measured
+MOVE_NIGHT_DAZE	Night Daze	TYPE_DARK	SPECIAL	95	100	10	0	EFFECT_HIT	SELECTED	NONE	Looses a pitch-black shock  wave.	src/data/moves_info.h	13393	Measured
+MOVE_PSYSTRIKE	Psystrike	TYPE_PSYCHIC	SPECIAL	100	100	10	0	EFFECT_PSYSHOCK	SELECTED	NONE	NONE	src/data/moves_info.h	13414	Measured
+MOVE_TAIL_SLAP	Tail Slap	TYPE_NORMAL	PHYSICAL	25	100	10	0	EFFECT_MULTI_HIT	SELECTED	makesContact	Strikes the foe with its  tail 2 to 5 times.	src/data/moves_info.h	13433	Measured
+MOVE_HURRICANE	Hurricane	TYPE_FLYING	SPECIAL	110	70	10	0	EFFECT_THUNDER	SELECTED	windMove	Traps the foe in a fierce  wind. May cause confusion.	src/data/moves_info.h	13455	Measured
+MOVE_HEAD_CHARGE	Head Charge	TYPE_NORMAL	PHYSICAL	120	100	15	0	EFFECT_HIT	SELECTED	makesContact,recoil:25	A charge using guard hair.  It hurts the user a little.	src/data/moves_info.h	13482	Measured
+MOVE_GEAR_GRIND	Gear Grind	TYPE_STEEL	PHYSICAL	50	100	15	0	EFFECT_HIT	SELECTED	makesContact,strikeCount:2	Throws two steel gears  that strike twice.	src/data/moves_info.h	13509	Measured
+MOVE_SEARING_SHOT	Searing Shot	TYPE_FIRE	SPECIAL	100	100	5	0	EFFECT_HIT	FOES_AND_ALLY	ballisticMove	NONE	src/data/moves_info.h	13533	Measured
+MOVE_TECHNO_BLAST	Techno Blast	TYPE_NORMAL	SPECIAL	120	100	5	0	EFFECT_CHANGE_TYPE_ON_ITEM	SELECTED	NONE	The type varies with the  kind of Drive held.	src/data/moves_info.h	13557	Measured
+MOVE_RELIC_SONG	Relic Song	TYPE_NORMAL	SPECIAL	75	100	10	0	EFFECT_RELIC_SONG	BOTH	soundMove	Attacks with an ancient  song. May induce sleep.	src/data/moves_info.h	13580	Measured
+MOVE_SECRET_SWORD	Secret Sword	TYPE_FIGHTING	SPECIAL	85	100	10	0	EFFECT_PSYSHOCK	SELECTED	slicingMove	Cuts with a long horn that  does physical damage.	src/data/moves_info.h	13609	Measured
+MOVE_GLACIATE	Glaciate	TYPE_ICE	SPECIAL	65	100	10	0	EFFECT_HIT	BOTH	NONE	Blows very cold air at the  foe. It lowers their Speed.	src/data/moves_info.h	13632	Measured
+MOVE_BOLT_STRIKE	Bolt Strike	TYPE_ELECTRIC	PHYSICAL	130	85	5	0	EFFECT_HIT	SELECTED	makesContact	Strikes with a great amount  of lightning. May paralyze.	src/data/moves_info.h	13657	Measured
+MOVE_BLUE_FLARE	Blue Flare	TYPE_FIRE	SPECIAL	130	85	5	0	EFFECT_HIT	SELECTED	NONE	Engulfs the foe in a blue  flame. May inflict a burn.	src/data/moves_info.h	13683	Measured
+MOVE_FIERY_DANCE	Fiery Dance	TYPE_FIRE	SPECIAL	80	100	10	0	EFFECT_HIT	SELECTED	danceMove	Dances cloaked in flames.  May raise Sp. Atk.	src/data/moves_info.h	13708	Measured
+MOVE_FREEZE_SHOCK	Freeze Shock	TYPE_ICE	PHYSICAL	140	90	5	0	EFFECT_TWO_TURNS_ATTACK	SELECTED	NONE	A powerful 2-turn move that  may paralyze the foe.	src/data/moves_info.h	13735	Measured
+MOVE_ICE_BURN	Ice Burn	TYPE_ICE	SPECIAL	140	100	5	0	EFFECT_TWO_TURNS_ATTACK	SELECTED	NONE	A powerful 2-turn move that  may inflict a burn.	src/data/moves_info.h	13764	Measured
+MOVE_SNARL	Snarl	TYPE_DARK	SPECIAL	55	100	15	0	EFFECT_HIT	BOTH	soundMove	Yells and rants at the foe  lowering its Sp. Atk.	src/data/moves_info.h	13793	Measured
+MOVE_ICICLE_CRASH	Icicle Crash	TYPE_ICE	PHYSICAL	85	100	10	0	EFFECT_HIT	SELECTED	NONE	Drops large icicles on the  foe. May cause flinching.	src/data/moves_info.h	13821	Measured
+MOVE_V_CREATE	V-create	TYPE_FIRE	PHYSICAL	180	95	5	0	EFFECT_HIT	SELECTED	makesContact	Very powerful, but lowers  Defense, Sp. Def and Speed.	src/data/moves_info.h	13846	Measured
+MOVE_FUSION_FLARE	Fusion Flare	TYPE_FIRE	SPECIAL	100	100	5	0	EFFECT_FUSION_COMBO	SELECTED	thawsUser	Summons a fireball. Works  well with a thunderbolt.	src/data/moves_info.h	13874	Measured
+MOVE_FUSION_BOLT	Fusion Bolt	TYPE_ELECTRIC	PHYSICAL	100	100	5	0	EFFECT_FUSION_COMBO	SELECTED	NONE	Summons a thunderbolt.  Works well with a fireball.	src/data/moves_info.h	13896	Measured
+MOVE_FLYING_PRESS	Flying Press	TYPE_FIGHTING	PHYSICAL	100	100	10	0	EFFECT_TWO_TYPED_MOVE	SELECTED	makesContact,gravityBanned	This attack does Fighting  and Flying-type damage.	src/data/moves_info.h	13917	Measured
+MOVE_MAT_BLOCK	Mat Block	TYPE_FIGHTING	STATUS	0	0	5	0	EFFECT_MAT_BLOCK	USER	ignoresProtect	Evades damaging moves  for one turn.	src/data/moves_info.h	13944	Measured
+MOVE_BELCH	Belch	TYPE_POISON	SPECIAL	120	100	10	0	EFFECT_BELCH	SELECTED	NONE	Lets out a loud belch.  Must eat a Berry to use it.	src/data/moves_info.h	13974	Measured
+MOVE_ROTOTILLER	Rototiller	TYPE_GROUND	STATUS	0	0	10	0	EFFECT_ROTOTILLER	ALL_BATTLERS	ignoresProtect	Ups the Attack and Sp. Atk  of Grass-type Pokémon.	src/data/moves_info.h	14003	Measured
+MOVE_STICKY_WEB	Sticky Web	TYPE_BUG	STATUS	0	0	20	0	EFFECT_STICKY_WEB	OPPONENTS_FIELD	ignoresProtect	Weaves a sticky net that  slows foes switching in.	src/data/moves_info.h	14028	Measured
+MOVE_FELL_STINGER	Fell Stinger	TYPE_BUG	PHYSICAL	50	100	25	0	EFFECT_FELL_STINGER	SELECTED	makesContact	If it knocks out a foe  the Attack stat is raised.	src/data/moves_info.h	14054	Measured
+MOVE_PHANTOM_FORCE	Phantom Force	TYPE_GHOST	PHYSICAL	90	100	10	0	EFFECT_SEMI_INVULNERABLE	SELECTED	makesContact,ignoresProtect	NONE	src/data/moves_info.h	14076	Measured
+MOVE_TRICK_OR_TREAT	Trick-or-Treat	TYPE_GHOST	STATUS	0	100	20	0	EFFECT_THIRD_TYPE	SELECTED	NONE	Goes trick-or-treating  making the foe Ghost-type.	src/data/moves_info.h	14105	Measured
+MOVE_NOBLE_ROAR	Noble Roar	TYPE_NORMAL	STATUS	0	100	30	0	EFFECT_NOBLE_ROAR	SELECTED	soundMove	Intimidates the foe, to cut  Attack and Sp. Atk.	src/data/moves_info.h	14129	Measured
+MOVE_ION_DELUGE	Ion Deluge	TYPE_ELECTRIC	STATUS	0	0	5	1	EFFECT_ION_DELUGE	ALL_BATTLERS	ignoresProtect	Electrifies Normal-type  moves with charged atoms.	src/data/moves_info.h	14154	Measured
+MOVE_PARABOLIC_CHARGE	Parabolic Charge	TYPE_ELECTRIC	SPECIAL	75	100	20	0	EFFECT_ABSORB	FOES_AND_ALLY	NONE	Damages adjacent Pokémon  and heals up by half of it.	src/data/moves_info.h	14178	Measured
+MOVE_FORESTS_CURSE	Forest's Curse	TYPE_GRASS	STATUS	0	100	20	0	EFFECT_THIRD_TYPE	SELECTED	NONE	Puts a curse on the foe  making the foe Grass-type.	src/data/moves_info.h	14201	Measured
+MOVE_PETAL_BLIZZARD	Petal Blizzard	TYPE_GRASS	PHYSICAL	90	100	15	0	EFFECT_HIT	FOES_AND_ALLY	windMove	Stirs up a violent storm  of petals to attack.	src/data/moves_info.h	14225	Measured
+MOVE_FREEZE_DRY	Freeze-Dry	TYPE_ICE	SPECIAL	70	100	20	0	EFFECT_SUPER_EFFECTIVE_ON_ARG	SELECTED	NONE	Super effective on Water-  types. May cause frostbite.	src/data/moves_info.h	14247	Measured
+MOVE_DISARMING_VOICE	Disarming Voice	TYPE_FAIRY	SPECIAL	40	0	15	0	EFFECT_HIT	BOTH	soundMove	Lets out a charming cry  that cannot be evaded.	src/data/moves_info.h	14277	Measured
+MOVE_PARTING_SHOT	Parting Shot	TYPE_DARK	STATUS	0	100	20	0	EFFECT_PARTING_SHOT	SELECTED	soundMove	Lowers the foe's Attack and  Sp. Atk, then switches out.	src/data/moves_info.h	14300	Measured
+MOVE_TOPSY_TURVY	Topsy-Turvy	TYPE_DARK	STATUS	0	0	20	0	EFFECT_TOPSY_TURVY	SELECTED	NONE	Swaps all stat changes that  affect the target.	src/data/moves_info.h	14325	Measured
+MOVE_DRAINING_KISS	Draining Kiss	TYPE_FAIRY	SPECIAL	50	100	10	0	EFFECT_ABSORB	SELECTED	makesContact	NONE	src/data/moves_info.h	14348	Measured
+MOVE_CRAFTY_SHIELD	Crafty Shield	TYPE_FAIRY	STATUS	0	0	10	3	EFFECT_PROTECT	USER	ignoresProtect	Evades status moves for  one turn.	src/data/moves_info.h	14370	Measured
+MOVE_FLOWER_SHIELD	Flower Shield	TYPE_FAIRY	STATUS	0	0	10	0	EFFECT_FLOWER_SHIELD	USER, // The targeting of Flower Shield is handled through a script	ignoresProtect	Raises the Defense of  Grass-type Pokémon.	src/data/moves_info.h	14396	Measured
+MOVE_GRASSY_TERRAIN	Grassy Terrain	TYPE_GRASS	STATUS	0	0	10	0	EFFECT_GRASSY_TERRAIN	ALL_BATTLERS	ignoresProtect	The ground turns to grass  for 5 turns. Restores HP.	src/data/moves_info.h	14420	Measured
+MOVE_MISTY_TERRAIN	Misty Terrain	TYPE_FAIRY	STATUS	0	0	10	0	EFFECT_MISTY_TERRAIN	ALL_BATTLERS	ignoresProtect	Covers the ground with mist  for 5 turns. Blocks status.	src/data/moves_info.h	14445	Measured
+MOVE_ELECTRIFY	Electrify	TYPE_ELECTRIC	STATUS	0	0	20	0	EFFECT_ELECTRIFY	SELECTED	NONE	Electrifies the foe, making  its next move Electric-type.	src/data/moves_info.h	14470	Measured
+MOVE_PLAY_ROUGH	Play Rough	TYPE_FAIRY	PHYSICAL	90	100	10	0	EFFECT_HIT	SELECTED	makesContact	Plays rough with the foe.  May lower Attack.	src/data/moves_info.h	14492	Measured
+MOVE_FAIRY_WIND	Fairy Wind	TYPE_FAIRY	SPECIAL	40	100	30	0	EFFECT_HIT	SELECTED	windMove	Stirs up a fairy wind to  strike the foe.	src/data/moves_info.h	14518	Measured
+MOVE_MOONBLAST	Moonblast	TYPE_FAIRY	SPECIAL	95	100	15	0	EFFECT_HIT	SELECTED	NONE	Attacks with the power of  the moon. May lower Sp. Atk.	src/data/moves_info.h	14540	Measured
+MOVE_BOOMBURST	Boomburst	TYPE_NORMAL	SPECIAL	140	100	10	0	EFFECT_HIT	FOES_AND_ALLY	soundMove	Attacks everything with a  destructive sound wave.	src/data/moves_info.h	14565	Measured
+MOVE_FAIRY_LOCK	Fairy Lock	TYPE_FAIRY	STATUS	0	0	10	0	EFFECT_FAIRY_LOCK	ALL_BATTLERS	ignoresProtect,ignoresSubstitute	Locks down the battlefield  preventing escape next turn.	src/data/moves_info.h	14588	Measured
+MOVE_KINGS_SHIELD	King's Shield	TYPE_STEEL	STATUS	0	0	5	4	EFFECT_PROTECT	USER	ignoresProtect	Evades damage and changes  form.	src/data/moves_info.h	14612	Measured
+MOVE_PLAY_NICE	Play Nice	TYPE_NORMAL	STATUS	0	0	20	0	EFFECT_ATTACK_DOWN	SELECTED	ignoresProtect,ignoresSubstitute	Befriend the foe, lowering  its Attack without fail.	src/data/moves_info.h	14640	Measured
+MOVE_CONFIDE	Confide	TYPE_NORMAL	STATUS	0	0	20	0	EFFECT_SPECIAL_ATTACK_DOWN	SELECTED	ignoresProtect,soundMove	Shares a secret with the  foe, lowering Sp. Atk.	src/data/moves_info.h	14665	Measured
+MOVE_DIAMOND_STORM	Diamond Storm	TYPE_ROCK	SPECIAL	100	100	5	0	EFFECT_HIT	BOTH	NONE	Whips up a storm of  diamonds. May up Defense.	src/data/moves_info.h	14691	Measured
+MOVE_STEAM_ERUPTION	Steam Eruption	TYPE_WATER	SPECIAL	120	100	5	0	EFFECT_HIT	SELECTED	thawsUser	Immerses the foe in heated  steam. May inflict a burn.	src/data/moves_info.h	14718	Measured
+MOVE_HYPERSPACE_HOLE	Hyperspace Hole	TYPE_PSYCHIC	SPECIAL	80	0	5	0	EFFECT_HIT	SELECTED	ignoresProtect,ignoresSubstitute	NONE	src/data/moves_info.h	14745	Measured
+MOVE_WATER_SHURIKEN	Water Shuriken	TYPE_WATER	B_UPDATED_MOVE_DATA >= GEN_7 ? SPECIAL : PHYSICAL	15	100	20	1	EFFECT_MULTI_HIT	SELECTED	NONE	Throws 2 to 5 stars that  are sure to strike first.	src/data/moves_info.h	14770	Measured
+MOVE_MYSTICAL_FIRE	Mystical Fire	TYPE_FIRE	SPECIAL	75	100	10	0	EFFECT_HIT	SELECTED	NONE	Breathes a special, hot  fire. Lowers Sp. Atk.	src/data/moves_info.h	14791	Measured
+MOVE_SPIKY_SHIELD	Spiky Shield	TYPE_GRASS	STATUS	0	0	5	4	EFFECT_PROTECT	USER	ignoresProtect	Evades attack, and damages  the foe if struck.	src/data/moves_info.h	14816	Measured
+MOVE_AROMATIC_MIST	Aromatic Mist	TYPE_FAIRY	STATUS	0	0	20	0	EFFECT_AROMATIC_MIST	ALLY	ignoresProtect,ignoresSubstitute	Raises the Sp. Def of a  partner Pokémon.	src/data/moves_info.h	14843	Measured
+MOVE_EERIE_IMPULSE	Eerie Impulse	TYPE_ELECTRIC	STATUS	0	100	15	0	EFFECT_SPECIAL_ATTACK_DOWN_2	SELECTED	NONE	Exposes the foe to a pulse  that sharply cuts Sp. Atk.	src/data/moves_info.h	14868	Measured
+MOVE_VENOM_DRENCH	Venom Drench	TYPE_POISON	STATUS	0	100	20	0	EFFECT_VENOM_DRENCH	BOTH	NONE	Lowers the Attack, Sp. Atk  and Speed of a poisoned foe.	src/data/moves_info.h	14891	Measured
+MOVE_POWDER	Powder	TYPE_BUG	STATUS	0	100	20	1	EFFECT_POWDER	SELECTED	powderMove	Damages the foe if it uses  a Fire-type move.	src/data/moves_info.h	14914	Measured
+MOVE_GEOMANCY	Geomancy	TYPE_FAIRY	STATUS	0	0	10	0	EFFECT_GEOMANCY	USER	NONE	Raises Sp. Atk, Sp. Def and  Speed on the 2nd turn.	src/data/moves_info.h	14938	Measured
+MOVE_MAGNETIC_FLUX	Magnetic Flux	TYPE_ELECTRIC	STATUS	0	0	20	0	EFFECT_MAGNETIC_FLUX	USER	ignoresProtect,ignoresSubstitute	Boosts the defenses of  those with Plus or Minus.	src/data/moves_info.h	14964	Measured
+MOVE_HAPPY_HOUR	Happy Hour	TYPE_NORMAL	STATUS	0	0	30	0	EFFECT_DO_NOTHING	USER	ignoresProtect	Doubles the amount of  Prize Money received.	src/data/moves_info.h	14990	Measured
+MOVE_ELECTRIC_TERRAIN	Electric Terrain	TYPE_ELECTRIC	STATUS	0	0	10	0	EFFECT_ELECTRIC_TERRAIN	ALL_BATTLERS	ignoresProtect	Electrifies the ground for  5 turns. Prevents sleep.	src/data/moves_info.h	15014	Measured
+MOVE_DAZZLING_GLEAM	Dazzling Gleam	TYPE_FAIRY	SPECIAL	80	100	10	0	EFFECT_HIT	BOTH	NONE	Damages foes by emitting  a bright flash.	src/data/moves_info.h	15039	Measured
+MOVE_CELEBRATE	Celebrate	TYPE_NORMAL	STATUS	0	0	40	0	EFFECT_DO_NOTHING	USER	ignoresProtect	Congratulates you on your  special day.	src/data/moves_info.h	15060	Measured
+MOVE_HOLD_HANDS	Hold Hands	TYPE_NORMAL	STATUS	0	0	40	0	EFFECT_DO_NOTHING	ALLY	ignoresProtect,ignoresSubstitute	The user and ally hold hands  making them happy.	src/data/moves_info.h	15090	Measured
+MOVE_BABY_DOLL_EYES	Baby-Doll Eyes	TYPE_FAIRY	STATUS	0	100	30	1	EFFECT_ATTACK_DOWN	SELECTED	NONE	Lowers the foe's Attack  before it can move.	src/data/moves_info.h	15120	Measured
+MOVE_NUZZLE	Nuzzle	TYPE_ELECTRIC	PHYSICAL	20	100	20	0	EFFECT_HIT	SELECTED	makesContact	Rubs its cheeks against  the foe, paralyzing it.	src/data/moves_info.h	15143	Measured
+MOVE_HOLD_BACK	Hold Back	TYPE_NORMAL	PHYSICAL	40	100	40	0	EFFECT_FALSE_SWIPE	SELECTED	makesContact	NONE	src/data/moves_info.h	15169	Measured
+MOVE_INFESTATION	Infestation	TYPE_BUG	SPECIAL	20	100	20	0	EFFECT_HIT	SELECTED	makesContact	The foe is infested and  attacked for   turns.	src/data/moves_info.h	15189	Measured
+MOVE_POWER_UP_PUNCH	Power-Up Punch	TYPE_FIGHTING	PHYSICAL	40	100	20	0	EFFECT_HIT	SELECTED	makesContact,punchingMove	A hard punch that raises  the user's Attack.	src/data/moves_info.h	15214	Measured
+MOVE_OBLIVION_WING	Oblivion Wing	TYPE_FLYING	SPECIAL	80	100	10	0	EFFECT_ABSORB	SELECTED	NONE	NONE	src/data/moves_info.h	15242	Measured
+MOVE_THOUSAND_ARROWS	Thousand Arrows	TYPE_GROUND	PHYSICAL	90	100	10	0	EFFECT_HIT	BOTH	NONE	Can hit Flying foes, then  knocks them to the ground.	src/data/moves_info.h	15263	Measured
+MOVE_THOUSAND_WAVES	Thousand Waves	TYPE_GROUND	PHYSICAL	90	100	10	0	EFFECT_HIT	BOTH	NONE	Those hit by the wave can  no longer escape.	src/data/moves_info.h	15291	Measured
+MOVE_LANDS_WRATH	Land's Wrath	TYPE_GROUND	PHYSICAL	90	100	10	0	EFFECT_HIT	BOTH	NONE	Gathers the energy of the  land to attack every foe.	src/data/moves_info.h	15317	Measured
+MOVE_LIGHT_OF_RUIN	Light Of Ruin	TYPE_FAIRY	SPECIAL	140	100	5	0	EFFECT_HIT	SELECTED	recoil:50	Fires a great beam of light  that also hurts the user.	src/data/moves_info.h	15339	Measured
+MOVE_ORIGIN_PULSE	Origin Pulse	TYPE_WATER	SPECIAL	110	85	10	0	EFFECT_HIT	BOTH	pulseMove	Beams of glowing blue light  blast both foes.	src/data/moves_info.h	15358	Measured
+MOVE_PRECIPICE_BLADES	Precipice Blades	TYPE_GROUND	PHYSICAL	120	85	10	0	EFFECT_HIT	BOTH	NONE	Fearsome blades of stone  attack both foes.	src/data/moves_info.h	15381	Measured
+MOVE_DRAGON_ASCENT	Dragon Ascent	TYPE_FLYING	PHYSICAL	120	100	5	0	EFFECT_HIT	SELECTED	makesContact	NONE	src/data/moves_info.h	15403	Measured
+MOVE_HYPERSPACE_FURY	Hyperspace Fury	TYPE_DARK	PHYSICAL	100	0	5	0	EFFECT_HYPERSPACE_FURY	SELECTED	ignoresProtect,ignoresSubstitute	NONE	src/data/moves_info.h	15428	Measured
+MOVE_SHORE_UP	Shore Up	TYPE_GROUND	STATUS	0	0	5	0	EFFECT_SHORE_UP	USER	ignoresProtect,healingMove	Restores the user's HP.  More HP in a sandstorm.	src/data/moves_info.h	15456	Measured
+MOVE_FIRST_IMPRESSION	First Impression	TYPE_BUG	PHYSICAL	90	100	10	2	EFFECT_FIRST_TURN_ONLY	SELECTED	makesContact	Hits hard and first.  Only works first turn.	src/data/moves_info.h	15482	Measured
+MOVE_BANEFUL_BUNKER	Baneful Bunker	TYPE_POISON	STATUS	0	0	5	4	EFFECT_PROTECT	USER	ignoresProtect	Protects user and poisons  foes on contact.	src/data/moves_info.h	15505	Measured
+MOVE_SPIRIT_SHACKLE	Spirit Shackle	TYPE_GHOST	PHYSICAL	80	100	10	0	EFFECT_HIT	SELECTED	NONE	After being hit, foes can  no longer escape.	src/data/moves_info.h	15532	Measured
+MOVE_DARKEST_LARIAT	Darkest Lariat	TYPE_DARK	PHYSICAL	85	100	10	0	EFFECT_HIT	SELECTED	makesContact	Swings the arms to strike  It ignores stat changes.	src/data/moves_info.h	15557	Measured
+MOVE_SPARKLING_ARIA	Sparkling Aria	TYPE_WATER	SPECIAL	90	100	10	0	EFFECT_HIT	FOES_AND_ALLY	soundMove	Sings with bubbles. Cures  burns on contact.	src/data/moves_info.h	15580	Measured
+MOVE_ICE_HAMMER	Ice Hammer	TYPE_ICE	PHYSICAL	100	100	10	0	EFFECT_HIT	SELECTED	makesContact,punchingMove	Swings the fist to strike  with ice.	src/data/moves_info.h	15608	Measured
+MOVE_FLORAL_HEALING	Floral Healing	TYPE_FAIRY	STATUS	0	0	10	0	EFFECT_HEAL_PULSE	SELECTED	healingMove	Restores an ally's HP.  Heals more on grass.	src/data/moves_info.h	15631	Measured
+MOVE_HIGH_HORSEPOWER	High Horsepower	TYPE_GROUND	PHYSICAL	95	100	10	0	EFFECT_HIT	SELECTED	makesContact,kickingMove	Slams hard into the foe with  its entire body.	src/data/moves_info.h	15657	Measured
+MOVE_STRENGTH_SAP	Strength Sap	TYPE_GRASS	STATUS	0	100	10	0	EFFECT_STRENGTH_SAP	SELECTED	NONE	Saps the foe's Attack to  heal HP, then drops Attack.	src/data/moves_info.h	15680	Measured
+MOVE_SOLAR_BLADE	Solar Blade	TYPE_GRASS	PHYSICAL	125	100	10	0	EFFECT_SOLAR_BEAM	SELECTED	makesContact,slicingMove	Charges first turn, then  chops with a blade of light.	src/data/moves_info.h	15704	Measured
+MOVE_LEAFAGE	Leafage	TYPE_GRASS	PHYSICAL	40	100	40	0	EFFECT_HIT	SELECTED	NONE	Attacks with a flurry of  small leaves.	src/data/moves_info.h	15730	Measured
+MOVE_SPOTLIGHT	Spotlight	TYPE_NORMAL	STATUS	0	0	15	3	EFFECT_FOLLOW_ME	SELECTED	NONE	Makes the foe attack the  spotlighted Pokémon.	src/data/moves_info.h	15751	Measured
+MOVE_TOXIC_THREAD	Toxic Thread	TYPE_POISON	STATUS	0	100	20	0	EFFECT_TOXIC_THREAD	SELECTED	NONE	Attacks with a thread that  poisons and drops Speed.	src/data/moves_info.h	15778	Measured
+MOVE_LASER_FOCUS	Laser Focus	TYPE_NORMAL	STATUS	0	0	30	0	EFFECT_LASER_FOCUS	USER	ignoresProtect	Guarantees the next move  will be a critical hit.	src/data/moves_info.h	15801	Measured
+MOVE_GEAR_UP	Gear Up	TYPE_STEEL	STATUS	0	0	20	0	EFFECT_GEAR_UP	USER	ignoresProtect,ignoresSubstitute	Boosts the attacks of  those with Plus or Minus.	src/data/moves_info.h	15826	Measured
+MOVE_THROAT_CHOP	Throat Chop	TYPE_DARK	PHYSICAL	80	100	15	0	EFFECT_HIT	SELECTED	makesContact	Chops the throat to disable  sound moves for a while.	src/data/moves_info.h	15852	Measured
+MOVE_POLLEN_PUFF	Pollen Puff	TYPE_BUG	SPECIAL	90	100	15	0	EFFECT_HIT_ENEMY_HEAL_ALLY	SELECTED	ballisticMove	Explodes on foes, but  restores ally's HP.	src/data/moves_info.h	15878	Measured
+MOVE_ANCHOR_SHOT	Anchor Shot	TYPE_STEEL	PHYSICAL	80	100	20	0	EFFECT_HIT	SELECTED	makesContact	Strangles the foe with a  chain. The foe can't escape.	src/data/moves_info.h	15900	Measured
+MOVE_PSYCHIC_TERRAIN	Psychic Terrain	TYPE_PSYCHIC	STATUS	0	0	10	0	EFFECT_PSYCHIC_TERRAIN	ALL_BATTLERS	ignoresProtect	The ground turns weird for  5 turns. Blocks priority.	src/data/moves_info.h	15926	Measured
+MOVE_LUNGE	Lunge	TYPE_BUG	PHYSICAL	80	100	15	0	EFFECT_HIT	SELECTED	makesContact	Lunges at the foe to lower  its Attack stat.	src/data/moves_info.h	15950	Measured
+MOVE_FIRE_LASH	Fire Lash	TYPE_FIRE	PHYSICAL	80	100	15	0	EFFECT_HIT	SELECTED	makesContact	Whips the foe with fire  lowering its Defense.	src/data/moves_info.h	15976	Measured
+MOVE_POWER_TRIP	Power Trip	TYPE_DARK	PHYSICAL	20	100	10	0	EFFECT_STORED_POWER	SELECTED	makesContact	It hits harder the more  stat boosts the user has.	src/data/moves_info.h	16002	Measured
+MOVE_BURN_UP	Burn Up	TYPE_FIRE	SPECIAL	130	100	5	0	EFFECT_FAIL_IF_NOT_ARG_TYPE	SELECTED	thawsUser	Burns out the user fully  removing the Fire type.	src/data/moves_info.h	16024	Measured
+MOVE_SPEED_SWAP	Speed Swap	TYPE_PSYCHIC	STATUS	0	0	10	0	EFFECT_SPEED_SWAP	SELECTED	ignoresSubstitute	Swaps user's Speed with  the target's.	src/data/moves_info.h	16051	Measured
+MOVE_SMART_STRIKE	Smart Strike	TYPE_STEEL	PHYSICAL	70	0	10	0	EFFECT_HIT	SELECTED	makesContact	Hits with an accurate  horn that never misses.	src/data/moves_info.h	16074	Measured
+MOVE_PURIFY	Purify	TYPE_POISON	STATUS	0	0	20	0	EFFECT_PURIFY	SELECTED	healingMove	Cures the foe's status  to restore HP.	src/data/moves_info.h	16096	Measured
+MOVE_REVELATION_DANCE	Revelation Dance	TYPE_NORMAL	SPECIAL	100	100	15	0	EFFECT_REVELATION_DANCE	SELECTED	danceMove	Dances with mystical power.  Matches user's first type.	src/data/moves_info.h	16121	Measured
+MOVE_CORE_ENFORCER	Core Enforcer	TYPE_DRAGON	SPECIAL	100	100	10	0	EFFECT_HIT	SELECTED	NONE	Hits with a ray that  nullifies the foe's ability.	src/data/moves_info.h	16143	Measured
+MOVE_TROP_KICK	Trop Kick	TYPE_GRASS	PHYSICAL	70	100	15	0	EFFECT_HIT	SELECTED	makesContact,kickingMove	An intense kick from the  tropics. Lowers Attack.	src/data/moves_info.h	16168	Measured
+MOVE_INSTRUCT	Instruct	TYPE_PSYCHIC	STATUS	0	0	15	0	EFFECT_INSTRUCT	SELECTED	ignoresSubstitute	Orders the target to use  its last move again.	src/data/moves_info.h	16195	Measured
+MOVE_BEAK_BLAST	Beak Blast	TYPE_FLYING	PHYSICAL	100	100	15	-3	EFFECT_BEAK_BLAST	SELECTED	ballisticMove	Heats up beak to attack.  Burns foe on contact.	src/data/moves_info.h	16221	Measured
+MOVE_CLANGING_SCALES	Clanging Scales	TYPE_DRAGON	SPECIAL	110	100	5	0	EFFECT_HIT	BOTH	soundMove	Makes a big noise with  its scales. Drops Defense.	src/data/moves_info.h	16250	Measured
+MOVE_DRAGON_HAMMER	Dragon Hammer	TYPE_DRAGON	PHYSICAL	100	100	15	0	EFFECT_HIT	SELECTED	makesContact	Swings its whole body  like a hammer to damage.	src/data/moves_info.h	16277	Measured
+MOVE_BRUTAL_SWING	Brutal Swing	TYPE_DARK	PHYSICAL	60	100	20	0	EFFECT_HIT	FOES_AND_ALLY	makesContact	Violently swings around  to hurt everyone nearby.	src/data/moves_info.h	16299	Measured
+MOVE_AURORA_VEIL	Aurora Veil	TYPE_ICE	STATUS	0	0	20	0	EFFECT_AURORA_VEIL	USER	ignoresProtect	Weakens all attacks, but  only usable with hail.	src/data/moves_info.h	16321	Measured
+MOVE_SHELL_TRAP	Shell Trap	TYPE_FIRE	SPECIAL	150	100	5	-3	EFFECT_SHELL_TRAP	BOTH	NONE	Sets a shell trap that  damages on contact.	src/data/moves_info.h	16346	Measured
+MOVE_FLEUR_CANNON	Fleur Cannon	TYPE_FAIRY	SPECIAL	130	100	5	0	EFFECT_HIT	SELECTED	NONE	A strong ray that harshly  lowers Sp. Attack.	src/data/moves_info.h	16374	Measured
+MOVE_PSYCHIC_FANGS	Psychic Fangs	TYPE_PSYCHIC	PHYSICAL	85	100	15	0	EFFECT_BRICK_BREAK	SELECTED	makesContact,bitingMove	Chomps with psychic fangs.  Destroys any barriers.	src/data/moves_info.h	16400	Measured
+MOVE_STOMPING_TANTRUM	Stomping Tantrum	TYPE_GROUND	PHYSICAL	75	100	10	0	EFFECT_STOMPING_TANTRUM	SELECTED	makesContact	Stomps around angrily.  Stronger after a failure.	src/data/moves_info.h	16423	Measured
+MOVE_SHADOW_BONE	Shadow Bone	TYPE_GHOST	PHYSICAL	85	100	10	0	EFFECT_HIT	SELECTED	NONE	Strikes with a haunted  bone. Might drop Defense.	src/data/moves_info.h	16446	Measured
+MOVE_ACCELEROCK	Accelerock	TYPE_ROCK	PHYSICAL	40	100	20	1	EFFECT_HIT	SELECTED	makesContact	Hits with a high-speed  rock that always goes first.	src/data/moves_info.h	16472	Measured
+MOVE_LIQUIDATION	Liquidation	TYPE_WATER	PHYSICAL	85	100	10	0	EFFECT_HIT	SELECTED	makesContact	Slams the foe with water.  Can lower Defense.	src/data/moves_info.h	16494	Measured
+MOVE_PRISMATIC_LASER	Prismatic Laser	TYPE_PSYCHIC	SPECIAL	160	100	10	0	EFFECT_HIT	SELECTED	NONE	A high power laser that  forces recharge next turn.	src/data/moves_info.h	16520	Measured
+MOVE_SPECTRAL_THIEF	Spectral Thief	TYPE_GHOST	PHYSICAL	90	100	10	0	EFFECT_SPECTRAL_THIEF	SELECTED	makesContact,ignoresSubstitute	Steals the target's stat  boosts, then attacks.	src/data/moves_info.h	16545	Measured
+MOVE_SUNSTEEL_STRIKE	Sunsteel Strike	TYPE_STEEL	PHYSICAL	100	100	5	0	EFFECT_HIT	SELECTED	makesContact	A sun-fueled strike that  ignores abilities.	src/data/moves_info.h	16569	Measured
+MOVE_MOONGEIST_BEAM	Moongeist Beam	TYPE_GHOST	SPECIAL	100	100	5	0	EFFECT_HIT	SELECTED	NONE	A moon-powered beam that  ignores abilities.	src/data/moves_info.h	16593	Measured
+MOVE_TEARFUL_LOOK	Tearful Look	TYPE_NORMAL	STATUS	0	0	20	0	EFFECT_NOBLE_ROAR	SELECTED	ignoresProtect	The user tears up, dropping  Attack and Sp. Attack.	src/data/moves_info.h	16616	Measured
+MOVE_ZING_ZAP	Zing Zap	TYPE_ELECTRIC	PHYSICAL	80	100	10	0	EFFECT_HIT	SELECTED	makesContact	An electrified impact that  can cause flinching.	src/data/moves_info.h	16640	Measured
+MOVE_NATURES_MADNESS	Nature's Madness	TYPE_FAIRY	SPECIAL	1	100	10	0	EFFECT_SUPER_FANG	SELECTED	NONE	Halves the foe's HP with  the power of nature.	src/data/moves_info.h	16666	Measured
+MOVE_MULTI_ATTACK	Multi-Attack	TYPE_NORMAL	PHYSICAL	120	100	10	0	EFFECT_CHANGE_TYPE_ON_ITEM	SELECTED	makesContact	An attack that changes  with Memories.	src/data/moves_info.h	16688	Measured
+MOVE_MIND_BLOWN	Mind Blown	TYPE_FIRE	SPECIAL	150	100	5	0	EFFECT_MIND_BLOWN	FOES_AND_ALLY	NONE	It explodes the user's head  to damage everything around.	src/data/moves_info.h	16711	Measured
+MOVE_PLASMA_FISTS	Plasma Fists	TYPE_ELECTRIC	PHYSICAL	100	100	15	0	EFFECT_HIT	SELECTED	makesContact,punchingMove	Hits with electrical fists.  Normal moves turn Electric.	src/data/moves_info.h	16733	Measured
+MOVE_PHOTON_GEYSER	Photon Geyser	TYPE_PSYCHIC	SPECIAL	100	100	5	0	EFFECT_PHOTON_GEYSER	SELECTED	NONE	User's highest attack stat  determines its category.	src/data/moves_info.h	16762	Measured
+MOVE_ZIPPY_ZAP	Zippy Zap	TYPE_ELECTRIC	PHYSICAL	50	100	5	2	EFFECT_HIT	SELECTED	makesContact,alwaysCriticalHit	Electric bursts always go  first and land a critical hit.	src/data/moves_info.h	16785	Measured
+MOVE_SPLISHY_SPLASH	Splishy Splash	TYPE_WATER	SPECIAL	90	100	15	0	EFFECT_HIT	BOTH	NONE	A huge electrified wave that  may paralyze the foe.	src/data/moves_info.h	16806	Measured
+MOVE_FLOATY_FALL	Floaty Fall	TYPE_FLYING	PHYSICAL	90	100	15	0	EFFECT_HIT	SELECTED	makesContact,gravityBanned	Floats in air and dives at  angle. May cause flinching.	src/data/moves_info.h	16829	Measured
+MOVE_PIKA_PAPOW	Pika Papow	TYPE_ELECTRIC	SPECIAL	1	0	20	0	EFFECT_RETURN	SELECTED	NONE	Pikachu's love increases its  power. It never misses.	src/data/moves_info.h	16855	Measured
+MOVE_BOUNCY_BUBBLE	Bouncy Bubble	TYPE_WATER	SPECIAL	90	100	5	0	EFFECT_ABSORB	SELECTED	NONE	An attack that absorbs  all the damage inflicted.	src/data/moves_info.h	16874	Measured
+MOVE_BUZZY_BUZZ	Buzzy Buzz	TYPE_ELECTRIC	SPECIAL	60	100	20	0	EFFECT_HIT	SELECTED	NONE	Shoots a jolt of electricity  that always paralyzes.	src/data/moves_info.h	16899	Measured
+MOVE_SIZZLY_SLIDE	Sizzly Slide	TYPE_FIRE	PHYSICAL	60	100	20	0	EFFECT_HIT	SELECTED	makesContact,thawsUser	User cloaked in fire charges.  Leaves the foe with a burn.	src/data/moves_info.h	16923	Measured
+MOVE_GLITZY_GLOW	Glitzy Glow	TYPE_PSYCHIC	SPECIAL	80	95	15	0	EFFECT_HIT	SELECTED	NONE	Telekinetic force that sets  wall, lowering Sp. Atk damage.	src/data/moves_info.h	16949	Measured
+MOVE_BADDY_BAD	Baddy Bad	TYPE_DARK	SPECIAL	80	95	15	0	EFFECT_HIT	SELECTED	NONE	Acting badly, attacks. Sets  wall, lowering Attack damage.	src/data/moves_info.h	16973	Measured
+MOVE_SAPPY_SEED	Sappy Seed	TYPE_GRASS	PHYSICAL	95	100	5	0	EFFECT_HIT	SELECTED	NONE	Giant stalk scatters seeds  that drain HP every turn.	src/data/moves_info.h	16997	Measured
+MOVE_FREEZY_FROST	Freezy Frost	TYPE_ICE	SPECIAL	95	100	5	0	EFFECT_HIT	SELECTED	NONE	Crystal from cold haze hits.  Eliminates all stat changes.	src/data/moves_info.h	17022	Measured
+MOVE_SPARKLY_SWIRL	Sparkly Swirl	TYPE_FAIRY	SPECIAL	95	100	5	0	EFFECT_SPARKLY_SWIRL, // Temprorary	SELECTED	NONE	Wrap foe with whirlwind of  scent. Heals party's status.	src/data/moves_info.h	17046	Measured
+MOVE_VEEVEE_VOLLEY	Veevee Volley	TYPE_NORMAL	PHYSICAL	1	0	20	0	EFFECT_RETURN	SELECTED	makesContact	Eevee's love increases its  power. It never misses.	src/data/moves_info.h	17070	Measured
+MOVE_DOUBLE_IRON_BASH	Double Iron Bash	TYPE_STEEL	PHYSICAL	60	100	5	0	EFFECT_HIT	SELECTED	makesContact,punchingMove,strikeCount:2	The user spins and hits with  its arms. May cause flinch.	src/data/moves_info.h	17090	Measured
+MOVE_DYNAMAX_CANNON	Dynamax Cannon	TYPE_DRAGON	SPECIAL	100	100	5	0	EFFECT_DYNAMAX_DOUBLE_DMG	SELECTED	NONE	Unleashes core energy.  2x against Dynamaxed foes.	src/data/moves_info.h	17120	Measured
+MOVE_SNIPE_SHOT	Snipe Shot	TYPE_WATER	SPECIAL	70	100	15	0	EFFECT_SNIPE_SHOT	SELECTED	ballisticMove,criticalHitStage:2	Ignores redirection with  a very high crit rate.	src/data/moves_info.h	17150	Measured
+MOVE_JAW_LOCK	Jaw Lock	TYPE_FIGHTING	PHYSICAL	90	100	10	0	EFFECT_HIT	SELECTED	makesContact,bitingMove	Prevents the target  from escaping.	src/data/moves_info.h	17173	Measured
+MOVE_STUFF_CHEEKS	Stuff Cheeks	TYPE_NORMAL	STATUS	0	0	10	0	EFFECT_STUFF_CHEEKS	USER	ignoresProtect	Consumes the user's Berry,  then sharply raises Def.	src/data/moves_info.h	17200	Measured
+MOVE_NO_RETREAT	No Retreat	TYPE_FIGHTING	STATUS	0	0	5	0	EFFECT_NO_RETREAT	USER	ignoresProtect	Raises all of the user's  stats but prevents escape.	src/data/moves_info.h	17224	Measured
+MOVE_TAR_SHOT	Tar Shot	TYPE_ROCK	STATUS	0	100	15	0	EFFECT_TAR_SHOT	SELECTED	NONE	Lowers the foe's Speed and  makes it weak to Fire.	src/data/moves_info.h	17248	Measured
+MOVE_MAGIC_POWDER	Magic Powder	TYPE_PSYCHIC	STATUS	0	100	20	0	EFFECT_SOAK	SELECTED	powderMove	Magic powder changes the  target into a Psychic-type.	src/data/moves_info.h	17270	Measured
+MOVE_DRAGON_DARTS	Dragon Darts	TYPE_DRAGON	PHYSICAL	50	100	10	0	EFFECT_DRAGON_DARTS	SELECTED	strikeCount:2	The user attacks twice. Two  targets are hit once each.	src/data/moves_info.h	17294	Measured
+MOVE_TEATIME	Teatime	TYPE_NORMAL	STATUS	0	0	10	0	EFFECT_TEATIME	ALL_BATTLERS	ignoresProtect,ignoresSubstitute	All Pokémon have teatime  and eat their Berries.	src/data/moves_info.h	17317	Measured
+MOVE_OCTOLOCK	Octolock	TYPE_FIGHTING	STATUS	0	100	15	0	EFFECT_OCTOLOCK	SELECTED	NONE	Traps the foe to lower Def  and Sp. Def each turn.	src/data/moves_info.h	17341	Measured
+MOVE_BOLT_BEAK	Bolt Beak	TYPE_ELECTRIC	PHYSICAL	85	100	10	0	EFFECT_BOLT_BEAK	SELECTED	makesContact	Double power if the user  moves before the target.	src/data/moves_info.h	17362	Measured
+MOVE_FISHIOUS_REND	Fishious Rend	TYPE_WATER	PHYSICAL	85	100	10	0	EFFECT_BOLT_BEAK	SELECTED	makesContact,bitingMove	Double power if the user  moves before the target.	src/data/moves_info.h	17384	Measured
+MOVE_COURT_CHANGE	Court Change	TYPE_NORMAL	STATUS	0	100	10	0	EFFECT_COURT_CHANGE	ALL_BATTLERS	ignoresProtect	The user swaps effects on  either side of the field.	src/data/moves_info.h	17407	Measured
+MOVE_CLANGOROUS_SOUL	Clangorous Soul	TYPE_DRAGON	STATUS	0	100	5	0	EFFECT_CLANGOROUS_SOUL	USER	ignoresProtect,soundMove,danceMove	The user uses some of its  HP to raise all its stats.	src/data/moves_info.h	17429	Measured
+MOVE_BODY_PRESS	Body Press	TYPE_FIGHTING	PHYSICAL	80	100	10	0	EFFECT_BODY_PRESS	SELECTED	makesContact	Does more damage the  higher the user's Def.	src/data/moves_info.h	17456	Measured
+MOVE_DECORATE	Decorate	TYPE_FAIRY	STATUS	0	0	15	0	EFFECT_DECORATE	SELECTED	ignoresProtect	The user sharply raises  the target's Atk and Sp.Atk.	src/data/moves_info.h	17480	Measured
+MOVE_DRUM_BEATING	Drum Beating	TYPE_GRASS	PHYSICAL	80	100	10	0	EFFECT_HIT	SELECTED	NONE	Plays a drum to attack.  The foe's Speed is lowered.	src/data/moves_info.h	17504	Measured
+MOVE_SNAP_TRAP	Snap Trap	TYPE_STEEL	PHYSICAL	100	85	5	0	EFFECT_HIT	SELECTED	makesContact	Snares the target in a snap  trap for four to five turns.	src/data/moves_info.h	17530	Measured
+MOVE_PYRO_BALL	Pyro Ball	TYPE_FIRE	PHYSICAL	120	90	5	0	EFFECT_HIT	SELECTED	ballisticMove,kickingMove,thawsUser	Launches a fiery ball at the  target. It may cause a burn.	src/data/moves_info.h	17557	Measured
+MOVE_BEHEMOTH_BLADE	Behemoth Blade	TYPE_STEEL	PHYSICAL	100	100	5	0	EFFECT_DYNAMAX_DOUBLE_DMG	SELECTED	makesContact,slicingMove	Strikes as a sword. Deals 2x  damage to Dynamaxed foes.	src/data/moves_info.h	17586	Measured
+MOVE_BEHEMOTH_BASH	Behemoth Bash	TYPE_STEEL	PHYSICAL	100	100	5	0	EFFECT_DYNAMAX_DOUBLE_DMG	SELECTED	makesContact	Attacks as a shield. Deals 2x  damage to Dynamaxed foes.	src/data/moves_info.h	17613	Measured
+MOVE_AURA_WHEEL	Aura Wheel	TYPE_ELECTRIC	PHYSICAL	110	100	10	0	EFFECT_AURA_WHEEL	SELECTED	NONE	Raises Speed to attack. The  Type is based on its form.	src/data/moves_info.h	17639	Measured
+MOVE_BREAKING_SWIPE	Breaking Swipe	TYPE_DRAGON	PHYSICAL	60	100	15	0	EFFECT_HIT	BOTH	makesContact	Swings its tail to attack.  Lowers the Atk of those hit.	src/data/moves_info.h	17666	Measured
+MOVE_BRANCH_POKE	Branch Poke	TYPE_GRASS	PHYSICAL	40	100	40	0	EFFECT_HIT	SELECTED	makesContact	The user pokes the target  with a pointed branch.	src/data/moves_info.h	17693	Measured
+MOVE_OVERDRIVE	Overdrive	TYPE_ELECTRIC	SPECIAL	80	100	10	0	EFFECT_HIT	BOTH	soundMove	The user twangs its guitar,  causing strong vibrations.	src/data/moves_info.h	17716	Measured
+MOVE_APPLE_ACID	Apple Acid	TYPE_GRASS	SPECIAL	80	100	10	0	EFFECT_HIT	SELECTED	NONE	Attacks with tart apple acid  to lower the foe's Sp. Def.	src/data/moves_info.h	17740	Measured
+MOVE_GRAV_APPLE	Grav Apple	TYPE_GRASS	PHYSICAL	80	100	10	0	EFFECT_GRAV_APPLE	SELECTED	NONE	Drops an apple from above.  Lowers the foe's Defense.	src/data/moves_info.h	17766	Measured
+MOVE_SPIRIT_BREAK	Spirit Break	TYPE_FAIRY	PHYSICAL	75	100	15	0	EFFECT_HIT	SELECTED	makesContact	Attacks with spirit-breaking  force. Lowers Sp. Atk.	src/data/moves_info.h	17792	Measured
+MOVE_STRANGE_STEAM	Strange Steam	TYPE_FAIRY	SPECIAL	90	100	10	0	EFFECT_HIT	SELECTED	NONE	Emits a strange steam to  potentially confuse the foe.	src/data/moves_info.h	17819	Measured
+MOVE_LIFE_DEW	Life Dew	TYPE_WATER	STATUS	0	0	10	0	EFFECT_JUNGLE_HEALING	ALL_BATTLERS	ignoresProtect,healingMove,ignoresSubstitute	Scatters water to restore  the HP of itself and allies.	src/data/moves_info.h	17845	Measured
+MOVE_OBSTRUCT	Obstruct	TYPE_DARK	STATUS	0	100	5	4	EFFECT_PROTECT	USER	ignoresProtect	Protects itself, harshly  lowering Def on contact.	src/data/moves_info.h	17872	Measured
+MOVE_FALSE_SURRENDER	False Surrender	TYPE_DARK	PHYSICAL	80	0	10	0	EFFECT_HIT	SELECTED	makesContact	Bows to stab the foe  with hair. It never misses.	src/data/moves_info.h	17897	Measured
+MOVE_METEOR_ASSAULT	Meteor Assault	TYPE_FIGHTING	PHYSICAL	160	100	5	0	EFFECT_HIT	SELECTED	NONE	Attacks with a thick leek.  The user must then rest.	src/data/moves_info.h	17920	Measured
+MOVE_ETERNABEAM	Eternabeam	TYPE_DRAGON	SPECIAL	160	90	5	0	EFFECT_HIT	SELECTED	NONE	Eternatus' strongest move.  The user rests next turn.	src/data/moves_info.h	17947	Measured
+MOVE_STEEL_BEAM	Steel Beam	TYPE_STEEL	SPECIAL	140	100	5	0	EFFECT_MAX_HP_50_RECOIL	SELECTED	NONE	Fires a beam of steel from  its body. It hurts the user.	src/data/moves_info.h	17973	Measured
+MOVE_EXPANDING_FORCE	Expanding Force	TYPE_PSYCHIC	SPECIAL	80	100	10	0	EFFECT_EXPANDING_FORCE	SELECTED	NONE	Power goes up and damages  all foes on Psychic Terrain.	src/data/moves_info.h	17995	Measured
+MOVE_STEEL_ROLLER	Steel Roller	TYPE_STEEL	PHYSICAL	130	100	5	0	EFFECT_HIT_SET_REMOVE_TERRAIN	SELECTED	makesContact	Destroys terrain. Fails if  ground isn't terrain.	src/data/moves_info.h	18016	Measured
+MOVE_SCALE_SHOT	Scale Shot	TYPE_DRAGON	PHYSICAL	25	100	20	0	EFFECT_MULTI_HIT	SELECTED	NONE	Shoots scales 2 to 5 times.  Ups Speed, lowers defense.	src/data/moves_info.h	18040	Measured
+MOVE_METEOR_BEAM	Meteor Beam	TYPE_ROCK	SPECIAL	120	100	10	0	EFFECT_TWO_TURNS_ATTACK	SELECTED	NONE	A 2-turn move that raises  Sp. Attack before attacking.	src/data/moves_info.h	18062	Measured
+MOVE_SHELL_SIDE_ARM	Shell Side Arm	TYPE_POISON	SPECIAL	100	100	10	0	EFFECT_SHELL_SIDE_ARM	SELECTED	NONE	Deals better of physical and  special damage. May poison.	src/data/moves_info.h	18090	Measured
+MOVE_DRACO_BARRAGE	Draco Barrage	TYPE_DRAGON	SPECIAL	100	100	5	0	EFFECT_SHELL_SIDE_ARM	SELECTED	recoil:33	Ignores Fairy immunity; 33%  recoil; best of phys. or spec.	src/data/moves_info.h	18115	Measured
+MOVE_MISTY_EXPLOSION	Misty Explosion	TYPE_FAIRY	SPECIAL	100	100	5	0	EFFECT_EXPLOSION	FOES_AND_ALLY	NONE	Hit everything and faint.  Powers up on Misty Terrain.	src/data/moves_info.h	18138	Measured
+MOVE_GRASSY_GLIDE	Grassy Glide	TYPE_GRASS	PHYSICAL	60	100	20	0	EFFECT_GRASSY_GLIDE	SELECTED	makesContact	Gliding on ground, hits. Goes  first on Grassy Terrain.	src/data/moves_info.h	18159	Measured
+MOVE_RISING_VOLTAGE	Rising Voltage	TYPE_ELECTRIC	SPECIAL	70	100	20	0	EFFECT_RISING_VOLTAGE	SELECTED	NONE	This move's power doubles  when on Electric Terrain.	src/data/moves_info.h	18182	Measured
+MOVE_TERRAIN_PULSE	Terrain Pulse	TYPE_NORMAL	SPECIAL	50	100	10	0	EFFECT_TERRAIN_PULSE	SELECTED	pulseMove	Type and power changes  depending on the terrain.	src/data/moves_info.h	18203	Measured
+MOVE_SKITTER_SMACK	Skitter Smack	TYPE_BUG	PHYSICAL	70	100	10	0	EFFECT_HIT	SELECTED	makesContact	User skitters behind foe to  attack. Lowers foe's Sp. Atk.	src/data/moves_info.h	18225	Measured
+MOVE_BURNING_JEALOUSY	Burning Jealousy	TYPE_FIRE	SPECIAL	70	100	5	0	EFFECT_HIT	BOTH	NONE	Foes that have stats upped  during the turn get burned.	src/data/moves_info.h	18251	Measured
+MOVE_LASH_OUT	Lash Out	TYPE_DARK	PHYSICAL	75	100	5	0	EFFECT_LASH_OUT	SELECTED	makesContact	If stats lowered during this  turn, power is doubled.	src/data/moves_info.h	18277	Measured
+MOVE_POLTERGEIST	Poltergeist	TYPE_GHOST	PHYSICAL	110	90	5	0	EFFECT_POLTERGEIST	SELECTED	NONE	Control foe's item to attack.  Fails if foe has no item.	src/data/moves_info.h	18299	Measured
+MOVE_CORROSIVE_GAS	Corrosive Gas	TYPE_POISON	STATUS	0	100	40	0	EFFECT_CORROSIVE_GAS	FOES_AND_ALLY	NONE	Highly acidic gas melts items  held by surrounding Pokémon.	src/data/moves_info.h	18320	Measured
+MOVE_COACHING	Coaching	TYPE_FIGHTING	STATUS	0	0	10	0	EFFECT_COACHING	ALLY	ignoresProtect,ignoresSubstitute	Properly coaches allies to  up their Attack and Defense.	src/data/moves_info.h	18342	Measured
+MOVE_FLIP_TURN	Flip Turn	TYPE_WATER	PHYSICAL	60	100	20	0	EFFECT_HIT_ESCAPE	SELECTED	makesContact	Attacks and rushes back to  switch with a party Pokémon.	src/data/moves_info.h	18366	Measured
+MOVE_TRIPLE_AXEL	Triple Axel	TYPE_ICE	PHYSICAL	20	90	10	0	EFFECT_TRIPLE_KICK	SELECTED	makesContact,kickingMove,strikeCount:3	A 3-kick attack that gets  more powerful with each hit.	src/data/moves_info.h	18388	Measured
+MOVE_DUAL_WINGBEAT	Dual Wingbeat	TYPE_FLYING	PHYSICAL	40	100	10	0	EFFECT_HIT	SELECTED	makesContact,strikeCount:2	User slams the target with  wings and hits twice in a row.	src/data/moves_info.h	18412	Measured
+MOVE_SCORCHING_SANDS	Scorching Sands	TYPE_GROUND	SPECIAL	70	100	10	0	EFFECT_HIT	SELECTED	thawsUser	Throws scorching sand at  the target. May leave a burn.	src/data/moves_info.h	18435	Measured
+MOVE_JUNGLE_HEALING	Jungle Healing	TYPE_GRASS	STATUS	0	0	10	0	EFFECT_JUNGLE_HEALING	USER	ignoresProtect,healingMove,ignoresSubstitute	Heals HP and status of  itself and allies in battle.	src/data/moves_info.h	18461	Measured
+MOVE_WICKED_BLOW	Wicked Blow	TYPE_DARK	PHYSICAL	75	100	5	0	EFFECT_HIT	SELECTED	makesContact,punchingMove,alwaysCriticalHit	Mastering the Dark style,  strikes with a critical hit.	src/data/moves_info.h	18487	Measured
+MOVE_SURGING_STRIKES	Surging Strikes	TYPE_WATER	PHYSICAL	25	100	5	0	EFFECT_HIT	SELECTED	makesContact,punchingMove,strikeCount:3,alwaysCriticalHit	Mastering the Water style,  strikes with 3 critical hits.	src/data/moves_info.h	18512	Measured
+MOVE_THUNDER_CAGE	Thunder Cage	TYPE_ELECTRIC	SPECIAL	80	90	15	0	EFFECT_HIT	SELECTED	NONE	Traps the foe in a cage of  electricity for   turns.	src/data/moves_info.h	18538	Measured
+MOVE_DRAGON_ENERGY	Dragon Energy	TYPE_DRAGON	SPECIAL	150	100	5	0	EFFECT_POWER_BASED_ON_USER_HP	BOTH	NONE	The higher the user's HP  the more damage caused.	src/data/moves_info.h	18563	Measured
+MOVE_FREEZING_GLARE	Freezing Glare	TYPE_PSYCHIC	SPECIAL	90	100	10	0	EFFECT_HIT	SELECTED	NONE	Shoots psychic power from  the eyes. May frostbite.	src/data/moves_info.h	18585	Measured
+MOVE_FIERY_WRATH	Fiery Wrath	TYPE_DARK	SPECIAL	90	100	10	0	EFFECT_HIT	BOTH	NONE	An attack fueled by your  wrath. May cause flinching.	src/data/moves_info.h	18615	Measured
+MOVE_THUNDEROUS_KICK	Thunderous Kick	TYPE_FIGHTING	PHYSICAL	90	100	10	0	EFFECT_HIT	SELECTED	makesContact,kickingMove	Uses a lightning-like kick  to hit. Lowers foe's Defense.	src/data/moves_info.h	18641	Measured
+MOVE_GLACIAL_LANCE	Glacial Lance	TYPE_ICE	PHYSICAL	120	100	5	0	EFFECT_HIT	BOTH	NONE	Hurls a blizzard-cloaked  icicle lance at foes.	src/data/moves_info.h	18669	Measured
+MOVE_ASTRAL_BARRAGE	Astral Barrage	TYPE_GHOST	SPECIAL	120	100	5	0	EFFECT_HIT	BOTH	NONE	Sends a frightful amount  of small ghosts at foes.	src/data/moves_info.h	18691	Measured
+MOVE_EERIE_SPELL	Eerie Spell	TYPE_PSYCHIC	SPECIAL	80	100	5	0	EFFECT_HIT	SELECTED	soundMove	Attacks with psychic power.  Foe's last move has 3 PP cut.	src/data/moves_info.h	18713	Measured
+MOVE_DIRE_CLAW	Dire Claw	TYPE_POISON	PHYSICAL	80	100	15	0	EFFECT_HIT	SELECTED	makesContact	High critical hit chance. May  paralyze, poison or drowse.	src/data/moves_info.h	18740	Measured
+MOVE_PSYSHIELD_BASH	Psyshield Bash	TYPE_PSYCHIC	PHYSICAL	70	100	10	0	EFFECT_HIT	SELECTED	makesContact	Hits a foe with psychic  energy. May raise Defense.	src/data/moves_info.h	18762	Measured
+MOVE_POWER_SHIFT	Power Shift	TYPE_NORMAL	STATUS	0	0	10	0	EFFECT_POWER_TRICK	USER	ignoresProtect	The user swaps its Attack  and Defense stats.	src/data/moves_info.h	18785	Measured
+MOVE_STONE_AXE	Stone Axe	TYPE_ROCK	PHYSICAL	65	90	15	0	EFFECT_HIT	SELECTED	makesContact,slicingMove	High critical hit ratio. Sets  Splinters that hurt the foe.	src/data/moves_info.h	18806	Measured
+MOVE_SPRINGTIDE_STORM	Springtide Storm	TYPE_FAIRY	SPECIAL	100	90	5	0	EFFECT_HIT	BOTH	windMove	Wraps a foe in fierce winds.  Varies with the user's form.	src/data/moves_info.h	18829	Measured
+MOVE_MYSTICAL_POWER	Mystical Power	TYPE_PSYCHIC	SPECIAL	70	100	10	0	EFFECT_HIT	SELECTED	NONE	A mysterious power strikes,  raising the user's Sp. Atk.	src/data/moves_info.h	18852	Measured
+MOVE_RAGING_FURY	Raging Fury	TYPE_FIRE	PHYSICAL	120	100	10	0	EFFECT_HIT	RANDOM	NONE	A rampage of 2 to 3 turns  that confuses the user.	src/data/moves_info.h	18874	Measured
+MOVE_WAVE_CRASH	Wave Crash	TYPE_WATER	PHYSICAL	120	100	10	0	EFFECT_HIT	SELECTED	makesContact,recoil:33	A slam shrouded in water.  It also hurts the user.	src/data/moves_info.h	18896	Measured
+MOVE_CHLOROBLAST	Chloroblast	TYPE_GRASS	SPECIAL	120	100	15	0	EFFECT_MAX_HP_50_RECOIL	SELECTED	NONE	A user-hurting blast of  amassed chlorophyll.	src/data/moves_info.h	18916	Measured
+MOVE_MOUNTAIN_GALE	Mountain Gale	TYPE_ICE	PHYSICAL	120	90	5	0	EFFECT_HIT	SELECTED	NONE	Giant chunks of ice damage  the foe. It may flinch.	src/data/moves_info.h	18933	Measured
+MOVE_VICTORY_DANCE	Victory Dance	TYPE_FIGHTING	STATUS	0	0	20	0	EFFECT_VICTORY_DANCE	USER	ignoresProtect,danceMove	Dances to raise Attack,  Defense and Speed.	src/data/moves_info.h	18954	Measured
+MOVE_HEADLONG_RUSH	Headlong Rush	TYPE_GROUND	PHYSICAL	120	100	5	0	EFFECT_HIT	SELECTED	makesContact,punchingMove	Hits with a full-body tackle.  Lowers the users's defenses.	src/data/moves_info.h	18975	Measured
+MOVE_BARB_BARRAGE	Barb Barrage	TYPE_POISON	PHYSICAL	60	100	15	0	EFFECT_DOUBLE_POWER_ON_ARG_STATUS	SELECTED	NONE	Can poison on impact. Powers  up against statused foes.	src/data/moves_info.h	18998	Measured
+MOVE_ESPER_WING	Esper Wing	TYPE_PSYCHIC	SPECIAL	80	100	10	0	EFFECT_HIT	SELECTED	criticalHitStage:1	High critical hit ratio.  Ups the user's Speed.	src/data/moves_info.h	19020	Measured
+MOVE_BITTER_MALICE	Bitter Malice	TYPE_GHOST	SPECIAL	60	100	15	0	EFFECT_DOUBLE_POWER_ON_ARG_STATUS	SELECTED	NONE	Hex that may leave  target Frostbitten.	src/data/moves_info.h	19043	Measured
+MOVE_SHELTER	Shelter	TYPE_STEEL	STATUS	0	0	10	0	EFFECT_DEFENSE_UP_2	USER	ignoresProtect	The user hardens their skin,  sharply raising its Defense.	src/data/moves_info.h	19065	Measured
+MOVE_TRIPLE_ARROWS	Triple Arrows	TYPE_FIGHTING	PHYSICAL	90	100	15	0	EFFECT_HIT	SELECTED	kickingMove,criticalHitStage:1	High critical hit ratio.  May lower Defense or flinch.	src/data/moves_info.h	19085	Measured
+MOVE_INFERNAL_PARADE	Infernal Parade	TYPE_GHOST	SPECIAL	60	100	15	0	EFFECT_DOUBLE_POWER_ON_ARG_STATUS	SELECTED	NONE	Hurts a foe harder if it has  an ailment. May leave a burn.	src/data/moves_info.h	19112	Measured
+MOVE_CEASELESS_EDGE	Ceaseless Edge	TYPE_DARK	PHYSICAL	65	90	15	0	EFFECT_HIT	SELECTED	makesContact,slicingMove	High critical hit ratio. Sets  Splinters that hurt the foe.	src/data/moves_info.h	19134	Measured
+MOVE_BLEAKWIND_STORM	Bleakwind Storm	TYPE_FLYING	SPECIAL	100	90	10	0	EFFECT_RAIN_ALWAYS_HIT	BOTH	windMove	Hits with brutal, cold winds.  May lower the foe's Speed.	src/data/moves_info.h	19157	Measured
+MOVE_WILDBOLT_STORM	Wildbolt Storm	TYPE_ELECTRIC	SPECIAL	100	90	10	0	EFFECT_RAIN_ALWAYS_HIT	BOTH	windMove	Hits with a brutal tempest.  May inflict paralysis.	src/data/moves_info.h	19179	Measured
+MOVE_SANDSEAR_STORM	Sandsear Storm	TYPE_GROUND	SPECIAL	100	90	10	0	EFFECT_RAIN_ALWAYS_HIT	BOTH	windMove	Hits with brutally hot sand.  May inflict a burn.	src/data/moves_info.h	19201	Measured
+MOVE_LUNAR_BLESSING	Lunar Blessing	TYPE_PSYCHIC	STATUS	0	0	10	0	EFFECT_JUNGLE_HEALING	USER	ignoresProtect,healingMove	The user heals and cures  itself and its ally.	src/data/moves_info.h	19223	Measured
+MOVE_TAKE_HEART	Take Heart	TYPE_PSYCHIC	STATUS	0	0	10	0	EFFECT_TAKE_HEART	USER	ignoresProtect	The user lifts its spirits to  heal and strengthen itself.	src/data/moves_info.h	19244	Measured
+MOVE_TERA_BLAST	Tera Blast	TYPE_NORMAL	SPECIAL	80	100	10	0	EFFECT_TERA_BLAST	SELECTED	NONE	If the user's Terastallized,  it hits with its Tera-type.	src/data/moves_info.h	19264	Measured
+MOVE_SILK_TRAP	Silk Trap	TYPE_BUG	STATUS	0	0	5	4	EFFECT_PROTECT	USER	ignoresProtect	Protects itself, lowering  Speed on contact.	src/data/moves_info.h	19286	Measured
+MOVE_AXE_KICK	Axe Kick	TYPE_FIGHTING	PHYSICAL	120	90	10	0	EFFECT_RECOIL_IF_MISS	SELECTED	makesContact,kickingMove	May miss and hurt the kicker.  May cause confusion.	src/data/moves_info.h	19306	Measured
+MOVE_LAST_RESPECTS	Last Respects	TYPE_GHOST	PHYSICAL	50	100	10	0	EFFECT_LAST_RESPECTS	SELECTED	NONE	This move deals more damage  for each defeated ally.	src/data/moves_info.h	19329	Measured
+MOVE_LUMINA_CRASH	Lumina Crash	TYPE_PSYCHIC	SPECIAL	80	100	10	0	EFFECT_HIT	SELECTED	NONE	A mind-affecting light  harshly lowers Sp. Def.	src/data/moves_info.h	19347	Measured
+MOVE_ORDER_UP	Order Up	TYPE_DRAGON	PHYSICAL	80	100	10	0	EFFECT_ORDER_UP	SELECTED	NONE	Boosts a user's stats  depending on Tatsugiri.	src/data/moves_info.h	19368	Measured
+MOVE_JET_PUNCH	Jet Punch	TYPE_WATER	PHYSICAL	60	100	15	1	EFFECT_HIT	SELECTED	makesContact,punchingMove	A punch is thrown at blinding  speed to strike first.	src/data/moves_info.h	19392	Measured
+MOVE_SPICY_EXTRACT	Spicy Extract	TYPE_GRASS	STATUS	0	0	15	0	EFFECT_SPICY_EXTRACT	SELECTED	NONE	Sharply ups target's Attack,  harshly lowers its Defense.	src/data/moves_info.h	19412	Measured
+MOVE_SPIN_OUT	Spin Out	TYPE_STEEL	PHYSICAL	110	100	5	0	EFFECT_HIT	SELECTED	makesContact	Furiously strains its legs.  Harshly lowers user's Speed.	src/data/moves_info.h	19431	Measured
+MOVE_POPULATION_BOMB	Population Bomb	TYPE_NORMAL	PHYSICAL	20	90	10	0	EFFECT_POPULATION_BOMB	SELECTED	makesContact,slicingMove,strikeCount:10	The user's fellows hit one  to ten times in a row.	src/data/moves_info.h	19454	Measured
+MOVE_ICE_SPINNER	Ice Spinner	TYPE_ICE	PHYSICAL	80	100	15	0	EFFECT_HIT_SET_REMOVE_TERRAIN	SELECTED	makesContact	Ice-covered feet hit a foe  and destroy the terrain.	src/data/moves_info.h	19475	Measured
+MOVE_GLAIVE_RUSH	Glaive Rush	TYPE_DRAGON	PHYSICAL	120	100	5	0	EFFECT_GLAIVE_RUSH	SELECTED	makesContact	Foe attacks next turn can't  miss and do double damage.	src/data/moves_info.h	19495	Measured
+MOVE_REVIVAL_BLESSING	Revival Blessing	TYPE_NORMAL	STATUS	0	0	1	0	EFFECT_REVIVAL_BLESSING	USER	ignoresProtect,healingMove	Revives a fainted party {PKMN}  and restores half of its HP.	src/data/moves_info.h	19513	Measured
+MOVE_SALT_CURE	Salt Cure	TYPE_ROCK	PHYSICAL	40	100	15	0	EFFECT_HIT	SELECTED	NONE	Hurts foe every turn. Double  damage to Steel and Water.	src/data/moves_info.h	19535	Measured
+MOVE_TRIPLE_DIVE	Triple Dive	TYPE_WATER	PHYSICAL	40	90	10	0	EFFECT_HIT	SELECTED	makesContact,strikeCount:3	Hits target with splashes  of water 3 times in a row.	src/data/moves_info.h	19557	Measured
+MOVE_MORTAL_SPIN	Mortal Spin	TYPE_POISON	PHYSICAL	30	100	15	0	EFFECT_HIT	BOTH	makesContact	Erases trap moves and Leech  Seed. Poisons adjacent foes.	src/data/moves_info.h	19576	Measured
+MOVE_DOODLE	Doodle	TYPE_NORMAL	STATUS	0	100	10	0	EFFECT_DOODLE	SELECTED	ignoresProtect	Changes user's and ally's  Ability into the target's.	src/data/moves_info.h	19602	Measured
+MOVE_FILLET_AWAY	Fillet Away	TYPE_NORMAL	STATUS	0	0	10	0	EFFECT_FILLET_AWAY	USER	ignoresProtect	Sharply boosts offenses and  Speed by using its own HP.	src/data/moves_info.h	19622	Measured
+MOVE_KOWTOW_CLEAVE	Kowtow Cleave	TYPE_DARK	PHYSICAL	85	0	10	0	EFFECT_HIT	SELECTED	makesContact,slicingMove	User slashes the foe after  kowtowing. It never misses.	src/data/moves_info.h	19644	Measured
+MOVE_FLOWER_TRICK	Flower Trick	TYPE_GRASS	PHYSICAL	70	0	10	0	EFFECT_HIT	SELECTED	alwaysCriticalHit	Rigged bouquet. Always gets  a critical hit, never missing.	src/data/moves_info.h	19663	Measured
+MOVE_TORCH_SONG	Torch Song	TYPE_FIRE	SPECIAL	80	100	10	0	EFFECT_HIT	SELECTED	soundMove	Flames scorch the target.  Boosts the user's Sp. Atk.	src/data/moves_info.h	19681	Measured
+MOVE_AQUA_STEP	Aqua Step	TYPE_WATER	PHYSICAL	80	100	10	0	EFFECT_HIT	SELECTED	makesContact,danceMove,kickingMove	Hits with light, fluid dance  steps. Ups the user's Speed.	src/data/moves_info.h	19705	Measured
+MOVE_RAGING_BULL	Raging Bull	TYPE_NORMAL	PHYSICAL	90	100	10	0	EFFECT_RAGING_BULL	SELECTED	makesContact	Tackle that breaks barriers.  User's form determines type.	src/data/moves_info.h	19730	Measured
+MOVE_MAKE_IT_RAIN	Make It Rain	TYPE_STEEL	SPECIAL	120	100	5	0	EFFECT_HIT	BOTH	NONE	Lowers the user's Sp. Atk.  Money is recovered after.	src/data/moves_info.h	19749	Measured
+MOVE_RUINATION	Ruination	TYPE_DARK	SPECIAL	1	100	10	0	EFFECT_SUPER_FANG	SELECTED	NONE	Summons a ruinous disaster  and cuts half the foe's HP.	src/data/moves_info.h	19774	Measured
+MOVE_COLLISION_COURSE	Collision Course	TYPE_FIGHTING	PHYSICAL	100	100	5	0	EFFECT_COLLISION_COURSE	SELECTED	makesContact	Prehistoric explosion that's  stronger if super effective.	src/data/moves_info.h	19792	Measured
+MOVE_ELECTRO_DRIFT	Electro Drift	TYPE_ELECTRIC	SPECIAL	100	100	5	0	EFFECT_COLLISION_COURSE	SELECTED	makesContact	Futuristic electricity. It's  stronger if super effective.	src/data/moves_info.h	19811	Measured
+MOVE_SHED_TAIL	Shed Tail	TYPE_NORMAL	STATUS	0	0	10	0	EFFECT_SHED_TAIL	USER	ignoresProtect	Creates a Substitute for  itself before switching out.	src/data/moves_info.h	19830	Measured
+MOVE_CHILLY_RECEPTION	Chilly Reception	TYPE_ICE	STATUS	0	0	10	0	EFFECT_CHILLY_RECEPTION	ALL_BATTLERS	ignoresProtect	Bad joke summons snowstorm.  The user also switches out.	src/data/moves_info.h	19851	Measured
+MOVE_TIDY_UP	Tidy Up	TYPE_NORMAL	STATUS	0	0	10	0	EFFECT_TIDY_UP	USER	ignoresProtect	User tidies up hazards and  raises its Attack and Speed.	src/data/moves_info.h	19872	Measured
+MOVE_SNOWSCAPE	Snowscape	TYPE_ICE	STATUS	0	0	10	0	EFFECT_SNOWSCAPE	ALL_BATTLERS	ignoresProtect	Summons a snowstorm that  lasts for five turns.	src/data/moves_info.h	19892	Measured
+MOVE_POUNCE	Pounce	TYPE_BUG	PHYSICAL	60	100	20	0	EFFECT_HIT	SELECTED	makesContact	The user pounces on the foe,  lowering its Speed.	src/data/moves_info.h	19913	Measured
+MOVE_TRAILBLAZE	Trailblaze	TYPE_GRASS	PHYSICAL	50	100	20	0	EFFECT_HIT	SELECTED	makesContact	The user attacks suddenly,  raising its Speed.	src/data/moves_info.h	19936	Measured
+MOVE_CHILLING_WATER	Chilling Water	TYPE_WATER	SPECIAL	50	100	20	0	EFFECT_HIT	SELECTED	NONE	A shower with ice-cold water  lowers the target's Attack.	src/data/moves_info.h	19960	Measured
+MOVE_HYPER_DRILL	Hyper Drill	TYPE_NORMAL	PHYSICAL	100	100	5	0	EFFECT_HIT	SELECTED	makesContact,ignoresProtect	A spinning pointed part  bypasses a foe's Protect.	src/data/moves_info.h	19982	Measured
+MOVE_TWIN_BEAM	Twin Beam	TYPE_PSYCHIC	SPECIAL	50	100	10	0	EFFECT_HIT	SELECTED	strikeCount:2	Mystical eye-beams that hit  the target twice in a row.	src/data/moves_info.h	20002	Measured
+MOVE_RAGE_FIST	Rage Fist	TYPE_GHOST	PHYSICAL	50	100	10	0	EFFECT_RAGE_FIST	SELECTED	makesContact,punchingMove	The more the user has been  hit, the stronger the move.	src/data/moves_info.h	20021	Measured
+MOVE_ARMOR_CANNON	Armor Cannon	TYPE_FIRE	SPECIAL	120	100	5	0	EFFECT_HIT	SELECTED	pulseMove	A strong attack but lowers  the defensive stats.	src/data/moves_info.h	20041	Measured
+MOVE_BITTER_BLADE	Bitter Blade	TYPE_FIRE	PHYSICAL	90	100	10	0	EFFECT_ABSORB	SELECTED	makesContact,slicingMove,healingMove	An attack that absorbs  half the damage inflicted.	src/data/moves_info.h	20064	Measured
+MOVE_DOUBLE_SHOCK	Double Shock	TYPE_ELECTRIC	PHYSICAL	120	100	5	0	EFFECT_FAIL_IF_NOT_ARG_TYPE	SELECTED	makesContact	Discharges all electricity,  losing the Electric type.	src/data/moves_info.h	20085	Measured
+MOVE_GIGATON_HAMMER	Gigaton Hammer	TYPE_STEEL	PHYSICAL	160	100	5	0	EFFECT_HIT	SELECTED	cantUseTwice	Swings a huge hammer. Can't  be used twice in a row.	src/data/moves_info.h	20109	Measured
+MOVE_COMEUPPANCE	Comeuppance	TYPE_DARK	PHYSICAL	1	100	10	0	EFFECT_METAL_BURST	DEPENDS	makesContact	Retaliates strongly against  who last hurt the user.	src/data/moves_info.h	20127	Measured
+MOVE_AQUA_CUTTER	Aqua Cutter	TYPE_WATER	PHYSICAL	70	100	20	0	EFFECT_HIT	SELECTED	slicingMove,criticalHitStage:1	Pressurized water cut with a  high critical-hit ratio.	src/data/moves_info.h	20147	Measured
+MOVE_BLAZING_TORQUE	Blazing Torque	TYPE_FIRE	PHYSICAL	80	100	10	0	EFFECT_HIT	SELECTED	NONE	---	src/data/moves_info.h	20166	Measured
+MOVE_WICKED_TORQUE	Wicked Torque	TYPE_DARK	PHYSICAL	80	100	10	0	EFFECT_HIT	SELECTED	NONE	---	src/data/moves_info.h	20195	Measured
+MOVE_NOXIOUS_TORQUE	Noxious Torque	TYPE_POISON	PHYSICAL	100	100	10	0	EFFECT_HIT	SELECTED	NONE	---	src/data/moves_info.h	20224	Measured
+MOVE_COMBAT_TORQUE	Combat Torque	TYPE_FIGHTING	PHYSICAL	100	100	10	0	EFFECT_HIT	SELECTED	NONE	---	src/data/moves_info.h	20253	Measured
+MOVE_MAGICAL_TORQUE	Magical Torque	TYPE_FAIRY	PHYSICAL	100	100	10	0	EFFECT_HIT	SELECTED	NONE	---	src/data/moves_info.h	20282	Measured
+MOVE_PSYBLADE	Psyblade	TYPE_PSYCHIC	PHYSICAL	80	100	15	0	EFFECT_PSYBLADE	SELECTED	makesContact,slicingMove	This move's power increases  when on Electric Terrain.	src/data/moves_info.h	20311	Measured
+MOVE_HYDRO_STEAM	Hydro Steam	TYPE_WATER	SPECIAL	80	100	15	0	EFFECT_HYDRO_STEAM	SELECTED	thawsUser	This move's power increases  under harsh sunlight.	src/data/moves_info.h	20330	Measured
+MOVE_BLOOD_MOON	Blood Moon	TYPE_NORMAL	SPECIAL	140	100	5	0	EFFECT_HIT	SELECTED	cantUseTwice	Unleashes the blood moon.  Can't be used twice in a row.	src/data/moves_info.h	20348	Measured
+MOVE_MATCHA_GOTCHA	Matcha Gotcha	TYPE_GRASS	SPECIAL	80	100	15	0	EFFECT_ABSORB	BOTH	thawsUser	Absorbs half the damage  inflicted. May cause a burn.	src/data/moves_info.h	20366	Measured
+MOVE_SYRUP_BOMB	Syrup Bomb	TYPE_GRASS	SPECIAL	60	85	10	0	EFFECT_HIT	SELECTED	ballisticMove	Lowers the foe's speed  each turn for 3 turns.	src/data/moves_info.h	20391	Measured
+MOVE_IVY_CUDGEL	Ivy Cudgel	TYPE_GRASS	PHYSICAL	100	100	10	0	EFFECT_IVY_CUDGEL	SELECTED	criticalHitStage:1	Type changes with held mask.  High critical-hit ratio.	src/data/moves_info.h	20414	Measured
+MOVE_ELECTRO_SHOT	Electro Shot	TYPE_ELECTRIC	SPECIAL	130	100	10	0	EFFECT_TWO_TURNS_ATTACK	SELECTED	NONE	Gathers electricity, then  fires a high-voltage shot.	src/data/moves_info.h	20433	Measured
+MOVE_TERA_STARSTORM	Tera Starstorm	TYPE_NORMAL	SPECIAL	120	100	5	0	EFFECT_TERA_STARSTORM	SELECTED	NONE	In Terapagos's Stellar  Form, it hits all foes.	src/data/moves_info.h	20457	Measured
+MOVE_FICKLE_BEAM	Fickle Beam	TYPE_DRAGON	SPECIAL	80	100	5	0	EFFECT_FICKLE_BEAM	SELECTED	NONE	Shoots a beam of light.  Sometimes twice as strong.	src/data/moves_info.h	20478	Measured
+MOVE_BURNING_BULWARK	Burning Bulwark	TYPE_FIRE	STATUS	0	0	5	4	EFFECT_PROTECT	USER	ignoresProtect	Evades attack, and burns  the foe if struck.	src/data/moves_info.h	20495	Measured
+MOVE_THUNDERCLAP	Thunderclap	TYPE_ELECTRIC	SPECIAL	70	100	5	1	EFFECT_SUCKER_PUNCH	SELECTED	NONE	NONE	src/data/moves_info.h	20518	Measured
+MOVE_MIGHTY_CLEAVE	Mighty Cleave	TYPE_ROCK	PHYSICAL	90	100	5	0	EFFECT_HIT	SELECTED	makesContact,ignoresProtect,slicingMove	NONE	src/data/moves_info.h	20533	Measured
+MOVE_TACHYON_CUTTER	Tachyon Cutter	TYPE_STEEL	SPECIAL	50	0	10	0	EFFECT_HIT	SELECTED	slicingMove,strikeCount:2	Launches particle blades at  the target. Strikes twice.	src/data/moves_info.h	20551	Measured
+MOVE_HARD_PRESS	Hard Press	TYPE_STEEL	PHYSICAL	100	100	10	0	EFFECT_POWER_BASED_ON_TARGET_HP	SELECTED	makesContact	NONE	src/data/moves_info.h	20570	Measured
+MOVE_DRAGON_CHEER	Dragon Cheer	TYPE_DRAGON	STATUS	0	0	15	0	EFFECT_DRAGON_CHEER	ALLY	ignoresSubstitute	Increases allies' critical hit  ratio, especially if Dragons.	src/data/moves_info.h	20586	Measured
+MOVE_ALLURING_VOICE	Alluring Voice	TYPE_FAIRY	SPECIAL	80	100	10	0	EFFECT_HIT	SELECTED	soundMove,ignoresSubstitute	Confuses foe if its stats  were boosted this turn.	src/data/moves_info.h	20604	Measured
+MOVE_TEMPER_FLARE	Temper Flare	TYPE_FIRE	PHYSICAL	75	100	10	0	EFFECT_STOMPING_TANTRUM	SELECTED	makesContact	A desperation attack. Power  doubles if last move failed.	src/data/moves_info.h	20628	Measured
+MOVE_SUPERCELL_SLAM	Supercell Slam	TYPE_ELECTRIC	PHYSICAL	120	95	15	0	EFFECT_RECOIL_IF_MISS	SELECTED	makesContact	An electrified slam. If it  misses, the user is hurt.	src/data/moves_info.h	20646	Measured
+MOVE_PSYCHIC_NOISE	Psychic Noise	TYPE_PSYCHIC	SPECIAL	75	100	10	0	EFFECT_HIT	SELECTED	soundMove,ignoresSubstitute	Unpleasant sound waves that  damage and prevent healing.	src/data/moves_info.h	20665	Measured
+MOVE_UPPER_HAND	Upper Hand	TYPE_FIGHTING	PHYSICAL	65	100	15	3	EFFECT_UPPER_HAND	SELECTED	makesContact	Makes the target flinch if  readying a priority move.	src/data/moves_info.h	20688	Measured
+MOVE_MALIGNANT_CHAIN	Malignant Chain	TYPE_POISON	SPECIAL	100	100	5	0	EFFECT_HIT	SELECTED	NONE	A corrosive chain attack  that may Toxic.	src/data/moves_info.h	20710	Measured
+MOVE_BREAKNECK_BLITZ	Breakneck Blitz	TYPE_NORMAL	PHYSICAL,    //determined from move type	1	0	1	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	20734	Measured
+MOVE_ALL_OUT_PUMMELING	All Out Pummeling	TYPE_FIGHTING	PHYSICAL	1	0	1	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	20748	Measured
+MOVE_SUPERSONIC_SKYSTRIKE	Supersonic Skystrike	TYPE_FLYING	PHYSICAL	1	0	1	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	20762	Measured
+MOVE_ACID_DOWNPOUR	Acid Downpour	TYPE_POISON	PHYSICAL	1	0	1	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	20776	Measured
+MOVE_TECTONIC_RAGE	Tectonic Rage	TYPE_GROUND	PHYSICAL	1	0	1	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	20790	Measured
+MOVE_CONTINENTAL_CRUSH	Continental Crush	TYPE_ROCK	PHYSICAL	1	0	1	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	20805	Measured
+MOVE_SAVAGE_SPIN_OUT	Savage Spin Out	TYPE_BUG	PHYSICAL	1	0	1	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	20819	Measured
+MOVE_NEVER_ENDING_NIGHTMARE	Never Ending Nightmare	TYPE_GHOST	PHYSICAL	1	0	1	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	20833	Measured
+MOVE_CORKSCREW_CRASH	Corkscrew Crash	TYPE_STEEL	PHYSICAL	1	0	1	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	20847	Measured
+MOVE_INFERNO_OVERDRIVE	Inferno Overdrive	TYPE_FIRE	PHYSICAL	1	0	1	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	20861	Measured
+MOVE_HYDRO_VORTEX	Hydro Vortex	TYPE_WATER	PHYSICAL	1	0	1	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	20875	Measured
+MOVE_BLOOM_DOOM	Bloom Doom	TYPE_GRASS	PHYSICAL	1	0	1	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	20889	Measured
+MOVE_GIGAVOLT_HAVOC	Gigavolt Havoc	TYPE_ELECTRIC	PHYSICAL	1	0	1	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	20903	Measured
+MOVE_SHATTERED_PSYCHE	Shattered Psyche	TYPE_PSYCHIC	PHYSICAL	1	0	1	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	20917	Measured
+MOVE_SUBZERO_SLAMMER	Subzero Slammer	TYPE_ICE	PHYSICAL	1	0	1	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	20931	Measured
+MOVE_DEVASTATING_DRAKE	Devastating Drake	TYPE_DRAGON	PHYSICAL	1	0	1	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	20945	Measured
+MOVE_BLACK_HOLE_ECLIPSE	Black Hole Eclipse	TYPE_DARK	PHYSICAL	1	0	1	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	20959	Measured
+MOVE_TWINKLE_TACKLE	Twinkle Tackle	TYPE_FAIRY	PHYSICAL	1	0	1	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	20973	Measured
+MOVE_CATASTROPIKA	Catastropika	TYPE_ELECTRIC	PHYSICAL	210	0	1	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	20987	Measured
+MOVE_10000000_VOLT_THUNDERBOLT	10,000,000 Volt Thunderbolt	TYPE_ELECTRIC	SPECIAL	195	0	1	0	EFFECT_HIT	SELECTED	criticalHitStage:2	NONE	src/data/moves_info.h	21001	Measured
+MOVE_STOKED_SPARKSURFER	Stoked Sparksurfer	TYPE_ELECTRIC	SPECIAL	175	0	1	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	21016	Measured
+MOVE_EXTREME_EVOBOOST	Extreme Evoboost	TYPE_NORMAL	STATUS	0	0	1	0	EFFECT_EXTREME_EVOBOOST	USER	NONE	NONE	src/data/moves_info.h	21034	Measured
+MOVE_PULVERIZING_PANCAKE	Pulverizing Pancake	TYPE_NORMAL	PHYSICAL	210	0	1	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	21048	Measured
+MOVE_GENESIS_SUPERNOVA	Genesis Supernova	TYPE_PSYCHIC	SPECIAL	185	0	1	0	EFFECT_HIT_SET_REMOVE_TERRAIN	SELECTED	NONE	NONE	src/data/moves_info.h	21062	Measured
+MOVE_SINISTER_ARROW_RAID	Sinister Arrow Raid	TYPE_GHOST	PHYSICAL	180	0	1	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	21077	Measured
+MOVE_MALICIOUS_MOONSAULT	Malicious Moonsault	TYPE_DARK	PHYSICAL	180	0	1	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	21091	Measured
+MOVE_OCEANIC_OPERETTA	Oceanic Operetta	TYPE_WATER	SPECIAL	195	0	1	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	21105	Measured
+MOVE_SPLINTERED_STORMSHARDS	Splintered Stormshards	TYPE_ROCK	PHYSICAL	190	0	1	0	EFFECT_HIT_SET_REMOVE_TERRAIN	SELECTED	NONE	NONE	src/data/moves_info.h	21119	Measured
+MOVE_LETS_SNUGGLE_FOREVER	Let's Snuggle Forever	TYPE_FAIRY	PHYSICAL	190	0	1	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	21134	Measured
+MOVE_CLANGOROUS_SOULBLAZE	Clangorous Soulblaze	TYPE_DRAGON	SPECIAL	185	0	1	0	EFFECT_HIT	BOTH	soundMove	NONE	src/data/moves_info.h	21148	Measured
+MOVE_GUARDIAN_OF_ALOLA	Guardian of Alola	TYPE_FAIRY	SPECIAL	1	0	1	0	EFFECT_GUARDIAN_OF_ALOLA	SELECTED	NONE	NONE	src/data/moves_info.h	21169	Measured
+MOVE_SEARING_SUNRAZE_SMASH	Searing Sunraze Smash	TYPE_STEEL	PHYSICAL	200	0	1	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	21183	Measured
+MOVE_MENACING_MOONRAZE_MAELSTROM	Menacing Moonraze Maelstrom	TYPE_GHOST	SPECIAL	200	0	1	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	21198	Measured
+MOVE_LIGHT_THAT_BURNS_THE_SKY	Light That Burns The Sky	TYPE_PSYCHIC	SPECIAL	200	0	1	0	EFFECT_PHOTON_GEYSER	SELECTED	NONE	NONE	src/data/moves_info.h	21213	Measured
+MOVE_SOUL_STEALING_7_STAR_STRIKE	Soul Stealing 7 Star Strike	TYPE_GHOST	PHYSICAL	195	0	1	0	EFFECT_HIT	SELECTED	NONE	NONE	src/data/moves_info.h	21228	Measured
+MOVE_MAX_GUARD	Max Guard	TYPE_NORMAL	STATUS	0	0	10	4	EFFECT_PROTECT	USER	NONE	NONE	src/data/moves_info.h	21242	Measured
+MOVE_MAX_FLARE	Max Flare	TYPE_FIRE	PHYSICAL	1	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21257	Measured
+MOVE_MAX_FLUTTERBY	Max Flutterby	TYPE_BUG	PHYSICAL	1	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21273	Measured
+MOVE_MAX_LIGHTNING	Max Lightning	TYPE_ELECTRIC	PHYSICAL	1	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21289	Measured
+MOVE_MAX_STRIKE	Max Strike	TYPE_NORMAL	PHYSICAL	1	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21305	Measured
+MOVE_MAX_KNUCKLE	Max Knuckle	TYPE_FIGHTING	PHYSICAL	1	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21321	Measured
+MOVE_MAX_PHANTASM	Max Phantasm	TYPE_GHOST	PHYSICAL	1	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21337	Measured
+MOVE_MAX_HAILSTORM	Max Hailstorm	TYPE_ICE	PHYSICAL	1	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21353	Measured
+MOVE_MAX_OOZE	Max Ooze	TYPE_POISON	PHYSICAL	1	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21369	Measured
+MOVE_MAX_GEYSER	Max Geyser	TYPE_WATER	PHYSICAL	1	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21385	Measured
+MOVE_MAX_AIRSTREAM	Max Airstream	TYPE_FLYING	PHYSICAL	1	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21401	Measured
+MOVE_MAX_STARFALL	Max Starfall	TYPE_FAIRY	PHYSICAL	1	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21417	Measured
+MOVE_MAX_WYRMWIND	Max Wyrmwind	TYPE_DRAGON	PHYSICAL	1	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21433	Measured
+MOVE_MAX_MINDSTORM	Max Mindstorm	TYPE_PSYCHIC	PHYSICAL	1	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21449	Measured
+MOVE_MAX_ROCKFALL	Max Rockfall	TYPE_ROCK	PHYSICAL	1	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21465	Measured
+MOVE_MAX_QUAKE	Max Quake	TYPE_GROUND	PHYSICAL	1	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21481	Measured
+MOVE_MAX_DARKNESS	Max Darkness	TYPE_DARK	PHYSICAL	1	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21498	Measured
+MOVE_MAX_OVERGROWTH	Max Overgrowth	TYPE_GRASS	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21514	Measured
+MOVE_MAX_STEELSPIKE	Max Steelspike	TYPE_STEEL	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21530	Measured
+MOVE_G_MAX_VINE_LASH	G-Max Vine Lash	TYPE_GRASS	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21546	Measured
+MOVE_G_MAX_WILDFIRE	G-Max Wildfire	TYPE_FIRE	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21562	Measured
+MOVE_G_MAX_CANNONADE	G-Max Canonade	TYPE_WATER	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21578	Measured
+MOVE_G_MAX_BEFUDDLE	G-Max Befuddle	TYPE_BUG	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21594	Measured
+MOVE_G_MAX_VOLT_CRASH	G-Max Volt Crash	TYPE_ELECTRIC	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21610	Measured
+MOVE_G_MAX_GOLD_RUSH	G-Max Gold Rush	TYPE_NORMAL	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21626	Measured
+MOVE_G_MAX_CHI_STRIKE	G-Max Chi Strike	TYPE_FIGHTING	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21642	Measured
+MOVE_G_MAX_TERROR	G-Max Terror	TYPE_GHOST	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21658	Measured
+MOVE_G_MAX_FOAM_BURST	G-Max Foam Burst	TYPE_WATER	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21674	Measured
+MOVE_G_MAX_RESONANCE	G-Max Resonance	TYPE_ICE	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21690	Measured
+MOVE_G_MAX_CUDDLE	G-Max Cuddle	TYPE_NORMAL	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21706	Measured
+MOVE_G_MAX_REPLENISH	G-Max Replenish	TYPE_NORMAL	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21722	Measured
+MOVE_G_MAX_MALODOR	G-Max Malodor	TYPE_POISON	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21738	Measured
+MOVE_G_MAX_MELTDOWN	G-Max Meltdown	TYPE_STEEL	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21754	Measured
+MOVE_G_MAX_DRUM_SOLO	G-Max Drum Solo	TYPE_GRASS	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21770	Measured
+MOVE_G_MAX_FIREBALL	G-Max Fireball	TYPE_FIRE	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21787	Measured
+MOVE_G_MAX_HYDROSNIPE	G-Max Hydrosnipe	TYPE_WATER	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21804	Measured
+MOVE_G_MAX_WIND_RAGE	G-Max Wind Rage	TYPE_FLYING	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21821	Measured
+MOVE_G_MAX_GRAVITAS	G-Max Gravitas	TYPE_PSYCHIC	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21837	Measured
+MOVE_G_MAX_STONESURGE	G-Max Stonesurge	TYPE_WATER	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21853	Measured
+MOVE_G_MAX_VOLCALITH	G-Max Volcalith	TYPE_ROCK	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21869	Measured
+MOVE_G_MAX_TARTNESS	G-Max Tartness	TYPE_GRASS	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21885	Measured
+MOVE_G_MAX_SWEETNESS	G-Max Sweetness	TYPE_GRASS	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21901	Measured
+MOVE_G_MAX_SANDBLAST	G-Max Sandblast	TYPE_GROUND	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21917	Measured
+MOVE_G_MAX_STUN_SHOCK	G-Max Stun Shock	TYPE_ELECTRIC	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21933	Measured
+MOVE_G_MAX_CENTIFERNO	G-Max Centiferno	TYPE_FIRE	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21949	Measured
+MOVE_G_MAX_SMITE	G-Max Smite	TYPE_FAIRY	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21965	Measured
+MOVE_G_MAX_SNOOZE	G-Max Snooze	TYPE_DARK	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21981	Measured
+MOVE_G_MAX_FINALE	G-Max Finale	TYPE_FAIRY	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	21998	Measured
+MOVE_G_MAX_STEELSURGE	G-Max Steelsurge	TYPE_STEEL	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	22014	Measured
+MOVE_G_MAX_DEPLETION	G-Max Depletion	TYPE_DRAGON	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	22030	Measured
+MOVE_G_MAX_ONE_BLOW	G-Max One Blow	TYPE_DARK	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	22046	Measured
+MOVE_G_MAX_RAPID_FLOW	G-Max Rapid Flow	TYPE_WATER	PHYSICAL	10	0	10	0	EFFECT_MAX_MOVE	SELECTED	NONE	NONE	src/data/moves_info.h	22062	Measured

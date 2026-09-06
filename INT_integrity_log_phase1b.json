@@ -1,0 +1,27 @@
+[
+  {
+    "check": "V2_move_count",
+    "severity": "INFO",
+    "detail": "938 move entries parsed"
+  },
+  {
+    "check": "V3_category_split",
+    "severity": "INFO",
+    "detail": "666 damaging, 270 status, 2 other/unresolved"
+  },
+  {
+    "check": "V4_damaging_zero_power",
+    "severity": "INFO",
+    "detail": "1 damaging moves with 0/UNK power (expected: fixed-damage and variable-power moves); sample ['MOVE_NONE']"
+  },
+  {
+    "check": "V5_unnamed",
+    "severity": "INFO",
+    "detail": "0"
+  },
+  {
+    "check": "V6_untyped",
+    "severity": "INFO",
+    "detail": "0; sample []"
+  }
+]

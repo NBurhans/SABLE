@@ -1,0 +1,57 @@
+[
+  {
+    "check": "R1_dataset",
+    "severity": "INFO",
+    "detail": "735 species, 2333 roster slots, 859 distinct trainers"
+  },
+  {
+    "check": "R3_trainers",
+    "severity": "INFO",
+    "detail": "859 trainers; roles {'route': 745, 'admin': 9, 'rival': 43, 'team_boss': 5, 'elite_four': 8, 'gym_leader': 46, 'champion': 3}"
+  },
+  {
+    "check": "R4_slots",
+    "severity": "INFO",
+    "detail": "2333 roster slots"
+  },
+  {
+    "check": "R5_boss_ev_coverage",
+    "severity": "INFO",
+    "detail": "94/114 boss-tier trainers carry EV spreads"
+  },
+  {
+    "check": "R6_slots_with_evs",
+    "severity": "INFO",
+    "detail": "1015 roster slots have non-zero EVs"
+  },
+  {
+    "check": "R7_boss_imperfect_ivs",
+    "severity": "INFO",
+    "detail": "48 boss-tier trainers have deliberately tuned (non-31) IVs; sample ['Aqua Leader Archie Hideout', 'Aqua Admin Shelly Weather Institute', 'Aqua Admin Shelly Seafloor Cavern', 'Aqua Leader Archie', 'Magma Admin Courtney Mt Chimney']"
+  },
+  {
+    "check": "R8_seatgem_dropped",
+    "severity": "FINDING",
+    "detail": "seatgem guide excluded: outlier of three sources (its Brawly Hariyama is Sitrus Berry / Thick Fat; hzla and the workbook both give Flame Orb / Guts)"
+  },
+  {
+    "check": "R9_version_risk",
+    "severity": "FINDING",
+    "detail": "Dataset is Emerald Imperium 1.3; player is on 1.3.1. No available source distinguishes those revisions for trainer rosters. Rows are Asserted."
+  },
+  {
+    "check": "R10_clone_trainers_rejected",
+    "severity": "FINDING",
+    "detail": "src/data/trainers.party from release@2576d0f was NOT used: only 8 of 115 boss rosters matched the 1.3 sources; Cynthia shared almost no species."
+  },
+  {
+    "check": "R2_checkpoints",
+    "severity": "INFO",
+    "detail": "19 progression gates (Measured, from src/caps.c)"
+  },
+  {
+    "check": "R11_mechanics_pin",
+    "severity": "FINDING",
+    "detail": "mechanics_gen pinned to GEN 8 with GEN 6 type chart, from hzla romhack_catalog.js (both Imperium variants hardcode dmgGen=8&gen=8&types=6). Contradicts the hack config headers, which resolve GEN_LATEST=GEN_9. Calculator setting wins; see targets/sable/mechanics.yaml for rationale."
+  }
+]

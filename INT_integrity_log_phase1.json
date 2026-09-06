@@ -1,0 +1,102 @@
+[
+  {
+    "check": "C0_config",
+    "severity": "INFO",
+    "detail": "resolved 192 generation config switches; GEN_LATEST=GEN_9"
+  },
+  {
+    "check": "C1b_species_aliases",
+    "severity": "INFO",
+    "detail": "96 alias defines resolved to their canonical form"
+  },
+  {
+    "check": "L0_learnset_source",
+    "severity": "FINDING",
+    "detail": "level-up learnsets read ONLY from level_up_learnsets.h; level_up_learnsets/gen_1..9.h are disabled by '#if FALSE' at src/pokemon.c:969 despite P_LVL_UP_LEARNSETS=GEN_LATEST in include/config/pokemon.h:14"
+  },
+  {
+    "check": "E1_encounter_groups",
+    "severity": "INFO",
+    "detail": "parsed 1 for_maps encounter group(s)"
+  },
+  {
+    "check": "C1_species_constants",
+    "severity": "INFO",
+    "detail": "1633 SPECIES_ constants"
+  },
+  {
+    "check": "C2_natdex_constants",
+    "severity": "INFO",
+    "detail": "1026 NATIONAL_DEX_ constants"
+  },
+  {
+    "check": "L2_levelup_learnsets",
+    "severity": "INFO",
+    "detail": "1117 level-up learnset arrays"
+  },
+  {
+    "check": "L3_teachable_learnsets",
+    "severity": "INFO",
+    "detail": "1113 teachable arrays"
+  },
+  {
+    "check": "L4_egg_learnsets",
+    "severity": "INFO",
+    "detail": "420 egg move arrays"
+  },
+  {
+    "check": "S7_unresolved_evo_target",
+    "severity": "ERROR",
+    "detail": "SPECIES_FLOETTE_"
+  },
+  {
+    "check": "S7_unresolved_evo_target",
+    "severity": "ERROR",
+    "detail": "SPECIES_FLORGES_"
+  },
+  {
+    "check": "S7_unresolved_evo_target",
+    "severity": "ERROR",
+    "detail": "SPECIES_MOTHIM"
+  },
+  {
+    "check": "S7_unresolved_evo_target",
+    "severity": "ERROR",
+    "detail": "SPECIES_SPEWPA_"
+  },
+  {
+    "check": "S7_unresolved_evo_target",
+    "severity": "ERROR",
+    "detail": "SPECIES_VIVILLON_"
+  },
+  {
+    "check": "S8_zero_levelup_movepool",
+    "severity": "INFO",
+    "detail": "0 species-forms; sample: []"
+  },
+  {
+    "check": "S9_no_wild_availability",
+    "severity": "INFO",
+    "detail": "832 species-forms have no wild encounter (expected: forms, legendaries, gifts)"
+  },
+  {
+    "check": "S10_bst_unresolved",
+    "severity": "INFO",
+    "detail": "0 rows; sample []"
+  },
+  {
+    "check": "S11_dex_vs_index_offset",
+    "severity": "INFO",
+    "detail": "618 species-forms where natDexNum != internal index \u2014 both columns carried"
+  },
+  {
+    "check": "ST2_starter_pools",
+    "severity": "FINDING",
+    "detail": "normalStarters=27 species (Gen 1-9 trios); monoStarters=45 species (15 type trios, active only under FLAG_USE_MONOTYPE_STARTERS)"
+  },
+  {
+    "check": "ST4_starter_counts",
+    "severity": "INFO",
+    "detail": "72 base starters flagged; 216 species-forms in a starter lineage; 122 of those have no wild encounter and are starter-only"
+  }
+]
