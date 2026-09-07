@@ -1,0 +1,154 @@
+{
+  "log": [
+    {
+      "check": "RT_01_species.tsv",
+      "severity": "INFO",
+      "detail": "1523 rows x 43 cols, ragged 0"
+    },
+    {
+      "check": "RT_01b_moves.tsv",
+      "severity": "INFO",
+      "detail": "938 rows x 15 cols, ragged 0"
+    },
+    {
+      "check": "RT_01c_availability.tsv",
+      "severity": "INFO",
+      "detail": "1523 rows x 6 cols, ragged 0"
+    },
+    {
+      "check": "RT_02_world.tsv",
+      "severity": "INFO",
+      "detail": "1128 rows x 20 cols, ragged 0"
+    },
+    {
+      "check": "RT_03_trainers.tsv",
+      "severity": "INFO",
+      "detail": "859 rows x 19 cols, ragged 0"
+    },
+    {
+      "check": "RT_03b_checkpoints.tsv",
+      "severity": "INFO",
+      "detail": "19 rows x 4 cols, ragged 0"
+    },
+    {
+      "check": "RT_04a_candidates.tsv",
+      "severity": "INFO",
+      "detail": "152865 rows x 12 cols, ragged 0"
+    },
+    {
+      "check": "RT_04b_matchup_summary.tsv",
+      "severity": "INFO",
+      "detail": "19665 rows x 28 cols, ragged 0"
+    },
+    {
+      "check": "RT_04c_build_scores.tsv",
+      "severity": "INFO",
+      "detail": "152865 rows x 29 cols, ragged 0"
+    },
+    {
+      "check": "RT_05_roles.tsv",
+      "severity": "INFO",
+      "detail": "152865 rows x 20 cols, ragged 0"
+    },
+    {
+      "check": "RT_05_valuation.tsv",
+      "severity": "INFO",
+      "detail": "19217 rows x 31 cols, ragged 0"
+    },
+    {
+      "check": "RT_summary",
+      "severity": "INFO",
+      "detail": "0 ragged rows across all files"
+    },
+    {
+      "check": "RT_decode_levelup",
+      "severity": "WARN",
+      "detail": "6411 level-up pairs decoded to a named move and integer level; 45 failed; sample [('SPECIES_CHARMANDER', 'MOVE_THUNDERPUNCH:24'), ('SPECIES_CHARMELEON', 'MOVE_THUNDERPUNCH:24'), ('SPECIES_CHARIZARD', 'MOVE_THUNDERPUNCH:24'), ('SPECIES_CHARIZARD_MEGA_X', 'MOVE_THUNDERPUNCH:24')]"
+    },
+    {
+      "check": "RT_sentinels",
+      "severity": "INFO",
+      "detail": "01_species sentinel usage \u2014 NONE:7984, UNK:899 (three distinct meanings, must not collapse)"
+    },
+    {
+      "check": "RI_roster_species",
+      "severity": "WARN",
+      "detail": "521 scored boss slots; 8 species do not resolve against Phase 1: ['Dialga-Primal', 'Dusknoir-Mega', 'Empoleon-Mega-D', 'Empoleon-Mega-O', 'Infernape-Mega', 'Luxray-Mega', 'Palkia-Primal', 'Slaking-Mega']"
+    },
+    {
+      "check": "RI_roster_moves",
+      "severity": "INFO",
+      "detail": "0 roster moves do not resolve against Phase 1b; sample []"
+    },
+    {
+      "check": "RI_roster_items",
+      "severity": "INFO",
+      "detail": "14 roster items are not placed anywhere in Phase 2 \u2014 expected, since trainers hold items the player cannot necessarily obtain; sample ['Booster Energy', 'Charizardite Y', 'Custap Berry', 'Empoleonite D', 'Empoleonite O', 'Hearthflame Mask']"
+    },
+    {
+      "check": "RI_dynamic_excluded",
+      "severity": "INFO",
+      "detail": "153 level-scaled rival slots excluded by decision, not omission"
+    },
+    {
+      "check": "RI_ceiling_moves",
+      "severity": "INFO",
+      "detail": "0 moves on published ceilings do not exist in Phase 1b; sample []"
+    },
+    {
+      "check": "RI_ceiling_items",
+      "severity": "INFO",
+      "detail": "0 items on published ceilings are not placed in Phase 2; sample []"
+    },
+    {
+      "check": "RI_ceiling_unreliable",
+      "severity": "INFO",
+      "detail": "6479 published ceilings still carry a scarce item, each flagged item_reliable=FALSE with the gap in item_dependence"
+    },
+    {
+      "check": "RI_movepool_legality",
+      "severity": "INFO",
+      "detail": "0 of ~6000 sampled ceiling move slots use a move the species cannot learn; sample []"
+    },
+    {
+      "check": "RI_scored_in_pool",
+      "severity": "INFO",
+      "detail": "0 scored species-forms are not marked obtainable; sample []"
+    },
+    {
+      "check": "UNK_01_species.tsv",
+      "severity": "INFO",
+      "detail": "1523 rows; availability_channels=710, gender_ratio_pct_female=189"
+    },
+    {
+      "check": "UNK_01c_availability.tsv",
+      "severity": "INFO",
+      "detail": "1523 rows; earliest_cp=1126, availability_confidence=1098"
+    },
+    {
+      "check": "UNK_02_world.tsv",
+      "severity": "INFO",
+      "detail": "1128 rows; prerequisites=1128, missable=1128, region=846, earliest_gate=628, access_wave=28"
+    },
+    {
+      "check": "UNK_05_valuation.tsv",
+      "severity": "INFO",
+      "detail": "19217 rows; earliest_cp=11872, availability_confidence=11340"
+    },
+    {
+      "check": "UNK_judgment:01c_availability.earliest_cp",
+      "severity": "INFO",
+      "detail": "NOT recoverable from supplied data. Only 11 of 127 encounter maps carry a gated world row, so most wild timing is underivable. Needs either map connectivity data or a progression order the user supplies."
+    },
+    {
+      "check": "UNK_judgment:02_world.earliest_gate",
+      "severity": "INFO",
+      "detail": "PARTIALLY recoverable. Derived from flag-set anchors in scripts; the remainder need map connectivity that is not in the supplied files."
+    },
+    {
+      "check": "UNK_judgment:03_trainers.checkpoint",
+      "severity": "INFO",
+      "detail": "Recoverable for fixed trainers. DYNAMIC rivals are excluded by decision."
+    }
+  ]
+}

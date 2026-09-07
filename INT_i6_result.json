@@ -1,0 +1,112 @@
+{
+  "seed": 20260907,
+  "delta": 15,
+  "checkpoints": [
+    3,
+    10,
+    19
+  ],
+  "sample_size": 146,
+  "species_changed": 125,
+  "rate_species": 0.8562,
+  "cells_compared": 438,
+  "cells_changed": 280,
+  "rate_cells": 0.6393,
+  "pass": true,
+  "sample_detail": [
+    {
+      "species": "SPECIES_ABOMASNOW_MEGA",
+      "checkpoint": "10",
+      "n_base": 12,
+      "n_perturbed": 4
+    },
+    {
+      "species": "SPECIES_ABOMASNOW_MEGA",
+      "checkpoint": "19",
+      "n_base": 12,
+      "n_perturbed": 4
+    },
+    {
+      "species": "SPECIES_ABOMASNOW_MEGA",
+      "checkpoint": "3",
+      "n_base": 12,
+      "n_perturbed": 4
+    },
+    {
+      "species": "SPECIES_ANNIHILAPE",
+      "checkpoint": "3",
+      "n_base": 4,
+      "n_perturbed": 4
+    },
+    {
+      "species": "SPECIES_ARAQUANID",
+      "checkpoint": "10",
+      "n_base": 8,
+      "n_perturbed": 8
+    },
+    {
+      "species": "SPECIES_ARAQUANID",
+      "checkpoint": "19",
+      "n_base": 8,
+      "n_perturbed": 8
+    },
+    {
+      "species": "SPECIES_ARAQUANID",
+      "checkpoint": "3",
+      "n_base": 8,
+      "n_perturbed": 8
+    },
+    {
+      "species": "SPECIES_ARAQUANID_TOTEM",
+      "checkpoint": "10",
+      "n_base": 8,
+      "n_perturbed": 4
+    },
+    {
+      "species": "SPECIES_ARAQUANID_TOTEM",
+      "checkpoint": "19",
+      "n_base": 8,
+      "n_perturbed": 4
+    },
+    {
+      "species": "SPECIES_ARAQUANID_TOTEM",
+      "checkpoint": "3",
+      "n_base": 8,
+      "n_perturbed": 4
+    },
+    {
+      "species": "SPECIES_ARBOLIVA",
+      "checkpoint": "10",
+      "n_base": 4,
+      "n_perturbed": 4
+    },
+    {
+      "species": "SPECIES_ARBOLIVA",
+      "checkpoint": "19",
+      "n_base": 4,
+      "n_perturbed": 4
+    }
+  ],
+  "log": [
+    {
+      "check": "I6_strata",
+      "severity": "INFO",
+      "detail": "8 strata across BST quartiles x evolution stage; 18 per stratum, sample 150, seed 20260907"
+    },
+    {
+      "check": "I6_cells",
+      "severity": "INFO",
+      "detail": "438 (species, checkpoint) cells compared; 280 changed (63.9%)"
+    },
+    {
+      "check": "I6_species",
+      "severity": "INFO",
+      "detail": "125 of 146 sampled species-forms changed their recommended build set (85.6%)"
+    },
+    {
+      "check": "I6_result",
+      "severity": "INFO",
+      "detail": "PASS \u2014 threshold >= 20% of the sample must change; observed 85.6%"
+    }
+  ]
+}
