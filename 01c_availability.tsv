@@ -1,0 +1,1524 @@
+species_const	species_name	earliest_cp	entry_reason	availability_confidence	in_pool
+SPECIES_BULBASAUR	Bulbasaur	1	starter:game_start	Measured	TRUE
+SPECIES_IVYSAUR	Ivysaur	2	evolution:EVO_LEVEL@16:from SPECIES_BULBASAUR	Derived	TRUE
+SPECIES_VENUSAUR	Venusaur	7	evolution:EVO_LEVEL@36:from SPECIES_IVYSAUR	Derived	TRUE
+SPECIES_VENUSAUR_MEGA	Venusaur	7	mega/primal form of SPECIES_VENUSAUR (stone not resolved)	Inferred	TRUE
+SPECIES_VENUSAUR_GMAX	Venusaur	UNK	no path found	UNK	FALSE
+SPECIES_CHARMANDER	Charmander	1	starter:game_start	Measured	TRUE
+SPECIES_CHARMELEON	Charmeleon	2	evolution:EVO_LEVEL@16:from SPECIES_CHARMANDER	Derived	TRUE
+SPECIES_CHARIZARD	Charizard	7	evolution:EVO_LEVEL@36:from SPECIES_CHARMELEON	Derived	TRUE
+SPECIES_CHARIZARD_MEGA_X	Charizard	7	mega/primal form of SPECIES_CHARIZARD (stone not resolved)	Inferred	TRUE
+SPECIES_CHARIZARD_MEGA_Y	Charizard	7	mega/primal form of SPECIES_CHARIZARD (stone not resolved)	Inferred	TRUE
+SPECIES_CHARIZARD_GMAX	Charizard	UNK	no path found	UNK	FALSE
+SPECIES_SQUIRTLE	Squirtle	1	starter:game_start	Measured	TRUE
+SPECIES_WARTORTLE	Wartortle	2	evolution:EVO_LEVEL@16:from SPECIES_SQUIRTLE	Derived	TRUE
+SPECIES_BLASTOISE	Blastoise	7	evolution:EVO_LEVEL@36:from SPECIES_WARTORTLE	Derived	TRUE
+SPECIES_BLASTOISE_MEGA	Blastoise	7	mega/primal form of SPECIES_BLASTOISE (stone not resolved)	Inferred	TRUE
+SPECIES_BLASTOISE_GMAX	Blastoise	UNK	no path found	UNK	FALSE
+SPECIES_CATERPIE	Caterpie	1	wild	Asserted	TRUE
+SPECIES_METAPOD	Metapod	1	evolution:EVO_LEVEL@7:from SPECIES_CATERPIE	Derived	TRUE
+SPECIES_BUTTERFREE	Butterfree	1	evolution:EVO_LEVEL@10:from SPECIES_METAPOD	Derived	TRUE
+SPECIES_BUTTERFREE_MEGA	Butterfree	1	mega/primal form of SPECIES_BUTTERFREE (stone not resolved)	Inferred	TRUE
+SPECIES_WEEDLE	Weedle	1	wild	Asserted	TRUE
+SPECIES_KAKUNA	Kakuna	1	evolution:EVO_LEVEL@7:from SPECIES_WEEDLE	Derived	TRUE
+SPECIES_BEEDRILL	Beedrill	1	evolution:EVO_LEVEL@10:from SPECIES_KAKUNA	Derived	TRUE
+SPECIES_BEEDRILL_MEGA	Beedrill	1	mega/primal form of SPECIES_BEEDRILL (stone not resolved)	Inferred	TRUE
+SPECIES_PIDGEY	Pidgey	1	wild	Asserted	TRUE
+SPECIES_PIDGEOTTO	Pidgeotto	2	evolution:EVO_LEVEL@16:from SPECIES_PIDGEY	Derived	TRUE
+SPECIES_PIDGEOT	Pidgeot	7	evolution:EVO_LEVEL@36:from SPECIES_PIDGEOTTO	Derived	TRUE
+SPECIES_PIDGEOT_MEGA	Pidgeot	7	mega/primal form of SPECIES_PIDGEOT (stone not resolved)	Inferred	TRUE
+SPECIES_RATTATA	Rattata	1	wild	Asserted	TRUE
+SPECIES_RATICATE	Raticate	2	evolution:EVO_LEVEL@16:from SPECIES_RATTATA	Derived	TRUE
+SPECIES_RATTATA_ALOLA	Rattata	3	wild	Asserted	TRUE
+SPECIES_RATICATE_ALOLA	Raticate	3	evolution:EVO_LEVEL_NIGHT@16:from SPECIES_RATTATA_ALOLA	Derived	TRUE
+SPECIES_RATICATE_ALOLA_TOTEM	Raticate	3	evolution:EVO_NONE:0:from SPECIES_RATTATA_ALOLA	Inferred	TRUE
+SPECIES_SPEAROW	Spearow	6	wild	Asserted	TRUE
+SPECIES_FEAROW	Fearow	6	evolution:EVO_LEVEL@20:from SPECIES_SPEAROW	Derived	TRUE
+SPECIES_EKANS	Ekans	1	wild	Asserted	TRUE
+SPECIES_ARBOK	Arbok	3	evolution:EVO_LEVEL@22:from SPECIES_EKANS	Derived	TRUE
+SPECIES_PICHU	Pichu	1	starter:game_start	Measured	TRUE
+SPECIES_PICHU_SPIKY_EARED	Pichu	UNK	no path found	UNK	FALSE
+SPECIES_PIKACHU	Pikachu	1	evolution:EVO_FRIENDSHIP:0:from SPECIES_PICHU	Inferred	TRUE
+SPECIES_PIKACHU_COSPLAY	Pikachu	UNK	no path found	UNK	FALSE
+SPECIES_PIKACHU_ROCK_STAR	Pikachu	UNK	no path found	UNK	FALSE
+SPECIES_PIKACHU_BELLE	Pikachu	UNK	no path found	UNK	FALSE
+SPECIES_PIKACHU_POP_STAR	Pikachu	UNK	no path found	UNK	FALSE
+SPECIES_PIKACHU_PHD	Pikachu	UNK	no path found	UNK	FALSE
+SPECIES_PIKACHU_LIBRE	Pikachu	UNK	no path found	UNK	FALSE
+SPECIES_PIKACHU_SURFING	Pikachu	UNK	no path found	UNK	FALSE
+SPECIES_PIKACHU_FLYING	Pikachu	UNK	no path found	UNK	FALSE
+SPECIES_PIKACHU_ORIGINAL	Pikachu	UNK	no path found	UNK	FALSE
+SPECIES_PIKACHU_HOENN	Pikachu	UNK	no path found	UNK	FALSE
+SPECIES_PIKACHU_SINNOH	Pikachu	UNK	no path found	UNK	FALSE
+SPECIES_PIKACHU_UNOVA	Pikachu	UNK	no path found	UNK	FALSE
+SPECIES_PIKACHU_KALOS	Pikachu	UNK	no path found	UNK	FALSE
+SPECIES_PIKACHU_ALOLA	Pikachu	UNK	no path found	UNK	FALSE
+SPECIES_PIKACHU_PARTNER	Pikachu	UNK	no path found	UNK	FALSE
+SPECIES_PIKACHU_WORLD	Pikachu	UNK	no path found	UNK	FALSE
+SPECIES_PIKACHU_GMAX	Pikachu	UNK	no path found	UNK	FALSE
+SPECIES_PIKACHU_STARTER	Pikachu	UNK	no path found	UNK	FALSE
+SPECIES_RAICHU	Raichu	1	evolution:EVO_ITEM:ITEM_THUNDER_STONE	Derived	TRUE
+SPECIES_RAICHU_ALOLA	Raichu	5	evolution:EVO_ITEM:ITEM_SHINY_STONE	Derived	TRUE
+SPECIES_SANDSHREW	Sandshrew	2	wild	Asserted	TRUE
+SPECIES_SANDSLASH	Sandslash	3	evolution:EVO_LEVEL@22:from SPECIES_SANDSHREW	Derived	TRUE
+SPECIES_SANDSHREW_ALOLA	Sandshrew	1	wild	Asserted	TRUE
+SPECIES_SANDSLASH_ALOLA	Sandslash	5	evolution:EVO_ITEM:ITEM_ICE_STONE	Derived	TRUE
+SPECIES_NIDORAN_F	Nidoran♀	1	wild	Asserted	TRUE
+SPECIES_NIDORINA	Nidorina	2	evolution:EVO_LEVEL@16:from SPECIES_NIDORAN_F	Derived	TRUE
+SPECIES_NIDOQUEEN	Nidoqueen	13	evolution:EVO_ITEM:ITEM_MOON_STONE	Derived	TRUE
+SPECIES_NIDORAN_M	Nidoran♂	1	wild	Asserted	TRUE
+SPECIES_NIDORINO	Nidorino	2	evolution:EVO_LEVEL@16:from SPECIES_NIDORAN_M	Derived	TRUE
+SPECIES_NIDOKING	Nidoking	13	evolution:EVO_ITEM:ITEM_MOON_STONE	Derived	TRUE
+SPECIES_CLEFFA	Cleffa	13	wild	Asserted	TRUE
+SPECIES_CLEFAIRY	Clefairy	3	wild	Asserted	TRUE
+SPECIES_CLEFABLE	Clefable	13	evolution:EVO_ITEM:ITEM_MOON_STONE	Derived	TRUE
+SPECIES_VULPIX	Vulpix	1	wild	Asserted	TRUE
+SPECIES_NINETALES	Ninetales	1	evolution:EVO_ITEM:ITEM_FIRE_STONE	Derived	TRUE
+SPECIES_VULPIX_ALOLA	Vulpix	1	wild	Asserted	TRUE
+SPECIES_NINETALES_ALOLA	Ninetales	5	evolution:EVO_ITEM:ITEM_ICE_STONE	Derived	TRUE
+SPECIES_IGGLYBUFF	Igglybuff	1	starter:game_start	Measured	TRUE
+SPECIES_JIGGLYPUFF	Jigglypuff	1	evolution:EVO_FRIENDSHIP:0:from SPECIES_IGGLYBUFF	Inferred	TRUE
+SPECIES_WIGGLYTUFF	Wigglytuff	13	evolution:EVO_ITEM:ITEM_MOON_STONE	Derived	TRUE
+SPECIES_ZUBAT	Zubat	3	wild	Asserted	TRUE
+SPECIES_GOLBAT	Golbat	3	evolution:EVO_LEVEL@22:from SPECIES_ZUBAT	Derived	TRUE
+SPECIES_CROBAT	Crobat	3	evolution:EVO_FRIENDSHIP:0:from SPECIES_GOLBAT	Inferred	TRUE
+SPECIES_ODDISH	Oddish	1	wild	Asserted	TRUE
+SPECIES_GLOOM	Gloom	2	evolution:EVO_LEVEL@16:from SPECIES_ODDISH	Derived	TRUE
+SPECIES_VILEPLUME	Vileplume	11	evolution:EVO_ITEM:ITEM_LEAF_STONE	Derived	TRUE
+SPECIES_BELLOSSOM	Bellossom	2	evolution:EVO_ITEM:ITEM_SUN_STONE	Derived	TRUE
+SPECIES_PARAS	Paras	3	wild	Asserted	TRUE
+SPECIES_PARASECT	Parasect	3	evolution:EVO_LEVEL@23:from SPECIES_PARAS	Derived	TRUE
+SPECIES_VENONAT	Venonat	3	wild	Asserted	TRUE
+SPECIES_VENOMOTH	Venomoth	4	evolution:EVO_LEVEL@27:from SPECIES_VENONAT	Derived	TRUE
+SPECIES_DIGLETT	Diglett	3	wild	Asserted	TRUE
+SPECIES_DUGTRIO	Dugtrio	3	evolution:EVO_LEVEL@22:from SPECIES_DIGLETT	Derived	TRUE
+SPECIES_DIGLETT_ALOLA	Diglett	3	wild	Asserted	TRUE
+SPECIES_DUGTRIO_ALOLA	Dugtrio	3	evolution:EVO_LEVEL@22:from SPECIES_DIGLETT_ALOLA	Derived	TRUE
+SPECIES_MEOWTH	Meowth	1	wild	Asserted	TRUE
+SPECIES_PERSIAN	Persian	4	evolution:EVO_LEVEL@28:from SPECIES_MEOWTH	Derived	TRUE
+SPECIES_MEOWTH_ALOLA	Meowth	1	wild	Asserted	TRUE
+SPECIES_PERSIAN_ALOLA	Persian	4	evolution:EVO_LEVEL@28:from SPECIES_MEOWTH_ALOLA	Derived	TRUE
+SPECIES_MEOWTH_GALAR	Meowth	1	wild	Asserted	TRUE
+SPECIES_PERRSERKER	Perrserker	4	evolution:EVO_LEVEL@28:from SPECIES_MEOWTH_GALAR	Derived	TRUE
+SPECIES_MEOWTH_GMAX	Meowth	UNK	no path found	UNK	FALSE
+SPECIES_PSYDUCK	Psyduck	4	wild	Asserted	TRUE
+SPECIES_GOLDUCK	Golduck	4	wild	Asserted	TRUE
+SPECIES_MANKEY	Mankey	1	starter:game_start	Measured	TRUE
+SPECIES_PRIMEAPE	Primeape	4	evolution:EVO_LEVEL@28:from SPECIES_MANKEY	Derived	TRUE
+SPECIES_ANNIHILAPE	Annihilape	4	evolution:EVO_MOVE:MOVE_SHADOW_PUNCH:from SPECIES_PRIMEAPE	Inferred	TRUE
+SPECIES_GROWLITHE	Growlithe	1	wild	Asserted	TRUE
+SPECIES_ARCANINE	Arcanine	1	evolution:EVO_ITEM:ITEM_FIRE_STONE	Derived	TRUE
+SPECIES_GROWLITHE_HISUI	Growlithe	7	wild	Asserted	TRUE
+SPECIES_ARCANINE_HISUI	Arcanine	7	evolution:EVO_ITEM:ITEM_FIRE_STONE	Derived	TRUE
+SPECIES_POLIWAG	Poliwag	1	wild	Asserted	TRUE
+SPECIES_POLIWHIRL	Poliwhirl	3	evolution:EVO_LEVEL@25:from SPECIES_POLIWAG	Derived	TRUE
+SPECIES_POLIWRATH	Poliwrath	3	evolution:EVO_ITEM:ITEM_WATER_STONE	Derived	TRUE
+SPECIES_POLITOED	Politoed	13	evolution:EVO_TRADE_ITEM:ITEM_KINGS_ROCK	Derived	TRUE
+SPECIES_ABRA	Abra	1	wild	Asserted	TRUE
+SPECIES_KADABRA	Kadabra	2	evolution:EVO_LEVEL@16:from SPECIES_ABRA	Derived	TRUE
+SPECIES_ALAKAZAM	Alakazam	2	evolution:EVO_TRADE:0:from SPECIES_KADABRA	Inferred	TRUE
+SPECIES_ALAKAZAM_MEGA	Alakazam	2	mega/primal form of SPECIES_ALAKAZAM (stone not resolved)	Inferred	TRUE
+SPECIES_MACHOP	Machop	1	starter:game_start	Measured	TRUE
+SPECIES_MACHOKE	Machoke	4	evolution:EVO_LEVEL@28:from SPECIES_MACHOP	Derived	TRUE
+SPECIES_MACHAMP	Machamp	4	evolution:EVO_TRADE:0:from SPECIES_MACHOKE	Inferred	TRUE
+SPECIES_MACHAMP_MEGA	Machamp	4	mega/primal form of SPECIES_MACHAMP (stone not resolved)	Inferred	TRUE
+SPECIES_BELLSPROUT	Bellsprout	6	wild	Asserted	TRUE
+SPECIES_WEEPINBELL	Weepinbell	6	evolution:EVO_LEVEL@21:from SPECIES_BELLSPROUT	Derived	TRUE
+SPECIES_VICTREEBEL	Victreebel	11	evolution:EVO_ITEM:ITEM_LEAF_STONE	Derived	TRUE
+SPECIES_TENTACOOL	Tentacool	3	wild	Asserted	TRUE
+SPECIES_TENTACRUEL	Tentacruel	3	wild	Asserted	TRUE
+SPECIES_GEODUDE	Geodude	1	starter:game_start	Measured	TRUE
+SPECIES_GRAVELER	Graveler	3	evolution:EVO_LEVEL@23:from SPECIES_GEODUDE	Derived	TRUE
+SPECIES_GOLEM	Golem	3	evolution:EVO_TRADE:0:from SPECIES_GRAVELER	Inferred	TRUE
+SPECIES_GEODUDE_ALOLA	Geodude	1	starter:game_start	Measured	TRUE
+SPECIES_GRAVELER_ALOLA	Graveler	3	evolution:EVO_LEVEL@23:from SPECIES_GEODUDE_ALOLA	Derived	TRUE
+SPECIES_GOLEM_ALOLA	Golem	3	evolution:EVO_TRADE:0:from SPECIES_GRAVELER_ALOLA	Inferred	TRUE
+SPECIES_PONYTA	Ponyta	4	wild	Asserted	TRUE
+SPECIES_RAPIDASH	Rapidash	4	evolution:EVO_LEVEL@28:from SPECIES_PONYTA	Derived	TRUE
+SPECIES_PONYTA_GALAR	Ponyta	1	wild	Asserted	TRUE
+SPECIES_RAPIDASH_GALAR	Rapidash	4	evolution:EVO_LEVEL@28:from SPECIES_PONYTA_GALAR	Derived	TRUE
+SPECIES_SLOWPOKE	Slowpoke	1	wild	Asserted	TRUE
+SPECIES_SLOWBRO	Slowbro	1	wild	Asserted	TRUE
+SPECIES_SLOWKING	Slowking	1	wild	Asserted	TRUE
+SPECIES_SLOWBRO_MEGA	Slowbro	1	mega/primal form of SPECIES_SLOWBRO (stone not resolved)	Inferred	TRUE
+SPECIES_SLOWPOKE_GALAR	Slowpoke	1	wild	Asserted	TRUE
+SPECIES_SLOWBRO_GALAR	Slowbro	1	wild	Asserted	TRUE
+SPECIES_SLOWKING_GALAR	Slowking	1	wild	Asserted	TRUE
+SPECIES_MAGNEMITE	Magnemite	2	wild	Asserted	TRUE
+SPECIES_MAGNETON	Magneton	4	evolution:EVO_LEVEL@30:from SPECIES_MAGNEMITE	Derived	TRUE
+SPECIES_MAGNEZONE	Magnezone	4	evolution:EVO_MAPSEC:MAPSEC_NEW_MAUVILLE:from SPECIES_MAGNETON	Inferred	TRUE
+SPECIES_FARFETCHD	Farfetch'd	6	wild	Asserted	TRUE
+SPECIES_FARFETCHD_GALAR	Farfetch'd	1	wild	Asserted	TRUE
+SPECIES_SIRFETCHD	Sirfetch'd	4	evolution:EVO_LEVEL@30:from SPECIES_FARFETCHD_GALAR	Derived	TRUE
+SPECIES_DODUO	Doduo	7	wild	Asserted	TRUE
+SPECIES_DODRIO	Dodrio	7	evolution:EVO_LEVEL@31:from SPECIES_DODUO	Derived	TRUE
+SPECIES_SEEL	Seel	7	wild	Asserted	TRUE
+SPECIES_DEWGONG	Dewgong	7	wild	Asserted	TRUE
+SPECIES_GRIMER	Grimer	6	wild	Asserted	TRUE
+SPECIES_MUK	Muk	6	wild	Asserted	TRUE
+SPECIES_GRIMER_ALOLA	Grimer	6	wild	Asserted	TRUE
+SPECIES_MUK_ALOLA	Muk	6	wild	Asserted	TRUE
+SPECIES_SHELLDER	Shellder	7	wild	Asserted	TRUE
+SPECIES_CLOYSTER	Cloyster	7	wild	Asserted	TRUE
+SPECIES_GASTLY	Gastly	1	starter:game_start	Measured	TRUE
+SPECIES_HAUNTER	Haunter	3	evolution:EVO_LEVEL@23:from SPECIES_GASTLY	Derived	TRUE
+SPECIES_GENGAR	Gengar	3	evolution:EVO_TRADE:0:from SPECIES_HAUNTER	Inferred	TRUE
+SPECIES_GENGAR_MEGA	Gengar	3	mega/primal form of SPECIES_GENGAR (stone not resolved)	Inferred	TRUE
+SPECIES_GENGAR_GMAX	Gengar	UNK	no path found	UNK	FALSE
+SPECIES_ONIX	Onix	6	wild	Asserted	TRUE
+SPECIES_STEELIX	Steelix	13	evolution:EVO_TRADE_ITEM:ITEM_METAL_COAT	Derived	TRUE
+SPECIES_STEELIX_MEGA	Steelix	13	mega/primal form of SPECIES_STEELIX (stone not resolved)	Inferred	TRUE
+SPECIES_DROWZEE	Drowzee	1	wild	Asserted	TRUE
+SPECIES_HYPNO	Hypno	4	evolution:EVO_LEVEL@26:from SPECIES_DROWZEE	Derived	TRUE
+SPECIES_KRABBY	Krabby	1	wild	Asserted	TRUE
+SPECIES_KINGLER	Kingler	1	wild	Asserted	TRUE
+SPECIES_KINGLER_MEGA	Kingler	1	mega/primal form of SPECIES_KINGLER (stone not resolved)	Inferred	TRUE
+SPECIES_VOLTORB	Voltorb	6	wild	Asserted	TRUE
+SPECIES_ELECTRODE	Electrode	6	evolution:EVO_LEVEL@28:from SPECIES_VOLTORB	Derived	TRUE
+SPECIES_VOLTORB_HISUI	Voltorb	6	wild	Asserted	TRUE
+SPECIES_ELECTRODE_HISUI	Electrode	11	evolution:EVO_ITEM:ITEM_LEAF_STONE	Derived	TRUE
+SPECIES_EXEGGCUTE	Exeggcute	1	wild	Asserted	TRUE
+SPECIES_EXEGGUTOR	Exeggutor	11	evolution:EVO_ITEM:ITEM_LEAF_STONE	Derived	TRUE
+SPECIES_EXEGGUTOR_ALOLA	Exeggutor	1	evolution:EVO_ITEM:ITEM_SUN_STONE	Derived	TRUE
+SPECIES_CUBONE	Cubone	2	wild	Asserted	TRUE
+SPECIES_MAROWAK	Marowak	4	evolution:EVO_LEVEL_DAY@28:from SPECIES_CUBONE	Derived	TRUE
+SPECIES_MAROWAK_ALOLA	Marowak	4	evolution:EVO_LEVEL_NIGHT@28:from SPECIES_CUBONE	Derived	TRUE
+SPECIES_MAROWAK_ALOLA_TOTEM	Marowak	2	evolution:EVO_NONE:0:from SPECIES_CUBONE	Inferred	TRUE
+SPECIES_TYROGUE	Tyrogue	UNK	no path found	UNK	FALSE
+SPECIES_HITMONLEE	Hitmonlee	UNK	no path found	UNK	FALSE
+SPECIES_HITMONCHAN	Hitmonchan	UNK	no path found	UNK	FALSE
+SPECIES_HITMONTOP	Hitmontop	UNK	no path found	UNK	FALSE
+SPECIES_LICKITUNG	Lickitung	3	wild	Asserted	TRUE
+SPECIES_LICKILICKY	Lickilicky	3	evolution:EVO_MOVE:MOVE_ROLLOUT:from SPECIES_LICKITUNG	Inferred	TRUE
+SPECIES_KOFFING	Koffing	1	starter:game_start	Measured	TRUE
+SPECIES_WEEZING	Weezing	7	evolution:EVO_LEVEL_DAY@35:from SPECIES_KOFFING	Derived	TRUE
+SPECIES_WEEZING_GALAR	Weezing	7	evolution:EVO_LEVEL_NIGHT@35:from SPECIES_KOFFING	Derived	TRUE
+SPECIES_RHYHORN	Rhyhorn	9	wild	Asserted	TRUE
+SPECIES_RHYDON	Rhydon	7	wild	Asserted	TRUE
+SPECIES_RHYPERIOR	Rhyperior	13	evolution:EVO_ITEM:ITEM_LINKING_CORD	Derived	TRUE
+SPECIES_HAPPINY	Happiny	13	wild	Asserted	TRUE
+SPECIES_CHANSEY	Chansey	13	wild	Asserted	TRUE
+SPECIES_BLISSEY	Blissey	13	evolution:EVO_FRIENDSHIP:0:from SPECIES_CHANSEY	Inferred	TRUE
+SPECIES_TANGELA	Tangela	1	wild	Asserted	TRUE
+SPECIES_TANGROWTH	Tangrowth	1	evolution:EVO_MOVE:MOVE_ANCIENT_POWER:from SPECIES_TANGELA	Inferred	TRUE
+SPECIES_KANGASKHAN	Kangaskhan	9	wild	Asserted	TRUE
+SPECIES_KANGASKHAN_MEGA	Kangaskhan	9	mega/primal form of SPECIES_KANGASKHAN (stone not resolved)	Inferred	TRUE
+SPECIES_HORSEA	Horsea	1	wild	Asserted	TRUE
+SPECIES_SEADRA	Seadra	1	wild	Asserted	TRUE
+SPECIES_KINGDRA	Kingdra	13	evolution:EVO_ITEM:ITEM_PRISM_SCALE	Derived	TRUE
+SPECIES_GOLDEEN	Goldeen	1	wild	Asserted	TRUE
+SPECIES_SEAKING	Seaking	3	wild	Asserted	TRUE
+SPECIES_STARYU	Staryu	3	wild	Asserted	TRUE
+SPECIES_STARMIE	Starmie	3	wild	Asserted	TRUE
+SPECIES_MIME_JR	Mime Jr.	9	wild	Asserted	TRUE
+SPECIES_MR_MIME	Mr. Mime	9	evolution:EVO_MOVE:MOVE_MIMIC:from SPECIES_MIME_JR	Inferred	TRUE
+SPECIES_MR_MIME_GALAR	Mr. Mime	9	evolution:EVO_ITEM:ITEM_ICE_STONE	Derived	TRUE
+SPECIES_MR_RIME	Mr. Rime	9	wild	Asserted	TRUE
+SPECIES_SCYTHER	Scyther	3	wild	Asserted	TRUE
+SPECIES_SCIZOR	Scizor	13	evolution:EVO_TRADE_ITEM:ITEM_METAL_COAT	Derived	TRUE
+SPECIES_SCIZOR_MEGA	Scizor	13	mega/primal form of SPECIES_SCIZOR (stone not resolved)	Inferred	TRUE
+SPECIES_KLEAVOR	Kleavor	13	evolution:EVO_ITEM:ITEM_KINGS_ROCK	Derived	TRUE
+SPECIES_SMOOCHUM	Smoochum	3	wild	Asserted	TRUE
+SPECIES_JYNX	Jynx	4	evolution:EVO_LEVEL@27:from SPECIES_SMOOCHUM	Derived	TRUE
+SPECIES_ELEKID	Elekid	UNK	no path found	UNK	FALSE
+SPECIES_ELECTABUZZ	Electabuzz	7	wild	Asserted	TRUE
+SPECIES_ELECTIVIRE	Electivire	13	evolution:EVO_ITEM:ITEM_LINKING_CORD	Derived	TRUE
+SPECIES_MAGBY	Magby	1	wild	Asserted	TRUE
+SPECIES_MAGMAR	Magmar	4	evolution:EVO_LEVEL@27:from SPECIES_MAGBY	Derived	TRUE
+SPECIES_MAGMORTAR	Magmortar	13	evolution:EVO_ITEM:ITEM_LINKING_CORD	Derived	TRUE
+SPECIES_PINSIR	Pinsir	3	wild	Asserted	TRUE
+SPECIES_PINSIR_MEGA	Pinsir	3	mega/primal form of SPECIES_PINSIR (stone not resolved)	Inferred	TRUE
+SPECIES_TAUROS	Tauros	7	wild	Asserted	TRUE
+SPECIES_TAUROS_PALDEA_COMBAT	Tauros	7	wild	Asserted	TRUE
+SPECIES_TAUROS_PALDEA_BLAZE	Tauros	7	wild	Asserted	TRUE
+SPECIES_TAUROS_PALDEA_AQUA	Tauros	3	wild	Asserted	TRUE
+SPECIES_MAGIKARP	Magikarp	3	wild	Asserted	TRUE
+SPECIES_GYARADOS	Gyarados	3	wild	Asserted	TRUE
+SPECIES_GYARADOS_MEGA	Gyarados	3	mega/primal form of SPECIES_GYARADOS (stone not resolved)	Inferred	TRUE
+SPECIES_LAPRAS	Lapras	3	wild	Asserted	TRUE
+SPECIES_LAPRAS_MEGA	Lapras	3	mega/primal form of SPECIES_LAPRAS (stone not resolved)	Inferred	TRUE
+SPECIES_DITTO	Ditto	9	wild	Asserted	TRUE
+SPECIES_EEVEE	Eevee	UNK	no path found	UNK	FALSE
+SPECIES_EEVEE_GMAX	Eevee	UNK	no path found	UNK	FALSE
+SPECIES_EEVEE_STARTER	Eevee	UNK	no path found	UNK	FALSE
+SPECIES_VAPOREON	Vaporeon	UNK	no path found	UNK	FALSE
+SPECIES_JOLTEON	Jolteon	UNK	no path found	UNK	FALSE
+SPECIES_FLAREON	Flareon	UNK	no path found	UNK	FALSE
+SPECIES_ESPEON	Espeon	UNK	no path found	UNK	FALSE
+SPECIES_UMBREON	Umbreon	UNK	no path found	UNK	FALSE
+SPECIES_LEAFEON	Leafeon	UNK	no path found	UNK	FALSE
+SPECIES_GLACEON	Glaceon	UNK	no path found	UNK	FALSE
+SPECIES_SYLVEON	Sylveon	UNK	no path found	UNK	FALSE
+SPECIES_PORYGON	Porygon	6	wild	Asserted	TRUE
+SPECIES_PORYGON2	Porygon2	13	evolution:EVO_ITEM:ITEM_LINKING_CORD	Derived	TRUE
+SPECIES_PORYGON_Z	Porygon-Z	13	evolution:EVO_ITEM:ITEM_DUSK_STONE	Derived	TRUE
+SPECIES_OMANYTE	Omanyte	19	wild	Asserted	TRUE
+SPECIES_OMASTAR	Omastar	19	evolution:EVO_LEVEL@34:from SPECIES_OMANYTE	Derived	TRUE
+SPECIES_KABUTO	Kabuto	19	wild	Asserted	TRUE
+SPECIES_KABUTOPS	Kabutops	19	evolution:EVO_LEVEL@34:from SPECIES_KABUTO	Derived	TRUE
+SPECIES_AERODACTYL	Aerodactyl	7	wild	Asserted	TRUE
+SPECIES_AERODACTYL_MEGA	Aerodactyl	7	mega/primal form of SPECIES_AERODACTYL (stone not resolved)	Inferred	TRUE
+SPECIES_MUNCHLAX	Munchlax	7	wild	Asserted	TRUE
+SPECIES_SNORLAX	Snorlax	7	evolution:EVO_LEVEL@30:from SPECIES_MUNCHLAX	Derived	TRUE
+SPECIES_SNORLAX_MEGA	Snorlax	7	mega/primal form of SPECIES_SNORLAX (stone not resolved)	Inferred	TRUE
+SPECIES_ARTICUNO	Articuno	UNK	no path found	UNK	FALSE
+SPECIES_ARTICUNO_GALAR	Articuno	UNK	no path found	UNK	FALSE
+SPECIES_ZAPDOS	Zapdos	UNK	no path found	UNK	FALSE
+SPECIES_ZAPDOS_GALAR	Zapdos	UNK	no path found	UNK	FALSE
+SPECIES_MOLTRES	Moltres	UNK	no path found	UNK	FALSE
+SPECIES_MOLTRES_GALAR	Moltres	UNK	no path found	UNK	FALSE
+SPECIES_DRATINI	Dratini	1	starter:game_start	Measured	TRUE
+SPECIES_DRAGONAIR	Dragonair	3	wild	Asserted	TRUE
+SPECIES_DRAGONITE	Dragonite	9	evolution:EVO_LEVEL@55:from SPECIES_DRAGONAIR	Derived	TRUE
+SPECIES_MEWTWO	Mewtwo	UNK	no path found	UNK	FALSE
+SPECIES_MEWTWO_MEGA_X	Mewtwo	UNK	no path found	UNK	FALSE
+SPECIES_MEWTWO_MEGA_Y	Mewtwo	UNK	no path found	UNK	FALSE
+SPECIES_MEW	Mew	UNK	no path found	UNK	FALSE
+SPECIES_CHIKORITA	Chikorita	1	starter:game_start	Measured	TRUE
+SPECIES_BAYLEEF	Bayleef	2	evolution:EVO_LEVEL@16:from SPECIES_CHIKORITA	Derived	TRUE
+SPECIES_MEGANIUM	Meganium	7	evolution:EVO_LEVEL@36:from SPECIES_BAYLEEF	Derived	TRUE
+SPECIES_CYNDAQUIL	Cyndaquil	1	starter:game_start	Measured	TRUE
+SPECIES_QUILAVA	Quilava	2	evolution:EVO_LEVEL@16:from SPECIES_CYNDAQUIL	Derived	TRUE
+SPECIES_TYPHLOSION	Typhlosion	7	evolution:EVO_LEVEL_DAY@36:from SPECIES_QUILAVA	Derived	TRUE
+SPECIES_TYPHLOSION_HISUI	Typhlosion	7	evolution:EVO_LEVEL_NIGHT@36:from SPECIES_QUILAVA	Derived	TRUE
+SPECIES_TOTODILE	Totodile	1	starter:game_start	Measured	TRUE
+SPECIES_CROCONAW	Croconaw	2	evolution:EVO_LEVEL@16:from SPECIES_TOTODILE	Derived	TRUE
+SPECIES_FERALIGATR	Feraligatr	7	evolution:EVO_LEVEL@36:from SPECIES_CROCONAW	Derived	TRUE
+SPECIES_SENTRET	Sentret	7	wild	Asserted	TRUE
+SPECIES_FURRET	Furret	7	evolution:EVO_LEVEL@15:from SPECIES_SENTRET	Derived	TRUE
+SPECIES_HOOTHOOT	Hoothoot	1	wild	Asserted	TRUE
+SPECIES_NOCTOWL	Noctowl	2	evolution:EVO_LEVEL@16:from SPECIES_HOOTHOOT	Derived	TRUE
+SPECIES_LEDYBA	Ledyba	11	wild	Derived	TRUE
+SPECIES_LEDIAN	Ledian	11	evolution:EVO_LEVEL@16:from SPECIES_LEDYBA	Derived	TRUE
+SPECIES_SPINARAK	Spinarak	11	wild	Asserted	TRUE
+SPECIES_ARIADOS	Ariados	11	evolution:EVO_LEVEL@16:from SPECIES_SPINARAK	Derived	TRUE
+SPECIES_CHINCHOU	Chinchou	3	wild	Asserted	TRUE
+SPECIES_LANTURN	Lanturn	3	wild	Asserted	TRUE
+SPECIES_TOGEPI	Togepi	UNK	no path found	UNK	FALSE
+SPECIES_TOGETIC	Togetic	13	wild	Asserted	TRUE
+SPECIES_TOGEKISS	Togekiss	13	evolution:EVO_ITEM:ITEM_SHINY_STONE	Derived	TRUE
+SPECIES_NATU	Natu	3	wild	Asserted	TRUE
+SPECIES_XATU	Xatu	3	evolution:EVO_LEVEL@25:from SPECIES_NATU	Derived	TRUE
+SPECIES_MAREEP	Mareep	1	starter:game_start	Measured	TRUE
+SPECIES_FLAAFFY	Flaaffy	1	evolution:EVO_LEVEL@15:from SPECIES_MAREEP	Derived	TRUE
+SPECIES_AMPHAROS	Ampharos	4	evolution:EVO_LEVEL@30:from SPECIES_FLAAFFY	Derived	TRUE
+SPECIES_AMPHAROS_MEGA	Ampharos	4	mega/primal form of SPECIES_AMPHAROS (stone not resolved)	Inferred	TRUE
+SPECIES_AZURILL	Azurill	11	wild	Derived	TRUE
+SPECIES_MARILL	Marill	3	wild	Asserted	TRUE
+SPECIES_AZUMARILL	Azumarill	3	wild	Asserted	TRUE
+SPECIES_BONSLY	Bonsly	7	wild	Asserted	TRUE
+SPECIES_SUDOWOODO	Sudowoodo	7	evolution:EVO_MOVE:MOVE_MIMIC:from SPECIES_BONSLY	Inferred	TRUE
+SPECIES_HOPPIP	Hoppip	1	starter:game_start	Measured	TRUE
+SPECIES_SKIPLOOM	Skiploom	2	evolution:EVO_LEVEL@16:from SPECIES_HOPPIP	Derived	TRUE
+SPECIES_JUMPLUFF	Jumpluff	4	evolution:EVO_LEVEL@27:from SPECIES_SKIPLOOM	Derived	TRUE
+SPECIES_AIPOM	Aipom	11	wild	Asserted	TRUE
+SPECIES_AMBIPOM	Ambipom	11	evolution:EVO_MOVE:MOVE_DOUBLE_HIT:from SPECIES_AIPOM	Inferred	TRUE
+SPECIES_SUNKERN	Sunkern	7	wild	Asserted	TRUE
+SPECIES_SUNFLORA	Sunflora	7	evolution:EVO_ITEM:ITEM_SUN_STONE	Derived	TRUE
+SPECIES_YANMA	Yanma	7	wild	Asserted	TRUE
+SPECIES_YANMEGA	Yanmega	7	evolution:EVO_MOVE:MOVE_ANCIENT_POWER:from SPECIES_YANMA	Inferred	TRUE
+SPECIES_WOOPER	Wooper	4	wild	Asserted	TRUE
+SPECIES_QUAGSIRE	Quagsire	4	wild	Asserted	TRUE
+SPECIES_WOOPER_PALDEA	Wooper	4	wild	Asserted	TRUE
+SPECIES_CLODSIRE	Clodsire	4	wild	Asserted	TRUE
+SPECIES_MURKROW	Murkrow	6	wild	Asserted	TRUE
+SPECIES_HONCHKROW	Honchkrow	13	evolution:EVO_ITEM:ITEM_DUSK_STONE	Derived	TRUE
+SPECIES_MISDREAVUS	Misdreavus	3	wild	Asserted	TRUE
+SPECIES_MISMAGIUS	Mismagius	13	evolution:EVO_ITEM:ITEM_DUSK_STONE	Derived	TRUE
+SPECIES_UNOWN	Unown	9	wild	Asserted	TRUE
+SPECIES_UNOWN_B	Unown	UNK	no path found	UNK	FALSE
+SPECIES_UNOWN_C	Unown	UNK	no path found	UNK	FALSE
+SPECIES_UNOWN_D	Unown	UNK	no path found	UNK	FALSE
+SPECIES_UNOWN_E	Unown	UNK	no path found	UNK	FALSE
+SPECIES_UNOWN_F	Unown	UNK	no path found	UNK	FALSE
+SPECIES_UNOWN_G	Unown	UNK	no path found	UNK	FALSE
+SPECIES_UNOWN_H	Unown	UNK	no path found	UNK	FALSE
+SPECIES_UNOWN_I	Unown	UNK	no path found	UNK	FALSE
+SPECIES_UNOWN_J	Unown	UNK	no path found	UNK	FALSE
+SPECIES_UNOWN_K	Unown	UNK	no path found	UNK	FALSE
+SPECIES_UNOWN_L	Unown	UNK	no path found	UNK	FALSE
+SPECIES_UNOWN_M	Unown	UNK	no path found	UNK	FALSE
+SPECIES_UNOWN_N	Unown	UNK	no path found	UNK	FALSE
+SPECIES_UNOWN_O	Unown	UNK	no path found	UNK	FALSE
+SPECIES_UNOWN_P	Unown	UNK	no path found	UNK	FALSE
+SPECIES_UNOWN_Q	Unown	UNK	no path found	UNK	FALSE
+SPECIES_UNOWN_R	Unown	UNK	no path found	UNK	FALSE
+SPECIES_UNOWN_S	Unown	UNK	no path found	UNK	FALSE
+SPECIES_UNOWN_T	Unown	UNK	no path found	UNK	FALSE
+SPECIES_UNOWN_U	Unown	UNK	no path found	UNK	FALSE
+SPECIES_UNOWN_V	Unown	UNK	no path found	UNK	FALSE
+SPECIES_UNOWN_W	Unown	UNK	no path found	UNK	FALSE
+SPECIES_UNOWN_X	Unown	UNK	no path found	UNK	FALSE
+SPECIES_UNOWN_Y	Unown	UNK	no path found	UNK	FALSE
+SPECIES_UNOWN_Z	Unown	UNK	no path found	UNK	FALSE
+SPECIES_UNOWN_EXCLAMATION	Unown	UNK	no path found	UNK	FALSE
+SPECIES_UNOWN_QUESTION	Unown	UNK	no path found	UNK	FALSE
+SPECIES_WYNAUT	Wynaut	9	wild	Asserted	TRUE
+SPECIES_WOBBUFFET	Wobbuffet	9	evolution:EVO_LEVEL@15:from SPECIES_WYNAUT	Derived	TRUE
+SPECIES_GIRAFARIG	Girafarig	9	wild	Asserted	TRUE
+SPECIES_FARIGIRAF	Farigiraf	9	evolution:EVO_LEVEL@45:from SPECIES_GIRAFARIG	Derived	TRUE
+SPECIES_PINECO	Pineco	7	wild	Asserted	TRUE
+SPECIES_FORRETRESS	Forretress	7	evolution:EVO_LEVEL@28:from SPECIES_PINECO	Derived	TRUE
+SPECIES_DUNSPARCE	Dunsparce	3	wild	Asserted	TRUE
+SPECIES_DUDUNSPARCE_TWO_SEGMENT	Dudunsparce	3	evolution:EVO_MOVE_TWO_SEGMENT:MOVE_HYPER_DRILL:from SPECIES_DUNSPARCE	Inferred	TRUE
+SPECIES_DUDUNSPARCE_THREE_SEGMENT	Dudunsparce	8	evolution:EVO_LEVEL@45:from SPECIES_DUNSPARCE	Derived	TRUE
+SPECIES_GLIGAR	Gligar	3	wild	Asserted	TRUE
+SPECIES_GLISCOR	Gliscor	4	wild	Asserted	TRUE
+SPECIES_SNUBBULL	Snubbull	1	wild	Asserted	TRUE
+SPECIES_GRANBULL	Granbull	3	evolution:EVO_LEVEL@23:from SPECIES_SNUBBULL	Derived	TRUE
+SPECIES_QWILFISH	Qwilfish	1	wild	Asserted	TRUE
+SPECIES_QWILFISH_HISUI	Qwilfish	4	wild	Asserted	TRUE
+SPECIES_OVERQWIL	Overqwil	4	wild	Asserted	TRUE
+SPECIES_SHUCKLE	Shuckle	7	wild	Asserted	TRUE
+SPECIES_HERACROSS	Heracross	3	wild	Asserted	TRUE
+SPECIES_HERACROSS_MEGA	Heracross	3	mega/primal form of SPECIES_HERACROSS (stone not resolved)	Inferred	TRUE
+SPECIES_SNEASEL	Sneasel	7	wild	Asserted	TRUE
+SPECIES_WEAVILE	Weavile	13	wild	Asserted	TRUE
+SPECIES_SNEASEL_HISUI	Sneasel	6	wild	Asserted	TRUE
+SPECIES_SNEASLER	Sneasler	8	evolution:EVO_LEVEL@47:from SPECIES_SNEASEL_HISUI	Derived	TRUE
+SPECIES_TEDDIURSA	Teddiursa	1	wild	Asserted	TRUE
+SPECIES_URSARING	Ursaring	4	wild	Asserted	TRUE
+SPECIES_URSALUNA	Ursaluna	9	evolution:EVO_LEVEL_DAY@48:from SPECIES_URSARING	Derived	TRUE
+SPECIES_URSALUNA_BLOODMOON	Ursaluna	9	evolution:EVO_LEVEL_NIGHT@48:from SPECIES_URSARING	Derived	TRUE
+SPECIES_SLUGMA	Slugma	7	wild	Asserted	TRUE
+SPECIES_MAGCARGO	Magcargo	7	evolution:EVO_LEVEL@23:from SPECIES_SLUGMA	Derived	TRUE
+SPECIES_SWINUB	Swinub	1	starter:game_start	Measured	TRUE
+SPECIES_PILOSWINE	Piloswine	4	evolution:EVO_LEVEL@28:from SPECIES_SWINUB	Derived	TRUE
+SPECIES_MAMOSWINE	Mamoswine	4	evolution:EVO_MOVE:MOVE_ANCIENT_POWER:from SPECIES_PILOSWINE	Inferred	TRUE
+SPECIES_CORSOLA	Corsola	1	wild	Asserted	TRUE
+SPECIES_CORSOLA_GALAR	Corsola	3	wild	Asserted	TRUE
+SPECIES_CURSOLA	Cursola	3	wild	Asserted	TRUE
+SPECIES_REMORAID	Remoraid	1	wild	Asserted	TRUE
+SPECIES_OCTILLERY	Octillery	1	wild	Asserted	TRUE
+SPECIES_DELIBIRD	Delibird	9	wild	Asserted	TRUE
+SPECIES_MANTYKE	Mantyke	1	wild	Asserted	TRUE
+SPECIES_MANTINE	Mantine	1	wild	Asserted	TRUE
+SPECIES_SKARMORY	Skarmory	3	wild	Asserted	TRUE
+SPECIES_HOUNDOUR	Houndour	6	wild	Asserted	TRUE
+SPECIES_HOUNDOOM	Houndoom	6	evolution:EVO_LEVEL@23:from SPECIES_HOUNDOUR	Derived	TRUE
+SPECIES_HOUNDOOM_MEGA	Houndoom	6	mega/primal form of SPECIES_HOUNDOOM (stone not resolved)	Inferred	TRUE
+SPECIES_PHANPY	Phanpy	1	wild	Asserted	TRUE
+SPECIES_DONPHAN	Donphan	3	evolution:EVO_LEVEL@25:from SPECIES_PHANPY	Derived	TRUE
+SPECIES_STANTLER	Stantler	7	wild	Asserted	TRUE
+SPECIES_WYRDEER	Wyrdeer	7	evolution:EVO_LEVEL@44:from SPECIES_STANTLER	Derived	TRUE
+SPECIES_SMEARGLE	Smeargle	13	wild	Asserted	TRUE
+SPECIES_MILTANK	Miltank	11	wild	Asserted	TRUE
+SPECIES_RAIKOU	Raikou	UNK	no path found	UNK	FALSE
+SPECIES_ENTEI	Entei	UNK	no path found	UNK	FALSE
+SPECIES_SUICUNE	Suicune	UNK	no path found	UNK	FALSE
+SPECIES_LARVITAR	Larvitar	6	wild	Asserted	TRUE
+SPECIES_PUPITAR	Pupitar	6	evolution:EVO_LEVEL@30:from SPECIES_LARVITAR	Derived	TRUE
+SPECIES_TYRANITAR	Tyranitar	9	evolution:EVO_LEVEL@55:from SPECIES_PUPITAR	Derived	TRUE
+SPECIES_TYRANITAR_MEGA	Tyranitar	9	mega/primal form of SPECIES_TYRANITAR (stone not resolved)	Inferred	TRUE
+SPECIES_LUGIA	Lugia	UNK	no path found	UNK	FALSE
+SPECIES_HO_OH	Ho-Oh	UNK	no path found	UNK	FALSE
+SPECIES_CELEBI	Celebi	UNK	no path found	UNK	FALSE
+SPECIES_TREECKO	Treecko	1	starter:game_start	Measured	TRUE
+SPECIES_GROVYLE	Grovyle	2	evolution:EVO_LEVEL@16:from SPECIES_TREECKO	Derived	TRUE
+SPECIES_SCEPTILE	Sceptile	7	evolution:EVO_LEVEL@36:from SPECIES_GROVYLE	Derived	TRUE
+SPECIES_SCEPTILE_MEGA	Sceptile	7	mega/primal form of SPECIES_SCEPTILE (stone not resolved)	Inferred	TRUE
+SPECIES_TORCHIC	Torchic	1	starter:game_start	Measured	TRUE
+SPECIES_COMBUSKEN	Combusken	2	evolution:EVO_LEVEL@16:from SPECIES_TORCHIC	Derived	TRUE
+SPECIES_BLAZIKEN	Blaziken	7	evolution:EVO_LEVEL@36:from SPECIES_COMBUSKEN	Derived	TRUE
+SPECIES_BLAZIKEN_MEGA	Blaziken	7	mega/primal form of SPECIES_BLAZIKEN (stone not resolved)	Inferred	TRUE
+SPECIES_MUDKIP	Mudkip	1	starter:game_start	Measured	TRUE
+SPECIES_MARSHTOMP	Marshtomp	2	evolution:EVO_LEVEL@16:from SPECIES_MUDKIP	Derived	TRUE
+SPECIES_SWAMPERT	Swampert	7	evolution:EVO_LEVEL@36:from SPECIES_MARSHTOMP	Derived	TRUE
+SPECIES_SWAMPERT_MEGA	Swampert	7	mega/primal form of SPECIES_SWAMPERT (stone not resolved)	Inferred	TRUE
+SPECIES_POOCHYENA	Poochyena	1	wild	Asserted	TRUE
+SPECIES_MIGHTYENA	Mightyena	2	evolution:EVO_LEVEL@16:from SPECIES_POOCHYENA	Derived	TRUE
+SPECIES_ZIGZAGOON	Zigzagoon	1	wild	Asserted	TRUE
+SPECIES_LINOONE	Linoone	2	evolution:EVO_LEVEL@16:from SPECIES_ZIGZAGOON	Derived	TRUE
+SPECIES_ZIGZAGOON_GALAR	Zigzagoon	1	starter:game_start	Measured	TRUE
+SPECIES_LINOONE_GALAR	Linoone	2	evolution:EVO_LEVEL@16:from SPECIES_ZIGZAGOON_GALAR	Derived	TRUE
+SPECIES_OBSTAGOON	Obstagoon	7	evolution:EVO_LEVEL_NIGHT@35:from SPECIES_LINOONE_GALAR	Derived	TRUE
+SPECIES_WURMPLE	Wurmple	1	wild	Asserted	TRUE
+SPECIES_SILCOON	Silcoon	1	evolution:EVO_LEVEL_SILCOON@7:from SPECIES_WURMPLE	Derived	TRUE
+SPECIES_BEAUTIFLY	Beautifly	1	evolution:EVO_LEVEL@10:from SPECIES_SILCOON	Derived	TRUE
+SPECIES_CASCOON	Cascoon	1	evolution:EVO_LEVEL_CASCOON@7:from SPECIES_WURMPLE	Derived	TRUE
+SPECIES_DUSTOX	Dustox	1	evolution:EVO_LEVEL@10:from SPECIES_CASCOON	Derived	TRUE
+SPECIES_LOTAD	Lotad	1	wild	Asserted	TRUE
+SPECIES_LOMBRE	Lombre	1	evolution:EVO_LEVEL@14:from SPECIES_LOTAD	Derived	TRUE
+SPECIES_LUDICOLO	Ludicolo	1	evolution:EVO_ITEM:ITEM_WATER_STONE	Derived	TRUE
+SPECIES_SEEDOT	Seedot	1	wild	Asserted	TRUE
+SPECIES_NUZLEAF	Nuzleaf	1	evolution:EVO_LEVEL@14:from SPECIES_SEEDOT	Derived	TRUE
+SPECIES_SHIFTRY	Shiftry	11	evolution:EVO_ITEM:ITEM_LEAF_STONE	Derived	TRUE
+SPECIES_TAILLOW	Taillow	6	wild	Asserted	TRUE
+SPECIES_SWELLOW	Swellow	6	evolution:EVO_LEVEL@22:from SPECIES_TAILLOW	Derived	TRUE
+SPECIES_WINGULL	Wingull	1	wild	Asserted	TRUE
+SPECIES_PELIPPER	Pelipper	1	wild	Asserted	TRUE
+SPECIES_RALTS	Ralts	1	wild	Asserted	TRUE
+SPECIES_KIRLIA	Kirlia	2	evolution:EVO_LEVEL@20:from SPECIES_RALTS	Derived	TRUE
+SPECIES_GARDEVOIR	Gardevoir	4	evolution:EVO_LEVEL@30:from SPECIES_KIRLIA	Derived	TRUE
+SPECIES_GARDEVOIR_MEGA	Gardevoir	4	mega/primal form of SPECIES_GARDEVOIR (stone not resolved)	Inferred	TRUE
+SPECIES_GALLADE	Gallade	13	evolution:EVO_ITEM_MALE:ITEM_DAWN_STONE	Derived	TRUE
+SPECIES_GALLADE_MEGA	Gallade	13	mega/primal form of SPECIES_GALLADE (stone not resolved)	Inferred	TRUE
+SPECIES_SURSKIT	Surskit	1	wild	Asserted	TRUE
+SPECIES_MASQUERAIN	Masquerain	1	wild	Asserted	TRUE
+SPECIES_SHROOMISH	Shroomish	1	wild	Asserted	TRUE
+SPECIES_BRELOOM	Breloom	3	evolution:EVO_LEVEL@23:from SPECIES_SHROOMISH	Derived	TRUE
+SPECIES_SLAKOTH	Slakoth	7	wild	Asserted	TRUE
+SPECIES_VIGOROTH	Vigoroth	7	evolution:EVO_LEVEL@18:from SPECIES_SLAKOTH	Derived	TRUE
+SPECIES_SLAKING	Slaking	7	evolution:EVO_LEVEL@36:from SPECIES_VIGOROTH	Derived	TRUE
+SPECIES_NINCADA	Nincada	1	wild	Asserted	TRUE
+SPECIES_NINJASK	Ninjask	2	evolution:EVO_LEVEL_NINJASK@20:from SPECIES_NINCADA	Derived	TRUE
+SPECIES_SHEDINJA	Shedinja	17	wild	Asserted	TRUE
+SPECIES_WHISMUR	Whismur	1	starter:game_start	Measured	TRUE
+SPECIES_LOUDRED	Loudred	2	evolution:EVO_LEVEL@20:from SPECIES_WHISMUR	Derived	TRUE
+SPECIES_EXPLOUD	Exploud	7	evolution:EVO_LEVEL@36:from SPECIES_LOUDRED	Derived	TRUE
+SPECIES_MAKUHITA	Makuhita	3	wild	Asserted	TRUE
+SPECIES_HARIYAMA	Hariyama	3	evolution:EVO_LEVEL@24:from SPECIES_MAKUHITA	Derived	TRUE
+SPECIES_NOSEPASS	Nosepass	3	wild	Asserted	TRUE
+SPECIES_PROBOPASS	Probopass	13	evolution:EVO_ITEM:ITEM_METAL_COAT	Derived	TRUE
+SPECIES_SKITTY	Skitty	1	wild	Asserted	TRUE
+SPECIES_DELCATTY	Delcatty	13	evolution:EVO_ITEM:ITEM_MOON_STONE	Derived	TRUE
+SPECIES_SABLEYE	Sableye	3	wild	Asserted	TRUE
+SPECIES_SABLEYE_MEGA	Sableye	3	mega/primal form of SPECIES_SABLEYE (stone not resolved)	Inferred	TRUE
+SPECIES_MAWILE	Mawile	3	wild	Asserted	TRUE
+SPECIES_MAWILE_MEGA	Mawile	3	mega/primal form of SPECIES_MAWILE (stone not resolved)	Inferred	TRUE
+SPECIES_ARON	Aron	2	wild	Asserted	TRUE
+SPECIES_LAIRON	Lairon	5	evolution:EVO_LEVEL@32:from SPECIES_ARON	Derived	TRUE
+SPECIES_AGGRON	Aggron	7	evolution:EVO_LEVEL@42:from SPECIES_LAIRON	Derived	TRUE
+SPECIES_AGGRON_MEGA	Aggron	7	mega/primal form of SPECIES_AGGRON (stone not resolved)	Inferred	TRUE
+SPECIES_MEDITITE	Meditite	3	wild	Asserted	TRUE
+SPECIES_MEDICHAM	Medicham	7	evolution:EVO_LEVEL@37:from SPECIES_MEDITITE	Derived	TRUE
+SPECIES_MEDICHAM_MEGA	Medicham	7	mega/primal form of SPECIES_MEDICHAM (stone not resolved)	Inferred	TRUE
+SPECIES_ELECTRIKE	Electrike	4	wild	Asserted	TRUE
+SPECIES_MANECTRIC	Manectric	4	evolution:EVO_LEVEL@26:from SPECIES_ELECTRIKE	Derived	TRUE
+SPECIES_MANECTRIC_MEGA	Manectric	4	mega/primal form of SPECIES_MANECTRIC (stone not resolved)	Inferred	TRUE
+SPECIES_PLUSLE	Plusle	4	wild	Asserted	TRUE
+SPECIES_MINUN	Minun	4	wild	Asserted	TRUE
+SPECIES_VOLBEAT	Volbeat	6	wild	Asserted	TRUE
+SPECIES_ILLUMISE	Illumise	6	wild	Asserted	TRUE
+SPECIES_BUDEW	Budew	1	starter:game_start	Measured	TRUE
+SPECIES_ROSELIA	Roselia	1	evolution:EVO_FRIENDSHIP_DAY:0:from SPECIES_BUDEW	Inferred	TRUE
+SPECIES_ROSERADE	Roserade	5	evolution:EVO_ITEM:ITEM_SHINY_STONE	Derived	TRUE
+SPECIES_GULPIN	Gulpin	11	wild	Asserted	TRUE
+SPECIES_SWALOT	Swalot	11	evolution:EVO_LEVEL@26:from SPECIES_GULPIN	Derived	TRUE
+SPECIES_CARVANHA	Carvanha	4	wild	Asserted	TRUE
+SPECIES_SHARPEDO	Sharpedo	4	wild	Asserted	TRUE
+SPECIES_SHARPEDO_MEGA	Sharpedo	4	mega/primal form of SPECIES_SHARPEDO (stone not resolved)	Inferred	TRUE
+SPECIES_WAILMER	Wailmer	4	wild	Asserted	TRUE
+SPECIES_WAILORD	Wailord	4	wild	Asserted	TRUE
+SPECIES_NUMEL	Numel	6	wild	Asserted	TRUE
+SPECIES_CAMERUPT	Camerupt	6	evolution:EVO_LEVEL@33:from SPECIES_NUMEL	Derived	TRUE
+SPECIES_CAMERUPT_MEGA	Camerupt	6	mega/primal form of SPECIES_CAMERUPT (stone not resolved)	Inferred	TRUE
+SPECIES_TORKOAL	Torkoal	7	wild	Asserted	TRUE
+SPECIES_SPOINK	Spoink	3	wild	Asserted	TRUE
+SPECIES_GRUMPIG	Grumpig	5	evolution:EVO_LEVEL@32:from SPECIES_SPOINK	Derived	TRUE
+SPECIES_SPINDA	Spinda	7	wild	Asserted	TRUE
+SPECIES_TRAPINCH	Trapinch	1	starter:game_start	Measured	TRUE
+SPECIES_VIBRAVA	Vibrava	6	evolution:EVO_LEVEL@34:from SPECIES_TRAPINCH	Derived	TRUE
+SPECIES_FLYGON	Flygon	7	evolution:EVO_LEVEL@44:from SPECIES_VIBRAVA	Derived	TRUE
+SPECIES_CACNEA	Cacnea	6	wild	Asserted	TRUE
+SPECIES_CACTURNE	Cacturne	6	evolution:EVO_LEVEL@28:from SPECIES_CACNEA	Derived	TRUE
+SPECIES_SWABLU	Swablu	7	wild	Asserted	TRUE
+SPECIES_ALTARIA	Altaria	7	evolution:EVO_LEVEL@35:from SPECIES_SWABLU	Derived	TRUE
+SPECIES_ALTARIA_MEGA	Altaria	7	mega/primal form of SPECIES_ALTARIA (stone not resolved)	Inferred	TRUE
+SPECIES_ZANGOOSE	Zangoose	7	wild	Asserted	TRUE
+SPECIES_SEVIPER	Seviper	7	wild	Asserted	TRUE
+SPECIES_LUNATONE	Lunatone	7	wild	Asserted	TRUE
+SPECIES_SOLROCK	Solrock	7	wild	Asserted	TRUE
+SPECIES_BARBOACH	Barboach	4	wild	Asserted	TRUE
+SPECIES_WHISCASH	Whiscash	4	wild	Asserted	TRUE
+SPECIES_CORPHISH	Corphish	1	wild	Asserted	TRUE
+SPECIES_CRAWDAUNT	Crawdaunt	1	wild	Asserted	TRUE
+SPECIES_BALTOY	Baltoy	6	wild	Asserted	TRUE
+SPECIES_CLAYDOL	Claydol	7	evolution:EVO_LEVEL@36:from SPECIES_BALTOY	Derived	TRUE
+SPECIES_LILEEP	Lileep	UNK	no path found	UNK	FALSE
+SPECIES_CRADILY	Cradily	UNK	no path found	UNK	FALSE
+SPECIES_ANORITH	Anorith	UNK	no path found	UNK	FALSE
+SPECIES_ARMALDO	Armaldo	UNK	no path found	UNK	FALSE
+SPECIES_FEEBAS	Feebas	6	wild	Asserted	TRUE
+SPECIES_MILOTIC	Milotic	6	evolution:EVO_BEAUTY:170:from SPECIES_FEEBAS	Inferred	TRUE
+SPECIES_CASTFORM_NORMAL	Castform	UNK	no path found	UNK	FALSE
+SPECIES_CASTFORM_SUNNY	Castform	UNK	no path found	UNK	FALSE
+SPECIES_CASTFORM_RAINY	Castform	UNK	no path found	UNK	FALSE
+SPECIES_CASTFORM_SNOWY	Castform	UNK	no path found	UNK	FALSE
+SPECIES_KECLEON	Kecleon	UNK	no path found	UNK	FALSE
+SPECIES_SHUPPET	Shuppet	3	wild	Asserted	TRUE
+SPECIES_BANETTE	Banette	7	evolution:EVO_LEVEL@36:from SPECIES_SHUPPET	Derived	TRUE
+SPECIES_BANETTE_MEGA	Banette	7	mega/primal form of SPECIES_BANETTE (stone not resolved)	Inferred	TRUE
+SPECIES_DUSKULL	Duskull	1	starter:game_start	Measured	TRUE
+SPECIES_DUSCLOPS	Dusclops	7	evolution:EVO_LEVEL@37:from SPECIES_DUSKULL	Derived	TRUE
+SPECIES_DUSKNOIR	Dusknoir	13	evolution:EVO_ITEM:ITEM_LINKING_CORD	Derived	TRUE
+SPECIES_TROPIUS	Tropius	7	wild	Asserted	TRUE
+SPECIES_CHINGLING	Chingling	9	wild	Asserted	TRUE
+SPECIES_CHIMECHO	Chimecho	9	evolution:EVO_FRIENDSHIP_NIGHT:0:from SPECIES_CHINGLING	Inferred	TRUE
+SPECIES_ABSOL	Absol	7	wild	Asserted	TRUE
+SPECIES_ABSOL_MEGA	Absol	7	mega/primal form of SPECIES_ABSOL (stone not resolved)	Inferred	TRUE
+SPECIES_SNORUNT	Snorunt	7	wild	Asserted	TRUE
+SPECIES_GLALIE	Glalie	7	evolution:EVO_LEVEL@42:from SPECIES_SNORUNT	Derived	TRUE
+SPECIES_GLALIE_MEGA	Glalie	7	mega/primal form of SPECIES_GLALIE (stone not resolved)	Inferred	TRUE
+SPECIES_FROSLASS	Froslass	13	evolution:EVO_ITEM_FEMALE:ITEM_DAWN_STONE	Derived	TRUE
+SPECIES_SPHEAL	Spheal	1	starter:game_start	Measured	TRUE
+SPECIES_SEALEO	Sealeo	5	evolution:EVO_LEVEL@32:from SPECIES_SPHEAL	Derived	TRUE
+SPECIES_WALREIN	Walrein	7	evolution:EVO_LEVEL@44:from SPECIES_SEALEO	Derived	TRUE
+SPECIES_CLAMPERL	Clamperl	1	wild	Asserted	TRUE
+SPECIES_HUNTAIL	Huntail	1	wild	Asserted	TRUE
+SPECIES_GOREBYSS	Gorebyss	1	wild	Asserted	TRUE
+SPECIES_RELICANTH	Relicanth	4	wild	Asserted	TRUE
+SPECIES_LUVDISC	Luvdisc	3	wild	Asserted	TRUE
+SPECIES_BAGON	Bagon	1	starter:game_start	Measured	TRUE
+SPECIES_SHELGON	Shelgon	4	wild	Asserted	TRUE
+SPECIES_SALAMENCE	Salamence	9	evolution:EVO_LEVEL@50:from SPECIES_SHELGON	Derived	TRUE
+SPECIES_SALAMENCE_MEGA	Salamence	9	mega/primal form of SPECIES_SALAMENCE (stone not resolved)	Inferred	TRUE
+SPECIES_BELDUM	Beldum	3	wild	Asserted	TRUE
+SPECIES_METANG	Metang	3	evolution:EVO_LEVEL@20:from SPECIES_BELDUM	Derived	TRUE
+SPECIES_METAGROSS	Metagross	8	evolution:EVO_LEVEL@45:from SPECIES_METANG	Derived	TRUE
+SPECIES_METAGROSS_MEGA	Metagross	8	mega/primal form of SPECIES_METAGROSS (stone not resolved)	Inferred	TRUE
+SPECIES_REGIROCK	Regirock	UNK	no path found	UNK	FALSE
+SPECIES_REGICE	Regice	UNK	no path found	UNK	FALSE
+SPECIES_REGISTEEL	Registeel	UNK	no path found	UNK	FALSE
+SPECIES_LATIAS	Latias	UNK	no path found	UNK	FALSE
+SPECIES_LATIAS_MEGA	Latias	UNK	no path found	UNK	FALSE
+SPECIES_LATIOS	Latios	UNK	no path found	UNK	FALSE
+SPECIES_LATIOS_MEGA	Latios	UNK	no path found	UNK	FALSE
+SPECIES_KYOGRE	Kyogre	UNK	no path found	UNK	FALSE
+SPECIES_KYOGRE_PRIMAL	Kyogre	UNK	no path found	UNK	FALSE
+SPECIES_GROUDON	Groudon	UNK	no path found	UNK	FALSE
+SPECIES_GROUDON_PRIMAL	Groudon	UNK	no path found	UNK	FALSE
+SPECIES_RAYQUAZA	Rayquaza	UNK	no path found	UNK	FALSE
+SPECIES_RAYQUAZA_MEGA	Rayquaza	UNK	no path found	UNK	FALSE
+SPECIES_JIRACHI	Jirachi	UNK	no path found	UNK	FALSE
+SPECIES_DEOXYS_NORMAL	Deoxys	UNK	no path found	UNK	FALSE
+SPECIES_DEOXYS_ATTACK	Deoxys	UNK	no path found	UNK	FALSE
+SPECIES_DEOXYS_DEFENSE	Deoxys	UNK	no path found	UNK	FALSE
+SPECIES_DEOXYS_SPEED	Deoxys	UNK	no path found	UNK	FALSE
+SPECIES_TURTWIG	Turtwig	1	starter:game_start	Measured	TRUE
+SPECIES_GROTLE	Grotle	2	evolution:EVO_LEVEL@16:from SPECIES_TURTWIG	Derived	TRUE
+SPECIES_TORTERRA	Torterra	7	evolution:EVO_LEVEL@36:from SPECIES_GROTLE	Derived	TRUE
+SPECIES_CHIMCHAR	Chimchar	1	starter:game_start	Measured	TRUE
+SPECIES_MONFERNO	Monferno	2	evolution:EVO_LEVEL@16:from SPECIES_CHIMCHAR	Derived	TRUE
+SPECIES_INFERNAPE	Infernape	7	evolution:EVO_LEVEL@36:from SPECIES_MONFERNO	Derived	TRUE
+SPECIES_PIPLUP	Piplup	1	starter:game_start	Measured	TRUE
+SPECIES_PRINPLUP	Prinplup	2	evolution:EVO_LEVEL@16:from SPECIES_PIPLUP	Derived	TRUE
+SPECIES_EMPOLEON	Empoleon	7	evolution:EVO_LEVEL@36:from SPECIES_PRINPLUP	Derived	TRUE
+SPECIES_STARLY	Starly	1	wild	Asserted	TRUE
+SPECIES_STARAVIA	Staravia	1	evolution:EVO_LEVEL@14:from SPECIES_STARLY	Derived	TRUE
+SPECIES_STARAPTOR	Staraptor	6	evolution:EVO_LEVEL@34:from SPECIES_STARAVIA	Derived	TRUE
+SPECIES_BIDOOF	Bidoof	1	wild	Asserted	TRUE
+SPECIES_BIBAREL	Bibarel	1	evolution:EVO_LEVEL@15:from SPECIES_BIDOOF	Derived	TRUE
+SPECIES_KRICKETOT	Kricketot	3	wild	Asserted	TRUE
+SPECIES_KRICKETUNE	Kricketune	3	evolution:EVO_LEVEL@10:from SPECIES_KRICKETOT	Derived	TRUE
+SPECIES_SHINX	Shinx	1	starter:game_start	Measured	TRUE
+SPECIES_LUXIO	Luxio	1	evolution:EVO_LEVEL@15:from SPECIES_SHINX	Derived	TRUE
+SPECIES_LUXRAY	Luxray	4	evolution:EVO_LEVEL@30:from SPECIES_LUXIO	Derived	TRUE
+SPECIES_CRANIDOS	Cranidos	19	wild	Asserted	TRUE
+SPECIES_RAMPARDOS	Rampardos	19	evolution:EVO_LEVEL@30:from SPECIES_CRANIDOS	Derived	TRUE
+SPECIES_SHIELDON	Shieldon	19	wild	Asserted	TRUE
+SPECIES_BASTIODON	Bastiodon	19	evolution:EVO_LEVEL@30:from SPECIES_SHIELDON	Derived	TRUE
+SPECIES_BURMY_PLANT	Burmy	UNK	no path found	UNK	FALSE
+SPECIES_BURMY_SANDY	Burmy	UNK	no path found	UNK	FALSE
+SPECIES_BURMY_TRASH	Burmy	UNK	no path found	UNK	FALSE
+SPECIES_WORMADAM_PLANT	Wormadam	UNK	no path found	UNK	FALSE
+SPECIES_WORMADAM_SANDY	Wormadam	UNK	no path found	UNK	FALSE
+SPECIES_WORMADAM_TRASH	Wormadam	UNK	no path found	UNK	FALSE
+SPECIES_MOTHIM_PLANT	Mothim	UNK	no path found	UNK	FALSE
+SPECIES_MOTHIM_SANDY	Mothim	UNK	no path found	UNK	FALSE
+SPECIES_MOTHIM_TRASH	Mothim	UNK	no path found	UNK	FALSE
+SPECIES_COMBEE	Combee	11	wild	Derived	TRUE
+SPECIES_VESPIQUEN	Vespiquen	11	evolution:EVO_LEVEL_FEMALE@21:from SPECIES_COMBEE	Derived	TRUE
+SPECIES_PACHIRISU	Pachirisu	9	wild	Asserted	TRUE
+SPECIES_BUIZEL	Buizel	4	wild	Asserted	TRUE
+SPECIES_FLOATZEL	Floatzel	3	wild	Asserted	TRUE
+SPECIES_CHERUBI	Cherubi	12	wild	Asserted	TRUE
+SPECIES_CHERRIM_OVERCAST	Cherrim	12	evolution:EVO_LEVEL@25:from SPECIES_CHERUBI	Derived	TRUE
+SPECIES_CHERRIM_SUNSHINE	Cherrim	UNK	no path found	UNK	FALSE
+SPECIES_SHELLOS_WEST	Shellos	1	wild	Asserted	TRUE
+SPECIES_SHELLOS_EAST	Shellos	15	wild	Asserted	TRUE
+SPECIES_GASTRODON_WEST	Gastrodon	1	wild	Asserted	TRUE
+SPECIES_GASTRODON_EAST	Gastrodon	15	wild	Asserted	TRUE
+SPECIES_DRIFLOON	Drifloon	7	wild	Asserted	TRUE
+SPECIES_DRIFBLIM	Drifblim	7	evolution:EVO_LEVEL@28:from SPECIES_DRIFLOON	Derived	TRUE
+SPECIES_BUNEARY	Buneary	12	wild	Asserted	TRUE
+SPECIES_LOPUNNY	Lopunny	12	evolution:EVO_FRIENDSHIP:0:from SPECIES_BUNEARY	Inferred	TRUE
+SPECIES_LOPUNNY_MEGA	Lopunny	12	mega/primal form of SPECIES_LOPUNNY (stone not resolved)	Inferred	TRUE
+SPECIES_GLAMEOW	Glameow	12	wild	Asserted	TRUE
+SPECIES_PURUGLY	Purugly	12	evolution:EVO_LEVEL@28:from SPECIES_GLAMEOW	Derived	TRUE
+SPECIES_STUNKY	Stunky	7	wild	Asserted	TRUE
+SPECIES_SKUNTANK	Skuntank	7	evolution:EVO_LEVEL@28:from SPECIES_STUNKY	Derived	TRUE
+SPECIES_BRONZOR	Bronzor	3	wild	Asserted	TRUE
+SPECIES_BRONZONG	Bronzong	6	evolution:EVO_LEVEL@33:from SPECIES_BRONZOR	Derived	TRUE
+SPECIES_CHATOT	Chatot	7	wild	Asserted	TRUE
+SPECIES_SPIRITOMB	Spiritomb	3	wild	Asserted	TRUE
+SPECIES_GIBLE	Gible	1	starter:game_start	Measured	TRUE
+SPECIES_GABITE	Gabite	3	wild	Asserted	TRUE
+SPECIES_GARCHOMP	Garchomp	9	evolution:EVO_LEVEL@48:from SPECIES_GABITE	Derived	TRUE
+SPECIES_GARCHOMP_MEGA	Garchomp	9	mega/primal form of SPECIES_GARCHOMP (stone not resolved)	Inferred	TRUE
+SPECIES_RIOLU	Riolu	UNK	no path found	UNK	FALSE
+SPECIES_LUCARIO	Lucario	17	wild	Asserted	TRUE
+SPECIES_LUCARIO_MEGA	Lucario	17	mega/primal form of SPECIES_LUCARIO (stone not resolved)	Inferred	TRUE
+SPECIES_HIPPOPOTAS	Hippopotas	3	wild	Asserted	TRUE
+SPECIES_HIPPOWDON	Hippowdon	4	wild	Asserted	TRUE
+SPECIES_SKORUPI	Skorupi	1	wild	Asserted	TRUE
+SPECIES_DRAPION	Drapion	7	evolution:EVO_LEVEL@40:from SPECIES_SKORUPI	Derived	TRUE
+SPECIES_CROAGUNK	Croagunk	1	wild	Asserted	TRUE
+SPECIES_TOXICROAK	Toxicroak	7	evolution:EVO_LEVEL@37:from SPECIES_CROAGUNK	Derived	TRUE
+SPECIES_CARNIVINE	Carnivine	15	wild	Asserted	TRUE
+SPECIES_FINNEON	Finneon	4	wild	Asserted	TRUE
+SPECIES_LUMINEON	Lumineon	4	wild	Asserted	TRUE
+SPECIES_SNOVER	Snover	1	starter:game_start	Measured	TRUE
+SPECIES_ABOMASNOW	Abomasnow	7	evolution:EVO_LEVEL@36:from SPECIES_SNOVER	Derived	TRUE
+SPECIES_ABOMASNOW_MEGA	Abomasnow	7	mega/primal form of SPECIES_ABOMASNOW (stone not resolved)	Inferred	TRUE
+SPECIES_ROTOM	Rotom	6	wild	Asserted	TRUE
+SPECIES_ROTOM_HEAT	Rotom	UNK	no path found	UNK	FALSE
+SPECIES_ROTOM_WASH	Rotom	UNK	no path found	UNK	FALSE
+SPECIES_ROTOM_FROST	Rotom	UNK	no path found	UNK	FALSE
+SPECIES_ROTOM_FAN	Rotom	UNK	no path found	UNK	FALSE
+SPECIES_ROTOM_MOW	Rotom	UNK	no path found	UNK	FALSE
+SPECIES_UXIE	Uxie	UNK	no path found	UNK	FALSE
+SPECIES_MESPRIT	Mesprit	UNK	no path found	UNK	FALSE
+SPECIES_AZELF	Azelf	UNK	no path found	UNK	FALSE
+SPECIES_DIALGA	Dialga	UNK	no path found	UNK	FALSE
+SPECIES_DIALGA_ORIGIN	Dialga	UNK	no path found	UNK	FALSE
+SPECIES_PALKIA	Palkia	UNK	no path found	UNK	FALSE
+SPECIES_PALKIA_ORIGIN	Palkia	UNK	no path found	UNK	FALSE
+SPECIES_HEATRAN	Heatran	UNK	no path found	UNK	FALSE
+SPECIES_REGIGIGAS	Regigigas	UNK	no path found	UNK	FALSE
+SPECIES_GIRATINA_ALTERED	Giratina	UNK	no path found	UNK	FALSE
+SPECIES_GIRATINA_ORIGIN	Giratina	UNK	no path found	UNK	FALSE
+SPECIES_CRESSELIA	Cresselia	UNK	no path found	UNK	FALSE
+SPECIES_PHIONE	Phione	17	wild	Asserted	TRUE
+SPECIES_MANAPHY	Manaphy	18	wild	Asserted	TRUE
+SPECIES_DARKRAI	Darkrai	UNK	no path found	UNK	FALSE
+SPECIES_SHAYMIN_LAND	Shaymin	UNK	no path found	UNK	FALSE
+SPECIES_SHAYMIN_SKY	Shaymin	UNK	no path found	UNK	FALSE
+SPECIES_ARCEUS_NORMAL	Arceus	UNK	no path found	UNK	FALSE
+SPECIES_ARCEUS_FIGHTING	Arceus	UNK	no path found	UNK	FALSE
+SPECIES_ARCEUS_FLYING	Arceus	UNK	no path found	UNK	FALSE
+SPECIES_ARCEUS_POISON	Arceus	UNK	no path found	UNK	FALSE
+SPECIES_ARCEUS_GROUND	Arceus	UNK	no path found	UNK	FALSE
+SPECIES_ARCEUS_ROCK	Arceus	UNK	no path found	UNK	FALSE
+SPECIES_ARCEUS_BUG	Arceus	UNK	no path found	UNK	FALSE
+SPECIES_ARCEUS_GHOST	Arceus	UNK	no path found	UNK	FALSE
+SPECIES_ARCEUS_STEEL	Arceus	UNK	no path found	UNK	FALSE
+SPECIES_ARCEUS_FIRE	Arceus	UNK	no path found	UNK	FALSE
+SPECIES_ARCEUS_WATER	Arceus	UNK	no path found	UNK	FALSE
+SPECIES_ARCEUS_GRASS	Arceus	UNK	no path found	UNK	FALSE
+SPECIES_ARCEUS_ELECTRIC	Arceus	UNK	no path found	UNK	FALSE
+SPECIES_ARCEUS_PSYCHIC	Arceus	UNK	no path found	UNK	FALSE
+SPECIES_ARCEUS_ICE	Arceus	UNK	no path found	UNK	FALSE
+SPECIES_ARCEUS_DRAGON	Arceus	UNK	no path found	UNK	FALSE
+SPECIES_ARCEUS_DARK	Arceus	UNK	no path found	UNK	FALSE
+SPECIES_ARCEUS_FAIRY	Arceus	UNK	no path found	UNK	FALSE
+SPECIES_VICTINI	Victini	UNK	no path found	UNK	FALSE
+SPECIES_SNIVY	Snivy	1	starter:game_start	Measured	TRUE
+SPECIES_SERVINE	Servine	2	evolution:EVO_LEVEL@16:from SPECIES_SNIVY	Derived	TRUE
+SPECIES_SERPERIOR	Serperior	7	evolution:EVO_LEVEL@36:from SPECIES_SERVINE	Derived	TRUE
+SPECIES_TEPIG	Tepig	1	starter:game_start	Measured	TRUE
+SPECIES_PIGNITE	Pignite	2	evolution:EVO_LEVEL@16:from SPECIES_TEPIG	Derived	TRUE
+SPECIES_EMBOAR	Emboar	7	evolution:EVO_LEVEL@36:from SPECIES_PIGNITE	Derived	TRUE
+SPECIES_OSHAWOTT	Oshawott	1	starter:game_start	Measured	TRUE
+SPECIES_DEWOTT	Dewott	2	evolution:EVO_LEVEL@16:from SPECIES_OSHAWOTT	Derived	TRUE
+SPECIES_SAMUROTT	Samurott	7	evolution:EVO_LEVEL_DAY@36:from SPECIES_DEWOTT	Derived	TRUE
+SPECIES_SAMUROTT_HISUI	Samurott	7	evolution:EVO_LEVEL_NIGHT@36:from SPECIES_DEWOTT	Derived	TRUE
+SPECIES_PATRAT	Patrat	3	wild	Asserted	TRUE
+SPECIES_WATCHOG	Watchog	3	evolution:EVO_LEVEL@16:from SPECIES_PATRAT	Derived	TRUE
+SPECIES_LILLIPUP	Lillipup	1	starter:game_start	Measured	TRUE
+SPECIES_HERDIER	Herdier	2	evolution:EVO_LEVEL@16:from SPECIES_LILLIPUP	Derived	TRUE
+SPECIES_STOUTLAND	Stoutland	5	evolution:EVO_LEVEL@32:from SPECIES_HERDIER	Derived	TRUE
+SPECIES_PURRLOIN	Purrloin	1	wild	Asserted	TRUE
+SPECIES_LIEPARD	Liepard	2	evolution:EVO_LEVEL@20:from SPECIES_PURRLOIN	Derived	TRUE
+SPECIES_PANSAGE	Pansage	1	wild	Asserted	TRUE
+SPECIES_SIMISAGE	Simisage	11	evolution:EVO_ITEM:ITEM_LEAF_STONE	Derived	TRUE
+SPECIES_PANSEAR	Pansear	1	wild	Asserted	TRUE
+SPECIES_SIMISEAR	Simisear	1	evolution:EVO_ITEM:ITEM_FIRE_STONE	Derived	TRUE
+SPECIES_PANPOUR	Panpour	1	wild	Asserted	TRUE
+SPECIES_SIMIPOUR	Simipour	1	evolution:EVO_ITEM:ITEM_WATER_STONE	Derived	TRUE
+SPECIES_MUNNA	Munna	3	wild	Asserted	TRUE
+SPECIES_MUSHARNA	Musharna	13	evolution:EVO_ITEM:ITEM_MOON_STONE	Derived	TRUE
+SPECIES_PIDOVE	Pidove	15	wild	Asserted	TRUE
+SPECIES_TRANQUILL	Tranquill	15	evolution:EVO_LEVEL@16:from SPECIES_PIDOVE	Derived	TRUE
+SPECIES_UNFEZANT	Unfezant	15	evolution:EVO_LEVEL@28:from SPECIES_TRANQUILL	Derived	TRUE
+SPECIES_BLITZLE	Blitzle	4	wild	Asserted	TRUE
+SPECIES_ZEBSTRIKA	Zebstrika	4	evolution:EVO_LEVEL@27:from SPECIES_BLITZLE	Derived	TRUE
+SPECIES_ROGGENROLA	Roggenrola	6	wild	Asserted	TRUE
+SPECIES_BOLDORE	Boldore	6	evolution:EVO_LEVEL@23:from SPECIES_ROGGENROLA	Derived	TRUE
+SPECIES_GIGALITH	Gigalith	6	evolution:EVO_TRADE:0:from SPECIES_BOLDORE	Inferred	TRUE
+SPECIES_WOOBAT	Woobat	3	wild	Asserted	TRUE
+SPECIES_SWOOBAT	Swoobat	3	evolution:EVO_FRIENDSHIP:0:from SPECIES_WOOBAT	Inferred	TRUE
+SPECIES_DRILBUR	Drilbur	3	wild	Asserted	TRUE
+SPECIES_EXCADRILL	Excadrill	5	evolution:EVO_LEVEL@31:from SPECIES_DRILBUR	Derived	TRUE
+SPECIES_AUDINO	Audino	7	wild	Asserted	TRUE
+SPECIES_AUDINO_MEGA	Audino	7	mega/primal form of SPECIES_AUDINO (stone not resolved)	Inferred	TRUE
+SPECIES_TIMBURR	Timburr	1	starter:game_start	Measured	TRUE
+SPECIES_GURDURR	Gurdurr	3	evolution:EVO_LEVEL@25:from SPECIES_TIMBURR	Derived	TRUE
+SPECIES_CONKELDURR	Conkeldurr	3	evolution:EVO_TRADE:0:from SPECIES_GURDURR	Inferred	TRUE
+SPECIES_TYMPOLE	Tympole	1	starter:game_start	Measured	TRUE
+SPECIES_PALPITOAD	Palpitoad	3	evolution:EVO_LEVEL@25:from SPECIES_TYMPOLE	Derived	TRUE
+SPECIES_SEISMITOAD	Seismitoad	7	evolution:EVO_LEVEL@36:from SPECIES_PALPITOAD	Derived	TRUE
+SPECIES_THROH	Throh	3	wild	Asserted	TRUE
+SPECIES_SAWK	Sawk	3	wild	Asserted	TRUE
+SPECIES_SEWADDLE	Sewaddle	1	wild	Asserted	TRUE
+SPECIES_SWADLOON	Swadloon	2	evolution:EVO_LEVEL@16:from SPECIES_SEWADDLE	Derived	TRUE
+SPECIES_LEAVANNY	Leavanny	2	evolution:EVO_FRIENDSHIP:0:from SPECIES_SWADLOON	Inferred	TRUE
+SPECIES_VENIPEDE	Venipede	1	starter:game_start	Measured	TRUE
+SPECIES_WHIRLIPEDE	Whirlipede	3	evolution:EVO_LEVEL@22:from SPECIES_VENIPEDE	Derived	TRUE
+SPECIES_SCOLIPEDE	Scolipede	4	evolution:EVO_LEVEL@30:from SPECIES_WHIRLIPEDE	Derived	TRUE
+SPECIES_COTTONEE	Cottonee	1	starter:game_start	Measured	TRUE
+SPECIES_WHIMSICOTT	Whimsicott	1	evolution:EVO_ITEM:ITEM_SUN_STONE	Derived	TRUE
+SPECIES_PETILIL	Petilil	1	wild	Asserted	TRUE
+SPECIES_LILLIGANT	Lilligant	1	evolution:EVO_ITEM:ITEM_SUN_STONE	Derived	TRUE
+SPECIES_LILLIGANT_HISUI	Lilligant	11	evolution:EVO_ITEM:ITEM_LEAF_STONE	Derived	TRUE
+SPECIES_BASCULIN_RED_STRIPED	Basculin	1	wild	Asserted	TRUE
+SPECIES_BASCULIN_BLUE_STRIPED	Basculin	1	wild	Asserted	TRUE
+SPECIES_BASCULIN_WHITE_STRIPED	Basculin	1	wild	Asserted	TRUE
+SPECIES_BASCULEGION_M	Basculegion	7	evolution:EVO_LEVEL_MALE@44:from SPECIES_BASCULIN_RED_STRIPED	Derived	TRUE
+SPECIES_BASCULEGION_F	Basculegion	7	evolution:EVO_LEVEL_FEMALE@44:from SPECIES_BASCULIN_RED_STRIPED	Derived	TRUE
+SPECIES_SANDILE	Sandile	1	starter:game_start	Measured	TRUE
+SPECIES_KROKOROK	Krokorok	4	evolution:EVO_LEVEL@28:from SPECIES_SANDILE	Derived	TRUE
+SPECIES_KROOKODILE	Krookodile	7	evolution:EVO_LEVEL@40:from SPECIES_KROKOROK	Derived	TRUE
+SPECIES_DARUMAKA	Darumaka	7	wild	Asserted	TRUE
+SPECIES_DARMANITAN_STANDARD	Darmanitan	7	evolution:EVO_LEVEL@35:from SPECIES_DARUMAKA	Derived	TRUE
+SPECIES_DARMANITAN_ZEN	Darmanitan	UNK	no path found	UNK	FALSE
+SPECIES_DARUMAKA_GALAR	Darumaka	7	wild	Asserted	TRUE
+SPECIES_DARMANITAN_GALAR_STANDARD	Darmanitan	7	evolution:EVO_ITEM:ITEM_ICE_STONE	Derived	TRUE
+SPECIES_DARMANITAN_GALAR_ZEN	Darmanitan	UNK	no path found	UNK	FALSE
+SPECIES_MARACTUS	Maractus	11	wild	Asserted	TRUE
+SPECIES_DWEBBLE	Dwebble	2	wild	Asserted	TRUE
+SPECIES_CRUSTLE	Crustle	6	evolution:EVO_LEVEL@34:from SPECIES_DWEBBLE	Derived	TRUE
+SPECIES_SCRAGGY	Scraggy	3	wild	Asserted	TRUE
+SPECIES_SCRAFTY	Scrafty	7	evolution:EVO_LEVEL@39:from SPECIES_SCRAGGY	Derived	TRUE
+SPECIES_SIGILYPH	Sigilyph	9	wild	Asserted	TRUE
+SPECIES_YAMASK	Yamask	3	wild	Asserted	TRUE
+SPECIES_COFAGRIGUS	Cofagrigus	6	evolution:EVO_LEVEL@34:from SPECIES_YAMASK	Derived	TRUE
+SPECIES_YAMASK_GALAR	Yamask	6	wild	Asserted	TRUE
+SPECIES_RUNERIGUS	Runerigus	7	evolution:EVO_LEVEL@35:from SPECIES_YAMASK_GALAR	Derived	TRUE
+SPECIES_TIRTOUGA	Tirtouga	19	wild	Asserted	TRUE
+SPECIES_CARRACOSTA	Carracosta	19	evolution:EVO_LEVEL@34:from SPECIES_TIRTOUGA	Derived	TRUE
+SPECIES_ARCHEN	Archen	19	wild	Asserted	TRUE
+SPECIES_ARCHEOPS	Archeops	19	evolution:EVO_LEVEL@34:from SPECIES_ARCHEN	Derived	TRUE
+SPECIES_TRUBBISH	Trubbish	6	wild	Asserted	TRUE
+SPECIES_GARBODOR	Garbodor	6	evolution:EVO_LEVEL@28:from SPECIES_TRUBBISH	Derived	TRUE
+SPECIES_GARBODOR_MEGA	Garbodor	6	mega/primal form of SPECIES_GARBODOR (stone not resolved)	Inferred	TRUE
+SPECIES_ZORUA	Zorua	3	wild	Asserted	TRUE
+SPECIES_ZOROARK	Zoroark	4	wild	Asserted	TRUE
+SPECIES_ZORUA_HISUI	Zorua	3	wild	Asserted	TRUE
+SPECIES_ZOROARK_HISUI	Zoroark	4	wild	Asserted	TRUE
+SPECIES_MINCCINO	Minccino	6	wild	Asserted	TRUE
+SPECIES_CINCCINO	Cinccino	6	evolution:EVO_ITEM:ITEM_SHINY_STONE	Derived	TRUE
+SPECIES_GOTHITA	Gothita	1	starter:game_start	Measured	TRUE
+SPECIES_GOTHORITA	Gothorita	4	evolution:EVO_LEVEL@28:from SPECIES_GOTHITA	Derived	TRUE
+SPECIES_GOTHITELLE	Gothitelle	7	evolution:EVO_LEVEL@36:from SPECIES_GOTHORITA	Derived	TRUE
+SPECIES_SOLOSIS	Solosis	1	starter:game_start	Measured	TRUE
+SPECIES_DUOSION	Duosion	4	evolution:EVO_LEVEL@28:from SPECIES_SOLOSIS	Derived	TRUE
+SPECIES_REUNICLUS	Reuniclus	7	evolution:EVO_LEVEL@41:from SPECIES_DUOSION	Derived	TRUE
+SPECIES_DUCKLETT	Ducklett	3	wild	Asserted	TRUE
+SPECIES_SWANNA	Swanna	3	wild	Asserted	TRUE
+SPECIES_VANILLITE	Vanillite	7	wild	Asserted	TRUE
+SPECIES_VANILLISH	Vanillish	7	evolution:EVO_LEVEL@35:from SPECIES_VANILLITE	Derived	TRUE
+SPECIES_VANILLUXE	Vanilluxe	7	evolution:EVO_LEVEL@44:from SPECIES_VANILLISH	Derived	TRUE
+SPECIES_DEERLING_SPRING	Deerling	UNK	no path found	UNK	FALSE
+SPECIES_DEERLING_SUMMER	Deerling	UNK	no path found	UNK	FALSE
+SPECIES_DEERLING_AUTUMN	Deerling	UNK	no path found	UNK	FALSE
+SPECIES_DEERLING_WINTER	Deerling	UNK	no path found	UNK	FALSE
+SPECIES_SAWSBUCK_SPRING	Sawsbuck	UNK	no path found	UNK	FALSE
+SPECIES_SAWSBUCK_SUMMER	Sawsbuck	UNK	no path found	UNK	FALSE
+SPECIES_SAWSBUCK_AUTUMN	Sawsbuck	UNK	no path found	UNK	FALSE
+SPECIES_SAWSBUCK_WINTER	Sawsbuck	UNK	no path found	UNK	FALSE
+SPECIES_EMOLGA	Emolga	3	wild	Asserted	TRUE
+SPECIES_KARRABLAST	Karrablast	7	wild	Asserted	TRUE
+SPECIES_ESCAVALIER	Escavalier	7	evolution:EVO_TRADE_SPECIFIC_MON:SPECIES_SHELMET:from SPECIES_KARRABLAST	Inferred	TRUE
+SPECIES_FOONGUS	Foongus	7	wild	Asserted	TRUE
+SPECIES_AMOONGUSS	Amoonguss	7	evolution:EVO_LEVEL@36:from SPECIES_FOONGUS	Derived	TRUE
+SPECIES_FRILLISH	Frillish	4	wild	Asserted	TRUE
+SPECIES_JELLICENT	Jellicent	4	wild	Asserted	TRUE
+SPECIES_ALOMOMOLA	Alomomola	3	wild	Asserted	TRUE
+SPECIES_JOLTIK	Joltik	1	wild	Asserted	TRUE
+SPECIES_GALVANTULA	Galvantula	5	evolution:EVO_LEVEL@32:from SPECIES_JOLTIK	Derived	TRUE
+SPECIES_FERROSEED	Ferroseed	7	wild	Asserted	TRUE
+SPECIES_FERROTHORN	Ferrothorn	7	evolution:EVO_LEVEL@40:from SPECIES_FERROSEED	Derived	TRUE
+SPECIES_KLINK	Klink	1	starter:game_start	Measured	TRUE
+SPECIES_KLANG	Klang	7	evolution:EVO_LEVEL@38:from SPECIES_KLINK	Derived	TRUE
+SPECIES_KLINKLANG	Klinklang	9	evolution:EVO_LEVEL@49:from SPECIES_KLANG	Derived	TRUE
+SPECIES_TYNAMO	Tynamo	11	wild	Asserted	TRUE
+SPECIES_EELEKTRIK	Eelektrik	11	evolution:EVO_LEVEL@36:from SPECIES_TYNAMO	Derived	TRUE
+SPECIES_EELEKTROSS	Eelektross	11	evolution:EVO_ITEM:ITEM_THUNDER_STONE	Derived	TRUE
+SPECIES_ELGYEM	Elgyem	9	wild	Asserted	TRUE
+SPECIES_BEHEEYEM	Beheeyem	9	evolution:EVO_LEVEL@34:from SPECIES_ELGYEM	Derived	TRUE
+SPECIES_LITWICK	Litwick	1	starter:game_start	Measured	TRUE
+SPECIES_LAMPENT	Lampent	6	evolution:EVO_LEVEL@34:from SPECIES_LITWICK	Derived	TRUE
+SPECIES_CHANDELURE	Chandelure	13	wild	Asserted	TRUE
+SPECIES_AXEW	Axew	1	wild	Asserted	TRUE
+SPECIES_FRAXURE	Fraxure	7	evolution:EVO_LEVEL@36:from SPECIES_AXEW	Derived	TRUE
+SPECIES_HAXORUS	Haxorus	7	evolution:EVO_LEVEL@44:from SPECIES_FRAXURE	Derived	TRUE
+SPECIES_CUBCHOO	Cubchoo	7	wild	Asserted	TRUE
+SPECIES_BEARTIC	Beartic	7	evolution:EVO_LEVEL@36:from SPECIES_CUBCHOO	Derived	TRUE
+SPECIES_CRYOGONAL	Cryogonal	9	wild	Asserted	TRUE
+SPECIES_SHELMET	Shelmet	7	wild	Asserted	TRUE
+SPECIES_ACCELGOR	Accelgor	7	evolution:EVO_TRADE_SPECIFIC_MON:SPECIES_KARRABLAST:from SPECIES_SHELMET	Inferred	TRUE
+SPECIES_STUNFISK	Stunfisk	3	wild	Asserted	TRUE
+SPECIES_STUNFISK_GALAR	Stunfisk	3	wild	Asserted	TRUE
+SPECIES_MIENFOO	Mienfoo	3	wild	Asserted	TRUE
+SPECIES_MIENSHAO	Mienshao	4	evolution:EVO_LEVEL@28:from SPECIES_MIENFOO	Derived	TRUE
+SPECIES_DRUDDIGON	Druddigon	6	wild	Asserted	TRUE
+SPECIES_GOLETT	Golett	6	wild	Asserted	TRUE
+SPECIES_GOLURK	Golurk	6	evolution:EVO_LEVEL@34:from SPECIES_GOLETT	Derived	TRUE
+SPECIES_PAWNIARD	Pawniard	1	starter:game_start	Measured	TRUE
+SPECIES_BISHARP	Bisharp	7	evolution:EVO_LEVEL@36:from SPECIES_PAWNIARD	Derived	TRUE
+SPECIES_KINGAMBIT	Kingambit	9	evolution:EVO_LEVEL@50:from SPECIES_BISHARP	Derived	TRUE
+SPECIES_BOUFFALANT	Bouffalant	4	wild	Asserted	TRUE
+SPECIES_RUFFLET	Rufflet	1	wild	Asserted	TRUE
+SPECIES_BRAVIARY	Braviary	7	evolution:EVO_LEVEL_DAY@36:from SPECIES_RUFFLET	Derived	TRUE
+SPECIES_BRAVIARY_HISUI	Braviary	7	evolution:EVO_LEVEL_NIGHT@36:from SPECIES_RUFFLET	Derived	TRUE
+SPECIES_VULLABY	Vullaby	1	wild	Asserted	TRUE
+SPECIES_MANDIBUZZ	Mandibuzz	8	evolution:EVO_LEVEL@45:from SPECIES_VULLABY	Derived	TRUE
+SPECIES_HEATMOR	Heatmor	7	wild	Asserted	TRUE
+SPECIES_DURANT	Durant	11	wild	Derived	TRUE
+SPECIES_DEINO	Deino	6	wild	Asserted	TRUE
+SPECIES_ZWEILOUS	Zweilous	7	wild	Asserted	TRUE
+SPECIES_HYDREIGON	Hydreigon	10	evolution:EVO_LEVEL@59:from SPECIES_ZWEILOUS	Derived	TRUE
+SPECIES_LARVESTA	Larvesta	6	wild	Asserted	TRUE
+SPECIES_VOLCARONA	Volcarona	10	evolution:EVO_LEVEL@59:from SPECIES_LARVESTA	Derived	TRUE
+SPECIES_COBALION	Cobalion	UNK	no path found	UNK	FALSE
+SPECIES_TERRAKION	Terrakion	UNK	no path found	UNK	FALSE
+SPECIES_VIRIZION	Virizion	UNK	no path found	UNK	FALSE
+SPECIES_TORNADUS_INCARNATE	Tornadus	UNK	no path found	UNK	FALSE
+SPECIES_TORNADUS_THERIAN	Tornadus	UNK	no path found	UNK	FALSE
+SPECIES_THUNDURUS_INCARNATE	Thundurus	UNK	no path found	UNK	FALSE
+SPECIES_THUNDURUS_THERIAN	Thundurus	UNK	no path found	UNK	FALSE
+SPECIES_RESHIRAM	Reshiram	UNK	no path found	UNK	FALSE
+SPECIES_ZEKROM	Zekrom	UNK	no path found	UNK	FALSE
+SPECIES_LANDORUS_INCARNATE	Landorus	UNK	no path found	UNK	FALSE
+SPECIES_LANDORUS_THERIAN	Landorus	UNK	no path found	UNK	FALSE
+SPECIES_KYUREM	Kyurem	UNK	no path found	UNK	FALSE
+SPECIES_KYUREM_WHITE	Kyurem	UNK	no path found	UNK	FALSE
+SPECIES_KYUREM_BLACK	Kyurem	UNK	no path found	UNK	FALSE
+SPECIES_KELDEO_ORDINARY	Keldeo	UNK	no path found	UNK	FALSE
+SPECIES_KELDEO_RESOLUTE	Keldeo	UNK	no path found	UNK	FALSE
+SPECIES_MELOETTA_ARIA	Meloetta	UNK	no path found	UNK	FALSE
+SPECIES_MELOETTA_PIROUETTE	Meloetta	UNK	no path found	UNK	FALSE
+SPECIES_GENESECT	Genesect	UNK	no path found	UNK	FALSE
+SPECIES_GENESECT_DOUSE	Genesect	UNK	no path found	UNK	FALSE
+SPECIES_GENESECT_SHOCK	Genesect	UNK	no path found	UNK	FALSE
+SPECIES_GENESECT_BURN	Genesect	UNK	no path found	UNK	FALSE
+SPECIES_GENESECT_CHILL	Genesect	UNK	no path found	UNK	FALSE
+SPECIES_CHESPIN	Chespin	1	starter:game_start	Measured	TRUE
+SPECIES_QUILLADIN	Quilladin	2	evolution:EVO_LEVEL@16:from SPECIES_CHESPIN	Derived	TRUE
+SPECIES_CHESNAUGHT	Chesnaught	7	evolution:EVO_LEVEL@36:from SPECIES_QUILLADIN	Derived	TRUE
+SPECIES_FENNEKIN	Fennekin	1	starter:game_start	Measured	TRUE
+SPECIES_BRAIXEN	Braixen	2	evolution:EVO_LEVEL@16:from SPECIES_FENNEKIN	Derived	TRUE
+SPECIES_DELPHOX	Delphox	7	evolution:EVO_LEVEL@36:from SPECIES_BRAIXEN	Derived	TRUE
+SPECIES_FROAKIE	Froakie	1	starter:game_start	Measured	TRUE
+SPECIES_FROGADIER	Frogadier	2	evolution:EVO_LEVEL@16:from SPECIES_FROAKIE	Derived	TRUE
+SPECIES_GRENINJA	Greninja	7	evolution:EVO_LEVEL@36:from SPECIES_FROGADIER	Derived	TRUE
+SPECIES_GRENINJA_BATTLE_BOND	Greninja	UNK	no path found	UNK	FALSE
+SPECIES_GRENINJA_ASH	Greninja	UNK	no path found	UNK	FALSE
+SPECIES_BUNNELBY	Bunnelby	1	wild	Asserted	TRUE
+SPECIES_DIGGERSBY	Diggersby	2	evolution:EVO_LEVEL@20:from SPECIES_BUNNELBY	Derived	TRUE
+SPECIES_FLETCHLING	Fletchling	1	starter:game_start	Measured	TRUE
+SPECIES_FLETCHINDER	Fletchinder	2	evolution:EVO_LEVEL@17:from SPECIES_FLETCHLING	Derived	TRUE
+SPECIES_TALONFLAME	Talonflame	7	evolution:EVO_LEVEL@35:from SPECIES_FLETCHINDER	Derived	TRUE
+SPECIES_SCATTERBUG_ICY_SNOW	Scatterbug	1	starter:game_start	Measured	TRUE
+SPECIES_SCATTERBUG_POLAR	Scatterbug	UNK	no path found	UNK	FALSE
+SPECIES_SCATTERBUG_TUNDRA	Scatterbug	UNK	no path found	UNK	FALSE
+SPECIES_SCATTERBUG_CONTINENTAL	Scatterbug	UNK	no path found	UNK	FALSE
+SPECIES_SCATTERBUG_GARDEN	Scatterbug	UNK	no path found	UNK	FALSE
+SPECIES_SCATTERBUG_ELEGANT	Scatterbug	UNK	no path found	UNK	FALSE
+SPECIES_SCATTERBUG_MEADOW	Scatterbug	UNK	no path found	UNK	FALSE
+SPECIES_SCATTERBUG_MODERN	Scatterbug	UNK	no path found	UNK	FALSE
+SPECIES_SCATTERBUG_MARINE	Scatterbug	UNK	no path found	UNK	FALSE
+SPECIES_SCATTERBUG_ARCHIPELAGO	Scatterbug	UNK	no path found	UNK	FALSE
+SPECIES_SCATTERBUG_HIGH_PLAINS	Scatterbug	UNK	no path found	UNK	FALSE
+SPECIES_SCATTERBUG_SANDSTORM	Scatterbug	UNK	no path found	UNK	FALSE
+SPECIES_SCATTERBUG_RIVER	Scatterbug	UNK	no path found	UNK	FALSE
+SPECIES_SCATTERBUG_MONSOON	Scatterbug	UNK	no path found	UNK	FALSE
+SPECIES_SCATTERBUG_SAVANNA	Scatterbug	UNK	no path found	UNK	FALSE
+SPECIES_SCATTERBUG_SUN	Scatterbug	UNK	no path found	UNK	FALSE
+SPECIES_SCATTERBUG_OCEAN	Scatterbug	UNK	no path found	UNK	FALSE
+SPECIES_SCATTERBUG_JUNGLE	Scatterbug	UNK	no path found	UNK	FALSE
+SPECIES_SCATTERBUG_FANCY	Scatterbug	UNK	no path found	UNK	FALSE
+SPECIES_SCATTERBUG_POKEBALL	Scatterbug	UNK	no path found	UNK	FALSE
+SPECIES_SPEWPA_ICY_SNOW	Spewpa	UNK	no path found	UNK	FALSE
+SPECIES_SPEWPA_POLAR	Spewpa	UNK	no path found	UNK	FALSE
+SPECIES_SPEWPA_TUNDRA	Spewpa	UNK	no path found	UNK	FALSE
+SPECIES_SPEWPA_CONTINENTAL	Spewpa	UNK	no path found	UNK	FALSE
+SPECIES_SPEWPA_GARDEN	Spewpa	UNK	no path found	UNK	FALSE
+SPECIES_SPEWPA_ELEGANT	Spewpa	UNK	no path found	UNK	FALSE
+SPECIES_SPEWPA_MEADOW	Spewpa	UNK	no path found	UNK	FALSE
+SPECIES_SPEWPA_MODERN	Spewpa	UNK	no path found	UNK	FALSE
+SPECIES_SPEWPA_MARINE	Spewpa	UNK	no path found	UNK	FALSE
+SPECIES_SPEWPA_ARCHIPELAGO	Spewpa	UNK	no path found	UNK	FALSE
+SPECIES_SPEWPA_HIGH_PLAINS	Spewpa	UNK	no path found	UNK	FALSE
+SPECIES_SPEWPA_SANDSTORM	Spewpa	UNK	no path found	UNK	FALSE
+SPECIES_SPEWPA_RIVER	Spewpa	UNK	no path found	UNK	FALSE
+SPECIES_SPEWPA_MONSOON	Spewpa	UNK	no path found	UNK	FALSE
+SPECIES_SPEWPA_SAVANNA	Spewpa	UNK	no path found	UNK	FALSE
+SPECIES_SPEWPA_SUN	Spewpa	UNK	no path found	UNK	FALSE
+SPECIES_SPEWPA_OCEAN	Spewpa	UNK	no path found	UNK	FALSE
+SPECIES_SPEWPA_JUNGLE	Spewpa	UNK	no path found	UNK	FALSE
+SPECIES_SPEWPA_FANCY	Spewpa	UNK	no path found	UNK	FALSE
+SPECIES_SPEWPA_POKEBALL	Spewpa	UNK	no path found	UNK	FALSE
+SPECIES_VIVILLON_ICY_SNOW	Vivillon	UNK	no path found	UNK	FALSE
+SPECIES_VIVILLON_POLAR	Vivillon	UNK	no path found	UNK	FALSE
+SPECIES_VIVILLON_TUNDRA	Vivillon	UNK	no path found	UNK	FALSE
+SPECIES_VIVILLON_CONTINENTAL	Vivillon	UNK	no path found	UNK	FALSE
+SPECIES_VIVILLON_GARDEN	Vivillon	UNK	no path found	UNK	FALSE
+SPECIES_VIVILLON_ELEGANT	Vivillon	UNK	no path found	UNK	FALSE
+SPECIES_VIVILLON_MEADOW	Vivillon	UNK	no path found	UNK	FALSE
+SPECIES_VIVILLON_MODERN	Vivillon	UNK	no path found	UNK	FALSE
+SPECIES_VIVILLON_MARINE	Vivillon	UNK	no path found	UNK	FALSE
+SPECIES_VIVILLON_ARCHIPELAGO	Vivillon	UNK	no path found	UNK	FALSE
+SPECIES_VIVILLON_HIGH_PLAINS	Vivillon	UNK	no path found	UNK	FALSE
+SPECIES_VIVILLON_SANDSTORM	Vivillon	UNK	no path found	UNK	FALSE
+SPECIES_VIVILLON_RIVER	Vivillon	UNK	no path found	UNK	FALSE
+SPECIES_VIVILLON_MONSOON	Vivillon	UNK	no path found	UNK	FALSE
+SPECIES_VIVILLON_SAVANNA	Vivillon	UNK	no path found	UNK	FALSE
+SPECIES_VIVILLON_SUN	Vivillon	UNK	no path found	UNK	FALSE
+SPECIES_VIVILLON_OCEAN	Vivillon	UNK	no path found	UNK	FALSE
+SPECIES_VIVILLON_JUNGLE	Vivillon	UNK	no path found	UNK	FALSE
+SPECIES_VIVILLON_FANCY	Vivillon	UNK	no path found	UNK	FALSE
+SPECIES_VIVILLON_POKEBALL	Vivillon	UNK	no path found	UNK	FALSE
+SPECIES_LITLEO	Litleo	7	wild	Asserted	TRUE
+SPECIES_PYROAR	Pyroar	7	evolution:EVO_LEVEL@28:from SPECIES_LITLEO	Derived	TRUE
+SPECIES_FLABEBE_RED	Flabébé	UNK	no path found	UNK	FALSE
+SPECIES_FLABEBE_YELLOW	Flabébé	UNK	no path found	UNK	FALSE
+SPECIES_FLABEBE_ORANGE	Flabébé	UNK	no path found	UNK	FALSE
+SPECIES_FLABEBE_BLUE	Flabébé	UNK	no path found	UNK	FALSE
+SPECIES_FLABEBE_WHITE	Flabébé	UNK	no path found	UNK	FALSE
+SPECIES_FLOETTE_RED	Floette	UNK	no path found	UNK	FALSE
+SPECIES_FLOETTE_YELLOW	Floette	UNK	no path found	UNK	FALSE
+SPECIES_FLOETTE_ORANGE	Floette	UNK	no path found	UNK	FALSE
+SPECIES_FLOETTE_BLUE	Floette	UNK	no path found	UNK	FALSE
+SPECIES_FLOETTE_WHITE	Floette	UNK	no path found	UNK	FALSE
+SPECIES_FLOETTE_ETERNAL	Floette	UNK	no path found	UNK	FALSE
+SPECIES_FLORGES_RED	Florges	UNK	no path found	UNK	FALSE
+SPECIES_FLORGES_YELLOW	Florges	UNK	no path found	UNK	FALSE
+SPECIES_FLORGES_ORANGE	Florges	UNK	no path found	UNK	FALSE
+SPECIES_FLORGES_BLUE	Florges	UNK	no path found	UNK	FALSE
+SPECIES_FLORGES_WHITE	Florges	UNK	no path found	UNK	FALSE
+SPECIES_SKIDDO	Skiddo	12	wild	Asserted	TRUE
+SPECIES_GOGOAT	Gogoat	12	evolution:EVO_LEVEL@28:from SPECIES_SKIDDO	Derived	TRUE
+SPECIES_PANCHAM	Pancham	7	wild	Asserted	TRUE
+SPECIES_PANGORO	Pangoro	7	evolution:EVO_LEVEL_DARK_TYPE_MON_IN_PARTY@32:from SPECIES_PANCHAM	Derived	TRUE
+SPECIES_FURFROU_NATURAL	Furfrou	UNK	no path found	UNK	FALSE
+SPECIES_FURFROU_HEART_TRIM	Furfrou	UNK	no path found	UNK	FALSE
+SPECIES_FURFROU_STAR_TRIM	Furfrou	UNK	no path found	UNK	FALSE
+SPECIES_FURFROU_DIAMOND_TRIM	Furfrou	UNK	no path found	UNK	FALSE
+SPECIES_FURFROU_DEBUTANTE_TRIM	Furfrou	UNK	no path found	UNK	FALSE
+SPECIES_FURFROU_MATRON_TRIM	Furfrou	UNK	no path found	UNK	FALSE
+SPECIES_FURFROU_DANDY_TRIM	Furfrou	UNK	no path found	UNK	FALSE
+SPECIES_FURFROU_LA_REINE_TRIM	Furfrou	UNK	no path found	UNK	FALSE
+SPECIES_FURFROU_KABUKI_TRIM	Furfrou	UNK	no path found	UNK	FALSE
+SPECIES_FURFROU_PHARAOH_TRIM	Furfrou	UNK	no path found	UNK	FALSE
+SPECIES_ESPURR	Espurr	9	wild	Asserted	TRUE
+SPECIES_MEOWSTIC_M	Meowstic	9	evolution:EVO_LEVEL_MALE@23:from SPECIES_ESPURR	Derived	TRUE
+SPECIES_MEOWSTIC_F	Meowstic	9	evolution:EVO_LEVEL_FEMALE@23:from SPECIES_ESPURR	Derived	TRUE
+SPECIES_HONEDGE	Honedge	1	starter:game_start	Measured	TRUE
+SPECIES_DOUBLADE	Doublade	7	evolution:EVO_LEVEL@35:from SPECIES_HONEDGE	Derived	TRUE
+SPECIES_AEGISLASH_SHIELD	Aegislash	13	evolution:EVO_ITEM:ITEM_DUSK_STONE	Derived	TRUE
+SPECIES_AEGISLASH_BLADE	Aegislash	UNK	no path found	UNK	FALSE
+SPECIES_SPRITZEE	Spritzee	9	wild	Asserted	TRUE
+SPECIES_AROMATISSE	Aromatisse	7	wild	Asserted	TRUE
+SPECIES_SWIRLIX	Swirlix	3	wild	Asserted	TRUE
+SPECIES_SLURPUFF	Slurpuff	5	evolution:EVO_ITEM:ITEM_SHINY_STONE	Derived	TRUE
+SPECIES_INKAY	Inkay	4	wild	Asserted	TRUE
+SPECIES_MALAMAR	Malamar	4	evolution:EVO_LEVEL@30:from SPECIES_INKAY	Derived	TRUE
+SPECIES_BINACLE	Binacle	1	wild	Asserted	TRUE
+SPECIES_BARBARACLE	Barbaracle	1	wild	Asserted	TRUE
+SPECIES_SKRELP	Skrelp	3	wild	Asserted	TRUE
+SPECIES_DRAGALGE	Dragalge	3	wild	Asserted	TRUE
+SPECIES_CLAUNCHER	Clauncher	1	wild	Asserted	TRUE
+SPECIES_CLAWITZER	Clawitzer	1	wild	Asserted	TRUE
+SPECIES_HELIOPTILE	Helioptile	6	wild	Asserted	TRUE
+SPECIES_HELIOLISK	Heliolisk	6	evolution:EVO_ITEM:ITEM_SUN_STONE	Derived	TRUE
+SPECIES_TYRUNT	Tyrunt	19	wild	Asserted	TRUE
+SPECIES_TYRANTRUM	Tyrantrum	19	evolution:EVO_LEVEL_DAY@39:from SPECIES_TYRUNT	Derived	TRUE
+SPECIES_AMAURA	Amaura	19	wild	Asserted	TRUE
+SPECIES_AURORUS	Aurorus	19	evolution:EVO_LEVEL_NIGHT@39:from SPECIES_AMAURA	Derived	TRUE
+SPECIES_HAWLUCHA	Hawlucha	11	wild	Asserted	TRUE
+SPECIES_DEDENNE	Dedenne	6	wild	Asserted	TRUE
+SPECIES_CARBINK	Carbink	7	wild	Asserted	TRUE
+SPECIES_GOOMY	Goomy	7	wild	Asserted	TRUE
+SPECIES_SLIGGOO	Sliggoo	7	wild	Asserted	TRUE
+SPECIES_GOODRA	Goodra	7	evolution:EVO_LEVEL_FOG:50:from SPECIES_SLIGGOO	Inferred	TRUE
+SPECIES_SLIGGOO_HISUI	Sliggoo	7	wild	Asserted	TRUE
+SPECIES_GOODRA_HISUI	Goodra	7	evolution:EVO_LEVEL_FOG:50:from SPECIES_SLIGGOO_HISUI	Inferred	TRUE
+SPECIES_KLEFKI	Klefki	9	wild	Asserted	TRUE
+SPECIES_PHANTUMP	Phantump	9	wild	Asserted	TRUE
+SPECIES_TREVENANT	Trevenant	4	wild	Asserted	TRUE
+SPECIES_PUMPKABOO_AVERAGE	Pumpkaboo	UNK	no path found	UNK	FALSE
+SPECIES_PUMPKABOO_SMALL	Pumpkaboo	UNK	no path found	UNK	FALSE
+SPECIES_PUMPKABOO_LARGE	Pumpkaboo	UNK	no path found	UNK	FALSE
+SPECIES_PUMPKABOO_SUPER	Pumpkaboo	UNK	no path found	UNK	FALSE
+SPECIES_GOURGEIST_AVERAGE	Gourgeist	UNK	no path found	UNK	FALSE
+SPECIES_GOURGEIST_SMALL	Gourgeist	UNK	no path found	UNK	FALSE
+SPECIES_GOURGEIST_LARGE	Gourgeist	UNK	no path found	UNK	FALSE
+SPECIES_GOURGEIST_SUPER	Gourgeist	UNK	no path found	UNK	FALSE
+SPECIES_BERGMITE	Bergmite	9	wild	Asserted	TRUE
+SPECIES_AVALUGG	Avalugg	9	evolution:EVO_LEVEL@37:from SPECIES_BERGMITE	Derived	TRUE
+SPECIES_AVALUGG_HISUI	Avalugg	9	evolution:EVO_ITEM:ITEM_ICE_STONE	Derived	TRUE
+SPECIES_NOIBAT	Noibat	9	wild	Asserted	TRUE
+SPECIES_NOIVERN	Noivern	9	evolution:EVO_LEVEL@36:from SPECIES_NOIBAT	Derived	TRUE
+SPECIES_XERNEAS_NEUTRAL	Xerneas	UNK	no path found	UNK	FALSE
+SPECIES_XERNEAS_ACTIVE	Xerneas	UNK	no path found	UNK	FALSE
+SPECIES_YVELTAL	Yveltal	UNK	no path found	UNK	FALSE
+SPECIES_ZYGARDE_50	Zygarde	UNK	no path found	UNK	FALSE
+SPECIES_ZYGARDE_50_POWER_CONSTRUCT	Zygarde	UNK	no path found	UNK	FALSE
+SPECIES_ZYGARDE_10_AURA_BREAK	Zygarde	UNK	no path found	UNK	FALSE
+SPECIES_ZYGARDE_10_POWER_CONSTRUCT	Zygarde	UNK	no path found	UNK	FALSE
+SPECIES_ZYGARDE_COMPLETE	Zygarde	UNK	no path found	UNK	FALSE
+SPECIES_DIANCIE	Diancie	7	wild	Asserted	TRUE
+SPECIES_DIANCIE_MEGA	Diancie	7	mega/primal form of SPECIES_DIANCIE (stone not resolved)	Inferred	TRUE
+SPECIES_HOOPA_CONFINED	Hoopa	UNK	no path found	UNK	FALSE
+SPECIES_HOOPA_UNBOUND	Hoopa	UNK	no path found	UNK	FALSE
+SPECIES_VOLCANION	Volcanion	UNK	no path found	UNK	FALSE
+SPECIES_ROWLET	Rowlet	1	starter:game_start	Measured	TRUE
+SPECIES_DARTRIX	Dartrix	2	evolution:EVO_LEVEL@16:from SPECIES_ROWLET	Derived	TRUE
+SPECIES_DECIDUEYE	Decidueye	7	evolution:EVO_LEVEL_NIGHT@36:from SPECIES_DARTRIX	Derived	TRUE
+SPECIES_DECIDUEYE_HISUI	Decidueye	7	evolution:EVO_LEVEL_DAY@36:from SPECIES_DARTRIX	Derived	TRUE
+SPECIES_LITTEN	Litten	1	starter:game_start	Measured	TRUE
+SPECIES_TORRACAT	Torracat	2	evolution:EVO_LEVEL@16:from SPECIES_LITTEN	Derived	TRUE
+SPECIES_INCINEROAR	Incineroar	7	evolution:EVO_LEVEL@36:from SPECIES_TORRACAT	Derived	TRUE
+SPECIES_POPPLIO	Popplio	1	starter:game_start	Measured	TRUE
+SPECIES_BRIONNE	Brionne	2	evolution:EVO_LEVEL@16:from SPECIES_POPPLIO	Derived	TRUE
+SPECIES_PRIMARINA	Primarina	7	evolution:EVO_LEVEL@36:from SPECIES_BRIONNE	Derived	TRUE
+SPECIES_PIKIPEK	Pikipek	1	wild	Asserted	TRUE
+SPECIES_TRUMBEAK	Trumbeak	1	evolution:EVO_LEVEL@14:from SPECIES_PIKIPEK	Derived	TRUE
+SPECIES_TOUCANNON	Toucannon	4	evolution:EVO_LEVEL@28:from SPECIES_TRUMBEAK	Derived	TRUE
+SPECIES_YUNGOOS	Yungoos	3	wild	Asserted	TRUE
+SPECIES_GUMSHOOS	Gumshoos	3	evolution:EVO_LEVEL_DAY@16:from SPECIES_YUNGOOS	Derived	TRUE
+SPECIES_GUMSHOOS_TOTEM	Gumshoos	UNK	no path found	UNK	FALSE
+SPECIES_GRUBBIN	Grubbin	1	starter:game_start	Measured	TRUE
+SPECIES_CHARJABUG	Charjabug	2	evolution:EVO_LEVEL@20:from SPECIES_GRUBBIN	Derived	TRUE
+SPECIES_VIKAVOLT	Vikavolt	2	evolution:EVO_MAPSEC:MAPSEC_NEW_MAUVILLE:from SPECIES_CHARJABUG	Inferred	TRUE
+SPECIES_VIKAVOLT_TOTEM	Vikavolt	2	evolution:EVO_NONE:0:from SPECIES_CHARJABUG	Inferred	TRUE
+SPECIES_CRABRAWLER	Crabrawler	1	wild	Asserted	TRUE
+SPECIES_CRABOMINABLE	Crabominable	4	evolution:EVO_LEVEL@30:from SPECIES_CRABRAWLER	Derived	TRUE
+SPECIES_ORICORIO_BAILE	Oricorio	7	wild	Asserted	TRUE
+SPECIES_ORICORIO_POM_POM	Oricorio	7	wild	Asserted	TRUE
+SPECIES_ORICORIO_PAU	Oricorio	7	wild	Asserted	TRUE
+SPECIES_ORICORIO_SENSU	Oricorio	7	wild	Asserted	TRUE
+SPECIES_CUTIEFLY	Cutiefly	11	wild	Derived	TRUE
+SPECIES_RIBOMBEE	Ribombee	11	wild	Asserted	TRUE
+SPECIES_RIBOMBEE_TOTEM	Ribombee	11	evolution:EVO_NONE:0:from SPECIES_CUTIEFLY	Inferred	TRUE
+SPECIES_ROCKRUFF	Rockruff	6	wild	Asserted	TRUE
+SPECIES_ROCKRUFF_OWN_TEMPO	Rockruff	UNK	no path found	UNK	FALSE
+SPECIES_LYCANROC_MIDDAY	Lycanroc	6	evolution:EVO_LEVEL_DAY@25:from SPECIES_ROCKRUFF	Derived	TRUE
+SPECIES_LYCANROC_MIDNIGHT	Lycanroc	6	evolution:EVO_LEVEL_NIGHT@25:from SPECIES_ROCKRUFF	Derived	TRUE
+SPECIES_LYCANROC_DUSK	Lycanroc	6	evolution:EVO_LEVEL_DUSK@25:from SPECIES_ROCKRUFF	Derived	TRUE
+SPECIES_WISHIWASHI_SOLO	Wishiwashi	UNK	no path found	UNK	FALSE
+SPECIES_WISHIWASHI_SCHOOL	Wishiwashi	UNK	no path found	UNK	FALSE
+SPECIES_MAREANIE	Mareanie	3	wild	Asserted	TRUE
+SPECIES_TOXAPEX	Toxapex	3	wild	Asserted	TRUE
+SPECIES_MUDBRAY	Mudbray	6	wild	Asserted	TRUE
+SPECIES_MUDSDALE	Mudsdale	6	evolution:EVO_LEVEL@30:from SPECIES_MUDBRAY	Derived	TRUE
+SPECIES_DEWPIDER	Dewpider	1	wild	Asserted	TRUE
+SPECIES_ARAQUANID	Araquanid	3	evolution:EVO_LEVEL@22:from SPECIES_DEWPIDER	Derived	TRUE
+SPECIES_ARAQUANID_TOTEM	Araquanid	1	evolution:EVO_NONE:0:from SPECIES_DEWPIDER	Inferred	TRUE
+SPECIES_FOMANTIS	Fomantis	1	wild	Asserted	TRUE
+SPECIES_LURANTIS	Lurantis	6	evolution:EVO_LEVEL_DAY@34:from SPECIES_FOMANTIS	Derived	TRUE
+SPECIES_LURANTIS_TOTEM	Lurantis	1	evolution:EVO_NONE:0:from SPECIES_FOMANTIS	Inferred	TRUE
+SPECIES_MORELULL	Morelull	3	wild	Asserted	TRUE
+SPECIES_SHIINOTIC	Shiinotic	3	evolution:EVO_LEVEL@24:from SPECIES_MORELULL	Derived	TRUE
+SPECIES_SALANDIT	Salandit	7	wild	Asserted	TRUE
+SPECIES_SALAZZLE	Salazzle	7	evolution:EVO_LEVEL_FEMALE@33:from SPECIES_SALANDIT	Derived	TRUE
+SPECIES_SALAZZLE_TOTEM	Salazzle	7	evolution:EVO_NONE:0:from SPECIES_SALANDIT	Inferred	TRUE
+SPECIES_STUFFUL	Stufful	3	wild	Asserted	TRUE
+SPECIES_BEWEAR	Bewear	4	evolution:EVO_LEVEL@27:from SPECIES_STUFFUL	Derived	TRUE
+SPECIES_BOUNSWEET	Bounsweet	1	wild	Asserted	TRUE
+SPECIES_STEENEE	Steenee	2	evolution:EVO_LEVEL@18:from SPECIES_BOUNSWEET	Derived	TRUE
+SPECIES_TSAREENA	Tsareena	2	evolution:EVO_MOVE:MOVE_STOMP:from SPECIES_STEENEE	Inferred	TRUE
+SPECIES_COMFEY	Comfey	9	wild	Asserted	TRUE
+SPECIES_ORANGURU	Oranguru	9	wild	Asserted	TRUE
+SPECIES_PASSIMIAN	Passimian	9	wild	Asserted	TRUE
+SPECIES_WIMPOD	Wimpod	4	wild	Asserted	TRUE
+SPECIES_GOLISOPOD	Golisopod	4	wild	Asserted	TRUE
+SPECIES_SANDYGAST	Sandygast	2	wild	Asserted	TRUE
+SPECIES_PALOSSAND	Palossand	7	evolution:EVO_LEVEL@42:from SPECIES_SANDYGAST	Derived	TRUE
+SPECIES_PYUKUMUKU	Pyukumuku	17	wild	Asserted	TRUE
+SPECIES_TYPE_NULL	Type: Null	UNK	no path found	UNK	FALSE
+SPECIES_SILVALLY_NORMAL	Silvally	UNK	no path found	UNK	FALSE
+SPECIES_SILVALLY_FIGHTING	Silvally	UNK	no path found	UNK	FALSE
+SPECIES_SILVALLY_FLYING	Silvally	UNK	no path found	UNK	FALSE
+SPECIES_SILVALLY_POISON	Silvally	UNK	no path found	UNK	FALSE
+SPECIES_SILVALLY_GROUND	Silvally	UNK	no path found	UNK	FALSE
+SPECIES_SILVALLY_ROCK	Silvally	UNK	no path found	UNK	FALSE
+SPECIES_SILVALLY_BUG	Silvally	UNK	no path found	UNK	FALSE
+SPECIES_SILVALLY_GHOST	Silvally	UNK	no path found	UNK	FALSE
+SPECIES_SILVALLY_STEEL	Silvally	UNK	no path found	UNK	FALSE
+SPECIES_SILVALLY_FIRE	Silvally	UNK	no path found	UNK	FALSE
+SPECIES_SILVALLY_WATER	Silvally	UNK	no path found	UNK	FALSE
+SPECIES_SILVALLY_GRASS	Silvally	UNK	no path found	UNK	FALSE
+SPECIES_SILVALLY_ELECTRIC	Silvally	UNK	no path found	UNK	FALSE
+SPECIES_SILVALLY_PSYCHIC	Silvally	UNK	no path found	UNK	FALSE
+SPECIES_SILVALLY_ICE	Silvally	UNK	no path found	UNK	FALSE
+SPECIES_SILVALLY_DRAGON	Silvally	UNK	no path found	UNK	FALSE
+SPECIES_SILVALLY_DARK	Silvally	UNK	no path found	UNK	FALSE
+SPECIES_SILVALLY_FAIRY	Silvally	UNK	no path found	UNK	FALSE
+SPECIES_MINIOR_METEOR_RED	Minior	UNK	no path found	UNK	FALSE
+SPECIES_MINIOR_METEOR_ORANGE	Minior	UNK	no path found	UNK	FALSE
+SPECIES_MINIOR_METEOR_YELLOW	Minior	UNK	no path found	UNK	FALSE
+SPECIES_MINIOR_METEOR_GREEN	Minior	UNK	no path found	UNK	FALSE
+SPECIES_MINIOR_METEOR_BLUE	Minior	UNK	no path found	UNK	FALSE
+SPECIES_MINIOR_METEOR_INDIGO	Minior	UNK	no path found	UNK	FALSE
+SPECIES_MINIOR_METEOR_VIOLET	Minior	UNK	no path found	UNK	FALSE
+SPECIES_MINIOR_CORE_RED	Minior	UNK	no path found	UNK	FALSE
+SPECIES_MINIOR_CORE_ORANGE	Minior	UNK	no path found	UNK	FALSE
+SPECIES_MINIOR_CORE_YELLOW	Minior	UNK	no path found	UNK	FALSE
+SPECIES_MINIOR_CORE_GREEN	Minior	UNK	no path found	UNK	FALSE
+SPECIES_MINIOR_CORE_BLUE	Minior	UNK	no path found	UNK	FALSE
+SPECIES_MINIOR_CORE_INDIGO	Minior	UNK	no path found	UNK	FALSE
+SPECIES_MINIOR_CORE_VIOLET	Minior	UNK	no path found	UNK	FALSE
+SPECIES_KOMALA	Komala	11	wild	Asserted	TRUE
+SPECIES_TURTONATOR	Turtonator	9	wild	Asserted	TRUE
+SPECIES_TOGEDEMARU	Togedemaru	6	wild	Asserted	TRUE
+SPECIES_TOGEDEMARU_TOTEM	Togedemaru	UNK	no path found	UNK	FALSE
+SPECIES_MIMIKYU_DISGUISED	Mimikyu	UNK	no path found	UNK	FALSE
+SPECIES_MIMIKYU_BUSTED	Mimikyu	UNK	no path found	UNK	FALSE
+SPECIES_MIMIKYU_TOTEM_DISGUISED	Mimikyu	UNK	no path found	UNK	FALSE
+SPECIES_MIMIKYU_BUSTED_TOTEM	Mimikyu	UNK	no path found	UNK	FALSE
+SPECIES_BRUXISH	Bruxish	3	wild	Asserted	TRUE
+SPECIES_DRAMPA	Drampa	9	wild	Asserted	TRUE
+SPECIES_DHELMISE	Dhelmise	13	wild	Asserted	TRUE
+SPECIES_JANGMO_O	Jangmo-o	6	wild	Asserted	TRUE
+SPECIES_HAKAMO_O	Hakamo-o	7	wild	Asserted	TRUE
+SPECIES_KOMMO_O	Kommo-o	8	evolution:EVO_LEVEL@45:from SPECIES_HAKAMO_O	Derived	TRUE
+SPECIES_KOMMO_O_TOTEM	Kommo-o	7	evolution:EVO_NONE:0:from SPECIES_HAKAMO_O	Inferred	TRUE
+SPECIES_TAPU_KOKO	Tapu Koko	UNK	no path found	UNK	FALSE
+SPECIES_TAPU_LELE	Tapu Lele	UNK	no path found	UNK	FALSE
+SPECIES_TAPU_BULU	Tapu Bulu	UNK	no path found	UNK	FALSE
+SPECIES_TAPU_FINI	Tapu Fini	UNK	no path found	UNK	FALSE
+SPECIES_COSMOG	Cosmog	19	wild	Asserted	TRUE
+SPECIES_COSMOEM	Cosmoem	19	evolution:EVO_LEVEL@43:from SPECIES_COSMOG	Derived	TRUE
+SPECIES_SOLGALEO	Solgaleo	19	evolution:EVO_LEVEL_DAY@64:from SPECIES_COSMOEM	Derived	TRUE
+SPECIES_LUNALA	Lunala	19	evolution:EVO_LEVEL_NIGHT@64:from SPECIES_COSMOEM	Derived	TRUE
+SPECIES_NIHILEGO	Nihilego	15	wild	Asserted	TRUE
+SPECIES_BUZZWOLE	Buzzwole	15	wild	Asserted	TRUE
+SPECIES_PHEROMOSA	Pheromosa	15	wild	Asserted	TRUE
+SPECIES_XURKITREE	Xurkitree	15	wild	Asserted	TRUE
+SPECIES_CELESTEELA	Celesteela	15	wild	Asserted	TRUE
+SPECIES_KARTANA	Kartana	15	wild	Asserted	TRUE
+SPECIES_GUZZLORD	Guzzlord	15	wild	Asserted	TRUE
+SPECIES_NECROZMA	Necrozma	19	wild	Asserted	TRUE
+SPECIES_NECROZMA_DUSK_MANE	Necrozma	UNK	no path found	UNK	FALSE
+SPECIES_NECROZMA_DAWN_WINGS	Necrozma	UNK	no path found	UNK	FALSE
+SPECIES_NECROZMA_ULTRA	Necrozma	UNK	no path found	UNK	FALSE
+SPECIES_MAGEARNA	Magearna	7	wild	Asserted	TRUE
+SPECIES_MAGEARNA_ORIGINAL	Magearna	UNK	no path found	UNK	FALSE
+SPECIES_MARSHADOW	Marshadow	UNK	no path found	UNK	FALSE
+SPECIES_POIPOLE	Poipole	15	wild	Asserted	TRUE
+SPECIES_NAGANADEL	Naganadel	15	evolution:EVO_MOVE:MOVE_DRAGON_PULSE:from SPECIES_POIPOLE	Inferred	TRUE
+SPECIES_STAKATAKA	Stakataka	15	wild	Asserted	TRUE
+SPECIES_BLACEPHALON	Blacephalon	15	wild	Asserted	TRUE
+SPECIES_ZERAORA	Zeraora	UNK	no path found	UNK	FALSE
+SPECIES_MELTAN	Meltan	UNK	no path found	UNK	FALSE
+SPECIES_MELMETAL	Melmetal	UNK	no path found	UNK	FALSE
+SPECIES_MELMETAL_GMAX	Melmetal	UNK	no path found	UNK	FALSE
+SPECIES_GROOKEY	Grookey	1	starter:game_start	Measured	TRUE
+SPECIES_THWACKEY	Thwackey	2	evolution:EVO_LEVEL@16:from SPECIES_GROOKEY	Derived	TRUE
+SPECIES_RILLABOOM	Rillaboom	7	evolution:EVO_LEVEL@36:from SPECIES_THWACKEY	Derived	TRUE
+SPECIES_RILLABOOM_GMAX	Rillaboom	UNK	no path found	UNK	FALSE
+SPECIES_SCORBUNNY	Scorbunny	1	starter:game_start	Measured	TRUE
+SPECIES_RABOOT	Raboot	2	evolution:EVO_LEVEL@16:from SPECIES_SCORBUNNY	Derived	TRUE
+SPECIES_CINDERACE	Cinderace	7	evolution:EVO_LEVEL@36:from SPECIES_RABOOT	Derived	TRUE
+SPECIES_CINDERACE_GMAX	Cinderace	UNK	no path found	UNK	FALSE
+SPECIES_SOBBLE	Sobble	1	starter:game_start	Measured	TRUE
+SPECIES_DRIZZILE	Drizzile	2	evolution:EVO_LEVEL@16:from SPECIES_SOBBLE	Derived	TRUE
+SPECIES_INTELEON	Inteleon	7	evolution:EVO_LEVEL@36:from SPECIES_DRIZZILE	Derived	TRUE
+SPECIES_INTELEON_GMAX	Inteleon	UNK	no path found	UNK	FALSE
+SPECIES_SKWOVET	Skwovet	UNK	no path found	UNK	FALSE
+SPECIES_GREEDENT	Greedent	UNK	no path found	UNK	FALSE
+SPECIES_ROOKIDEE	Rookidee	1	starter:game_start	Measured	TRUE
+SPECIES_CORVISQUIRE	Corvisquire	2	evolution:EVO_LEVEL@16:from SPECIES_ROOKIDEE	Derived	TRUE
+SPECIES_CORVIKNIGHT	Corviknight	7	evolution:EVO_LEVEL@38:from SPECIES_CORVISQUIRE	Derived	TRUE
+SPECIES_CORVIKNIGHT_GMAX	Corviknight	UNK	no path found	UNK	FALSE
+SPECIES_BLIPBUG	Blipbug	1	starter:game_start	Measured	TRUE
+SPECIES_DOTTLER	Dottler	1	evolution:EVO_LEVEL@10:from SPECIES_BLIPBUG	Derived	TRUE
+SPECIES_ORBEETLE	Orbeetle	4	evolution:EVO_LEVEL@27:from SPECIES_DOTTLER	Derived	TRUE
+SPECIES_ORBEETLE_MEGA	Orbeetle	4	mega/primal form of SPECIES_ORBEETLE (stone not resolved)	Inferred	TRUE
+SPECIES_NICKIT	Nickit	1	wild	Asserted	TRUE
+SPECIES_THIEVUL	Thievul	2	evolution:EVO_LEVEL@18:from SPECIES_NICKIT	Derived	TRUE
+SPECIES_GOSSIFLEUR	Gossifleur	1	wild	Asserted	TRUE
+SPECIES_ELDEGOSS	Eldegoss	2	evolution:EVO_LEVEL@20:from SPECIES_GOSSIFLEUR	Derived	TRUE
+SPECIES_WOOLOO	Wooloo	1	wild	Asserted	TRUE
+SPECIES_DUBWOOL	Dubwool	3	evolution:EVO_LEVEL@24:from SPECIES_WOOLOO	Derived	TRUE
+SPECIES_CHEWTLE	Chewtle	1	wild	Asserted	TRUE
+SPECIES_DREDNAW	Drednaw	3	evolution:EVO_LEVEL@22:from SPECIES_CHEWTLE	Derived	TRUE
+SPECIES_DREDNAW_MEGA	Drednaw	3	mega/primal form of SPECIES_DREDNAW (stone not resolved)	Inferred	TRUE
+SPECIES_YAMPER	Yamper	6	wild	Asserted	TRUE
+SPECIES_BOLTUND	Boltund	6	evolution:EVO_LEVEL@25:from SPECIES_YAMPER	Derived	TRUE
+SPECIES_ROLYCOLY	Rolycoly	1	starter:game_start	Measured	TRUE
+SPECIES_CARKOL	Carkol	2	evolution:EVO_LEVEL@16:from SPECIES_ROLYCOLY	Derived	TRUE
+SPECIES_COALOSSAL	Coalossal	6	evolution:EVO_LEVEL@34:from SPECIES_CARKOL	Derived	TRUE
+SPECIES_COALOSSAL_MEGA	Coalossal	6	mega/primal form of SPECIES_COALOSSAL (stone not resolved)	Inferred	TRUE
+SPECIES_APPLIN	Applin	7	wild	Asserted	TRUE
+SPECIES_FLAPPLE	Flapple	11	evolution:EVO_ITEM:ITEM_LEAF_STONE	Derived	TRUE
+SPECIES_FLAPPLE_MEGA	Flapple	11	mega/primal form of SPECIES_FLAPPLE (stone not resolved)	Inferred	TRUE
+SPECIES_APPLETUN	Appletun	7	evolution:EVO_ITEM:ITEM_SUN_STONE	Derived	TRUE
+SPECIES_APPLETUN_MEGA	Appletun	7	mega/primal form of SPECIES_APPLETUN (stone not resolved)	Inferred	TRUE
+SPECIES_DIPPLIN	Dipplin	7	evolution:EVO_LEVEL@30:from SPECIES_APPLIN	Derived	TRUE
+SPECIES_HYDRAPPLE	Hydrapple	7	evolution:EVO_LEVEL@44:from SPECIES_DIPPLIN	Derived	TRUE
+SPECIES_SILICOBRA	Silicobra	11	wild	Derived	TRUE
+SPECIES_SANDACONDA	Sandaconda	11	evolution:EVO_LEVEL@36:from SPECIES_SILICOBRA	Derived	TRUE
+SPECIES_SANDACONDA_MEGA	Sandaconda	11	mega/primal form of SPECIES_SANDACONDA (stone not resolved)	Inferred	TRUE
+SPECIES_CRAMORANT	Cramorant	1	wild	Asserted	TRUE
+SPECIES_CRAMORANT_GULPING	Cramorant	UNK	no path found	UNK	FALSE
+SPECIES_CRAMORANT_GORGING	Cramorant	UNK	no path found	UNK	FALSE
+SPECIES_ARROKUDA	Arrokuda	3	wild	Asserted	TRUE
+SPECIES_BARRASKEWDA	Barraskewda	3	wild	Asserted	TRUE
+SPECIES_TOXEL	Toxel	4	wild	Asserted	TRUE
+SPECIES_TOXTRICITY_AMPED	Toxtricity	4	evolution:EVO_LEVEL_NATURE_AMPED@30:from SPECIES_TOXEL	Derived	TRUE
+SPECIES_TOXTRICITY_MEGA	Toxtricity	UNK	no path found	UNK	FALSE
+SPECIES_TOXTRICITY_LOW_KEY	Toxtricity	4	evolution:EVO_LEVEL_NATURE_LOW_KEY@30:from SPECIES_TOXEL	Derived	TRUE
+SPECIES_SIZZLIPEDE	Sizzlipede	7	wild	Asserted	TRUE
+SPECIES_CENTISKORCH	Centiskorch	7	evolution:EVO_LEVEL@28:from SPECIES_SIZZLIPEDE	Derived	TRUE
+SPECIES_CENTISKORCH_MEGA	Centiskorch	7	mega/primal form of SPECIES_CENTISKORCH (stone not resolved)	Inferred	TRUE
+SPECIES_CLOBBOPUS	Clobbopus	1	wild	Asserted	TRUE
+SPECIES_GRAPPLOCT	Grapploct	1	wild	Asserted	TRUE
+SPECIES_SINISTEA_PHONY	Sinistea	UNK	no path found	UNK	FALSE
+SPECIES_SINISTEA_ANTIQUE	Sinistea	UNK	no path found	UNK	FALSE
+SPECIES_POLTEAGEIST_PHONY	Polteageist	UNK	no path found	UNK	FALSE
+SPECIES_POLTEAGEIST_ANTIQUE	Polteageist	UNK	no path found	UNK	FALSE
+SPECIES_HATENNA	Hatenna	1	starter:game_start	Measured	TRUE
+SPECIES_HATTREM	Hattrem	4	evolution:EVO_LEVEL@28:from SPECIES_HATENNA	Derived	TRUE
+SPECIES_HATTERENE	Hatterene	7	evolution:EVO_LEVEL@42:from SPECIES_HATTREM	Derived	TRUE
+SPECIES_HATTERENE_GMAX	Hatterene	UNK	no path found	UNK	FALSE
+SPECIES_IMPIDIMP	Impidimp	1	starter:game_start	Measured	TRUE
+SPECIES_MORGREM	Morgrem	4	evolution:EVO_LEVEL@27:from SPECIES_IMPIDIMP	Derived	TRUE
+SPECIES_GRIMMSNARL	Grimmsnarl	7	evolution:EVO_LEVEL@36:from SPECIES_MORGREM	Derived	TRUE
+SPECIES_GRIMMSNARL_MEGA	Grimmsnarl	7	mega/primal form of SPECIES_GRIMMSNARL (stone not resolved)	Inferred	TRUE
+SPECIES_MILCERY	Milcery	12	wild	Asserted	TRUE
+SPECIES_ALCREMIE_STRAWBERRY_VANILLA_CREAM	Alcremie	12	evolution:EVO_ITEM:ITEM_SHINY_STONE	Derived	TRUE
+SPECIES_ALCREMIE_STRAWBERRY_RUBY_CREAM	Alcremie	12	evolution:EVO_ITEM:ITEM_SHINY_STONE	Derived	TRUE
+SPECIES_ALCREMIE_STRAWBERRY_MATCHA_CREAM	Alcremie	12	evolution:EVO_ITEM:ITEM_SHINY_STONE	Derived	TRUE
+SPECIES_ALCREMIE_STRAWBERRY_MINT_CREAM	Alcremie	12	evolution:EVO_ITEM:ITEM_SHINY_STONE	Derived	TRUE
+SPECIES_ALCREMIE_STRAWBERRY_LEMON_CREAM	Alcremie	12	evolution:EVO_ITEM:ITEM_SHINY_STONE	Derived	TRUE
+SPECIES_ALCREMIE_STRAWBERRY_SALTED_CREAM	Alcremie	12	evolution:EVO_ITEM:ITEM_SHINY_STONE	Derived	TRUE
+SPECIES_ALCREMIE_STRAWBERRY_RUBY_SWIRL	Alcremie	12	evolution:EVO_ITEM:ITEM_SHINY_STONE	Derived	TRUE
+SPECIES_ALCREMIE_STRAWBERRY_CARAMEL_SWIRL	Alcremie	12	evolution:EVO_ITEM:ITEM_SHINY_STONE	Derived	TRUE
+SPECIES_ALCREMIE_STRAWBERRY_RAINBOW_SWIRL	Alcremie	12	evolution:EVO_ITEM:ITEM_SHINY_STONE	Derived	TRUE
+SPECIES_ALCREMIE_BERRY_VANILLA_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_BERRY_RUBY_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_BERRY_MATCHA_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_BERRY_MINT_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_BERRY_LEMON_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_BERRY_SALTED_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_BERRY_RUBY_SWIRL	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_BERRY_CARAMEL_SWIRL	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_BERRY_RAINBOW_SWIRL	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_LOVE_VANILLA_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_LOVE_RUBY_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_LOVE_MATCHA_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_LOVE_MINT_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_LOVE_LEMON_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_LOVE_SALTED_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_LOVE_RUBY_SWIRL	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_LOVE_CARAMEL_SWIRL	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_LOVE_RAINBOW_SWIRL	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_STAR_VANILLA_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_STAR_RUBY_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_STAR_MATCHA_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_STAR_MINT_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_STAR_LEMON_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_STAR_SALTED_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_STAR_RUBY_SWIRL	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_STAR_CARAMEL_SWIRL	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_STAR_RAINBOW_SWIRL	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_CLOVER_VANILLA_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_CLOVER_RUBY_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_CLOVER_MATCHA_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_CLOVER_MINT_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_CLOVER_LEMON_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_CLOVER_SALTED_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_CLOVER_RUBY_SWIRL	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_CLOVER_CARAMEL_SWIRL	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_CLOVER_RAINBOW_SWIRL	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_FLOWER_VANILLA_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_FLOWER_RUBY_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_FLOWER_MATCHA_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_FLOWER_MINT_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_FLOWER_LEMON_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_FLOWER_SALTED_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_FLOWER_RUBY_SWIRL	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_FLOWER_CARAMEL_SWIRL	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_FLOWER_RAINBOW_SWIRL	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_RIBBON_VANILLA_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_RIBBON_RUBY_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_RIBBON_MATCHA_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_RIBBON_MINT_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_RIBBON_LEMON_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_RIBBON_SALTED_CREAM	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_RIBBON_RUBY_SWIRL	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_RIBBON_CARAMEL_SWIRL	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_RIBBON_RAINBOW_SWIRL	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_ALCREMIE_GMAX	Alcremie	UNK	no path found	UNK	FALSE
+SPECIES_FALINKS	Falinks	7	wild	Asserted	TRUE
+SPECIES_PINCURCHIN	Pincurchin	4	wild	Asserted	TRUE
+SPECIES_SNOM	Snom	6	wild	Asserted	TRUE
+SPECIES_FROSMOTH	Frosmoth	6	evolution:EVO_FRIENDSHIP_NIGHT:0:from SPECIES_SNOM	Inferred	TRUE
+SPECIES_STONJOURNER	Stonjourner	11	wild	Asserted	TRUE
+SPECIES_EISCUE_ICE	Eiscue	UNK	no path found	UNK	FALSE
+SPECIES_EISCUE_NOICE	Eiscue	UNK	no path found	UNK	FALSE
+SPECIES_INDEEDEE_M	Indeedee	11	wild	Derived	TRUE
+SPECIES_INDEEDEE_F	Indeedee	11	wild	Derived	TRUE
+SPECIES_MORPEKO_FULL_BELLY	Morpeko	UNK	no path found	UNK	FALSE
+SPECIES_MORPEKO_HANGRY	Morpeko	UNK	no path found	UNK	FALSE
+SPECIES_CUFANT	Cufant	11	wild	Asserted	TRUE
+SPECIES_COPPERAJAH	Copperajah	11	evolution:EVO_LEVEL@34:from SPECIES_CUFANT	Derived	TRUE
+SPECIES_COPPERAJAH_MEGA	Copperajah	11	mega/primal form of SPECIES_COPPERAJAH (stone not resolved)	Inferred	TRUE
+SPECIES_DRACOZOLT	Dracozolt	19	wild	Asserted	TRUE
+SPECIES_ARCTOZOLT	Arctozolt	19	wild	Asserted	TRUE
+SPECIES_DRACOVISH	Dracovish	19	wild	Asserted	TRUE
+SPECIES_ARCTOVISH	Arctovish	19	wild	Asserted	TRUE
+SPECIES_DURALUDON	Duraludon	6	wild	Asserted	TRUE
+SPECIES_DURALUDON_GMAX	Duraludon	UNK	no path found	UNK	FALSE
+SPECIES_ARCHALUDON	Archaludon	9	evolution:EVO_LEVEL@50:from SPECIES_DURALUDON	Derived	TRUE
+SPECIES_DREEPY	Dreepy	7	wild	Asserted	TRUE
+SPECIES_DRAKLOAK	Drakloak	7	wild	Asserted	TRUE
+SPECIES_DRAGAPULT	Dragapult	11	evolution:EVO_LEVEL@60:from SPECIES_DRAKLOAK	Derived	TRUE
+SPECIES_ZACIAN_HERO	Zacian	UNK	no path found	UNK	FALSE
+SPECIES_ZACIAN_CROWNED	Zacian	UNK	no path found	UNK	FALSE
+SPECIES_ZAMAZENTA_HERO	Zamazenta	UNK	no path found	UNK	FALSE
+SPECIES_ZAMAZENTA_CROWNED	Zamazenta	UNK	no path found	UNK	FALSE
+SPECIES_ETERNATUS	Eternatus	UNK	no path found	UNK	FALSE
+SPECIES_ETERNATUS_ETERNAMAX	Eternatus	UNK	no path found	UNK	FALSE
+SPECIES_KUBFU	Kubfu	UNK	no path found	UNK	FALSE
+SPECIES_URSHIFU_SINGLE_STRIKE	Urshifu	UNK	no path found	UNK	FALSE
+SPECIES_URSHIFU_SINGLE_STRIKE_GMAX	Urshifu	UNK	no path found	UNK	FALSE
+SPECIES_URSHIFU_RAPID_STRIKE	Urshifu	UNK	no path found	UNK	FALSE
+SPECIES_URSHIFU_RAPID_STRIKE_GMAX	Urshifu	UNK	no path found	UNK	FALSE
+SPECIES_ZARUDE	Zarude	UNK	no path found	UNK	FALSE
+SPECIES_ZARUDE_DADA	Zarude	UNK	no path found	UNK	FALSE
+SPECIES_REGIELEKI	Regieleki	UNK	no path found	UNK	FALSE
+SPECIES_REGIDRAGO	Regidrago	UNK	no path found	UNK	FALSE
+SPECIES_GLASTRIER	Glastrier	19	wild	Asserted	TRUE
+SPECIES_SPECTRIER	Spectrier	19	wild	Asserted	TRUE
+SPECIES_CALYREX	Calyrex	UNK	no path found	UNK	FALSE
+SPECIES_CALYREX_ICE	Calyrex	UNK	no path found	UNK	FALSE
+SPECIES_CALYREX_SHADOW	Calyrex	UNK	no path found	UNK	FALSE
+SPECIES_ENAMORUS_INCARNATE	Enamorus	UNK	no path found	UNK	FALSE
+SPECIES_ENAMORUS_THERIAN	Enamorus	UNK	no path found	UNK	FALSE
+SPECIES_SPRIGATITO	Sprigatito	1	starter:game_start	Measured	TRUE
+SPECIES_FLORAGATO	Floragato	2	evolution:EVO_LEVEL@16:from SPECIES_SPRIGATITO	Derived	TRUE
+SPECIES_MEOWSCARADA	Meowscarada	7	evolution:EVO_LEVEL@36:from SPECIES_FLORAGATO	Derived	TRUE
+SPECIES_FUECOCO	Fuecoco	1	starter:game_start	Measured	TRUE
+SPECIES_CROCALOR	Crocalor	2	evolution:EVO_LEVEL@16:from SPECIES_FUECOCO	Derived	TRUE
+SPECIES_SKELEDIRGE	Skeledirge	7	evolution:EVO_LEVEL@36:from SPECIES_CROCALOR	Derived	TRUE
+SPECIES_QUAXLY	Quaxly	1	starter:game_start	Measured	TRUE
+SPECIES_QUAXWELL	Quaxwell	2	evolution:EVO_LEVEL@16:from SPECIES_QUAXLY	Derived	TRUE
+SPECIES_QUAQUAVAL	Quaquaval	7	evolution:EVO_LEVEL@36:from SPECIES_QUAXWELL	Derived	TRUE
+SPECIES_LECHONK	Lechonk	1	wild	Asserted	TRUE
+SPECIES_OINKOLOGNE_M	Oinkologne	2	evolution:EVO_LEVEL_MALE@16:from SPECIES_LECHONK	Derived	TRUE
+SPECIES_OINKOLOGNE_F	Oinkologne	2	evolution:EVO_LEVEL_FEMALE@16:from SPECIES_LECHONK	Derived	TRUE
+SPECIES_TAROUNTULA	Tarountula	1	wild	Asserted	TRUE
+SPECIES_SPIDOPS	Spidops	1	evolution:EVO_LEVEL@15:from SPECIES_TAROUNTULA	Derived	TRUE
+SPECIES_NYMBLE	Nymble	7	wild	Asserted	TRUE
+SPECIES_LOKIX	Lokix	7	evolution:EVO_LEVEL@23:from SPECIES_NYMBLE	Derived	TRUE
+SPECIES_PAWMI	Pawmi	4	wild	Asserted	TRUE
+SPECIES_PAWMO	Pawmo	4	evolution:EVO_LEVEL@16:from SPECIES_PAWMI	Derived	TRUE
+SPECIES_PAWMOT	Pawmot	5	evolution:EVO_LEVEL@32:from SPECIES_PAWMO	Derived	TRUE
+SPECIES_TANDEMAUS	Tandemaus	13	wild	Asserted	TRUE
+SPECIES_MAUSHOLD_THREE	Maushold	13	evolution:EVO_LEVEL_FAMILY_OF_THREE@25:from SPECIES_TANDEMAUS	Derived	TRUE
+SPECIES_MAUSHOLD_FOUR	Maushold	13	evolution:EVO_LEVEL_FAMILY_OF_FOUR@25:from SPECIES_TANDEMAUS	Derived	TRUE
+SPECIES_FIDOUGH	Fidough	15	wild	Asserted	TRUE
+SPECIES_DACHSBUN	Dachsbun	15	evolution:EVO_LEVEL@26:from SPECIES_FIDOUGH	Derived	TRUE
+SPECIES_SMOLIV	Smoliv	1	starter:game_start	Measured	TRUE
+SPECIES_DOLLIV	Dolliv	3	evolution:EVO_LEVEL@23:from SPECIES_SMOLIV	Derived	TRUE
+SPECIES_ARBOLIVA	Arboliva	7	evolution:EVO_LEVEL@35:from SPECIES_DOLLIV	Derived	TRUE
+SPECIES_SQUAWKABILLY_GREEN	Squawkabilly	UNK	no path found	UNK	FALSE
+SPECIES_SQUAWKABILLY_BLUE	Squawkabilly	UNK	no path found	UNK	FALSE
+SPECIES_SQUAWKABILLY_YELLOW	Squawkabilly	UNK	no path found	UNK	FALSE
+SPECIES_SQUAWKABILLY_WHITE	Squawkabilly	UNK	no path found	UNK	FALSE
+SPECIES_NACLI	Nacli	1	starter:game_start	Measured	TRUE
+SPECIES_NACLSTACK	Naclstack	3	evolution:EVO_LEVEL@23:from SPECIES_NACLI	Derived	TRUE
+SPECIES_GARGANACL	Garganacl	7	evolution:EVO_LEVEL@38:from SPECIES_NACLSTACK	Derived	TRUE
+SPECIES_CHARCADET	Charcadet	UNK	no path found	UNK	FALSE
+SPECIES_ARMAROUGE	Armarouge	UNK	no path found	UNK	FALSE
+SPECIES_CERULEDGE	Ceruledge	UNK	no path found	UNK	FALSE
+SPECIES_TADBULB	Tadbulb	6	wild	Asserted	TRUE
+SPECIES_BELLIBOLT	Bellibolt	6	evolution:EVO_ITEM:ITEM_THUNDER_STONE	Derived	TRUE
+SPECIES_WATTREL	Wattrel	1	wild	Asserted	TRUE
+SPECIES_KILOWATTREL	Kilowattrel	3	evolution:EVO_LEVEL@25:from SPECIES_WATTREL	Derived	TRUE
+SPECIES_MASCHIFF	Maschiff	12	wild	Asserted	TRUE
+SPECIES_MABOSSTIFF	Mabosstiff	12	evolution:EVO_LEVEL@23:from SPECIES_MASCHIFF	Derived	TRUE
+SPECIES_SHROODLE	Shroodle	13	wild	Asserted	TRUE
+SPECIES_GRAFAIAI	Grafaiai	4	wild	Asserted	TRUE
+SPECIES_BRAMBLIN	Bramblin	13	wild	Asserted	TRUE
+SPECIES_BRAMBLEGHAST	Brambleghast	13	evolution:EVO_LEVEL@27:from SPECIES_BRAMBLIN	Derived	TRUE
+SPECIES_TOEDSCOOL	Toedscool	1	wild	Asserted	TRUE
+SPECIES_TOEDSCRUEL	Toedscruel	4	evolution:EVO_LEVEL@28:from SPECIES_TOEDSCOOL	Derived	TRUE
+SPECIES_KLAWF	Klawf	6	wild	Asserted	TRUE
+SPECIES_CAPSAKID	Capsakid	11	wild	Derived	TRUE
+SPECIES_SCOVILLAIN	Scovillain	11	evolution:EVO_ITEM:ITEM_FIRE_STONE	Derived	TRUE
+SPECIES_RELLOR	Rellor	12	wild	Asserted	TRUE
+SPECIES_RABSCA	Rabsca	12	evolution:EVO_LEVEL@16:from SPECIES_RELLOR	Derived	TRUE
+SPECIES_FLITTLE	Flittle	13	wild	Asserted	TRUE
+SPECIES_ESPATHRA	Espathra	13	evolution:EVO_LEVEL@34:from SPECIES_FLITTLE	Derived	TRUE
+SPECIES_TINKATINK	Tinkatink	1	starter:game_start	Measured	TRUE
+SPECIES_TINKATUFF	Tinkatuff	3	evolution:EVO_LEVEL@23:from SPECIES_TINKATINK	Derived	TRUE
+SPECIES_TINKATON	Tinkaton	7	evolution:EVO_LEVEL@36:from SPECIES_TINKATUFF	Derived	TRUE
+SPECIES_WIGLETT	Wiglett	4	wild	Asserted	TRUE
+SPECIES_WUGTRIO	Wugtrio	4	wild	Asserted	TRUE
+SPECIES_BOMBIRDIER	Bombirdier	7	wild	Asserted	TRUE
+SPECIES_FINIZEN	Finizen	6	wild	Asserted	TRUE
+SPECIES_PALAFIN_ZERO	Palafin	7	evolution:EVO_LEVEL@38:from SPECIES_FINIZEN	Derived	TRUE
+SPECIES_PALAFIN_HERO	Palafin	UNK	no path found	UNK	FALSE
+SPECIES_VAROOM	Varoom	7	wild	Asserted	TRUE
+SPECIES_REVAVROOM	Revavroom	7	evolution:EVO_LEVEL@34:from SPECIES_VAROOM	Derived	TRUE
+SPECIES_CYCLIZAR	Cyclizar	7	wild	Asserted	TRUE
+SPECIES_ORTHWORM	Orthworm	6	wild	Asserted	TRUE
+SPECIES_GLIMMET	Glimmet	12	wild	Asserted	TRUE
+SPECIES_GLIMMORA	Glimmora	12	evolution:EVO_LEVEL@35:from SPECIES_GLIMMET	Derived	TRUE
+SPECIES_GREAVARD	Greavard	6	wild	Asserted	TRUE
+SPECIES_HOUNDSTONE	Houndstone	6	evolution:EVO_LEVEL_NIGHT@30:from SPECIES_GREAVARD	Derived	TRUE
+SPECIES_FLAMIGO	Flamigo	7	wild	Asserted	TRUE
+SPECIES_CETODDLE	Cetoddle	7	wild	Asserted	TRUE
+SPECIES_CETITAN	Cetitan	3	wild	Asserted	TRUE
+SPECIES_VELUZA	Veluza	7	wild	Asserted	TRUE
+SPECIES_DONDOZO	Dondozo	4	wild	Asserted	TRUE
+SPECIES_TATSUGIRI_CURLY	Tatsugiri	UNK	no path found	UNK	FALSE
+SPECIES_TATSUGIRI_DROOPY	Tatsugiri	UNK	no path found	UNK	FALSE
+SPECIES_TATSUGIRI_STRETCHY	Tatsugiri	UNK	no path found	UNK	FALSE
+SPECIES_GREAT_TUSK	Great Tusk	15	wild	Asserted	TRUE
+SPECIES_SCREAM_TAIL	Scream Tail	15	wild	Asserted	TRUE
+SPECIES_BRUTE_BONNET	Brute Bonnet	15	wild	Asserted	TRUE
+SPECIES_FLUTTER_MANE	Flutter Mane	15	wild	Asserted	TRUE
+SPECIES_SLITHER_WING	Slither Wing	15	wild	Asserted	TRUE
+SPECIES_SANDY_SHOCKS	Sandy Shocks	15	wild	Asserted	TRUE
+SPECIES_IRON_TREADS	Iron Treads	15	wild	Asserted	TRUE
+SPECIES_IRON_BUNDLE	Iron Bundle	15	wild	Asserted	TRUE
+SPECIES_IRON_HANDS	Iron Hands	15	wild	Asserted	TRUE
+SPECIES_IRON_JUGULIS	Iron Jugulis	15	wild	Asserted	TRUE
+SPECIES_IRON_MOTH	Iron Moth	15	wild	Asserted	TRUE
+SPECIES_IRON_THORNS	Iron Thorns	15	wild	Asserted	TRUE
+SPECIES_FRIGIBAX	Frigibax	1	wild	Asserted	TRUE
+SPECIES_ARCTIBAX	Arctibax	7	wild	Asserted	TRUE
+SPECIES_BAXCALIBUR	Baxcalibur	9	evolution:EVO_LEVEL@54:from SPECIES_ARCTIBAX	Derived	TRUE
+SPECIES_GIMMIGHOUL_CHEST	Gimmighoul	UNK	no path found	UNK	FALSE
+SPECIES_GIMMIGHOUL_ROAMING	Gimmighoul	13	wild	Asserted	TRUE
+SPECIES_GHOLDENGO	Gholdengo	13	evolution:EVO_LEVEL@45:from SPECIES_GIMMIGHOUL_ROAMING	Derived	TRUE
+SPECIES_WO_CHIEN	Wo-Chien	16	wild	Asserted	TRUE
+SPECIES_CHIEN_PAO	Chien-Pao	16	wild	Asserted	TRUE
+SPECIES_TING_LU	Ting-Lu	13	wild	Asserted	TRUE
+SPECIES_CHI_YU	Chi-Yu	16	wild	Asserted	TRUE
+SPECIES_ROARING_MOON	Roaring Moon	15	wild	Asserted	TRUE
+SPECIES_IRON_VALIANT	Iron Valiant	15	wild	Asserted	TRUE
+SPECIES_KORAIDON	Koraidon	UNK	no path found	UNK	FALSE
+SPECIES_MIRAIDON	Miraidon	UNK	no path found	UNK	FALSE
+SPECIES_WALKING_WAKE	Walking Wake	15	wild	Asserted	TRUE
+SPECIES_IRON_LEAVES	Iron Leaves	15	wild	Asserted	TRUE
+SPECIES_POLTCHAGEIST_COUNTERFEIT	Poltchageist	UNK	no path found	UNK	FALSE
+SPECIES_POLTCHAGEIST_ARTISAN	Poltchageist	UNK	no path found	UNK	FALSE
+SPECIES_SINISTCHA_UNREMARKABLE	Sinistcha	UNK	no path found	UNK	FALSE
+SPECIES_SINISTCHA_MASTERPIECE	Sinistcha	UNK	no path found	UNK	FALSE
+SPECIES_OKIDOGI	Okidogi	13	wild	Asserted	TRUE
+SPECIES_MUNKIDORI	Munkidori	13	wild	Asserted	TRUE
+SPECIES_FEZANDIPITI	Fezandipiti	13	wild	Asserted	TRUE
+SPECIES_OGERPON_TEAL	Ogerpon	UNK	no path found	UNK	FALSE
+SPECIES_OGERPON_WELLSPRING	Ogerpon	UNK	no path found	UNK	FALSE
+SPECIES_OGERPON_HEARTHFLAME	Ogerpon	UNK	no path found	UNK	FALSE
+SPECIES_OGERPON_CORNERSTONE	Ogerpon	UNK	no path found	UNK	FALSE
+SPECIES_OGERPON_TEAL_TERA	Ogerpon	UNK	no path found	UNK	FALSE
+SPECIES_OGERPON_WELLSPRING_TERA	Ogerpon	UNK	no path found	UNK	FALSE
+SPECIES_OGERPON_HEARTHFLAME_TERA	Ogerpon	UNK	no path found	UNK	FALSE
+SPECIES_OGERPON_CORNERSTONE_TERA	Ogerpon	UNK	no path found	UNK	FALSE
+SPECIES_GOUGING_FIRE	Gouging Fire	15	wild	Asserted	TRUE
+SPECIES_RAGING_BOLT	Raging Bolt	15	wild	Asserted	TRUE
+SPECIES_IRON_BOULDER	Iron Boulder	15	wild	Asserted	TRUE
+SPECIES_IRON_CROWN	Iron Crown	15	wild	Asserted	TRUE
+SPECIES_TERAPAGOS_NORMAL	Terapagos	UNK	no path found	UNK	FALSE
+SPECIES_TERAPAGOS_TERASTAL	Terapagos	UNK	no path found	UNK	FALSE
+SPECIES_TERAPAGOS_STELLAR	Terapagos	UNK	no path found	UNK	FALSE
+SPECIES_PECHARUNT	Pecharunt	13	wild	Asserted	TRUE

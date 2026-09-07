@@ -1,0 +1,245 @@
+{
+  "log": [
+    {
+      "check": "V0_replacement",
+      "severity": "INFO",
+      "detail": "replacement level set for 370 (checkpoint, role) cells"
+    },
+    {
+      "check": "V1_undefined_replacement",
+      "severity": "WARN",
+      "detail": "20 (checkpoint, role) cells have fewer than 3 zero-investment builds, so replacement level is undefined; VORP is suppressed and the tier withheld as NR rather than computed against an empty baseline. Sample [(('1', 'wallbreaker_phys'), 0), (('1', 'trick_room_attacker'), 0), (('2', 'wallbreaker_spec'), 0), (('2', 'trick_room_attacker'), 0), (('3', 'wallbreaker_spec'), 0), (('3', 'trick_room_attacker'), 0)]"
+    },
+    {
+      "check": "V0a_scarcity_gate",
+      "severity": "INFO",
+      "detail": "7045 ceilings were demoted to a reliably-obtainable item; 6479 had no reliable option and kept a scarce item, flagged"
+    },
+    {
+      "check": "V1a_not_rated",
+      "severity": "INFO",
+      "detail": "1080 of 19217 rows are NR and are excluded from tiers, cant_miss and every invariant"
+    },
+    {
+      "check": "V2_cant_miss",
+      "severity": "INFO",
+      "detail": "984 (species, checkpoint) rows flagged cant_miss: top-decile VORP for their role AND a non-repeatable entry path"
+    },
+    {
+      "check": "V3_tier_distribution",
+      "severity": "INFO",
+      "detail": "S+:622(3.4%) S:529(2.9%) A:1098(6.1%) B:1820(10.0%) C:2902(16.0%) D:4981(27.5%) F:6185(34.1%) \u2014 thresholds numeric on VORP, curve NOT forced"
+    },
+    {
+      "check": "INV_I1",
+      "severity": "WARN",
+      "detail": "FAIL \u2014 max item share = 0.2771 (threshold 0.25), worst ITEM_BERRY_JUICE"
+    },
+    {
+      "check": "INV_I2",
+      "severity": "WARN",
+      "detail": "FAIL \u2014 max nature share = 0.2809 (threshold 0.2), worst Calm"
+    },
+    {
+      "check": "INV_I3",
+      "severity": "INFO",
+      "detail": "PASS \u2014 mean |r| VORP vs BST within (checkpoint, role) = 0.502 (threshold 0.6), worst [((2, 'setup_sweeper'), 0.9348253120025722, 17), ((4, 'setup_sweeper'), 0.9255800536570798, 17), ((5, 'physical_wall'), 0.9203708018879749, 11), ((4, 'priority_abuser'), 0.895700108942515, 123), ((4, 'wallbreaker_phys'), 0.8430793885802318, 12)]"
+    },
+    {
+      "check": "INV_I4",
+      "severity": "WARN",
+      "detail": "FAIL \u2014 (checkpoint, role) cells with <3 forms within 10% of leader = 116 (threshold 0)"
+    },
+    {
+      "check": "INV_I5",
+      "severity": "WARN",
+      "detail": "FAIL \u2014 top-6 teams needing more copies than exist = 1 (threshold 0)"
+    },
+    {
+      "check": "INV_I7",
+      "severity": "INFO",
+      "detail": "PASS \u2014 max move share of movesets = 0.1294 (threshold 0.3), worst Focus Punch"
+    }
+  ],
+  "invariants": {
+    "I1": {
+      "metric": "max item share",
+      "value": 0.2771,
+      "threshold": 0.25,
+      "pass": false,
+      "worst": "ITEM_BERRY_JUICE"
+    },
+    "I2": {
+      "metric": "max nature share",
+      "value": 0.2809,
+      "threshold": 0.2,
+      "pass": false,
+      "worst": "Calm"
+    },
+    "I3": {
+      "metric": "mean |r| VORP vs BST within (checkpoint, role)",
+      "value": 0.502,
+      "threshold": 0.6,
+      "pass": true,
+      "n_cells": 222,
+      "cells_failing": 83,
+      "worst": [
+        [
+          [
+            2,
+            "setup_sweeper"
+          ],
+          0.9348253120025722,
+          17
+        ],
+        [
+          [
+            4,
+            "setup_sweeper"
+          ],
+          0.9255800536570798,
+          17
+        ],
+        [
+          [
+            5,
+            "physical_wall"
+          ],
+          0.9203708018879749,
+          11
+        ],
+        [
+          [
+            4,
+            "priority_abuser"
+          ],
+          0.895700108942515,
+          123
+        ],
+        [
+          [
+            4,
+            "wallbreaker_phys"
+          ],
+          0.8430793885802318,
+          12
+        ]
+      ]
+    },
+    "I4": {
+      "metric": "(checkpoint, role) cells with <3 forms within 10% of leader",
+      "value": 116,
+      "threshold": 0,
+      "pass": false,
+      "sample": [
+        [
+          [
+            1,
+            "cleric"
+          ],
+          2,
+          3
+        ],
+        [
+          [
+            1,
+            "mixed_wall"
+          ],
+          1,
+          1
+        ],
+        [
+          [
+            1,
+            "phazer"
+          ],
+          1,
+          1
+        ],
+        [
+          [
+            1,
+            "priority_abuser"
+          ],
+          1,
+          5
+        ],
+        [
+          [
+            1,
+            "regen_pivot"
+          ],
+          1,
+          2
+        ],
+        [
+          [
+            1,
+            "setup_sweeper"
+          ],
+          1,
+          2
+        ],
+        [
+          [
+            2,
+            "cleric"
+          ],
+          1,
+          1
+        ],
+        [
+          [
+            2,
+            "hazard_remover"
+          ],
+          2,
+          3
+        ]
+      ]
+    },
+    "I5": {
+      "metric": "top-6 teams needing more copies than exist",
+      "value": 1,
+      "threshold": 0,
+      "pass": false,
+      "sample": [
+        [
+          4,
+          "ITEM_CHOICE_SPECS",
+          3,
+          1
+        ]
+      ]
+    },
+    "I7": {
+      "metric": "max move share of movesets",
+      "value": 0.1294,
+      "threshold": 0.3,
+      "pass": true,
+      "worst": "Focus Punch",
+      "top5": [
+        [
+          "Focus Punch",
+          2347
+        ],
+        [
+          "Earthquake",
+          1995
+        ],
+        [
+          "Solar Beam",
+          1841
+        ],
+        [
+          "Hydro Pump",
+          1518
+        ],
+        [
+          "Sunny Day",
+          1491
+        ]
+      ]
+    }
+  }
+}

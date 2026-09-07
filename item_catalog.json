@@ -1,0 +1,1458 @@
+{
+ "ITEM_ABOMASITE": {
+  "name": "Abomasite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_ABSOLITE": {
+  "name": "Absolite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_ABSORB_BULB": {
+  "name": "Absorb Bulb",
+  "hold_effect": "ABSORB_BULB",
+  "class": "utility_misc",
+  "param": null,
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_ADAMANT_ORB": {
+  "name": "Adamant Orb",
+  "hold_effect": "PRIMAL_ORB",
+  "class": "primal",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_AERODACTYLITE": {
+  "name": "Aerodactylite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_AGGRONITE": {
+  "name": "Aggronite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_AIR_BALLOON": {
+  "name": "Air Balloon",
+  "hold_effect": "AIR_BALLOON",
+  "class": "ground_immune",
+  "param": null,
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_ALAKAZITE": {
+  "name": "Alakazite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_ALTARIANITE": {
+  "name": "Altarianite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": true,
+  "copies": 3
+ },
+ "ITEM_AMPHAROSITE": {
+  "name": "Ampharosite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": true,
+  "copies": 3
+ },
+ "ITEM_APPLITE": {
+  "name": "Applite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_ASPEAR_BERRY": {
+  "name": "Aspear Berry",
+  "hold_effect": "CURE_FRZ",
+  "class": "status_cure",
+  "param": null,
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_ASSAULT_VEST": {
+  "name": "Assault Vest",
+  "hold_effect": "ASSAULT_VEST",
+  "class": "spdef_novstatus",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_AUDINITE": {
+  "name": "Audinite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_BABIRI_BERRY": {
+  "name": "Babiri Berry",
+  "hold_effect": "RESIST_BERRY",
+  "class": "resist_berry",
+  "param": "Steel",
+  "reliable": true,
+  "copies": "unlimited"
+ },
+ "ITEM_BANETTITE": {
+  "name": "Banettite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_BEEDRILLITE": {
+  "name": "Beedrillite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_BERRY_JUICE": {
+  "name": "Berry Juice",
+  "hold_effect": "RESTORE_HP",
+  "class": "longevity",
+  "param": null,
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_BIG_ROOT": {
+  "name": "Big Root",
+  "hold_effect": "BIG_ROOT",
+  "class": "drain_boost",
+  "param": null,
+  "reliable": true,
+  "copies": "unlimited"
+ },
+ "ITEM_BLACK_BELT": {
+  "name": "Black Belt",
+  "hold_effect": "FIGHTING_POWER",
+  "class": "type_boost",
+  "param": "Fighting",
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_BLACK_GLASSES": {
+  "name": "Black Glasses",
+  "hold_effect": "DARK_POWER",
+  "class": "type_boost",
+  "param": "Dark",
+  "reliable": true,
+  "copies": 11
+ },
+ "ITEM_BLACK_SLUDGE": {
+  "name": "Black Sludge",
+  "hold_effect": "BLACK_SLUDGE",
+  "class": "longevity_poison",
+  "param": null,
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_BLASTOISINITE": {
+  "name": "Blastoisinite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_BLAZIKENITE": {
+  "name": "Blazikenite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": true,
+  "copies": 3
+ },
+ "ITEM_BLUE_ORB": {
+  "name": "Blue Orb",
+  "hold_effect": "PRIMAL_ORB",
+  "class": "primal",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_BOOSTER_ENERGY": {
+  "name": "BoosterEnergy",
+  "hold_effect": "BOOSTER_ENERGY",
+  "class": "paradox_boost",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_BUTTERFRITE": {
+  "name": "Butterfrite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": true,
+  "copies": 3
+ },
+ "ITEM_CAMERUPTITE": {
+  "name": "Cameruptite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_CENTISKITE": {
+  "name": "Centiskite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_CHARCOAL": {
+  "name": "Charcoal",
+  "hold_effect": "FIRE_POWER",
+  "class": "type_boost",
+  "param": "Fire",
+  "reliable": true,
+  "copies": 11
+ },
+ "ITEM_CHARIZARDITE_X": {
+  "name": "CharizarditeX",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_CHARIZARDITE_Y": {
+  "name": "CharizarditeY",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_CHARTI_BERRY": {
+  "name": "Charti Berry",
+  "hold_effect": "RESIST_BERRY",
+  "class": "resist_berry",
+  "param": "Rock",
+  "reliable": true,
+  "copies": "unlimited"
+ },
+ "ITEM_CHERI_BERRY": {
+  "name": "Cheri Berry",
+  "hold_effect": "CURE_PAR",
+  "class": "status_cure",
+  "param": null,
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_CHESTO_BERRY": {
+  "name": "Chesto Berry",
+  "hold_effect": "CURE_SLP",
+  "class": "status_cure",
+  "param": null,
+  "reliable": true,
+  "copies": 11
+ },
+ "ITEM_CHILAN_BERRY": {
+  "name": "Chilan Berry",
+  "hold_effect": "RESIST_BERRY",
+  "class": "resist_berry",
+  "param": "Normal",
+  "reliable": true,
+  "copies": "unlimited"
+ },
+ "ITEM_CHOICE_BAND": {
+  "name": "Choice Band",
+  "hold_effect": "CHOICE_BAND",
+  "class": "choice_phys",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_CHOICE_SCARF": {
+  "name": "Choice Scarf",
+  "hold_effect": "CHOICE_SCARF",
+  "class": "choice_speed",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_CHOICE_SPECS": {
+  "name": "Choice Specs",
+  "hold_effect": "CHOICE_SPECS",
+  "class": "choice_spec",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_CHOPLE_BERRY": {
+  "name": "Chople Berry",
+  "hold_effect": "RESIST_BERRY",
+  "class": "resist_berry",
+  "param": "Fighting",
+  "reliable": true,
+  "copies": "unlimited"
+ },
+ "ITEM_COALOSSITE": {
+  "name": "Coalossite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_COBA_BERRY": {
+  "name": "Coba Berry",
+  "hold_effect": "RESIST_BERRY",
+  "class": "resist_berry",
+  "param": "Flying",
+  "reliable": true,
+  "copies": "unlimited"
+ },
+ "ITEM_COLBUR_BERRY": {
+  "name": "Colbur Berry",
+  "hold_effect": "RESIST_BERRY",
+  "class": "resist_berry",
+  "param": "Dark",
+  "reliable": true,
+  "copies": "unlimited"
+ },
+ "ITEM_COPPERAJITE": {
+  "name": "Copperajite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_CORNERSTONE_MASK": {
+  "name": "CornrstneMask",
+  "hold_effect": "OGERPON_MASK",
+  "class": "species_locked",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_DAMP_ROCK": {
+  "name": "Damp Rock",
+  "hold_effect": "DAMP_ROCK",
+  "class": "weather_ext",
+  "param": null,
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_DEEP_SEA_SCALE": {
+  "name": "DeepSeaScale",
+  "hold_effect": "DEEP_SEA_SCALE",
+  "class": "species_locked",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_DEEP_SEA_TOOTH": {
+  "name": "DeepSeaTooth",
+  "hold_effect": "DEEP_SEA_TOOTH",
+  "class": "species_locked",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_DIANCITE": {
+  "name": "Diancite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_DOUSE_DRIVE": {
+  "name": "Douse Drive",
+  "hold_effect": "DRIVE",
+  "class": "type_plate",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_DRACO_PLATE": {
+  "name": "Draco Plate",
+  "hold_effect": "PLATE",
+  "class": "type_plate",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_DRAGON_FANG": {
+  "name": "Dragon Fang",
+  "hold_effect": "DRAGON_POWER",
+  "class": "type_boost",
+  "param": "Dragon",
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_DRAGON_MEMORY": {
+  "name": "Dragon Memory",
+  "hold_effect": "MEMORY",
+  "class": "type_plate",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_DREDNAWITE": {
+  "name": "Drednawite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_DUSKNOIRITE": {
+  "name": "Dusknoirite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_EJECT_BUTTON": {
+  "name": "Eject Button",
+  "hold_effect": "EJECT_BUTTON",
+  "class": "utility_misc",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_ELECTRIC_SEED": {
+  "name": "Electric Seed",
+  "hold_effect": "SEEDS",
+  "class": "terrain_seed",
+  "param": null,
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_EMPOLEONITE_D": {
+  "name": "EmpoleoniteD",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_EMPOLEONITE_O": {
+  "name": "EmpoleoniteO",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_EVERSTONE": {
+  "name": "Everstone",
+  "hold_effect": "PREVENT_EVOLVE",
+  "class": "eviolite",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_EVIOLITE": {
+  "name": "Eviolite",
+  "hold_effect": "EVIOLITE",
+  "class": "eviolite",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_EXPERT_BELT": {
+  "name": "Expert Belt",
+  "hold_effect": "EXPERT_BELT",
+  "class": "coverage",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_FAIRY_FEATHER": {
+  "name": "Fairy Feather",
+  "hold_effect": "FAIRY_POWER",
+  "class": "type_boost",
+  "param": "Fairy",
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_FLAME_ORB": {
+  "name": "Flame Orb",
+  "hold_effect": "FLAME_ORB",
+  "class": "self_burn",
+  "param": null,
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_FOCUS_SASH": {
+  "name": "Focus Sash",
+  "hold_effect": "FOCUS_SASH",
+  "class": "sash",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_GALLADITE": {
+  "name": "Galladite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_GARBODORITE": {
+  "name": "Garbodorite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": true,
+  "copies": 3
+ },
+ "ITEM_GARCHOMPITE": {
+  "name": "Garchompite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_GARDEVOIRITE": {
+  "name": "Gardevoirite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_GENGARITE": {
+  "name": "Gengarite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_GLALITITE": {
+  "name": "Glalitite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_GRASSY_SEED": {
+  "name": "Grassy Seed",
+  "hold_effect": "SEEDS",
+  "class": "terrain_seed",
+  "param": null,
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_GRIMMITE": {
+  "name": "Grimmite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": true,
+  "copies": 3
+ },
+ "ITEM_GRISEOUS_ORB": {
+  "name": "Griseous Orb",
+  "hold_effect": "GRISEOUS_ORB",
+  "class": "species_locked",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_GYARADOSITE": {
+  "name": "Gyaradosite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_HABAN_BERRY": {
+  "name": "Haban Berry",
+  "hold_effect": "RESIST_BERRY",
+  "class": "resist_berry",
+  "param": "Dragon",
+  "reliable": true,
+  "copies": "unlimited"
+ },
+ "ITEM_HARD_STONE": {
+  "name": "Hard Stone",
+  "hold_effect": "ROCK_POWER",
+  "class": "type_boost",
+  "param": "Rock",
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_HEARTHFLAME_MASK": {
+  "name": "HrthflameMask",
+  "hold_effect": "OGERPON_MASK",
+  "class": "species_locked",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_HEAT_ROCK": {
+  "name": "Heat Rock",
+  "hold_effect": "HEAT_ROCK",
+  "class": "weather_ext",
+  "param": null,
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_HEAVY_DUTY_BOOTS": {
+  "name": "Heavy-DtyBts",
+  "hold_effect": "HEAVY_DUTY_BOOTS",
+  "class": "hazard_immune",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_HERACRONITE": {
+  "name": "Heracronite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_HOUNDOOMINITE": {
+  "name": "Houndoominite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_ICY_ROCK": {
+  "name": "Icy Rock",
+  "hold_effect": "ICY_ROCK",
+  "class": "weather_ext",
+  "param": null,
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_INFERNAPITE": {
+  "name": "Infernapite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_KANGASKHANITE": {
+  "name": "Kangaskhanite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_KASIB_BERRY": {
+  "name": "Kasib Berry",
+  "hold_effect": "RESIST_BERRY",
+  "class": "resist_berry",
+  "param": "Ghost",
+  "reliable": true,
+  "copies": "unlimited"
+ },
+ "ITEM_KEBIA_BERRY": {
+  "name": "Kebia Berry",
+  "hold_effect": "RESIST_BERRY",
+  "class": "resist_berry",
+  "param": "Poison",
+  "reliable": true,
+  "copies": "unlimited"
+ },
+ "ITEM_KICKING_SHOES": {
+  "name": "KickingShoes",
+  "hold_effect": "KICKING_SHOES",
+  "class": "kick_boost",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_KINGLERITE": {
+  "name": "Kinglerite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": true,
+  "copies": 3
+ },
+ "ITEM_KINGS_ROCK": {
+  "name": "King's Rock",
+  "hold_effect": "FLINCH",
+  "class": "flinch",
+  "param": null,
+  "reliable": true,
+  "copies": "unlimited"
+ },
+ "ITEM_LANSAT_BERRY": {
+  "name": "Lansat Berry",
+  "hold_effect": "CRITICAL_UP",
+  "class": "crit",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_LAPRASITE": {
+  "name": "Laprasite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_LATIASITE": {
+  "name": "Latiasite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_LATIOSITE": {
+  "name": "Latiosite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_LAX_INCENSE": {
+  "name": "Lax Incense",
+  "hold_effect": "EVASION_UP",
+  "class": "utility_misc",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_LEEK": {
+  "name": "Leek",
+  "hold_effect": "LEEK",
+  "class": "species_locked",
+  "param": null,
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_LEFTOVERS": {
+  "name": "Leftovers",
+  "hold_effect": "LEFTOVERS",
+  "class": "longevity",
+  "param": null,
+  "reliable": true,
+  "copies": 4
+ },
+ "ITEM_LIFE_ORB": {
+  "name": "Life Orb",
+  "hold_effect": "LIFE_ORB",
+  "class": "allout",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_LIGHT_BALL": {
+  "name": "Light Ball",
+  "hold_effect": "LIGHT_BALL",
+  "class": "species_locked",
+  "param": null,
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_LIGHT_CLAY": {
+  "name": "Light Clay",
+  "hold_effect": "LIGHT_CLAY",
+  "class": "screen_ext",
+  "param": null,
+  "reliable": true,
+  "copies": "unlimited"
+ },
+ "ITEM_LOADED_DICE": {
+  "name": "Loaded Dice",
+  "hold_effect": "LOADED_DICE",
+  "class": "multihit_boost",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_LOPUNNITE": {
+  "name": "Lopunnite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_LUCARIONITE": {
+  "name": "Lucarionite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_LUSTROUS_ORB": {
+  "name": "Lustrous Orb",
+  "hold_effect": "PRIMAL_ORB",
+  "class": "primal",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_LUXRITE": {
+  "name": "Luxrite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": true,
+  "copies": 3
+ },
+ "ITEM_MACHAMPITE": {
+  "name": "Machampite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_MAGNET": {
+  "name": "Magnet",
+  "hold_effect": "ELECTRIC_POWER",
+  "class": "type_boost",
+  "param": "Electric",
+  "reliable": true,
+  "copies": 12
+ },
+ "ITEM_MANECTITE": {
+  "name": "Manectite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": true,
+  "copies": 3
+ },
+ "ITEM_MAWILITE": {
+  "name": "Mawilite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_MEDICHAMITE": {
+  "name": "Medichamite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_MENTAL_HERB": {
+  "name": "Mental Herb",
+  "hold_effect": "MENTAL_HERB",
+  "class": "utility_misc",
+  "param": null,
+  "reliable": true,
+  "copies": "unlimited"
+ },
+ "ITEM_METAGROSSITE": {
+  "name": "Metagrossite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_METAL_COAT": {
+  "name": "Metal Coat",
+  "hold_effect": "STEEL_POWER",
+  "class": "type_boost",
+  "param": "Steel",
+  "reliable": true,
+  "copies": "unlimited"
+ },
+ "ITEM_METRONOME": {
+  "name": "Metronome",
+  "hold_effect": "METRONOME",
+  "class": "metronome",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_MEWTWONITE_X": {
+  "name": "Mewtwonite X",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_MEWTWONITE_Y": {
+  "name": "Mewtwonite Y",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_MIRACLE_SEED": {
+  "name": "Miracle Seed",
+  "hold_effect": "GRASS_POWER",
+  "class": "type_boost",
+  "param": "Grass",
+  "reliable": true,
+  "copies": 11
+ },
+ "ITEM_MISTY_SEED": {
+  "name": "Misty Seed",
+  "hold_effect": "SEEDS",
+  "class": "terrain_seed",
+  "param": null,
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_MUSCLE_BAND": {
+  "name": "Muscle Band",
+  "hold_effect": "MUSCLE_BAND",
+  "class": "band_phys",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_MYSTIC_WATER": {
+  "name": "Mystic Water",
+  "hold_effect": "WATER_POWER",
+  "class": "type_boost",
+  "param": "Water",
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_NEVER_MELT_ICE": {
+  "name": "Never-MeltIce",
+  "hold_effect": "ICE_POWER",
+  "class": "type_boost",
+  "param": "Ice",
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_OCCA_BERRY": {
+  "name": "Occa Berry",
+  "hold_effect": "RESIST_BERRY",
+  "class": "resist_berry",
+  "param": "Fire",
+  "reliable": true,
+  "copies": "unlimited"
+ },
+ "ITEM_ORAN_BERRY": {
+  "name": "Oran Berry",
+  "hold_effect": "RESTORE_HP",
+  "class": "longevity",
+  "param": null,
+  "reliable": true,
+  "copies": 20
+ },
+ "ITEM_ORBEETLITE": {
+  "name": "Orbeetlite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_PASSHO_BERRY": {
+  "name": "Passho Berry",
+  "hold_effect": "RESIST_BERRY",
+  "class": "resist_berry",
+  "param": "Water",
+  "reliable": true,
+  "copies": "unlimited"
+ },
+ "ITEM_PAYAPA_BERRY": {
+  "name": "Payapa Berry",
+  "hold_effect": "RESIST_BERRY",
+  "class": "resist_berry",
+  "param": "Psychic",
+  "reliable": true,
+  "copies": "unlimited"
+ },
+ "ITEM_PECHA_BERRY": {
+  "name": "Pecha Berry",
+  "hold_effect": "CURE_PSN",
+  "class": "status_cure",
+  "param": null,
+  "reliable": true,
+  "copies": 12
+ },
+ "ITEM_PERSIM_BERRY": {
+  "name": "Persim Berry",
+  "hold_effect": "CURE_CONFUSION",
+  "class": "status_cure",
+  "param": null,
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_PIDGEOTITE": {
+  "name": "Pidgeotite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_PINSIRITE": {
+  "name": "Pinsirite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_POISON_BARB": {
+  "name": "Poison Barb",
+  "hold_effect": "POISON_POWER",
+  "class": "type_boost",
+  "param": "Poison",
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_POWER_HERB": {
+  "name": "Power Herb",
+  "hold_effect": "POWER_HERB",
+  "class": "charge",
+  "param": null,
+  "reliable": true,
+  "copies": "unlimited"
+ },
+ "ITEM_PROTECTIVE_PADS": {
+  "name": "ProtectvePads",
+  "hold_effect": "PROTECTIVE_PADS",
+  "class": "utility_misc",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_PSYCHIC_SEED": {
+  "name": "Psychic Seed",
+  "hold_effect": "SEEDS",
+  "class": "terrain_seed",
+  "param": null,
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_PUNCHING_GLOVE": {
+  "name": "PunchingGlove",
+  "hold_effect": "PUNCHING_GLOVE",
+  "class": "punch_boost",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_QUICK_CLAW": {
+  "name": "Quick Claw",
+  "hold_effect": "QUICK_CLAW",
+  "class": "utility_misc",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_RAWST_BERRY": {
+  "name": "Rawst Berry",
+  "hold_effect": "CURE_BRN",
+  "class": "status_cure",
+  "param": null,
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_RED_ORB": {
+  "name": "Red Orb",
+  "hold_effect": "PRIMAL_ORB",
+  "class": "primal",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_RINDO_BERRY": {
+  "name": "Rindo Berry",
+  "hold_effect": "RESIST_BERRY",
+  "class": "resist_berry",
+  "param": "Grass",
+  "reliable": true,
+  "copies": "unlimited"
+ },
+ "ITEM_ROCKY_HELMET": {
+  "name": "Rocky Helmet",
+  "hold_effect": "ROCKY_HELMET",
+  "class": "contact_punish",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_ROSELI_BERRY": {
+  "name": "Roseli Berry",
+  "hold_effect": "RESIST_BERRY",
+  "class": "resist_berry",
+  "param": "Fairy",
+  "reliable": true,
+  "copies": "unlimited"
+ },
+ "ITEM_ROSERADITE": {
+  "name": "Roseradite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": true,
+  "copies": 3
+ },
+ "ITEM_SABLENITE": {
+  "name": "Sablenite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_SAFETY_GOGGLES": {
+  "name": "SafetyGoggles",
+  "hold_effect": "SAFETY_GOGGLES",
+  "class": "utility_misc",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_SALAMENCITE": {
+  "name": "Salamencite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_SANDACONDITE": {
+  "name": "Sandacondite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_SCEPTILITE": {
+  "name": "Sceptilite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_SCIZORITE": {
+  "name": "Scizorite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_SCOPE_LENS": {
+  "name": "Scope Lens",
+  "hold_effect": "SCOPE_LENS",
+  "class": "crit",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_SEA_INCENSE": {
+  "name": "Sea Incense",
+  "hold_effect": "WATER_POWER",
+  "class": "type_boost",
+  "param": "Water",
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_SHARPEDONITE": {
+  "name": "Sharpedonite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_SHARP_BEAK": {
+  "name": "Sharp Beak",
+  "hold_effect": "FLYING_POWER",
+  "class": "type_boost",
+  "param": "Flying",
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_SHELL_BELL": {
+  "name": "Shell Bell",
+  "hold_effect": "SHELL_BELL",
+  "class": "longevity",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_SHUCA_BERRY": {
+  "name": "Shuca Berry",
+  "hold_effect": "RESIST_BERRY",
+  "class": "resist_berry",
+  "param": "Ground",
+  "reliable": true,
+  "copies": "unlimited"
+ },
+ "ITEM_SILK_SCARF": {
+  "name": "Silk Scarf",
+  "hold_effect": "NORMAL_POWER",
+  "class": "type_boost",
+  "param": "Normal",
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_SILVER_POWDER": {
+  "name": "Silver Powder",
+  "hold_effect": "BUG_POWER",
+  "class": "type_boost",
+  "param": "Bug",
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_SITRUS_BERRY": {
+  "name": "Sitrus Berry",
+  "hold_effect": "RESTORE_PCT_HP",
+  "class": "longevity",
+  "param": null,
+  "reliable": true,
+  "copies": 20
+ },
+ "ITEM_SLAKITE": {
+  "name": "Slakite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_SLOWBRONITE": {
+  "name": "Slowbronite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_SMOOTH_ROCK": {
+  "name": "Smooth Rock",
+  "hold_effect": "SMOOTH_ROCK",
+  "class": "weather_ext",
+  "param": null,
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_SNORLAXITE": {
+  "name": "Snorlaxite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": true,
+  "copies": 3
+ },
+ "ITEM_SOFT_SAND": {
+  "name": "Soft Sand",
+  "hold_effect": "GROUND_POWER",
+  "class": "type_boost",
+  "param": "Ground",
+  "reliable": true,
+  "copies": 11
+ },
+ "ITEM_SPELL_TAG": {
+  "name": "Spell Tag",
+  "hold_effect": "GHOST_POWER",
+  "class": "type_boost",
+  "param": "Ghost",
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_STEELIXITE": {
+  "name": "Steelixite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": true,
+  "copies": 3
+ },
+ "ITEM_STEEL_FEATHER": {
+  "name": "Steel Feather",
+  "hold_effect": "STEEL_POWER",
+  "class": "type_boost",
+  "param": "Steel",
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_SWAMPERTITE": {
+  "name": "Swampertite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_TANGA_BERRY": {
+  "name": "Tanga Berry",
+  "hold_effect": "RESIST_BERRY",
+  "class": "resist_berry",
+  "param": "Bug",
+  "reliable": true,
+  "copies": "unlimited"
+ },
+ "ITEM_THICK_CLUB": {
+  "name": "Thick Club",
+  "hold_effect": "THICK_CLUB",
+  "class": "species_locked",
+  "param": null,
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_THROAT_SPRAY": {
+  "name": "Throat Spray",
+  "hold_effect": "THROAT_SPRAY",
+  "class": "sound_boost",
+  "param": null,
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_TORTERRITE": {
+  "name": "Torterrite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_TOXIC_ORB": {
+  "name": "Toxic Orb",
+  "hold_effect": "TOXIC_ORB",
+  "class": "self_poison",
+  "param": null,
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_TOXTRICITITE": {
+  "name": "Toxtricitite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": true,
+  "copies": 3
+ },
+ "ITEM_TWISTED_SPOON": {
+  "name": "Twisted Spoon",
+  "hold_effect": "PSYCHIC_POWER",
+  "class": "type_boost",
+  "param": "Psychic",
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_TYRANITARITE": {
+  "name": "Tyranitarite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_VENUSAURITE": {
+  "name": "Venusaurite",
+  "hold_effect": "MEGA_STONE",
+  "class": "mega",
+  "param": null,
+  "reliable": false,
+  "copies": 2
+ },
+ "ITEM_WACAN_BERRY": {
+  "name": "Wacan Berry",
+  "hold_effect": "RESIST_BERRY",
+  "class": "resist_berry",
+  "param": "Electric",
+  "reliable": true,
+  "copies": "unlimited"
+ },
+ "ITEM_WEAKNESS_POLICY": {
+  "name": "WeaknssPolicy",
+  "hold_effect": "WEAKNESS_POLICY",
+  "class": "weakness_policy",
+  "param": null,
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_WELLSPRING_MASK": {
+  "name": "WellsprngMask",
+  "hold_effect": "OGERPON_MASK",
+  "class": "species_locked",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_WHITE_HERB": {
+  "name": "White Herb",
+  "hold_effect": "RESTORE_STATS",
+  "class": "utility_misc",
+  "param": null,
+  "reliable": true,
+  "copies": "unlimited"
+ },
+ "ITEM_WIDE_LENS": {
+  "name": "Wide Lens",
+  "hold_effect": "WIDE_LENS",
+  "class": "accuracy",
+  "param": null,
+  "reliable": true,
+  "copies": 10
+ },
+ "ITEM_WISE_GLASSES": {
+  "name": "Wise Glasses",
+  "hold_effect": "WISE_GLASSES",
+  "class": "band_spec",
+  "param": null,
+  "reliable": false,
+  "copies": 1
+ },
+ "ITEM_YACHE_BERRY": {
+  "name": "Yache Berry",
+  "hold_effect": "RESIST_BERRY",
+  "class": "resist_berry",
+  "param": "Ice",
+  "reliable": true,
+  "copies": "unlimited"
+ }
+}

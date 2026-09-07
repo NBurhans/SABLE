@@ -1,0 +1,33 @@
+{
+  "01_species.tsv": [
+    1523,
+    {
+      "availability_channels": 710,
+      "gender_ratio_pct_female": 189
+    }
+  ],
+  "01c_availability.tsv": [
+    1523,
+    {
+      "earliest_cp": 1126,
+      "availability_confidence": 1098
+    }
+  ],
+  "02_world.tsv": [
+    1128,
+    {
+      "prerequisites": 1128,
+      "missable": 1128,
+      "region": 846,
+      "earliest_gate": 628,
+      "access_wave": 28
+    }
+  ],
+  "05_valuation.tsv": [
+    19217,
+    {
+      "earliest_cp": 11872,
+      "availability_confidence": 11340
+    }
+  ]
+}
